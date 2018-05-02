@@ -1,0 +1,1026 @@
+2018-05-02 14:50:07,150 ERROR 9774 [-/::1/-/135ms POST /register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9774
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 14:54:19,803 ERROR 9802 [-/::1/-/156ms POST /register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9802
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 14:55:56,886 ERROR 9826 [-/::1/-/159ms POST /register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9826
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 14:58:47,498 ERROR 9852 [-/::1/-/148ms POST /register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9852
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:03:52,264 ERROR 9870 [-/::1/-/163ms POST /register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:12:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9870
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:05:01,911 ERROR 9896 [-/::1/-/146ms POST /register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:43)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9896
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:05:22,684 ERROR 9910 [-/::1/-/151ms POST /register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:43)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9910
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:12:37,381 ERROR 9941 [-/::1/-/145ms POST /register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:43)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 9941
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:14:43,587 ERROR 9987 [-/::1/-/440ms POST /register] nodejs.SequelizeDatabaseError: Field 'livecode' doesn't have a default value
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at xframe (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+name: 'SequelizeDatabaseError'
+parent: { Error: Field 'livecode' doesn't have a default value
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_NO_DEFAULT_FOR_FIELD', errno: 1364, sqlState: 'HY000', sqlMessage: 'Field \'livecode\' doesn\'t have a default value', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`) VALUES (DEFAULT,\'klren\',\'$2a$10$f..ajdQ5uSe5WecrEBx5X.pcyHaimzW/IeuOA3cucZ8vVPbpclxwq\',\'klren@qq.com\');' }
+original: { Error: Field 'livecode' doesn't have a default value
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_NO_DEFAULT_FOR_FIELD', errno: 1364, sqlState: 'HY000', sqlMessage: 'Field \'livecode\' doesn\'t have a default value', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`) VALUES (DEFAULT,\'klren\',\'$2a$10$f..ajdQ5uSe5WecrEBx5X.pcyHaimzW/IeuOA3cucZ8vVPbpclxwq\',\'klren@qq.com\');' }
+sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`) VALUES (DEFAULT,\'klren\',\'$2a$10$f..ajdQ5uSe5WecrEBx5X.pcyHaimzW/IeuOA3cucZ8vVPbpclxwq\',\'klren@qq.com\');'
+pid: 9987
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:18:05,254 ERROR 9997 [-/::1/-/171ms POST /register] nodejs.SequelizeValidationError: notNull Violation: user.livecode cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:26:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at xframe (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'user.livecode cannot be null', type: 'notNull Violation', path: 'livecode', value: null, origin: 'CORE', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 9997
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:21:50,368 ERROR 10031 [-/::1/-/404ms POST /register] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:27:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at xframe (/Users/klren/Projects/live_bd/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'username must be unique', type: 'unique violation', path: 'username', value: 'klren', origin: 'DB', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { username: 'klren' }
+parent: { Error: Duplicate entry 'klren' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$9ovwQV26x1DcCiYtqAxM6OwGJVvfPK/BgH7q2suRn6O7CAR7ideE.\',\'klren@qq.com\',\'klren\');' }
+original: { Error: Duplicate entry 'klren' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$9ovwQV26x1DcCiYtqAxM6OwGJVvfPK/BgH7q2suRn6O7CAR7ideE.\',\'klren@qq.com\',\'klren\');' }
+sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$9ovwQV26x1DcCiYtqAxM6OwGJVvfPK/BgH7q2suRn6O7CAR7ideE.\',\'klren@qq.com\',\'klren\');'
+pid: 10031
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:25:32,841 ERROR 10142 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:27:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'username must be unique', type: 'unique violation', path: 'username', value: 'klren', origin: 'DB', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { username: 'klren' }
+parent: { Error: Duplicate entry 'klren' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$OIDNweWQvxeUH0UiXYROJuCktEalGLulxh0d5ro6pw7HVxXn4JY8C\',\'klren@qq.com\',\'klren\');' }
+original: { Error: Duplicate entry 'klren' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$OIDNweWQvxeUH0UiXYROJuCktEalGLulxh0d5ro6pw7HVxXn4JY8C\',\'klren@qq.com\',\'klren\');' }
+sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$OIDNweWQvxeUH0UiXYROJuCktEalGLulxh0d5ro6pw7HVxXn4JY8C\',\'klren@qq.com\',\'klren\');'
+pid: 10142
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:26:33,941 ERROR 10151 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:27:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'username must be unique', type: 'unique violation', path: 'username', value: 'klren', origin: 'DB', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { username: 'klren' }
+parent: { Error: Duplicate entry 'klren' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$CcYm3TvN8On7ICs.cWtY2OmavozyFb/o4Iwxpj2dZs3eRAJDrE9p6\',\'klren@qq.com\',\'klren\');' }
+original: { Error: Duplicate entry 'klren' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$CcYm3TvN8On7ICs.cWtY2OmavozyFb/o4Iwxpj2dZs3eRAJDrE9p6\',\'klren@qq.com\',\'klren\');' }
+sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren\',\'$2a$10$CcYm3TvN8On7ICs.cWtY2OmavozyFb/o4Iwxpj2dZs3eRAJDrE9p6\',\'klren@qq.com\',\'klren\');'
+pid: 10151
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:34:17,380 ERROR 10198 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'user' of undefined
+    at UserController.login (/Users/klren/Projects/live_bd/app/controller/user.js:14:37)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 10198
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:54:18,633 ERROR 10510 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserService.findAllUser (/Users/klren/Projects/live_bd/app/service/user.js:75:35)
+    at UserController.getAllUser (/Users/klren/Projects/live_bd/app/controller/user.js:54:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+
+pid: 10510
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:57:44,504 ERROR 10526 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserService.findAllUser (/Users/klren/Projects/live_bd/app/service/user.js:75:35)
+    at UserController.getAllUser (/Users/klren/Projects/live_bd/app/controller/user.js:54:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+
+pid: 10526
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 15:58:37,619 ERROR 10547 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '10'' at line 1
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at UserService.findAllUser (/Users/klren/Projects/live_bd/app/service/user.js:75:44)
+    at UserController.getAllUser (/Users/klren/Projects/live_bd/app/controller/user.js:54:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+name: 'SequelizeDatabaseError'
+parent: { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '10'' at line 1
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_PARSE_ERROR', errno: 1064, sqlState: '42000', sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'0\', \'10\'\' at line 1', sql: 'SELECT `id`, `username`, `password`, `email`, `livecode` FROM `user` AS `user` LIMIT \'0\', \'10\';' }
+original: { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '10'' at line 1
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_PARSE_ERROR', errno: 1064, sqlState: '42000', sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'0\', \'10\'\' at line 1', sql: 'SELECT `id`, `username`, `password`, `email`, `livecode` FROM `user` AS `user` LIMIT \'0\', \'10\';' }
+sql: 'SELECT `id`, `username`, `password`, `email`, `livecode` FROM `user` AS `user` LIMIT \'0\', \'10\';'
+pid: 10547
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:12:23,576 ERROR 10718 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: app.jwt.getToken is not a function
+    at UserController.updateUserInfo (/Users/klren/Projects/live_bd/app/controller/user.js:65:21)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 10718
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:17:05,832 ERROR 10759 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'authorization' of undefined
+    at Object.getToken (/Users/klren/Projects/live_bd/config/config.default.js:17:21)
+    at Application.verifyToken (/Users/klren/Projects/live_bd/app/extend/application.js:11:30)
+    at UserController.updateUserInfo (/Users/klren/Projects/live_bd/app/controller/user.js:71:17)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 10759
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:23:20,786 ERROR 10842 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: ctx.service.user.updateUserInfo is not a function
+    at UserController.updateUserInfo (/Users/klren/Projects/live_bd/app/controller/user.js:67:36)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 10842
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:23:43,061 ERROR 10852 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at model.set (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3380:23)
+    at model.update (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3856:10)
+    at UserService.update (/Users/klren/Projects/live_bd/app/service/user.js:56:17)
+    at <anonymous>
+
+pid: 10852
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:24:45,880 ERROR 10852 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at model.set (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3380:23)
+    at model.update (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3856:10)
+    at UserService.update (/Users/klren/Projects/live_bd/app/service/user.js:56:17)
+    at <anonymous>
+
+pid: 10852
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:55:43,604 ERROR 11043 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.user.deleteUserById is not a function
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11043
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:56:20,241 ERROR 11081 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11081
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:56:53,463 ERROR 11096 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11096
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 16:57:52,076 ERROR 11113 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11113
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:01:38,967 ERROR 11113 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11113
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:02:35,844 ERROR 11140 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11140
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:03:32,669 ERROR 11140 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11140
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:03:34,619 ERROR 11140 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11140
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:03:35,452 ERROR 11140 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11140
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:04:01,877 ERROR 11149 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:83:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11149
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:06:28,116 ERROR 11158 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:63:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11158
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-02 17:10:09,806 ERROR 11209 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.User.destory is not a function
+    at UserService.deleteById (/Users/klren/Projects/live_bd/app/service/user.js:64:44)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:82:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11209
+hostname: renzhizhongdeMacBook-Air.local
+

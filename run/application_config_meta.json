@@ -1,0 +1,296 @@
+{
+  "keys": "/Users/klren/Projects/live_bd/config/config.default.js",
+  "middleware": "/Users/klren/Projects/live_bd/config/config.default.js",
+  "jwt": {
+    "secret": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "getToken": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "enable": "/Users/klren/Projects/live_bd/node_modules/egg-jwt/config/config.default.js"
+  },
+  "sequelize": {
+    "dialect": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "database": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "host": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "port": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "username": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "password": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "timezone": "/Users/klren/Projects/live_bd/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/klren/Projects/live_bd/config/config.default.js",
+      "useSession": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "allowMethods": "/Users/klren/Projects/live_bd/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/klren/Projects/live_bd/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/klren/Projects/live_bd/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/klren/Projects/live_bd/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/klren/Projects/live_bd/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/klren/Projects/live_bd/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/klren/Projects/live_bd/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/klren/Projects/live_bd/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/klren/Projects/live_bd/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/klren/Projects/live_bd/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/klren/Projects/live_bd/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/klren/Projects/live_bd/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/klren/Projects/live_bd/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/klren/Projects/live_bd/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/klren/Projects/live_bd/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/klren/Projects/live_bd/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/klren/Projects/live_bd/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/klren/Projects/live_bd/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/klren/Projects/live_bd/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/klren/Projects/live_bd/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/klren/Projects/live_bd/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/klren/Projects/live_bd/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/klren/Projects/live_bd/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/klren/Projects/live_bd/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/klren/Projects/live_bd/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/klren/Projects/live_bd/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/klren/Projects/live_bd/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/klren/Projects/live_bd/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/klren/Projects/live_bd/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "name": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "version": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "description": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "private": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "bcryptjs": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "stop": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "dev": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "debug": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "test": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "cov": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "lint": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "ci": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "autod": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "url": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "license": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "strict": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "depth": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "env": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "level": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+    "logging": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "port": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+}

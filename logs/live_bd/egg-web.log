@@ -1,0 +1,1500 @@
+2018-05-02 14:47:58,011 INFO 9774 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:47:58,073 INFO 9774 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:47:58,073 INFO 9774 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:47:58,579 INFO 9774 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:47:58,586 INFO 9774 [egg-security] use methodnoallow middleware
+2018-05-02 14:47:58,588 INFO 9774 [egg-security] use noopen middleware
+2018-05-02 14:47:58,590 INFO 9774 [egg-security] use nosniff middleware
+2018-05-02 14:47:58,592 INFO 9774 [egg-security] use xssProtection middleware
+2018-05-02 14:47:58,594 INFO 9774 [egg-security] use xframe middleware
+2018-05-02 14:47:58,596 INFO 9774 [egg-security] use dta middleware
+2018-05-02 14:47:58,596 INFO 9774 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:47:58,639 INFO 9774 [egg-watcher:app] watcher start success
+2018-05-02 14:54:12,980 INFO 9795 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:54:13,060 INFO 9795 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:54:13,061 INFO 9795 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:54:14,109 INFO 9795 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:54:14,115 INFO 9795 [egg-security] use methodnoallow middleware
+2018-05-02 14:54:14,116 INFO 9795 [egg-security] use noopen middleware
+2018-05-02 14:54:14,118 INFO 9795 [egg-security] use nosniff middleware
+2018-05-02 14:54:14,120 INFO 9795 [egg-security] use xssProtection middleware
+2018-05-02 14:54:14,122 INFO 9795 [egg-security] use xframe middleware
+2018-05-02 14:54:14,123 INFO 9795 [egg-security] use dta middleware
+2018-05-02 14:54:14,123 INFO 9795 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:54:14,163 INFO 9795 [egg-watcher:app] watcher start success
+2018-05-02 14:54:15,315 INFO 9802 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:54:15,362 INFO 9802 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:54:15,362 INFO 9802 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:54:15,750 INFO 9802 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:54:15,752 INFO 9802 [egg-security] use methodnoallow middleware
+2018-05-02 14:54:15,752 INFO 9802 [egg-security] use noopen middleware
+2018-05-02 14:54:15,753 INFO 9802 [egg-security] use nosniff middleware
+2018-05-02 14:54:15,753 INFO 9802 [egg-security] use xssProtection middleware
+2018-05-02 14:54:15,754 INFO 9802 [egg-security] use xframe middleware
+2018-05-02 14:54:15,754 INFO 9802 [egg-security] use dta middleware
+2018-05-02 14:54:15,754 INFO 9802 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:54:15,783 INFO 9802 [egg-watcher:app] watcher start success
+2018-05-02 14:55:43,893 INFO 9819 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:55:43,967 INFO 9819 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:55:43,968 INFO 9819 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:55:45,045 INFO 9819 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:55:45,051 INFO 9819 [egg-security] use methodnoallow middleware
+2018-05-02 14:55:45,053 INFO 9819 [egg-security] use noopen middleware
+2018-05-02 14:55:45,055 INFO 9819 [egg-security] use nosniff middleware
+2018-05-02 14:55:45,057 INFO 9819 [egg-security] use xssProtection middleware
+2018-05-02 14:55:45,059 INFO 9819 [egg-security] use xframe middleware
+2018-05-02 14:55:45,062 INFO 9819 [egg-security] use dta middleware
+2018-05-02 14:55:45,062 INFO 9819 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:55:45,137 INFO 9819 [egg-watcher:app] watcher start success
+2018-05-02 14:55:46,274 INFO 9826 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:55:46,318 INFO 9826 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:55:46,318 INFO 9826 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:55:46,642 INFO 9826 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:55:46,644 INFO 9826 [egg-security] use methodnoallow middleware
+2018-05-02 14:55:46,644 INFO 9826 [egg-security] use noopen middleware
+2018-05-02 14:55:46,645 INFO 9826 [egg-security] use nosniff middleware
+2018-05-02 14:55:46,645 INFO 9826 [egg-security] use xssProtection middleware
+2018-05-02 14:55:46,645 INFO 9826 [egg-security] use xframe middleware
+2018-05-02 14:55:46,645 INFO 9826 [egg-security] use dta middleware
+2018-05-02 14:55:46,645 INFO 9826 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:55:46,674 INFO 9826 [egg-watcher:app] watcher start success
+2018-05-02 14:57:47,898 INFO 9836 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:57:47,944 INFO 9836 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:57:47,944 INFO 9836 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:57:48,888 INFO 9836 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:57:48,898 INFO 9836 [egg-security] use methodnoallow middleware
+2018-05-02 14:57:48,899 INFO 9836 [egg-security] use noopen middleware
+2018-05-02 14:57:48,901 INFO 9836 [egg-security] use nosniff middleware
+2018-05-02 14:57:48,903 INFO 9836 [egg-security] use xssProtection middleware
+2018-05-02 14:57:48,906 INFO 9836 [egg-security] use xframe middleware
+2018-05-02 14:57:48,908 INFO 9836 [egg-security] use dta middleware
+2018-05-02 14:57:48,908 INFO 9836 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:57:48,972 INFO 9836 [egg-watcher:app] watcher start success
+2018-05-02 14:57:50,091 INFO 9843 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:57:50,135 INFO 9843 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:57:50,135 INFO 9843 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:57:50,522 INFO 9843 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:57:50,524 INFO 9843 [egg-security] use methodnoallow middleware
+2018-05-02 14:57:50,524 INFO 9843 [egg-security] use noopen middleware
+2018-05-02 14:57:50,525 INFO 9843 [egg-security] use nosniff middleware
+2018-05-02 14:57:50,525 INFO 9843 [egg-security] use xssProtection middleware
+2018-05-02 14:57:50,525 INFO 9843 [egg-security] use xframe middleware
+2018-05-02 14:57:50,526 INFO 9843 [egg-security] use dta middleware
+2018-05-02 14:57:50,526 INFO 9843 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:57:50,560 INFO 9843 [egg-watcher:app] watcher start success
+2018-05-02 14:58:24,697 INFO 9851 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:58:24,741 INFO 9851 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:58:24,741 INFO 9851 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:58:25,059 INFO 9851 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:58:25,061 INFO 9851 [egg-security] use methodnoallow middleware
+2018-05-02 14:58:25,061 INFO 9851 [egg-security] use noopen middleware
+2018-05-02 14:58:25,062 INFO 9851 [egg-security] use nosniff middleware
+2018-05-02 14:58:25,062 INFO 9851 [egg-security] use xssProtection middleware
+2018-05-02 14:58:25,062 INFO 9851 [egg-security] use xframe middleware
+2018-05-02 14:58:25,063 INFO 9851 [egg-security] use dta middleware
+2018-05-02 14:58:25,063 INFO 9851 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:58:25,089 INFO 9851 [egg-watcher:app] watcher start success
+2018-05-02 14:58:26,142 INFO 9852 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:58:26,183 INFO 9852 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:58:26,183 INFO 9852 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:58:26,504 INFO 9852 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:58:26,507 INFO 9852 [egg-security] use methodnoallow middleware
+2018-05-02 14:58:26,507 INFO 9852 [egg-security] use noopen middleware
+2018-05-02 14:58:26,507 INFO 9852 [egg-security] use nosniff middleware
+2018-05-02 14:58:26,508 INFO 9852 [egg-security] use xssProtection middleware
+2018-05-02 14:58:26,508 INFO 9852 [egg-security] use xframe middleware
+2018-05-02 14:58:26,508 INFO 9852 [egg-security] use dta middleware
+2018-05-02 14:58:26,508 INFO 9852 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:58:26,536 INFO 9852 [egg-watcher:app] watcher start success
+2018-05-02 14:59:11,624 INFO 9859 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:59:11,665 INFO 9859 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:59:11,665 INFO 9859 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:59:12,012 INFO 9859 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:59:12,014 INFO 9859 [egg-security] use methodnoallow middleware
+2018-05-02 14:59:12,015 INFO 9859 [egg-security] use noopen middleware
+2018-05-02 14:59:12,016 INFO 9859 [egg-security] use nosniff middleware
+2018-05-02 14:59:12,016 INFO 9859 [egg-security] use xssProtection middleware
+2018-05-02 14:59:12,017 INFO 9859 [egg-security] use xframe middleware
+2018-05-02 14:59:12,017 INFO 9859 [egg-security] use dta middleware
+2018-05-02 14:59:12,017 INFO 9859 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:59:12,049 INFO 9859 [egg-watcher:app] watcher start success
+2018-05-02 14:59:13,109 INFO 9860 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:59:13,154 INFO 9860 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:59:13,154 INFO 9860 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:59:13,478 INFO 9860 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:59:13,481 INFO 9860 [egg-security] use methodnoallow middleware
+2018-05-02 14:59:13,481 INFO 9860 [egg-security] use noopen middleware
+2018-05-02 14:59:13,482 INFO 9860 [egg-security] use nosniff middleware
+2018-05-02 14:59:13,482 INFO 9860 [egg-security] use xssProtection middleware
+2018-05-02 14:59:13,482 INFO 9860 [egg-security] use xframe middleware
+2018-05-02 14:59:13,483 INFO 9860 [egg-security] use dta middleware
+2018-05-02 14:59:13,483 INFO 9860 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:59:13,514 INFO 9860 [egg-watcher:app] watcher start success
+2018-05-02 14:59:41,419 INFO 9869 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:59:41,469 INFO 9869 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:59:41,469 INFO 9869 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:59:41,817 INFO 9869 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:59:41,820 INFO 9869 [egg-security] use methodnoallow middleware
+2018-05-02 14:59:41,821 INFO 9869 [egg-security] use noopen middleware
+2018-05-02 14:59:41,821 INFO 9869 [egg-security] use nosniff middleware
+2018-05-02 14:59:41,821 INFO 9869 [egg-security] use xssProtection middleware
+2018-05-02 14:59:41,822 INFO 9869 [egg-security] use xframe middleware
+2018-05-02 14:59:41,822 INFO 9869 [egg-security] use dta middleware
+2018-05-02 14:59:41,822 INFO 9869 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:59:41,856 INFO 9869 [egg-watcher:app] watcher start success
+2018-05-02 14:59:43,086 INFO 9870 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 14:59:43,135 INFO 9870 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 14:59:43,135 INFO 9870 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 14:59:43,500 INFO 9870 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 14:59:43,504 INFO 9870 [egg-security] use methodnoallow middleware
+2018-05-02 14:59:43,504 INFO 9870 [egg-security] use noopen middleware
+2018-05-02 14:59:43,504 INFO 9870 [egg-security] use nosniff middleware
+2018-05-02 14:59:43,505 INFO 9870 [egg-security] use xssProtection middleware
+2018-05-02 14:59:43,505 INFO 9870 [egg-security] use xframe middleware
+2018-05-02 14:59:43,505 INFO 9870 [egg-security] use dta middleware
+2018-05-02 14:59:43,505 INFO 9870 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 14:59:43,550 INFO 9870 [egg-watcher:app] watcher start success
+2018-05-02 15:04:57,983 INFO 9896 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:04:58,071 INFO 9896 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:04:58,071 INFO 9896 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:04:59,143 INFO 9896 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:04:59,155 INFO 9896 [egg-security] use methodnoallow middleware
+2018-05-02 15:04:59,157 INFO 9896 [egg-security] use noopen middleware
+2018-05-02 15:04:59,159 INFO 9896 [egg-security] use nosniff middleware
+2018-05-02 15:04:59,161 INFO 9896 [egg-security] use xssProtection middleware
+2018-05-02 15:04:59,163 INFO 9896 [egg-security] use xframe middleware
+2018-05-02 15:04:59,164 INFO 9896 [egg-security] use dta middleware
+2018-05-02 15:04:59,164 INFO 9896 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:04:59,205 INFO 9896 [egg-watcher:app] watcher start success
+2018-05-02 15:05:15,114 INFO 9910 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:05:15,169 INFO 9910 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:05:15,169 INFO 9910 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:05:15,628 INFO 9910 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:05:15,630 INFO 9910 [egg-security] use methodnoallow middleware
+2018-05-02 15:05:15,631 INFO 9910 [egg-security] use noopen middleware
+2018-05-02 15:05:15,631 INFO 9910 [egg-security] use nosniff middleware
+2018-05-02 15:05:15,631 INFO 9910 [egg-security] use xssProtection middleware
+2018-05-02 15:05:15,631 INFO 9910 [egg-security] use xframe middleware
+2018-05-02 15:05:15,632 INFO 9910 [egg-security] use dta middleware
+2018-05-02 15:05:15,632 INFO 9910 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:05:15,663 INFO 9910 [egg-watcher:app] watcher start success
+2018-05-02 15:09:36,453 INFO 9928 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:09:36,503 INFO 9928 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:09:36,503 INFO 9928 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:09:36,876 INFO 9928 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:09:36,880 INFO 9928 [egg-security] use methodnoallow middleware
+2018-05-02 15:09:36,880 INFO 9928 [egg-security] use noopen middleware
+2018-05-02 15:09:36,881 INFO 9928 [egg-security] use nosniff middleware
+2018-05-02 15:09:36,881 INFO 9928 [egg-security] use xssProtection middleware
+2018-05-02 15:09:36,881 INFO 9928 [egg-security] use xframe middleware
+2018-05-02 15:09:36,882 INFO 9928 [egg-security] use dta middleware
+2018-05-02 15:09:36,882 INFO 9928 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:09:36,931 INFO 9928 [egg-watcher:app] watcher start success
+2018-05-02 15:12:31,096 INFO 9940 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:12:31,137 INFO 9940 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:12:31,137 INFO 9940 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:12:31,469 INFO 9940 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:12:31,472 INFO 9940 [egg-security] use methodnoallow middleware
+2018-05-02 15:12:31,472 INFO 9940 [egg-security] use noopen middleware
+2018-05-02 15:12:31,473 INFO 9940 [egg-security] use nosniff middleware
+2018-05-02 15:12:31,473 INFO 9940 [egg-security] use xssProtection middleware
+2018-05-02 15:12:31,473 INFO 9940 [egg-security] use xframe middleware
+2018-05-02 15:12:31,474 INFO 9940 [egg-security] use dta middleware
+2018-05-02 15:12:31,474 INFO 9940 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:12:31,504 INFO 9940 [egg-watcher:app] watcher start success
+2018-05-02 15:12:32,617 INFO 9941 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:12:32,659 INFO 9941 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:12:32,659 INFO 9941 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:12:33,006 INFO 9941 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:12:33,009 INFO 9941 [egg-security] use methodnoallow middleware
+2018-05-02 15:12:33,010 INFO 9941 [egg-security] use noopen middleware
+2018-05-02 15:12:33,010 INFO 9941 [egg-security] use nosniff middleware
+2018-05-02 15:12:33,010 INFO 9941 [egg-security] use xssProtection middleware
+2018-05-02 15:12:33,011 INFO 9941 [egg-security] use xframe middleware
+2018-05-02 15:12:33,011 INFO 9941 [egg-security] use dta middleware
+2018-05-02 15:12:33,011 INFO 9941 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:12:33,051 INFO 9941 [egg-watcher:app] watcher start success
+2018-05-02 15:13:14,899 INFO 9955 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:13:14,941 INFO 9955 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:13:14,941 INFO 9955 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:13:15,314 INFO 9955 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:13:15,318 INFO 9955 [egg-security] use methodnoallow middleware
+2018-05-02 15:13:15,319 INFO 9955 [egg-security] use noopen middleware
+2018-05-02 15:13:15,320 INFO 9955 [egg-security] use nosniff middleware
+2018-05-02 15:13:15,320 INFO 9955 [egg-security] use xssProtection middleware
+2018-05-02 15:13:15,321 INFO 9955 [egg-security] use xframe middleware
+2018-05-02 15:13:15,321 INFO 9955 [egg-security] use dta middleware
+2018-05-02 15:13:15,321 INFO 9955 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:13:15,370 INFO 9955 [egg-watcher:app] watcher start success
+2018-05-02 15:13:17,738 INFO 9962 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:13:17,780 INFO 9962 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:13:17,780 INFO 9962 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:13:18,122 INFO 9962 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:13:18,127 INFO 9962 [egg-security] use methodnoallow middleware
+2018-05-02 15:13:18,128 INFO 9962 [egg-security] use noopen middleware
+2018-05-02 15:13:18,128 INFO 9962 [egg-security] use nosniff middleware
+2018-05-02 15:13:18,128 INFO 9962 [egg-security] use xssProtection middleware
+2018-05-02 15:13:18,128 INFO 9962 [egg-security] use xframe middleware
+2018-05-02 15:13:18,129 INFO 9962 [egg-security] use dta middleware
+2018-05-02 15:13:18,129 INFO 9962 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:13:18,163 INFO 9962 [egg-watcher:app] watcher start success
+2018-05-02 15:13:19,279 INFO 9963 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:13:19,320 INFO 9963 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:13:19,320 INFO 9963 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:13:19,659 INFO 9963 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:13:19,661 INFO 9963 [egg-security] use methodnoallow middleware
+2018-05-02 15:13:19,662 INFO 9963 [egg-security] use noopen middleware
+2018-05-02 15:13:19,662 INFO 9963 [egg-security] use nosniff middleware
+2018-05-02 15:13:19,662 INFO 9963 [egg-security] use xssProtection middleware
+2018-05-02 15:13:19,663 INFO 9963 [egg-security] use xframe middleware
+2018-05-02 15:13:19,663 INFO 9963 [egg-security] use dta middleware
+2018-05-02 15:13:19,663 INFO 9963 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:13:19,693 INFO 9963 [egg-watcher:app] watcher start success
+2018-05-02 15:14:02,206 INFO 9980 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:14:02,264 INFO 9980 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:14:02,264 INFO 9980 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:14:02,627 INFO 9980 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:14:02,630 INFO 9980 [egg-security] use methodnoallow middleware
+2018-05-02 15:14:02,630 INFO 9980 [egg-security] use noopen middleware
+2018-05-02 15:14:02,630 INFO 9980 [egg-security] use nosniff middleware
+2018-05-02 15:14:02,630 INFO 9980 [egg-security] use xssProtection middleware
+2018-05-02 15:14:02,631 INFO 9980 [egg-security] use xframe middleware
+2018-05-02 15:14:02,631 INFO 9980 [egg-security] use dta middleware
+2018-05-02 15:14:02,631 INFO 9980 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:14:02,661 INFO 9980 [egg-watcher:app] watcher start success
+2018-05-02 15:14:05,405 INFO 9987 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:14:05,452 INFO 9987 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:14:05,452 INFO 9987 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:14:05,785 INFO 9987 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:14:05,787 INFO 9987 [egg-security] use methodnoallow middleware
+2018-05-02 15:14:05,787 INFO 9987 [egg-security] use noopen middleware
+2018-05-02 15:14:05,788 INFO 9987 [egg-security] use nosniff middleware
+2018-05-02 15:14:05,788 INFO 9987 [egg-security] use xssProtection middleware
+2018-05-02 15:14:05,788 INFO 9987 [egg-security] use xframe middleware
+2018-05-02 15:14:05,789 INFO 9987 [egg-security] use dta middleware
+2018-05-02 15:14:05,789 INFO 9987 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:14:05,818 INFO 9987 [egg-watcher:app] watcher start success
+2018-05-02 15:17:54,911 INFO 9997 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:17:54,952 INFO 9997 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:17:54,952 INFO 9997 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:17:55,275 INFO 9997 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:17:55,278 INFO 9997 [egg-security] use methodnoallow middleware
+2018-05-02 15:17:55,279 INFO 9997 [egg-security] use noopen middleware
+2018-05-02 15:17:55,280 INFO 9997 [egg-security] use nosniff middleware
+2018-05-02 15:17:55,280 INFO 9997 [egg-security] use xssProtection middleware
+2018-05-02 15:17:55,281 INFO 9997 [egg-security] use xframe middleware
+2018-05-02 15:17:55,281 INFO 9997 [egg-security] use dta middleware
+2018-05-02 15:17:55,281 INFO 9997 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:17:55,319 INFO 9997 [egg-watcher:app] watcher start success
+2018-05-02 15:18:33,809 INFO 10005 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:18:33,853 INFO 10005 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:18:33,853 INFO 10005 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:18:34,187 INFO 10005 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:18:34,189 INFO 10005 [egg-security] use methodnoallow middleware
+2018-05-02 15:18:34,189 INFO 10005 [egg-security] use noopen middleware
+2018-05-02 15:18:34,190 INFO 10005 [egg-security] use nosniff middleware
+2018-05-02 15:18:34,190 INFO 10005 [egg-security] use xssProtection middleware
+2018-05-02 15:18:34,190 INFO 10005 [egg-security] use xframe middleware
+2018-05-02 15:18:34,191 INFO 10005 [egg-security] use dta middleware
+2018-05-02 15:18:34,191 INFO 10005 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:18:34,218 INFO 10005 [egg-watcher:app] watcher start success
+2018-05-02 15:18:35,327 INFO 10006 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:18:35,376 INFO 10006 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:18:35,376 INFO 10006 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:18:35,704 INFO 10006 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:18:35,706 INFO 10006 [egg-security] use methodnoallow middleware
+2018-05-02 15:18:35,707 INFO 10006 [egg-security] use noopen middleware
+2018-05-02 15:18:35,707 INFO 10006 [egg-security] use nosniff middleware
+2018-05-02 15:18:35,707 INFO 10006 [egg-security] use xssProtection middleware
+2018-05-02 15:18:35,708 INFO 10006 [egg-security] use xframe middleware
+2018-05-02 15:18:35,708 INFO 10006 [egg-security] use dta middleware
+2018-05-02 15:18:35,708 INFO 10006 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:18:35,742 INFO 10006 [egg-watcher:app] watcher start success
+2018-05-02 15:18:51,547 INFO 10014 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:18:51,600 INFO 10014 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:18:51,600 INFO 10014 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:18:52,027 INFO 10014 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:18:52,030 INFO 10014 [egg-security] use methodnoallow middleware
+2018-05-02 15:18:52,031 INFO 10014 [egg-security] use noopen middleware
+2018-05-02 15:18:52,031 INFO 10014 [egg-security] use nosniff middleware
+2018-05-02 15:18:52,031 INFO 10014 [egg-security] use xssProtection middleware
+2018-05-02 15:18:52,032 INFO 10014 [egg-security] use xframe middleware
+2018-05-02 15:18:52,032 INFO 10014 [egg-security] use dta middleware
+2018-05-02 15:18:52,032 INFO 10014 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:18:52,068 INFO 10014 [egg-watcher:app] watcher start success
+2018-05-02 15:19:21,202 INFO 10030 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:19:21,244 INFO 10030 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:19:21,244 INFO 10030 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:19:21,575 INFO 10030 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:19:21,579 INFO 10030 [egg-security] use methodnoallow middleware
+2018-05-02 15:19:21,579 INFO 10030 [egg-security] use noopen middleware
+2018-05-02 15:19:21,579 INFO 10030 [egg-security] use nosniff middleware
+2018-05-02 15:19:21,580 INFO 10030 [egg-security] use xssProtection middleware
+2018-05-02 15:19:21,580 INFO 10030 [egg-security] use xframe middleware
+2018-05-02 15:19:21,580 INFO 10030 [egg-security] use dta middleware
+2018-05-02 15:19:21,580 INFO 10030 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:19:21,621 INFO 10030 [egg-watcher:app] watcher start success
+2018-05-02 15:19:22,806 INFO 10031 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:19:22,847 INFO 10031 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:19:22,847 INFO 10031 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:19:23,172 INFO 10031 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:19:23,175 INFO 10031 [egg-security] use methodnoallow middleware
+2018-05-02 15:19:23,175 INFO 10031 [egg-security] use noopen middleware
+2018-05-02 15:19:23,175 INFO 10031 [egg-security] use nosniff middleware
+2018-05-02 15:19:23,175 INFO 10031 [egg-security] use xssProtection middleware
+2018-05-02 15:19:23,176 INFO 10031 [egg-security] use xframe middleware
+2018-05-02 15:19:23,176 INFO 10031 [egg-security] use dta middleware
+2018-05-02 15:19:23,176 INFO 10031 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:19:23,206 INFO 10031 [egg-watcher:app] watcher start success
+2018-05-02 15:25:26,103 INFO 10142 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:25:26,144 INFO 10142 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:25:26,144 INFO 10142 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:25:26,493 INFO 10142 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:25:26,496 INFO 10142 [egg-security] use methodnoallow middleware
+2018-05-02 15:25:26,496 INFO 10142 [egg-security] use noopen middleware
+2018-05-02 15:25:26,496 INFO 10142 [egg-security] use nosniff middleware
+2018-05-02 15:25:26,497 INFO 10142 [egg-security] use xssProtection middleware
+2018-05-02 15:25:26,497 INFO 10142 [egg-security] use xframe middleware
+2018-05-02 15:25:26,497 INFO 10142 [egg-security] use dta middleware
+2018-05-02 15:25:26,497 INFO 10142 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:25:26,530 INFO 10142 [egg-watcher:app] watcher start success
+2018-05-02 15:26:30,175 INFO 10150 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:26:30,221 INFO 10150 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:26:30,222 INFO 10150 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:26:30,573 INFO 10150 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:26:30,576 INFO 10150 [egg-security] use methodnoallow middleware
+2018-05-02 15:26:30,576 INFO 10150 [egg-security] use noopen middleware
+2018-05-02 15:26:30,576 INFO 10150 [egg-security] use nosniff middleware
+2018-05-02 15:26:30,577 INFO 10150 [egg-security] use xssProtection middleware
+2018-05-02 15:26:30,577 INFO 10150 [egg-security] use xframe middleware
+2018-05-02 15:26:30,577 INFO 10150 [egg-security] use dta middleware
+2018-05-02 15:26:30,577 INFO 10150 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:26:30,608 INFO 10150 [egg-watcher:app] watcher start success
+2018-05-02 15:26:31,764 INFO 10151 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:26:31,809 INFO 10151 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:26:31,809 INFO 10151 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:26:32,198 INFO 10151 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:26:32,200 INFO 10151 [egg-security] use methodnoallow middleware
+2018-05-02 15:26:32,201 INFO 10151 [egg-security] use noopen middleware
+2018-05-02 15:26:32,201 INFO 10151 [egg-security] use nosniff middleware
+2018-05-02 15:26:32,201 INFO 10151 [egg-security] use xssProtection middleware
+2018-05-02 15:26:32,202 INFO 10151 [egg-security] use xframe middleware
+2018-05-02 15:26:32,202 INFO 10151 [egg-security] use dta middleware
+2018-05-02 15:26:32,202 INFO 10151 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:26:32,234 INFO 10151 [egg-watcher:app] watcher start success
+2018-05-02 15:31:47,905 INFO 10171 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:31:47,945 INFO 10171 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:31:47,945 INFO 10171 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:31:48,305 INFO 10171 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:31:48,308 INFO 10171 [egg-security] use methodnoallow middleware
+2018-05-02 15:31:48,308 INFO 10171 [egg-security] use noopen middleware
+2018-05-02 15:31:48,308 INFO 10171 [egg-security] use nosniff middleware
+2018-05-02 15:31:48,309 INFO 10171 [egg-security] use xssProtection middleware
+2018-05-02 15:31:48,309 INFO 10171 [egg-security] use xframe middleware
+2018-05-02 15:31:48,309 INFO 10171 [egg-security] use dta middleware
+2018-05-02 15:31:48,309 INFO 10171 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:31:48,340 INFO 10171 [egg-watcher:app] watcher start success
+2018-05-02 15:31:49,622 INFO 10172 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:31:49,676 INFO 10172 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:31:49,676 INFO 10172 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:31:50,103 INFO 10172 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:31:50,106 INFO 10172 [egg-security] use methodnoallow middleware
+2018-05-02 15:31:50,106 INFO 10172 [egg-security] use noopen middleware
+2018-05-02 15:31:50,106 INFO 10172 [egg-security] use nosniff middleware
+2018-05-02 15:31:50,107 INFO 10172 [egg-security] use xssProtection middleware
+2018-05-02 15:31:50,107 INFO 10172 [egg-security] use xframe middleware
+2018-05-02 15:31:50,108 INFO 10172 [egg-security] use dta middleware
+2018-05-02 15:31:50,108 INFO 10172 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:31:50,151 INFO 10172 [egg-watcher:app] watcher start success
+2018-05-02 15:32:36,563 INFO 10198 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:32:36,615 INFO 10198 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:32:36,615 INFO 10198 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:32:36,988 INFO 10198 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:32:36,991 INFO 10198 [egg-security] use methodnoallow middleware
+2018-05-02 15:32:36,991 INFO 10198 [egg-security] use noopen middleware
+2018-05-02 15:32:36,992 INFO 10198 [egg-security] use nosniff middleware
+2018-05-02 15:32:36,992 INFO 10198 [egg-security] use xssProtection middleware
+2018-05-02 15:32:36,993 INFO 10198 [egg-security] use xframe middleware
+2018-05-02 15:32:36,993 INFO 10198 [egg-security] use dta middleware
+2018-05-02 15:32:36,993 INFO 10198 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:32:37,027 INFO 10198 [egg-watcher:app] watcher start success
+2018-05-02 15:34:49,639 INFO 10207 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:34:49,682 INFO 10207 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:34:49,682 INFO 10207 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:34:50,076 INFO 10207 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:34:50,078 INFO 10207 [egg-security] use methodnoallow middleware
+2018-05-02 15:34:50,079 INFO 10207 [egg-security] use noopen middleware
+2018-05-02 15:34:50,080 INFO 10207 [egg-security] use nosniff middleware
+2018-05-02 15:34:50,080 INFO 10207 [egg-security] use xssProtection middleware
+2018-05-02 15:34:50,081 INFO 10207 [egg-security] use xframe middleware
+2018-05-02 15:34:50,081 INFO 10207 [egg-security] use dta middleware
+2018-05-02 15:34:50,081 INFO 10207 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:34:50,117 INFO 10207 [egg-watcher:app] watcher start success
+2018-05-02 15:34:51,243 INFO 10209 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:34:51,294 INFO 10209 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:34:51,294 INFO 10209 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:34:51,674 INFO 10209 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:34:51,677 INFO 10209 [egg-security] use methodnoallow middleware
+2018-05-02 15:34:51,678 INFO 10209 [egg-security] use noopen middleware
+2018-05-02 15:34:51,678 INFO 10209 [egg-security] use nosniff middleware
+2018-05-02 15:34:51,679 INFO 10209 [egg-security] use xssProtection middleware
+2018-05-02 15:34:51,680 INFO 10209 [egg-security] use xframe middleware
+2018-05-02 15:34:51,680 INFO 10209 [egg-security] use dta middleware
+2018-05-02 15:34:51,680 INFO 10209 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:34:51,716 INFO 10209 [egg-watcher:app] watcher start success
+2018-05-02 15:37:12,504 INFO 10232 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:37:12,568 INFO 10232 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:37:12,568 INFO 10232 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:37:12,919 INFO 10232 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:37:12,922 INFO 10232 [egg-security] use methodnoallow middleware
+2018-05-02 15:37:12,923 INFO 10232 [egg-security] use noopen middleware
+2018-05-02 15:37:12,923 INFO 10232 [egg-security] use nosniff middleware
+2018-05-02 15:37:12,923 INFO 10232 [egg-security] use xssProtection middleware
+2018-05-02 15:37:12,924 INFO 10232 [egg-security] use xframe middleware
+2018-05-02 15:37:12,924 INFO 10232 [egg-security] use dta middleware
+2018-05-02 15:37:12,924 INFO 10232 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:37:12,960 INFO 10232 [egg-watcher:app] watcher start success
+2018-05-02 15:37:14,099 INFO 10233 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:37:14,147 INFO 10233 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:37:14,147 INFO 10233 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:37:14,493 INFO 10233 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:37:14,497 INFO 10233 [egg-security] use methodnoallow middleware
+2018-05-02 15:37:14,497 INFO 10233 [egg-security] use noopen middleware
+2018-05-02 15:37:14,497 INFO 10233 [egg-security] use nosniff middleware
+2018-05-02 15:37:14,498 INFO 10233 [egg-security] use xssProtection middleware
+2018-05-02 15:37:14,498 INFO 10233 [egg-security] use xframe middleware
+2018-05-02 15:37:14,498 INFO 10233 [egg-security] use dta middleware
+2018-05-02 15:37:14,498 INFO 10233 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:37:14,535 INFO 10233 [egg-watcher:app] watcher start success
+2018-05-02 15:38:59,303 INFO 10340 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:38:59,343 INFO 10340 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:38:59,344 INFO 10340 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:38:59,671 INFO 10340 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:38:59,674 INFO 10340 [egg-security] use methodnoallow middleware
+2018-05-02 15:38:59,674 INFO 10340 [egg-security] use noopen middleware
+2018-05-02 15:38:59,674 INFO 10340 [egg-security] use nosniff middleware
+2018-05-02 15:38:59,675 INFO 10340 [egg-security] use xssProtection middleware
+2018-05-02 15:38:59,675 INFO 10340 [egg-security] use xframe middleware
+2018-05-02 15:38:59,675 INFO 10340 [egg-security] use dta middleware
+2018-05-02 15:38:59,675 INFO 10340 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:38:59,717 INFO 10340 [egg-watcher:app] watcher start success
+2018-05-02 15:39:32,773 INFO 10348 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:39:32,820 INFO 10348 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:39:32,820 INFO 10348 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:39:33,145 INFO 10348 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:39:33,148 INFO 10348 [egg-security] use methodnoallow middleware
+2018-05-02 15:39:33,149 INFO 10348 [egg-security] use noopen middleware
+2018-05-02 15:39:33,149 INFO 10348 [egg-security] use nosniff middleware
+2018-05-02 15:39:33,150 INFO 10348 [egg-security] use xssProtection middleware
+2018-05-02 15:39:33,150 INFO 10348 [egg-security] use xframe middleware
+2018-05-02 15:39:33,151 INFO 10348 [egg-security] use dta middleware
+2018-05-02 15:39:33,151 INFO 10348 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:39:33,181 INFO 10348 [egg-watcher:app] watcher start success
+2018-05-02 15:39:34,259 INFO 10349 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:39:34,300 INFO 10349 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:39:34,300 INFO 10349 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:39:34,643 INFO 10349 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:39:34,646 INFO 10349 [egg-security] use methodnoallow middleware
+2018-05-02 15:39:34,646 INFO 10349 [egg-security] use noopen middleware
+2018-05-02 15:39:34,646 INFO 10349 [egg-security] use nosniff middleware
+2018-05-02 15:39:34,647 INFO 10349 [egg-security] use xssProtection middleware
+2018-05-02 15:39:34,647 INFO 10349 [egg-security] use xframe middleware
+2018-05-02 15:39:34,647 INFO 10349 [egg-security] use dta middleware
+2018-05-02 15:39:34,647 INFO 10349 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:39:34,681 INFO 10349 [egg-watcher:app] watcher start success
+2018-05-02 15:39:42,491 INFO 10357 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:39:42,555 INFO 10357 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:39:42,556 INFO 10357 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:39:43,039 INFO 10357 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:39:43,042 INFO 10357 [egg-security] use methodnoallow middleware
+2018-05-02 15:39:43,043 INFO 10357 [egg-security] use noopen middleware
+2018-05-02 15:39:43,043 INFO 10357 [egg-security] use nosniff middleware
+2018-05-02 15:39:43,043 INFO 10357 [egg-security] use xssProtection middleware
+2018-05-02 15:39:43,044 INFO 10357 [egg-security] use xframe middleware
+2018-05-02 15:39:43,045 INFO 10357 [egg-security] use dta middleware
+2018-05-02 15:39:43,045 INFO 10357 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:39:43,083 INFO 10357 [egg-watcher:app] watcher start success
+2018-05-02 15:39:48,422 INFO 10367 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:39:48,482 INFO 10367 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:39:48,482 INFO 10367 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:39:48,911 INFO 10367 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:39:48,915 INFO 10367 [egg-security] use methodnoallow middleware
+2018-05-02 15:39:48,915 INFO 10367 [egg-security] use noopen middleware
+2018-05-02 15:39:48,916 INFO 10367 [egg-security] use nosniff middleware
+2018-05-02 15:39:48,916 INFO 10367 [egg-security] use xssProtection middleware
+2018-05-02 15:39:48,917 INFO 10367 [egg-security] use xframe middleware
+2018-05-02 15:39:48,918 INFO 10367 [egg-security] use dta middleware
+2018-05-02 15:39:48,918 INFO 10367 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:39:48,965 INFO 10367 [egg-watcher:app] watcher start success
+2018-05-02 15:39:53,240 INFO 10376 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:39:53,291 INFO 10376 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:39:53,291 INFO 10376 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:39:53,643 INFO 10376 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:39:53,647 INFO 10376 [egg-security] use methodnoallow middleware
+2018-05-02 15:39:53,647 INFO 10376 [egg-security] use noopen middleware
+2018-05-02 15:39:53,647 INFO 10376 [egg-security] use nosniff middleware
+2018-05-02 15:39:53,648 INFO 10376 [egg-security] use xssProtection middleware
+2018-05-02 15:39:53,648 INFO 10376 [egg-security] use xframe middleware
+2018-05-02 15:39:53,648 INFO 10376 [egg-security] use dta middleware
+2018-05-02 15:39:53,648 INFO 10376 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:39:53,682 INFO 10376 [egg-watcher:app] watcher start success
+2018-05-02 15:40:26,517 INFO 10397 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:40:26,563 INFO 10397 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:40:26,564 INFO 10397 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:40:26,932 INFO 10397 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:40:26,934 INFO 10397 [egg-security] use methodnoallow middleware
+2018-05-02 15:40:26,935 INFO 10397 [egg-security] use noopen middleware
+2018-05-02 15:40:26,936 INFO 10397 [egg-security] use nosniff middleware
+2018-05-02 15:40:26,936 INFO 10397 [egg-security] use xssProtection middleware
+2018-05-02 15:40:26,937 INFO 10397 [egg-security] use xframe middleware
+2018-05-02 15:40:26,937 INFO 10397 [egg-security] use dta middleware
+2018-05-02 15:40:26,937 INFO 10397 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:40:26,978 INFO 10397 [egg-watcher:app] watcher start success
+2018-05-02 15:46:41,051 INFO 10424 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:46:41,128 INFO 10424 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:46:41,128 INFO 10424 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:46:42,207 INFO 10424 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:46:42,212 INFO 10424 [egg-security] use methodnoallow middleware
+2018-05-02 15:46:42,214 INFO 10424 [egg-security] use noopen middleware
+2018-05-02 15:46:42,215 INFO 10424 [egg-security] use nosniff middleware
+2018-05-02 15:46:42,217 INFO 10424 [egg-security] use xssProtection middleware
+2018-05-02 15:46:42,220 INFO 10424 [egg-security] use xframe middleware
+2018-05-02 15:46:42,222 INFO 10424 [egg-security] use dta middleware
+2018-05-02 15:46:42,222 INFO 10424 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:46:42,263 INFO 10424 [egg-watcher:app] watcher start success
+2018-05-02 15:46:43,560 INFO 10431 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:46:43,608 INFO 10431 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:46:43,608 INFO 10431 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:46:43,974 INFO 10431 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:46:43,977 INFO 10431 [egg-security] use methodnoallow middleware
+2018-05-02 15:46:43,977 INFO 10431 [egg-security] use noopen middleware
+2018-05-02 15:46:43,978 INFO 10431 [egg-security] use nosniff middleware
+2018-05-02 15:46:43,978 INFO 10431 [egg-security] use xssProtection middleware
+2018-05-02 15:46:43,978 INFO 10431 [egg-security] use xframe middleware
+2018-05-02 15:46:43,978 INFO 10431 [egg-security] use dta middleware
+2018-05-02 15:46:43,978 INFO 10431 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:46:44,012 INFO 10431 [egg-watcher:app] watcher start success
+2018-05-02 15:48:34,758 INFO 10446 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:48:34,801 INFO 10446 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:48:34,801 INFO 10446 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:48:35,140 INFO 10446 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:48:35,143 INFO 10446 [egg-security] use methodnoallow middleware
+2018-05-02 15:48:35,143 INFO 10446 [egg-security] use noopen middleware
+2018-05-02 15:48:35,144 INFO 10446 [egg-security] use nosniff middleware
+2018-05-02 15:48:35,144 INFO 10446 [egg-security] use xssProtection middleware
+2018-05-02 15:48:35,145 INFO 10446 [egg-security] use xframe middleware
+2018-05-02 15:48:35,145 INFO 10446 [egg-security] use dta middleware
+2018-05-02 15:48:35,145 INFO 10446 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:48:35,189 INFO 10446 [egg-watcher:app] watcher start success
+2018-05-02 15:49:57,750 INFO 10460 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:49:57,790 INFO 10460 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:49:57,790 INFO 10460 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:49:58,119 INFO 10460 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:49:58,121 INFO 10460 [egg-security] use methodnoallow middleware
+2018-05-02 15:49:58,121 INFO 10460 [egg-security] use noopen middleware
+2018-05-02 15:49:58,122 INFO 10460 [egg-security] use nosniff middleware
+2018-05-02 15:49:58,122 INFO 10460 [egg-security] use xssProtection middleware
+2018-05-02 15:49:58,122 INFO 10460 [egg-security] use xframe middleware
+2018-05-02 15:49:58,122 INFO 10460 [egg-security] use dta middleware
+2018-05-02 15:49:58,123 INFO 10460 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:49:58,155 INFO 10460 [egg-watcher:app] watcher start success
+2018-05-02 15:49:59,374 INFO 10461 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:49:59,418 INFO 10461 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:49:59,418 INFO 10461 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:49:59,750 INFO 10461 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:49:59,752 INFO 10461 [egg-security] use methodnoallow middleware
+2018-05-02 15:49:59,752 INFO 10461 [egg-security] use noopen middleware
+2018-05-02 15:49:59,753 INFO 10461 [egg-security] use nosniff middleware
+2018-05-02 15:49:59,753 INFO 10461 [egg-security] use xssProtection middleware
+2018-05-02 15:49:59,753 INFO 10461 [egg-security] use xframe middleware
+2018-05-02 15:49:59,754 INFO 10461 [egg-security] use dta middleware
+2018-05-02 15:49:59,754 INFO 10461 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:49:59,789 INFO 10461 [egg-watcher:app] watcher start success
+2018-05-02 15:51:55,575 INFO 10476 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:51:55,622 INFO 10476 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:51:55,622 INFO 10476 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:51:55,960 INFO 10476 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:51:55,963 INFO 10476 [egg-security] use methodnoallow middleware
+2018-05-02 15:51:55,963 INFO 10476 [egg-security] use noopen middleware
+2018-05-02 15:51:55,964 INFO 10476 [egg-security] use nosniff middleware
+2018-05-02 15:51:55,964 INFO 10476 [egg-security] use xssProtection middleware
+2018-05-02 15:51:55,964 INFO 10476 [egg-security] use xframe middleware
+2018-05-02 15:51:55,965 INFO 10476 [egg-security] use dta middleware
+2018-05-02 15:51:55,965 INFO 10476 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:51:56,000 INFO 10476 [egg-watcher:app] watcher start success
+2018-05-02 15:51:57,105 INFO 10477 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:51:57,153 INFO 10477 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:51:57,153 INFO 10477 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:51:57,574 INFO 10477 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:51:57,576 INFO 10477 [egg-security] use methodnoallow middleware
+2018-05-02 15:51:57,577 INFO 10477 [egg-security] use noopen middleware
+2018-05-02 15:51:57,577 INFO 10477 [egg-security] use nosniff middleware
+2018-05-02 15:51:57,577 INFO 10477 [egg-security] use xssProtection middleware
+2018-05-02 15:51:57,578 INFO 10477 [egg-security] use xframe middleware
+2018-05-02 15:51:57,578 INFO 10477 [egg-security] use dta middleware
+2018-05-02 15:51:57,578 INFO 10477 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:51:57,618 INFO 10477 [egg-watcher:app] watcher start success
+2018-05-02 15:52:25,488 INFO 10492 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:52:25,529 INFO 10492 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:52:25,529 INFO 10492 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:52:25,865 INFO 10492 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:52:25,868 INFO 10492 [egg-security] use methodnoallow middleware
+2018-05-02 15:52:25,869 INFO 10492 [egg-security] use noopen middleware
+2018-05-02 15:52:25,869 INFO 10492 [egg-security] use nosniff middleware
+2018-05-02 15:52:25,870 INFO 10492 [egg-security] use xssProtection middleware
+2018-05-02 15:52:25,870 INFO 10492 [egg-security] use xframe middleware
+2018-05-02 15:52:25,871 INFO 10492 [egg-security] use dta middleware
+2018-05-02 15:52:25,871 INFO 10492 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:52:25,904 INFO 10492 [egg-watcher:app] watcher start success
+2018-05-02 15:52:27,030 INFO 10493 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:52:27,078 INFO 10493 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:52:27,078 INFO 10493 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:52:27,524 INFO 10493 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:52:27,528 INFO 10493 [egg-security] use methodnoallow middleware
+2018-05-02 15:52:27,528 INFO 10493 [egg-security] use noopen middleware
+2018-05-02 15:52:27,530 INFO 10493 [egg-security] use nosniff middleware
+2018-05-02 15:52:27,530 INFO 10493 [egg-security] use xssProtection middleware
+2018-05-02 15:52:27,531 INFO 10493 [egg-security] use xframe middleware
+2018-05-02 15:52:27,531 INFO 10493 [egg-security] use dta middleware
+2018-05-02 15:52:27,531 INFO 10493 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:52:27,579 INFO 10493 [egg-watcher:app] watcher start success
+2018-05-02 15:54:13,381 INFO 10510 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:54:13,421 INFO 10510 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:54:13,421 INFO 10510 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:54:13,792 INFO 10510 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:54:13,794 INFO 10510 [egg-security] use methodnoallow middleware
+2018-05-02 15:54:13,795 INFO 10510 [egg-security] use noopen middleware
+2018-05-02 15:54:13,795 INFO 10510 [egg-security] use nosniff middleware
+2018-05-02 15:54:13,795 INFO 10510 [egg-security] use xssProtection middleware
+2018-05-02 15:54:13,796 INFO 10510 [egg-security] use xframe middleware
+2018-05-02 15:54:13,796 INFO 10510 [egg-security] use dta middleware
+2018-05-02 15:54:13,796 INFO 10510 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:54:13,829 INFO 10510 [egg-watcher:app] watcher start success
+2018-05-02 15:57:39,177 INFO 10525 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:57:39,223 INFO 10525 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:57:39,224 INFO 10525 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:57:39,595 INFO 10525 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:57:39,597 INFO 10525 [egg-security] use methodnoallow middleware
+2018-05-02 15:57:39,597 INFO 10525 [egg-security] use noopen middleware
+2018-05-02 15:57:39,598 INFO 10525 [egg-security] use nosniff middleware
+2018-05-02 15:57:39,598 INFO 10525 [egg-security] use xssProtection middleware
+2018-05-02 15:57:39,598 INFO 10525 [egg-security] use xframe middleware
+2018-05-02 15:57:39,599 INFO 10525 [egg-security] use dta middleware
+2018-05-02 15:57:39,600 INFO 10525 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:57:39,641 INFO 10525 [egg-watcher:app] watcher start success
+2018-05-02 15:57:40,748 INFO 10526 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:57:40,809 INFO 10526 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:57:40,809 INFO 10526 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:57:41,171 INFO 10526 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:57:41,174 INFO 10526 [egg-security] use methodnoallow middleware
+2018-05-02 15:57:41,174 INFO 10526 [egg-security] use noopen middleware
+2018-05-02 15:57:41,175 INFO 10526 [egg-security] use nosniff middleware
+2018-05-02 15:57:41,175 INFO 10526 [egg-security] use xssProtection middleware
+2018-05-02 15:57:41,176 INFO 10526 [egg-security] use xframe middleware
+2018-05-02 15:57:41,176 INFO 10526 [egg-security] use dta middleware
+2018-05-02 15:57:41,176 INFO 10526 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:57:41,207 INFO 10526 [egg-watcher:app] watcher start success
+2018-05-02 15:57:54,012 INFO 10534 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:57:54,059 INFO 10534 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:57:54,059 INFO 10534 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:57:54,440 INFO 10534 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:57:54,445 INFO 10534 [egg-security] use methodnoallow middleware
+2018-05-02 15:57:54,446 INFO 10534 [egg-security] use noopen middleware
+2018-05-02 15:57:54,446 INFO 10534 [egg-security] use nosniff middleware
+2018-05-02 15:57:54,447 INFO 10534 [egg-security] use xssProtection middleware
+2018-05-02 15:57:54,448 INFO 10534 [egg-security] use xframe middleware
+2018-05-02 15:57:54,448 INFO 10534 [egg-security] use dta middleware
+2018-05-02 15:57:54,448 INFO 10534 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:57:54,513 INFO 10534 [egg-watcher:app] watcher start success
+2018-05-02 15:58:29,243 INFO 10546 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:58:29,286 INFO 10546 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:58:29,286 INFO 10546 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:58:29,622 INFO 10546 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:58:29,624 INFO 10546 [egg-security] use methodnoallow middleware
+2018-05-02 15:58:29,624 INFO 10546 [egg-security] use noopen middleware
+2018-05-02 15:58:29,625 INFO 10546 [egg-security] use nosniff middleware
+2018-05-02 15:58:29,625 INFO 10546 [egg-security] use xssProtection middleware
+2018-05-02 15:58:29,625 INFO 10546 [egg-security] use xframe middleware
+2018-05-02 15:58:29,626 INFO 10546 [egg-security] use dta middleware
+2018-05-02 15:58:29,626 INFO 10546 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:58:29,660 INFO 10546 [egg-watcher:app] watcher start success
+2018-05-02 15:58:30,880 INFO 10547 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:58:30,931 INFO 10547 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:58:30,931 INFO 10547 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:58:31,283 INFO 10547 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:58:31,286 INFO 10547 [egg-security] use methodnoallow middleware
+2018-05-02 15:58:31,286 INFO 10547 [egg-security] use noopen middleware
+2018-05-02 15:58:31,286 INFO 10547 [egg-security] use nosniff middleware
+2018-05-02 15:58:31,287 INFO 10547 [egg-security] use xssProtection middleware
+2018-05-02 15:58:31,287 INFO 10547 [egg-security] use xframe middleware
+2018-05-02 15:58:31,287 INFO 10547 [egg-security] use dta middleware
+2018-05-02 15:58:31,287 INFO 10547 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:58:31,318 INFO 10547 [egg-watcher:app] watcher start success
+2018-05-02 15:59:07,622 INFO 10560 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:59:07,664 INFO 10560 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:59:07,664 INFO 10560 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:59:08,014 INFO 10560 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:59:08,017 INFO 10560 [egg-security] use methodnoallow middleware
+2018-05-02 15:59:08,018 INFO 10560 [egg-security] use noopen middleware
+2018-05-02 15:59:08,018 INFO 10560 [egg-security] use nosniff middleware
+2018-05-02 15:59:08,018 INFO 10560 [egg-security] use xssProtection middleware
+2018-05-02 15:59:08,019 INFO 10560 [egg-security] use xframe middleware
+2018-05-02 15:59:08,019 INFO 10560 [egg-security] use dta middleware
+2018-05-02 15:59:08,019 INFO 10560 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:59:08,051 INFO 10560 [egg-watcher:app] watcher start success
+2018-05-02 15:59:09,151 INFO 10561 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:59:09,195 INFO 10561 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:59:09,196 INFO 10561 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:59:09,546 INFO 10561 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:59:09,548 INFO 10561 [egg-security] use methodnoallow middleware
+2018-05-02 15:59:09,549 INFO 10561 [egg-security] use noopen middleware
+2018-05-02 15:59:09,549 INFO 10561 [egg-security] use nosniff middleware
+2018-05-02 15:59:09,549 INFO 10561 [egg-security] use xssProtection middleware
+2018-05-02 15:59:09,550 INFO 10561 [egg-security] use xframe middleware
+2018-05-02 15:59:09,550 INFO 10561 [egg-security] use dta middleware
+2018-05-02 15:59:09,550 INFO 10561 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:59:09,580 INFO 10561 [egg-watcher:app] watcher start success
+2018-05-02 15:59:10,240 INFO 10562 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:59:10,284 INFO 10562 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:59:10,284 INFO 10562 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:59:10,643 INFO 10562 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:59:10,647 INFO 10562 [egg-security] use methodnoallow middleware
+2018-05-02 15:59:10,647 INFO 10562 [egg-security] use noopen middleware
+2018-05-02 15:59:10,648 INFO 10562 [egg-security] use nosniff middleware
+2018-05-02 15:59:10,648 INFO 10562 [egg-security] use xssProtection middleware
+2018-05-02 15:59:10,648 INFO 10562 [egg-security] use xframe middleware
+2018-05-02 15:59:10,648 INFO 10562 [egg-security] use dta middleware
+2018-05-02 15:59:10,648 INFO 10562 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:59:10,687 INFO 10562 [egg-watcher:app] watcher start success
+2018-05-02 15:59:27,486 INFO 10577 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:59:27,541 INFO 10577 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:59:27,541 INFO 10577 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:59:27,938 INFO 10577 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:59:27,940 INFO 10577 [egg-security] use methodnoallow middleware
+2018-05-02 15:59:27,941 INFO 10577 [egg-security] use noopen middleware
+2018-05-02 15:59:27,941 INFO 10577 [egg-security] use nosniff middleware
+2018-05-02 15:59:27,941 INFO 10577 [egg-security] use xssProtection middleware
+2018-05-02 15:59:27,942 INFO 10577 [egg-security] use xframe middleware
+2018-05-02 15:59:27,942 INFO 10577 [egg-security] use dta middleware
+2018-05-02 15:59:27,942 INFO 10577 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:59:27,975 INFO 10577 [egg-watcher:app] watcher start success
+2018-05-02 15:59:48,935 INFO 10591 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:59:48,978 INFO 10591 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:59:48,978 INFO 10591 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:59:49,347 INFO 10591 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:59:49,350 INFO 10591 [egg-security] use methodnoallow middleware
+2018-05-02 15:59:49,351 INFO 10591 [egg-security] use noopen middleware
+2018-05-02 15:59:49,351 INFO 10591 [egg-security] use nosniff middleware
+2018-05-02 15:59:49,352 INFO 10591 [egg-security] use xssProtection middleware
+2018-05-02 15:59:49,352 INFO 10591 [egg-security] use xframe middleware
+2018-05-02 15:59:49,353 INFO 10591 [egg-security] use dta middleware
+2018-05-02 15:59:49,353 INFO 10591 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:59:49,387 INFO 10591 [egg-watcher:app] watcher start success
+2018-05-02 15:59:50,531 INFO 10592 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 15:59:50,634 INFO 10592 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 15:59:50,634 INFO 10592 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 15:59:51,038 INFO 10592 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 15:59:51,040 INFO 10592 [egg-security] use methodnoallow middleware
+2018-05-02 15:59:51,041 INFO 10592 [egg-security] use noopen middleware
+2018-05-02 15:59:51,041 INFO 10592 [egg-security] use nosniff middleware
+2018-05-02 15:59:51,041 INFO 10592 [egg-security] use xssProtection middleware
+2018-05-02 15:59:51,042 INFO 10592 [egg-security] use xframe middleware
+2018-05-02 15:59:51,042 INFO 10592 [egg-security] use dta middleware
+2018-05-02 15:59:51,042 INFO 10592 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 15:59:51,076 INFO 10592 [egg-watcher:app] watcher start success
+2018-05-02 16:00:08,877 INFO 10606 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:00:08,919 INFO 10606 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:00:08,919 INFO 10606 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:00:09,245 INFO 10606 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:00:09,250 INFO 10606 [egg-security] use methodnoallow middleware
+2018-05-02 16:00:09,250 INFO 10606 [egg-security] use noopen middleware
+2018-05-02 16:00:09,251 INFO 10606 [egg-security] use nosniff middleware
+2018-05-02 16:00:09,251 INFO 10606 [egg-security] use xssProtection middleware
+2018-05-02 16:00:09,252 INFO 10606 [egg-security] use xframe middleware
+2018-05-02 16:00:09,252 INFO 10606 [egg-security] use dta middleware
+2018-05-02 16:00:09,252 INFO 10606 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:00:09,286 INFO 10606 [egg-watcher:app] watcher start success
+2018-05-02 16:00:23,018 INFO 10619 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:00:23,059 INFO 10619 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:00:23,059 INFO 10619 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:00:23,474 INFO 10619 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:00:23,476 INFO 10619 [egg-security] use methodnoallow middleware
+2018-05-02 16:00:23,477 INFO 10619 [egg-security] use noopen middleware
+2018-05-02 16:00:23,477 INFO 10619 [egg-security] use nosniff middleware
+2018-05-02 16:00:23,477 INFO 10619 [egg-security] use xssProtection middleware
+2018-05-02 16:00:23,477 INFO 10619 [egg-security] use xframe middleware
+2018-05-02 16:00:23,478 INFO 10619 [egg-security] use dta middleware
+2018-05-02 16:00:23,478 INFO 10619 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:00:23,510 INFO 10619 [egg-watcher:app] watcher start success
+2018-05-02 16:00:28,599 INFO 10627 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:00:28,655 INFO 10627 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:00:28,655 INFO 10627 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:00:29,012 INFO 10627 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:00:29,014 INFO 10627 [egg-security] use methodnoallow middleware
+2018-05-02 16:00:29,014 INFO 10627 [egg-security] use noopen middleware
+2018-05-02 16:00:29,015 INFO 10627 [egg-security] use nosniff middleware
+2018-05-02 16:00:29,015 INFO 10627 [egg-security] use xssProtection middleware
+2018-05-02 16:00:29,015 INFO 10627 [egg-security] use xframe middleware
+2018-05-02 16:00:29,016 INFO 10627 [egg-security] use dta middleware
+2018-05-02 16:00:29,016 INFO 10627 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:00:29,058 INFO 10627 [egg-watcher:app] watcher start success
+2018-05-02 16:06:27,981 INFO 10650 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:06:28,026 INFO 10650 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:06:28,026 INFO 10650 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:06:28,377 INFO 10650 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:06:28,382 INFO 10650 [egg-security] use methodnoallow middleware
+2018-05-02 16:06:28,383 INFO 10650 [egg-security] use noopen middleware
+2018-05-02 16:06:28,383 INFO 10650 [egg-security] use nosniff middleware
+2018-05-02 16:06:28,384 INFO 10650 [egg-security] use xssProtection middleware
+2018-05-02 16:06:28,384 INFO 10650 [egg-security] use xframe middleware
+2018-05-02 16:06:28,385 INFO 10650 [egg-security] use dta middleware
+2018-05-02 16:06:28,385 INFO 10650 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:06:28,436 INFO 10650 [egg-watcher:app] watcher start success
+2018-05-02 16:07:58,820 INFO 10665 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:07:58,862 INFO 10665 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:07:58,862 INFO 10665 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:07:59,223 INFO 10665 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:07:59,226 INFO 10665 [egg-security] use methodnoallow middleware
+2018-05-02 16:07:59,227 INFO 10665 [egg-security] use noopen middleware
+2018-05-02 16:07:59,227 INFO 10665 [egg-security] use nosniff middleware
+2018-05-02 16:07:59,227 INFO 10665 [egg-security] use xssProtection middleware
+2018-05-02 16:07:59,228 INFO 10665 [egg-security] use xframe middleware
+2018-05-02 16:07:59,228 INFO 10665 [egg-security] use dta middleware
+2018-05-02 16:07:59,228 INFO 10665 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:07:59,262 INFO 10665 [egg-watcher:app] watcher start success
+2018-05-02 16:08:00,516 INFO 10666 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:08:00,564 INFO 10666 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:08:00,564 INFO 10666 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:08:00,937 INFO 10666 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:08:00,940 INFO 10666 [egg-security] use methodnoallow middleware
+2018-05-02 16:08:00,940 INFO 10666 [egg-security] use noopen middleware
+2018-05-02 16:08:00,941 INFO 10666 [egg-security] use nosniff middleware
+2018-05-02 16:08:00,941 INFO 10666 [egg-security] use xssProtection middleware
+2018-05-02 16:08:00,941 INFO 10666 [egg-security] use xframe middleware
+2018-05-02 16:08:00,941 INFO 10666 [egg-security] use dta middleware
+2018-05-02 16:08:00,941 INFO 10666 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:08:00,972 INFO 10666 [egg-watcher:app] watcher start success
+2018-05-02 16:10:09,742 INFO 10682 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:10:09,788 INFO 10682 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:10:09,788 INFO 10682 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:10:10,146 INFO 10682 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:10:10,151 INFO 10682 [egg-security] use methodnoallow middleware
+2018-05-02 16:10:10,151 INFO 10682 [egg-security] use noopen middleware
+2018-05-02 16:10:10,151 INFO 10682 [egg-security] use nosniff middleware
+2018-05-02 16:10:10,152 INFO 10682 [egg-security] use xssProtection middleware
+2018-05-02 16:10:10,152 INFO 10682 [egg-security] use xframe middleware
+2018-05-02 16:10:10,152 INFO 10682 [egg-security] use dta middleware
+2018-05-02 16:10:10,152 INFO 10682 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:10:10,187 INFO 10682 [egg-watcher:app] watcher start success
+2018-05-02 16:10:11,310 INFO 10683 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:10:11,358 INFO 10683 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:10:11,358 INFO 10683 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:10:11,750 INFO 10683 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:10:11,754 INFO 10683 [egg-security] use methodnoallow middleware
+2018-05-02 16:10:11,755 INFO 10683 [egg-security] use noopen middleware
+2018-05-02 16:10:11,755 INFO 10683 [egg-security] use nosniff middleware
+2018-05-02 16:10:11,755 INFO 10683 [egg-security] use xssProtection middleware
+2018-05-02 16:10:11,756 INFO 10683 [egg-security] use xframe middleware
+2018-05-02 16:10:11,756 INFO 10683 [egg-security] use dta middleware
+2018-05-02 16:10:11,756 INFO 10683 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:10:11,787 INFO 10683 [egg-watcher:app] watcher start success
+2018-05-02 16:10:23,523 INFO 10696 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:10:23,565 INFO 10696 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:10:23,565 INFO 10696 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:10:23,964 INFO 10696 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:10:23,966 INFO 10696 [egg-security] use methodnoallow middleware
+2018-05-02 16:10:23,967 INFO 10696 [egg-security] use noopen middleware
+2018-05-02 16:10:23,967 INFO 10696 [egg-security] use nosniff middleware
+2018-05-02 16:10:23,967 INFO 10696 [egg-security] use xssProtection middleware
+2018-05-02 16:10:23,968 INFO 10696 [egg-security] use xframe middleware
+2018-05-02 16:10:23,968 INFO 10696 [egg-security] use dta middleware
+2018-05-02 16:10:23,968 INFO 10696 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:10:24,004 INFO 10696 [egg-watcher:app] watcher start success
+2018-05-02 16:11:38,195 INFO 10718 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:11:38,242 INFO 10718 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:11:38,242 INFO 10718 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:11:38,585 INFO 10718 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:11:38,587 INFO 10718 [egg-security] use methodnoallow middleware
+2018-05-02 16:11:38,588 INFO 10718 [egg-security] use noopen middleware
+2018-05-02 16:11:38,588 INFO 10718 [egg-security] use nosniff middleware
+2018-05-02 16:11:38,588 INFO 10718 [egg-security] use xssProtection middleware
+2018-05-02 16:11:38,589 INFO 10718 [egg-security] use xframe middleware
+2018-05-02 16:11:38,589 INFO 10718 [egg-security] use dta middleware
+2018-05-02 16:11:38,589 INFO 10718 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:11:38,618 INFO 10718 [egg-watcher:app] watcher start success
+2018-05-02 16:12:45,841 INFO 10729 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:12:45,890 INFO 10729 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:12:45,890 INFO 10729 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:12:46,269 INFO 10729 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:12:46,275 INFO 10729 [egg-security] use methodnoallow middleware
+2018-05-02 16:12:46,276 INFO 10729 [egg-security] use noopen middleware
+2018-05-02 16:12:46,276 INFO 10729 [egg-security] use nosniff middleware
+2018-05-02 16:12:46,277 INFO 10729 [egg-security] use xssProtection middleware
+2018-05-02 16:12:46,277 INFO 10729 [egg-security] use xframe middleware
+2018-05-02 16:12:46,278 INFO 10729 [egg-security] use dta middleware
+2018-05-02 16:12:46,278 INFO 10729 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:12:46,318 INFO 10729 [egg-watcher:app] watcher start success
+2018-05-02 16:12:52,867 INFO 10736 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:12:52,919 INFO 10736 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:12:52,919 INFO 10736 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:12:53,313 INFO 10736 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:12:53,315 INFO 10736 [egg-security] use methodnoallow middleware
+2018-05-02 16:12:53,316 INFO 10736 [egg-security] use noopen middleware
+2018-05-02 16:12:53,316 INFO 10736 [egg-security] use nosniff middleware
+2018-05-02 16:12:53,316 INFO 10736 [egg-security] use xssProtection middleware
+2018-05-02 16:12:53,317 INFO 10736 [egg-security] use xframe middleware
+2018-05-02 16:12:53,317 INFO 10736 [egg-security] use dta middleware
+2018-05-02 16:12:53,317 INFO 10736 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:12:53,349 INFO 10736 [egg-watcher:app] watcher start success
+2018-05-02 16:12:54,577 INFO 10737 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:12:54,631 INFO 10737 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:12:54,631 INFO 10737 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:12:54,990 INFO 10737 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:12:54,992 INFO 10737 [egg-security] use methodnoallow middleware
+2018-05-02 16:12:54,993 INFO 10737 [egg-security] use noopen middleware
+2018-05-02 16:12:54,993 INFO 10737 [egg-security] use nosniff middleware
+2018-05-02 16:12:54,993 INFO 10737 [egg-security] use xssProtection middleware
+2018-05-02 16:12:54,994 INFO 10737 [egg-security] use xframe middleware
+2018-05-02 16:12:54,994 INFO 10737 [egg-security] use dta middleware
+2018-05-02 16:12:54,994 INFO 10737 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:12:55,027 INFO 10737 [egg-watcher:app] watcher start success
+2018-05-02 16:17:02,944 INFO 10759 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:17:02,992 INFO 10759 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:17:02,992 INFO 10759 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:17:03,395 INFO 10759 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:17:03,398 INFO 10759 [egg-security] use methodnoallow middleware
+2018-05-02 16:17:03,398 INFO 10759 [egg-security] use noopen middleware
+2018-05-02 16:17:03,398 INFO 10759 [egg-security] use nosniff middleware
+2018-05-02 16:17:03,399 INFO 10759 [egg-security] use xssProtection middleware
+2018-05-02 16:17:03,400 INFO 10759 [egg-security] use xframe middleware
+2018-05-02 16:17:03,401 INFO 10759 [egg-security] use dta middleware
+2018-05-02 16:17:03,401 INFO 10759 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:17:03,447 INFO 10759 [egg-watcher:app] watcher start success
+2018-05-02 16:17:27,647 INFO 10776 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:17:27,696 INFO 10776 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:17:27,696 INFO 10776 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:17:28,120 INFO 10776 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:17:28,124 INFO 10776 [egg-security] use methodnoallow middleware
+2018-05-02 16:17:28,124 INFO 10776 [egg-security] use noopen middleware
+2018-05-02 16:17:28,125 INFO 10776 [egg-security] use nosniff middleware
+2018-05-02 16:17:28,125 INFO 10776 [egg-security] use xssProtection middleware
+2018-05-02 16:17:28,126 INFO 10776 [egg-security] use xframe middleware
+2018-05-02 16:17:28,126 INFO 10776 [egg-security] use dta middleware
+2018-05-02 16:17:28,126 INFO 10776 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:17:28,166 INFO 10776 [egg-watcher:app] watcher start success
+2018-05-02 16:18:32,690 INFO 10789 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:18:32,743 INFO 10789 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:18:32,743 INFO 10789 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:18:33,452 INFO 10789 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:18:33,457 INFO 10789 [egg-security] use methodnoallow middleware
+2018-05-02 16:18:33,459 INFO 10789 [egg-security] use noopen middleware
+2018-05-02 16:18:33,461 INFO 10789 [egg-security] use nosniff middleware
+2018-05-02 16:18:33,463 INFO 10789 [egg-security] use xssProtection middleware
+2018-05-02 16:18:33,465 INFO 10789 [egg-security] use xframe middleware
+2018-05-02 16:18:33,467 INFO 10789 [egg-security] use dta middleware
+2018-05-02 16:18:33,467 INFO 10789 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:18:33,507 INFO 10789 [egg-watcher:app] watcher start success
+2018-05-02 16:18:34,676 INFO 10790 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:18:34,721 INFO 10790 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:18:34,721 INFO 10790 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:18:35,072 INFO 10790 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:18:35,075 INFO 10790 [egg-security] use methodnoallow middleware
+2018-05-02 16:18:35,075 INFO 10790 [egg-security] use noopen middleware
+2018-05-02 16:18:35,075 INFO 10790 [egg-security] use nosniff middleware
+2018-05-02 16:18:35,076 INFO 10790 [egg-security] use xssProtection middleware
+2018-05-02 16:18:35,076 INFO 10790 [egg-security] use xframe middleware
+2018-05-02 16:18:35,076 INFO 10790 [egg-security] use dta middleware
+2018-05-02 16:18:35,076 INFO 10790 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:18:35,107 INFO 10790 [egg-watcher:app] watcher start success
+2018-05-02 16:21:20,692 INFO 10809 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:21:20,736 INFO 10809 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:21:20,736 INFO 10809 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:21:21,079 INFO 10809 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:21:21,082 INFO 10809 [egg-security] use methodnoallow middleware
+2018-05-02 16:21:21,082 INFO 10809 [egg-security] use noopen middleware
+2018-05-02 16:21:21,082 INFO 10809 [egg-security] use nosniff middleware
+2018-05-02 16:21:21,083 INFO 10809 [egg-security] use xssProtection middleware
+2018-05-02 16:21:21,083 INFO 10809 [egg-security] use xframe middleware
+2018-05-02 16:21:21,083 INFO 10809 [egg-security] use dta middleware
+2018-05-02 16:21:21,083 INFO 10809 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:21:21,118 INFO 10809 [egg-watcher:app] watcher start success
+2018-05-02 16:22:06,494 INFO 10832 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:22:06,535 INFO 10832 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:22:06,535 INFO 10832 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:22:06,873 INFO 10832 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:22:06,875 INFO 10832 [egg-security] use methodnoallow middleware
+2018-05-02 16:22:06,875 INFO 10832 [egg-security] use noopen middleware
+2018-05-02 16:22:06,876 INFO 10832 [egg-security] use nosniff middleware
+2018-05-02 16:22:06,876 INFO 10832 [egg-security] use xssProtection middleware
+2018-05-02 16:22:06,877 INFO 10832 [egg-security] use xframe middleware
+2018-05-02 16:22:06,878 INFO 10832 [egg-security] use dta middleware
+2018-05-02 16:22:06,878 INFO 10832 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:22:06,918 INFO 10832 [egg-watcher:app] watcher start success
+2018-05-02 16:22:08,007 INFO 10833 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:22:08,049 INFO 10833 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:22:08,049 INFO 10833 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:22:08,387 INFO 10833 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:22:08,389 INFO 10833 [egg-security] use methodnoallow middleware
+2018-05-02 16:22:08,390 INFO 10833 [egg-security] use noopen middleware
+2018-05-02 16:22:08,390 INFO 10833 [egg-security] use nosniff middleware
+2018-05-02 16:22:08,391 INFO 10833 [egg-security] use xssProtection middleware
+2018-05-02 16:22:08,391 INFO 10833 [egg-security] use xframe middleware
+2018-05-02 16:22:08,391 INFO 10833 [egg-security] use dta middleware
+2018-05-02 16:22:08,391 INFO 10833 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:22:08,422 INFO 10833 [egg-watcher:app] watcher start success
+2018-05-02 16:22:09,547 INFO 10834 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:22:09,588 INFO 10834 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:22:09,588 INFO 10834 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:22:09,909 INFO 10834 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:22:09,912 INFO 10834 [egg-security] use methodnoallow middleware
+2018-05-02 16:22:09,912 INFO 10834 [egg-security] use noopen middleware
+2018-05-02 16:22:09,912 INFO 10834 [egg-security] use nosniff middleware
+2018-05-02 16:22:09,913 INFO 10834 [egg-security] use xssProtection middleware
+2018-05-02 16:22:09,913 INFO 10834 [egg-security] use xframe middleware
+2018-05-02 16:22:09,913 INFO 10834 [egg-security] use dta middleware
+2018-05-02 16:22:09,913 INFO 10834 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:22:09,943 INFO 10834 [egg-watcher:app] watcher start success
+2018-05-02 16:22:21,770 INFO 10841 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:22:21,810 INFO 10841 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:22:21,810 INFO 10841 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:22:22,137 INFO 10841 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:22:22,139 INFO 10841 [egg-security] use methodnoallow middleware
+2018-05-02 16:22:22,139 INFO 10841 [egg-security] use noopen middleware
+2018-05-02 16:22:22,140 INFO 10841 [egg-security] use nosniff middleware
+2018-05-02 16:22:22,140 INFO 10841 [egg-security] use xssProtection middleware
+2018-05-02 16:22:22,140 INFO 10841 [egg-security] use xframe middleware
+2018-05-02 16:22:22,141 INFO 10841 [egg-security] use dta middleware
+2018-05-02 16:22:22,141 INFO 10841 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:22:22,170 INFO 10841 [egg-watcher:app] watcher start success
+2018-05-02 16:22:23,251 INFO 10842 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:22:23,304 INFO 10842 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:22:23,304 INFO 10842 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:22:23,626 INFO 10842 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:22:23,628 INFO 10842 [egg-security] use methodnoallow middleware
+2018-05-02 16:22:23,628 INFO 10842 [egg-security] use noopen middleware
+2018-05-02 16:22:23,629 INFO 10842 [egg-security] use nosniff middleware
+2018-05-02 16:22:23,629 INFO 10842 [egg-security] use xssProtection middleware
+2018-05-02 16:22:23,629 INFO 10842 [egg-security] use xframe middleware
+2018-05-02 16:22:23,630 INFO 10842 [egg-security] use dta middleware
+2018-05-02 16:22:23,630 INFO 10842 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:22:23,660 INFO 10842 [egg-watcher:app] watcher start success
+2018-05-02 16:23:38,030 INFO 10851 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:23:38,079 INFO 10851 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:23:38,079 INFO 10851 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:23:38,856 INFO 10851 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:23:38,860 INFO 10851 [egg-security] use methodnoallow middleware
+2018-05-02 16:23:38,863 INFO 10851 [egg-security] use noopen middleware
+2018-05-02 16:23:38,865 INFO 10851 [egg-security] use nosniff middleware
+2018-05-02 16:23:38,866 INFO 10851 [egg-security] use xssProtection middleware
+2018-05-02 16:23:38,868 INFO 10851 [egg-security] use xframe middleware
+2018-05-02 16:23:38,870 INFO 10851 [egg-security] use dta middleware
+2018-05-02 16:23:38,870 INFO 10851 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:23:38,911 INFO 10851 [egg-watcher:app] watcher start success
+2018-05-02 16:23:40,072 INFO 10852 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:23:40,119 INFO 10852 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:23:40,119 INFO 10852 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:23:40,475 INFO 10852 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:23:40,480 INFO 10852 [egg-security] use methodnoallow middleware
+2018-05-02 16:23:40,481 INFO 10852 [egg-security] use noopen middleware
+2018-05-02 16:23:40,481 INFO 10852 [egg-security] use nosniff middleware
+2018-05-02 16:23:40,482 INFO 10852 [egg-security] use xssProtection middleware
+2018-05-02 16:23:40,482 INFO 10852 [egg-security] use xframe middleware
+2018-05-02 16:23:40,482 INFO 10852 [egg-security] use dta middleware
+2018-05-02 16:23:40,482 INFO 10852 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:23:40,514 INFO 10852 [egg-watcher:app] watcher start success
+2018-05-02 16:29:01,808 INFO 10878 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:29:01,890 INFO 10878 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:29:01,890 INFO 10878 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:29:02,936 INFO 10878 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:29:02,942 INFO 10878 [egg-security] use methodnoallow middleware
+2018-05-02 16:29:02,944 INFO 10878 [egg-security] use noopen middleware
+2018-05-02 16:29:02,946 INFO 10878 [egg-security] use nosniff middleware
+2018-05-02 16:29:02,947 INFO 10878 [egg-security] use xssProtection middleware
+2018-05-02 16:29:02,949 INFO 10878 [egg-security] use xframe middleware
+2018-05-02 16:29:02,951 INFO 10878 [egg-security] use dta middleware
+2018-05-02 16:29:02,951 INFO 10878 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:29:03,000 INFO 10878 [egg-watcher:app] watcher start success
+2018-05-02 16:29:04,101 INFO 10885 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:29:04,147 INFO 10885 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:29:04,147 INFO 10885 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:29:04,501 INFO 10885 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:29:04,504 INFO 10885 [egg-security] use methodnoallow middleware
+2018-05-02 16:29:04,504 INFO 10885 [egg-security] use noopen middleware
+2018-05-02 16:29:04,504 INFO 10885 [egg-security] use nosniff middleware
+2018-05-02 16:29:04,505 INFO 10885 [egg-security] use xssProtection middleware
+2018-05-02 16:29:04,505 INFO 10885 [egg-security] use xframe middleware
+2018-05-02 16:29:04,505 INFO 10885 [egg-security] use dta middleware
+2018-05-02 16:29:04,505 INFO 10885 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:29:04,535 INFO 10885 [egg-watcher:app] watcher start success
+2018-05-02 16:31:25,580 INFO 10899 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:31:25,621 INFO 10899 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:31:25,621 INFO 10899 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:31:25,972 INFO 10899 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:31:25,975 INFO 10899 [egg-security] use methodnoallow middleware
+2018-05-02 16:31:25,975 INFO 10899 [egg-security] use noopen middleware
+2018-05-02 16:31:25,976 INFO 10899 [egg-security] use nosniff middleware
+2018-05-02 16:31:25,976 INFO 10899 [egg-security] use xssProtection middleware
+2018-05-02 16:31:25,976 INFO 10899 [egg-security] use xframe middleware
+2018-05-02 16:31:25,977 INFO 10899 [egg-security] use dta middleware
+2018-05-02 16:31:25,977 INFO 10899 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:31:26,017 INFO 10899 [egg-watcher:app] watcher start success
+2018-05-02 16:47:40,076 INFO 10944 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:47:40,155 INFO 10944 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:47:40,156 INFO 10944 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:47:41,156 INFO 10944 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:47:41,160 INFO 10944 [egg-security] use methodnoallow middleware
+2018-05-02 16:47:41,162 INFO 10944 [egg-security] use noopen middleware
+2018-05-02 16:47:41,173 INFO 10944 [egg-security] use nosniff middleware
+2018-05-02 16:47:41,175 INFO 10944 [egg-security] use xssProtection middleware
+2018-05-02 16:47:41,177 INFO 10944 [egg-security] use xframe middleware
+2018-05-02 16:47:41,179 INFO 10944 [egg-security] use dta middleware
+2018-05-02 16:47:41,179 INFO 10944 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:47:41,217 INFO 10944 [egg-watcher:app] watcher start success
+2018-05-02 16:49:16,189 INFO 10961 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:49:16,236 INFO 10961 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:49:16,236 INFO 10961 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:49:16,578 INFO 10961 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:49:16,580 INFO 10961 [egg-security] use methodnoallow middleware
+2018-05-02 16:49:16,580 INFO 10961 [egg-security] use noopen middleware
+2018-05-02 16:49:16,581 INFO 10961 [egg-security] use nosniff middleware
+2018-05-02 16:49:16,581 INFO 10961 [egg-security] use xssProtection middleware
+2018-05-02 16:49:16,581 INFO 10961 [egg-security] use xframe middleware
+2018-05-02 16:49:16,581 INFO 10961 [egg-security] use dta middleware
+2018-05-02 16:49:16,582 INFO 10961 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:49:16,612 INFO 10961 [egg-watcher:app] watcher start success
+2018-05-02 16:49:17,765 INFO 10962 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:49:17,814 INFO 10962 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:49:17,814 INFO 10962 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:49:18,161 INFO 10962 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:49:18,163 INFO 10962 [egg-security] use methodnoallow middleware
+2018-05-02 16:49:18,164 INFO 10962 [egg-security] use noopen middleware
+2018-05-02 16:49:18,164 INFO 10962 [egg-security] use nosniff middleware
+2018-05-02 16:49:18,164 INFO 10962 [egg-security] use xssProtection middleware
+2018-05-02 16:49:18,165 INFO 10962 [egg-security] use xframe middleware
+2018-05-02 16:49:18,165 INFO 10962 [egg-security] use dta middleware
+2018-05-02 16:49:18,165 INFO 10962 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:49:18,208 INFO 10962 [egg-watcher:app] watcher start success
+2018-05-02 16:50:14,992 INFO 10980 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:50:15,035 INFO 10980 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:50:15,035 INFO 10980 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:50:15,417 INFO 10980 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:50:15,420 INFO 10980 [egg-security] use methodnoallow middleware
+2018-05-02 16:50:15,421 INFO 10980 [egg-security] use noopen middleware
+2018-05-02 16:50:15,421 INFO 10980 [egg-security] use nosniff middleware
+2018-05-02 16:50:15,421 INFO 10980 [egg-security] use xssProtection middleware
+2018-05-02 16:50:15,422 INFO 10980 [egg-security] use xframe middleware
+2018-05-02 16:50:15,422 INFO 10980 [egg-security] use dta middleware
+2018-05-02 16:50:15,422 INFO 10980 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:50:15,453 INFO 10980 [egg-watcher:app] watcher start success
+2018-05-02 16:52:51,941 INFO 11000 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:52:51,982 INFO 11000 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:52:51,982 INFO 11000 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:52:52,383 INFO 11000 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:52:52,386 INFO 11000 [egg-security] use methodnoallow middleware
+2018-05-02 16:52:52,386 INFO 11000 [egg-security] use noopen middleware
+2018-05-02 16:52:52,386 INFO 11000 [egg-security] use nosniff middleware
+2018-05-02 16:52:52,387 INFO 11000 [egg-security] use xssProtection middleware
+2018-05-02 16:52:52,387 INFO 11000 [egg-security] use xframe middleware
+2018-05-02 16:52:52,387 INFO 11000 [egg-security] use dta middleware
+2018-05-02 16:52:52,387 INFO 11000 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:52:52,419 INFO 11000 [egg-watcher:app] watcher start success
+2018-05-02 16:53:20,359 INFO 11014 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:53:20,407 INFO 11014 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:53:20,407 INFO 11014 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:53:20,774 INFO 11014 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:53:20,776 INFO 11014 [egg-security] use methodnoallow middleware
+2018-05-02 16:53:20,777 INFO 11014 [egg-security] use noopen middleware
+2018-05-02 16:53:20,777 INFO 11014 [egg-security] use nosniff middleware
+2018-05-02 16:53:20,777 INFO 11014 [egg-security] use xssProtection middleware
+2018-05-02 16:53:20,778 INFO 11014 [egg-security] use xframe middleware
+2018-05-02 16:53:20,779 INFO 11014 [egg-security] use dta middleware
+2018-05-02 16:53:20,779 INFO 11014 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:53:20,814 INFO 11014 [egg-watcher:app] watcher start success
+2018-05-02 16:53:22,014 INFO 11015 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:53:22,068 INFO 11015 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:53:22,068 INFO 11015 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:53:22,424 INFO 11015 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:53:22,428 INFO 11015 [egg-security] use methodnoallow middleware
+2018-05-02 16:53:22,428 INFO 11015 [egg-security] use noopen middleware
+2018-05-02 16:53:22,429 INFO 11015 [egg-security] use nosniff middleware
+2018-05-02 16:53:22,429 INFO 11015 [egg-security] use xssProtection middleware
+2018-05-02 16:53:22,430 INFO 11015 [egg-security] use xframe middleware
+2018-05-02 16:53:22,430 INFO 11015 [egg-security] use dta middleware
+2018-05-02 16:53:22,431 INFO 11015 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:53:22,489 INFO 11015 [egg-watcher:app] watcher start success
+2018-05-02 16:53:43,866 INFO 11028 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:53:43,911 INFO 11028 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:53:43,911 INFO 11028 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:53:44,311 INFO 11028 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:53:44,314 INFO 11028 [egg-security] use methodnoallow middleware
+2018-05-02 16:53:44,314 INFO 11028 [egg-security] use noopen middleware
+2018-05-02 16:53:44,316 INFO 11028 [egg-security] use nosniff middleware
+2018-05-02 16:53:44,317 INFO 11028 [egg-security] use xssProtection middleware
+2018-05-02 16:53:44,318 INFO 11028 [egg-security] use xframe middleware
+2018-05-02 16:53:44,318 INFO 11028 [egg-security] use dta middleware
+2018-05-02 16:53:44,318 INFO 11028 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:53:44,358 INFO 11028 [egg-watcher:app] watcher start success
+2018-05-02 16:55:40,966 INFO 11043 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:55:41,014 INFO 11043 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:55:41,014 INFO 11043 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:55:41,450 INFO 11043 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:55:41,453 INFO 11043 [egg-security] use methodnoallow middleware
+2018-05-02 16:55:41,454 INFO 11043 [egg-security] use noopen middleware
+2018-05-02 16:55:41,455 INFO 11043 [egg-security] use nosniff middleware
+2018-05-02 16:55:41,455 INFO 11043 [egg-security] use xssProtection middleware
+2018-05-02 16:55:41,456 INFO 11043 [egg-security] use xframe middleware
+2018-05-02 16:55:41,456 INFO 11043 [egg-security] use dta middleware
+2018-05-02 16:55:41,456 INFO 11043 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:55:41,500 INFO 11043 [egg-watcher:app] watcher start success
+2018-05-02 16:56:07,974 INFO 11066 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:56:08,022 INFO 11066 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:56:08,022 INFO 11066 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:56:08,437 INFO 11066 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:56:08,439 INFO 11066 [egg-security] use methodnoallow middleware
+2018-05-02 16:56:08,439 INFO 11066 [egg-security] use noopen middleware
+2018-05-02 16:56:08,440 INFO 11066 [egg-security] use nosniff middleware
+2018-05-02 16:56:08,440 INFO 11066 [egg-security] use xssProtection middleware
+2018-05-02 16:56:08,440 INFO 11066 [egg-security] use xframe middleware
+2018-05-02 16:56:08,441 INFO 11066 [egg-security] use dta middleware
+2018-05-02 16:56:08,441 INFO 11066 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:56:08,478 INFO 11066 [egg-watcher:app] watcher start success
+2018-05-02 16:56:17,243 INFO 11081 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:56:17,290 INFO 11081 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:56:17,290 INFO 11081 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:56:17,662 INFO 11081 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:56:17,664 INFO 11081 [egg-security] use methodnoallow middleware
+2018-05-02 16:56:17,665 INFO 11081 [egg-security] use noopen middleware
+2018-05-02 16:56:17,666 INFO 11081 [egg-security] use nosniff middleware
+2018-05-02 16:56:17,666 INFO 11081 [egg-security] use xssProtection middleware
+2018-05-02 16:56:17,667 INFO 11081 [egg-security] use xframe middleware
+2018-05-02 16:56:17,667 INFO 11081 [egg-security] use dta middleware
+2018-05-02 16:56:17,667 INFO 11081 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:56:17,710 INFO 11081 [egg-watcher:app] watcher start success
+2018-05-02 16:56:50,610 INFO 11095 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:56:50,657 INFO 11095 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:56:50,657 INFO 11095 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:56:51,016 INFO 11095 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:56:51,020 INFO 11095 [egg-security] use methodnoallow middleware
+2018-05-02 16:56:51,021 INFO 11095 [egg-security] use noopen middleware
+2018-05-02 16:56:51,021 INFO 11095 [egg-security] use nosniff middleware
+2018-05-02 16:56:51,021 INFO 11095 [egg-security] use xssProtection middleware
+2018-05-02 16:56:51,022 INFO 11095 [egg-security] use xframe middleware
+2018-05-02 16:56:51,022 INFO 11095 [egg-security] use dta middleware
+2018-05-02 16:56:51,022 INFO 11095 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:56:51,058 INFO 11095 [egg-watcher:app] watcher start success
+2018-05-02 16:56:52,223 INFO 11096 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:56:52,271 INFO 11096 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:56:52,271 INFO 11096 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:56:52,631 INFO 11096 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:56:52,633 INFO 11096 [egg-security] use methodnoallow middleware
+2018-05-02 16:56:52,634 INFO 11096 [egg-security] use noopen middleware
+2018-05-02 16:56:52,634 INFO 11096 [egg-security] use nosniff middleware
+2018-05-02 16:56:52,634 INFO 11096 [egg-security] use xssProtection middleware
+2018-05-02 16:56:52,634 INFO 11096 [egg-security] use xframe middleware
+2018-05-02 16:56:52,635 INFO 11096 [egg-security] use dta middleware
+2018-05-02 16:56:52,635 INFO 11096 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:56:52,665 INFO 11096 [egg-watcher:app] watcher start success
+2018-05-02 16:57:43,303 INFO 11112 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:57:43,354 INFO 11112 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:57:43,354 INFO 11112 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:57:43,682 INFO 11112 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:57:43,684 INFO 11112 [egg-security] use methodnoallow middleware
+2018-05-02 16:57:43,685 INFO 11112 [egg-security] use noopen middleware
+2018-05-02 16:57:43,685 INFO 11112 [egg-security] use nosniff middleware
+2018-05-02 16:57:43,685 INFO 11112 [egg-security] use xssProtection middleware
+2018-05-02 16:57:43,686 INFO 11112 [egg-security] use xframe middleware
+2018-05-02 16:57:43,686 INFO 11112 [egg-security] use dta middleware
+2018-05-02 16:57:43,686 INFO 11112 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:57:43,715 INFO 11112 [egg-watcher:app] watcher start success
+2018-05-02 16:57:44,790 INFO 11113 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 16:57:44,836 INFO 11113 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 16:57:44,836 INFO 11113 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 16:57:45,153 INFO 11113 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 16:57:45,156 INFO 11113 [egg-security] use methodnoallow middleware
+2018-05-02 16:57:45,156 INFO 11113 [egg-security] use noopen middleware
+2018-05-02 16:57:45,157 INFO 11113 [egg-security] use nosniff middleware
+2018-05-02 16:57:45,157 INFO 11113 [egg-security] use xssProtection middleware
+2018-05-02 16:57:45,157 INFO 11113 [egg-security] use xframe middleware
+2018-05-02 16:57:45,157 INFO 11113 [egg-security] use dta middleware
+2018-05-02 16:57:45,157 INFO 11113 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 16:57:45,186 INFO 11113 [egg-watcher:app] watcher start success
+2018-05-02 17:02:31,523 INFO 11140 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:02:31,574 INFO 11140 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:02:31,575 INFO 11140 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:02:31,976 INFO 11140 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:02:31,978 INFO 11140 [egg-security] use methodnoallow middleware
+2018-05-02 17:02:31,979 INFO 11140 [egg-security] use noopen middleware
+2018-05-02 17:02:31,979 INFO 11140 [egg-security] use nosniff middleware
+2018-05-02 17:02:31,979 INFO 11140 [egg-security] use xssProtection middleware
+2018-05-02 17:02:31,980 INFO 11140 [egg-security] use xframe middleware
+2018-05-02 17:02:31,980 INFO 11140 [egg-security] use dta middleware
+2018-05-02 17:02:31,980 INFO 11140 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:02:32,016 INFO 11140 [egg-watcher:app] watcher start success
+2018-05-02 17:03:58,228 INFO 11149 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:03:58,276 INFO 11149 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:03:58,276 INFO 11149 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:03:58,678 INFO 11149 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:03:58,682 INFO 11149 [egg-security] use methodnoallow middleware
+2018-05-02 17:03:58,683 INFO 11149 [egg-security] use noopen middleware
+2018-05-02 17:03:58,683 INFO 11149 [egg-security] use nosniff middleware
+2018-05-02 17:03:58,683 INFO 11149 [egg-security] use xssProtection middleware
+2018-05-02 17:03:58,684 INFO 11149 [egg-security] use xframe middleware
+2018-05-02 17:03:58,684 INFO 11149 [egg-security] use dta middleware
+2018-05-02 17:03:58,684 INFO 11149 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:03:58,717 INFO 11149 [egg-watcher:app] watcher start success
+2018-05-02 17:06:01,793 INFO 11157 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:06:01,841 INFO 11157 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:06:01,841 INFO 11157 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:06:02,223 INFO 11157 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:06:02,225 INFO 11157 [egg-security] use methodnoallow middleware
+2018-05-02 17:06:02,226 INFO 11157 [egg-security] use noopen middleware
+2018-05-02 17:06:02,227 INFO 11157 [egg-security] use nosniff middleware
+2018-05-02 17:06:02,227 INFO 11157 [egg-security] use xssProtection middleware
+2018-05-02 17:06:02,228 INFO 11157 [egg-security] use xframe middleware
+2018-05-02 17:06:02,228 INFO 11157 [egg-security] use dta middleware
+2018-05-02 17:06:02,228 INFO 11157 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:06:02,265 INFO 11157 [egg-watcher:app] watcher start success
+2018-05-02 17:06:03,430 INFO 11158 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:06:03,480 INFO 11158 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:06:03,480 INFO 11158 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:06:03,844 INFO 11158 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:06:03,846 INFO 11158 [egg-security] use methodnoallow middleware
+2018-05-02 17:06:03,846 INFO 11158 [egg-security] use noopen middleware
+2018-05-02 17:06:03,847 INFO 11158 [egg-security] use nosniff middleware
+2018-05-02 17:06:03,847 INFO 11158 [egg-security] use xssProtection middleware
+2018-05-02 17:06:03,847 INFO 11158 [egg-security] use xframe middleware
+2018-05-02 17:06:03,848 INFO 11158 [egg-security] use dta middleware
+2018-05-02 17:06:03,848 INFO 11158 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:06:03,886 INFO 11158 [egg-watcher:app] watcher start success
+2018-05-02 17:07:46,157 INFO 11174 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:07:46,203 INFO 11174 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:07:46,203 INFO 11174 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:07:46,555 INFO 11174 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:07:46,559 INFO 11174 [egg-security] use methodnoallow middleware
+2018-05-02 17:07:46,560 INFO 11174 [egg-security] use noopen middleware
+2018-05-02 17:07:46,561 INFO 11174 [egg-security] use nosniff middleware
+2018-05-02 17:07:46,561 INFO 11174 [egg-security] use xssProtection middleware
+2018-05-02 17:07:46,562 INFO 11174 [egg-security] use xframe middleware
+2018-05-02 17:07:46,562 INFO 11174 [egg-security] use dta middleware
+2018-05-02 17:07:46,562 INFO 11174 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:07:46,607 INFO 11174 [egg-watcher:app] watcher start success
+2018-05-02 17:08:35,992 INFO 11187 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:08:36,034 INFO 11187 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:08:36,034 INFO 11187 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:08:36,395 INFO 11187 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:08:36,398 INFO 11187 [egg-security] use methodnoallow middleware
+2018-05-02 17:08:36,399 INFO 11187 [egg-security] use noopen middleware
+2018-05-02 17:08:36,399 INFO 11187 [egg-security] use nosniff middleware
+2018-05-02 17:08:36,399 INFO 11187 [egg-security] use xssProtection middleware
+2018-05-02 17:08:36,399 INFO 11187 [egg-security] use xframe middleware
+2018-05-02 17:08:36,400 INFO 11187 [egg-security] use dta middleware
+2018-05-02 17:08:36,400 INFO 11187 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:08:36,434 INFO 11187 [egg-watcher:app] watcher start success
+2018-05-02 17:08:37,535 INFO 11188 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:08:37,578 INFO 11188 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:08:37,578 INFO 11188 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:08:37,955 INFO 11188 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:08:37,958 INFO 11188 [egg-security] use methodnoallow middleware
+2018-05-02 17:08:37,958 INFO 11188 [egg-security] use noopen middleware
+2018-05-02 17:08:37,958 INFO 11188 [egg-security] use nosniff middleware
+2018-05-02 17:08:37,959 INFO 11188 [egg-security] use xssProtection middleware
+2018-05-02 17:08:37,959 INFO 11188 [egg-security] use xframe middleware
+2018-05-02 17:08:37,959 INFO 11188 [egg-security] use dta middleware
+2018-05-02 17:08:37,959 INFO 11188 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:08:37,992 INFO 11188 [egg-watcher:app] watcher start success
+2018-05-02 17:09:34,466 INFO 11196 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:09:34,511 INFO 11196 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:09:34,511 INFO 11196 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:09:34,883 INFO 11196 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:09:34,886 INFO 11196 [egg-security] use methodnoallow middleware
+2018-05-02 17:09:34,886 INFO 11196 [egg-security] use noopen middleware
+2018-05-02 17:09:34,887 INFO 11196 [egg-security] use nosniff middleware
+2018-05-02 17:09:34,887 INFO 11196 [egg-security] use xssProtection middleware
+2018-05-02 17:09:34,888 INFO 11196 [egg-security] use xframe middleware
+2018-05-02 17:09:34,888 INFO 11196 [egg-security] use dta middleware
+2018-05-02 17:09:34,888 INFO 11196 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:09:34,921 INFO 11196 [egg-watcher:app] watcher start success
+2018-05-02 17:10:04,775 INFO 11209 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:10:04,822 INFO 11209 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:10:04,822 INFO 11209 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:10:05,209 INFO 11209 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:10:05,211 INFO 11209 [egg-security] use methodnoallow middleware
+2018-05-02 17:10:05,211 INFO 11209 [egg-security] use noopen middleware
+2018-05-02 17:10:05,212 INFO 11209 [egg-security] use nosniff middleware
+2018-05-02 17:10:05,212 INFO 11209 [egg-security] use xssProtection middleware
+2018-05-02 17:10:05,213 INFO 11209 [egg-security] use xframe middleware
+2018-05-02 17:10:05,214 INFO 11209 [egg-security] use dta middleware
+2018-05-02 17:10:05,214 INFO 11209 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:10:05,254 INFO 11209 [egg-watcher:app] watcher start success
+2018-05-02 17:10:55,568 INFO 11223 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:10:55,611 INFO 11223 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:10:55,612 INFO 11223 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:10:55,983 INFO 11223 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:10:55,986 INFO 11223 [egg-security] use methodnoallow middleware
+2018-05-02 17:10:55,986 INFO 11223 [egg-security] use noopen middleware
+2018-05-02 17:10:55,986 INFO 11223 [egg-security] use nosniff middleware
+2018-05-02 17:10:55,987 INFO 11223 [egg-security] use xssProtection middleware
+2018-05-02 17:10:55,987 INFO 11223 [egg-security] use xframe middleware
+2018-05-02 17:10:55,987 INFO 11223 [egg-security] use dta middleware
+2018-05-02 17:10:55,987 INFO 11223 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:10:56,021 INFO 11223 [egg-watcher:app] watcher start success
+2018-05-02 17:10:57,153 INFO 11224 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:10:57,201 INFO 11224 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:10:57,201 INFO 11224 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:10:57,569 INFO 11224 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:10:57,572 INFO 11224 [egg-security] use methodnoallow middleware
+2018-05-02 17:10:57,572 INFO 11224 [egg-security] use noopen middleware
+2018-05-02 17:10:57,572 INFO 11224 [egg-security] use nosniff middleware
+2018-05-02 17:10:57,573 INFO 11224 [egg-security] use xssProtection middleware
+2018-05-02 17:10:57,574 INFO 11224 [egg-security] use xframe middleware
+2018-05-02 17:10:57,575 INFO 11224 [egg-security] use dta middleware
+2018-05-02 17:10:57,575 INFO 11224 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:10:57,609 INFO 11224 [egg-watcher:app] watcher start success
+2018-05-02 17:12:21,191 INFO 11239 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:12:21,238 INFO 11239 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:12:21,238 INFO 11239 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:12:21,593 INFO 11239 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:12:21,595 INFO 11239 [egg-security] use methodnoallow middleware
+2018-05-02 17:12:21,596 INFO 11239 [egg-security] use noopen middleware
+2018-05-02 17:12:21,596 INFO 11239 [egg-security] use nosniff middleware
+2018-05-02 17:12:21,596 INFO 11239 [egg-security] use xssProtection middleware
+2018-05-02 17:12:21,596 INFO 11239 [egg-security] use xframe middleware
+2018-05-02 17:12:21,597 INFO 11239 [egg-security] use dta middleware
+2018-05-02 17:12:21,597 INFO 11239 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:12:21,625 INFO 11239 [egg-watcher:app] watcher start success
+2018-05-02 17:12:22,904 INFO 11240 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:12:22,952 INFO 11240 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:12:22,952 INFO 11240 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:12:23,378 INFO 11240 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:12:23,381 INFO 11240 [egg-security] use methodnoallow middleware
+2018-05-02 17:12:23,381 INFO 11240 [egg-security] use noopen middleware
+2018-05-02 17:12:23,382 INFO 11240 [egg-security] use nosniff middleware
+2018-05-02 17:12:23,382 INFO 11240 [egg-security] use xssProtection middleware
+2018-05-02 17:12:23,382 INFO 11240 [egg-security] use xframe middleware
+2018-05-02 17:12:23,383 INFO 11240 [egg-security] use dta middleware
+2018-05-02 17:12:23,383 INFO 11240 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:12:23,413 INFO 11240 [egg-watcher:app] watcher start success
+2018-05-02 17:12:45,080 INFO 11255 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:12:45,128 INFO 11255 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:12:45,128 INFO 11255 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:12:45,561 INFO 11255 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:12:45,564 INFO 11255 [egg-security] use methodnoallow middleware
+2018-05-02 17:12:45,565 INFO 11255 [egg-security] use noopen middleware
+2018-05-02 17:12:45,565 INFO 11255 [egg-security] use nosniff middleware
+2018-05-02 17:12:45,566 INFO 11255 [egg-security] use xssProtection middleware
+2018-05-02 17:12:45,566 INFO 11255 [egg-security] use xframe middleware
+2018-05-02 17:12:45,567 INFO 11255 [egg-security] use dta middleware
+2018-05-02 17:12:45,567 INFO 11255 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:12:45,614 INFO 11255 [egg-watcher:app] watcher start success
+2018-05-02 17:12:51,205 INFO 11268 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-02 17:12:51,266 INFO 11268 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-02 17:12:51,266 INFO 11268 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-02 17:12:51,648 INFO 11268 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-02 17:12:51,650 INFO 11268 [egg-security] use methodnoallow middleware
+2018-05-02 17:12:51,651 INFO 11268 [egg-security] use noopen middleware
+2018-05-02 17:12:51,651 INFO 11268 [egg-security] use nosniff middleware
+2018-05-02 17:12:51,652 INFO 11268 [egg-security] use xssProtection middleware
+2018-05-02 17:12:51,653 INFO 11268 [egg-security] use xframe middleware
+2018-05-02 17:12:51,654 INFO 11268 [egg-security] use dta middleware
+2018-05-02 17:12:51,654 INFO 11268 [egg-security] compose 6 middlewares into one security middleware
+2018-05-02 17:12:51,693 INFO 11268 [egg-watcher:app] watcher start success
