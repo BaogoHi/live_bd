@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .container {
+      padding: 20px;
+    }
+    input {
+      width: 100%;
+    }
+    #system-msg {
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+    .main {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+    .hidden {
+      display: none;
+    }
+    .list {
+      height: 500px;
+      overflow-y: auto;
+    }
+    .list ul{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+    }
+    .list ul li {
+      list-style-type: none;
+      border-bottom: 1px solid #d4d4d4;
+      font-size: 1.5rem;
+    }
+    .input {
+      display: flex;
+      flex-direction: row;
+    }
+    .input input{
+      flex: 2;
+    }
+    .input button {
+      flex: 1;
+    }
+
+    .user-name {
+      color: aqua;
+    }
+  </style>
+</head>
+<body> 
+  <div id="container">
+    <div id="js-user-input" class="input">
+      <input type="text" id="js-username"  placeholder="输入您的用户名">
+      <button id="js-room1" data-room="room1">加入房间1</button>
+      <button id="js-room2" data-room="room2">加入房间2</button>
+    </div>
+    <div class="main" id="js-main">
+      <div class="list">
+        <div id="system-msg"></div>
+        <span id="js-peonum" style="z-index: 1000;color:#fff;"></span>
+        <ul id="js-list">
+          
+        </ul>
+      </div>
+      <div class="input">
+        <input type="text" id="js-msg" placeholder="输入您的信息">
+        <button id="js-send-btn">send</button>
+        <button id="js-clear">clear</button>
+      </div>
+    </div>
+    
+    
+  </div>
+  <script src="https://cdn.bootcss.com/socket.io/2.1.0/socket.io.js"></script>
+  <script>
+    // dom 操作
+    const container = document.getElementById('container')
+    const systemMsg = document.getElementById('system-msg')
+    const ul = document.getElementById('js-list')
+    const main = document.getElementById('js-main')
+    const msg = document.getElementById('js-msg')
+    const username = document.getElementById('js-username')
+    const sendBtn = document.getElementById('js-send-btn')
+    const room1 = document.getElementById('js-room1')
+    const room2 = document.getElementById('js-room2')
+    const clearBtn = document.getElementById('js-clear')
+    const peoNum = document.getElementById('js-peonum')
+    let connected = false //判断是否连接
+    // 房间1 点击事件
+    room1.onclick = async function() {
+      await localStorage.setItem('username',username.value)
+      main.className = "active"
+      room1.disabled = true
+      await join(this.dataset.room)
+    }
+    //房间2 点击事件
+    room2.onclick = async function() {
+      await localStorage.setItem('username',username.value)
+      main.className = "active"
+      room2.disabled = true
+      await join(this.dataset.room)
+    }
+    clearBtn.onclick = function() {
+      ul.innerHTML = ''
+    }
+    // 加入房间函数
+    const join =async (roomId) => {
+      const socket = io('http://localhost:7001/',{
+        query:{
+          room: roomId,
+          username: localStorage.getItem('username')
+        }
+      })
+      socket.on('connect', () => {
+        // 请求历史信息
+        socket.emit('old message', 'need old')
+        // 获取历史信息
+        socket.on('old message', msg => {
+          // console.log(msg)
+          msg.map((v,i) => {
+            let value = JSON.parse(v)
+            let l = document.createElement('li')
+            l.innerHTML = `<span class="user-name">${value.username}</span>:${value.message}——————${new Date(value.time).toLocaleString()}`
+            ul.appendChild(l)
+          })
+        })
+        connected = true
+        //监听
+        // socket.on('res', msg => {
+        //   console.log(msg)
+        // })
+        // 当前系统用户进入与退出的信息
+        socket.on('online', msg => {
+          // console.log(msg)
+          systemMsg.innerHTML = `系统通知: ${msg.newClient}，房间总人数：${msg.clientsNum}人`
+          // console.log(`System: ${msg}`)
+        })
+        // 获取信息
+        socket.on('new message', msg => {
+          // console.log(msg)
+          const {message,username,time} = msg
+          let l = document.createElement('li')
+          l.innerHTML = `<span class="user-name">${username}</span>:${message}——————${new Date(time).toLocaleString()}`
+          ul.appendChild(l)
+        })
+        // 断开连接
+        socket.on('disconnect', msg => {
+          main.className = ''
+          room1.disabled = false
+          room2.disabled = false
+        });
+        // 发送按钮点击事件
+        sendBtn.onclick = function(){
+          if(connected&&msg.value.length !== 0) {
+            socket.emit('new message', {
+              data: msg.value,
+              time: new Date().getTime()
+            })
+          }
+        }
+      })
+    }  
+  </script>
+</body>
+</html>
