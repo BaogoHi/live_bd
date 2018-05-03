@@ -40,6 +40,14 @@ class UserController extends Controller {
       livecode: username
     }
     const result = await ctx.service.user.create(newUser)
+    ctx.service.live.create({
+      roomname: username,
+      livecode: username,
+      gift: 0,
+      peonum: 0,
+      usecustom: 0,
+      active: 1
+    })
     ctx.status = 201
     ctx.body = {
       user: app.getUserJson(result, ctx, 0)

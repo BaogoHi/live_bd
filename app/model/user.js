@@ -39,6 +39,9 @@ module.exports = app => {
     tableName: 'user',
     underscored:false
   })
-
+  // User.associate = function() {
+  //   app.model.User.hasOne(app.model.live)
+  // }
+  
   return User
 }
