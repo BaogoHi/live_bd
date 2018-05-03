@@ -71,6 +71,32 @@
     "origin": "/Users/klren/Projects/live_bd/config/config.default.js",
     "allowMethods": "/Users/klren/Projects/live_bd/config/config.default.js"
   },
+  "redis": {
+    "client": {
+      "port": "/Users/klren/Projects/live_bd/config/config.default.js",
+      "host": "/Users/klren/Projects/live_bd/config/config.default.js",
+      "password": "/Users/klren/Projects/live_bd/config/config.default.js",
+      "db": "/Users/klren/Projects/live_bd/config/config.default.js"
+    },
+    "default": "/Users/klren/Projects/live_bd/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/klren/Projects/live_bd/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/klren/Projects/live_bd/node_modules/egg-redis/config/config.default.js"
+  },
+  "io": {
+    "init": {
+      "wsEngine": "/Users/klren/Projects/live_bd/config/config.default.js"
+    },
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/Users/klren/Projects/live_bd/config/config.default.js",
+        "packetMiddleware": "/Users/klren/Projects/live_bd/node_modules/egg-socket.io/config/config.default.js"
+      }
+    },
+    "redis": {
+      "host": "/Users/klren/Projects/live_bd/config/config.default.js",
+      "port": "/Users/klren/Projects/live_bd/config/config.default.js"
+    }
+  },
   "session": {
     "maxAge": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
     "key": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
@@ -167,10 +193,13 @@
       "egg": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-cors": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-jwt": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
-      "mysql2": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+      "mysql2": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "uws": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",

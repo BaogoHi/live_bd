@@ -1024,3 +1024,798 @@ hostname: renzhizhongdeMacBook-Air.local
 pid: 11209
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-03 10:06:42,107 ERROR 3201 nodejs.SequelizeValidationError: notNull Violation: live.usecustom cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at LiveService.create (/Users/klren/Projects/live_bd/app/service/live.js:7:32)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:43:22)
+    at <anonymous>
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'live.usecustom cannot be null', type: 'notNull Violation', path: 'usecustom', value: null, origin: 'CORE', instance: live { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 3201
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 10:07:49,356 ERROR 3228 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:42:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'username must be unique', type: 'unique violation', path: 'username', value: 'klren1ea23', origin: 'DB', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { username: 'klren1ea23' }
+parent: { Error: Duplicate entry 'klren1ea23' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren1ea23\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren1ea23\',\'$2a$10$oJSMjCdP3lYqytmmO3lWvughieAGHHYhCE0SufHi.lVMGLVKjhFde\',\'klren12fea3@qq.com\',\'klren1ea23\');' }
+original: { Error: Duplicate entry 'klren1ea23' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren1ea23\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren1ea23\',\'$2a$10$oJSMjCdP3lYqytmmO3lWvughieAGHHYhCE0SufHi.lVMGLVKjhFde\',\'klren12fea3@qq.com\',\'klren1ea23\');' }
+sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,\'klren1ea23\',\'$2a$10$oJSMjCdP3lYqytmmO3lWvughieAGHHYhCE0SufHi.lVMGLVKjhFde\',\'klren12fea3@qq.com\',\'klren1ea23\');'
+pid: 3228
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 10:07:59,824 ERROR 3228 nodejs.SequelizeDatabaseError: Table 'zb.lives' doesn't exist
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at LiveService.create (/Users/klren/Projects/live_bd/app/service/live.js:7:32)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:43:22)
+    at <anonymous>
+name: 'SequelizeDatabaseError'
+parent: { Error: Table 'zb.lives' doesn't exist
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_NO_SUCH_TABLE', errno: 1146, sqlState: '42S02', sqlMessage: 'Table \'zb.lives\' doesn\'t exist', sql: 'INSERT INTO `lives` (`id`,`roomname`,`gift`,`peonum`,`livecode`,`usecustom`,`active`,`created_at`,`updated_at`) VALUES (DEFAULT,\'klren1e23\',0,0,\'klren1e23\',0,1,\'2018-05-03 10:07:59\',\'2018-05-03 10:07:59\');' }
+original: { Error: Table 'zb.lives' doesn't exist
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_NO_SUCH_TABLE', errno: 1146, sqlState: '42S02', sqlMessage: 'Table \'zb.lives\' doesn\'t exist', sql: 'INSERT INTO `lives` (`id`,`roomname`,`gift`,`peonum`,`livecode`,`usecustom`,`active`,`created_at`,`updated_at`) VALUES (DEFAULT,\'klren1e23\',0,0,\'klren1e23\',0,1,\'2018-05-03 10:07:59\',\'2018-05-03 10:07:59\');' }
+sql: 'INSERT INTO `lives` (`id`,`roomname`,`gift`,`peonum`,`livecode`,`usecustom`,`active`,`created_at`,`updated_at`) VALUES (DEFAULT,\'klren1e23\',0,0,\'klren1e23\',0,1,\'2018-05-03 10:07:59\',\'2018-05-03 10:07:59\');'
+pid: 3228
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 10:49:01,654 ERROR 4329 nodejs.ReferenceError: io is not defined
+    at /Users/klren/Projects/live_bd/app/io/middleware/connection.js:5:17
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:34:12
+    at module.exports (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:19:3)
+    at Array.nsp.use (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:105:7)
+    at run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:164:8)
+    at Client.doConnect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:97:20)
+    at Client.connect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:66:17)
+    at Server.onconnection (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:434:10)
+    at Server.emit (events.js:180:13)
+    at Server.handshake (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:338:8)
+    at /Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:232:12
+    at Server.checkRequest (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:76:51)
+    at Server.verify (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:168:17)
+    at Server.handleRequest (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:222:8)
+    at Server.<anonymous> (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:467:14)
+    at Server.emit (events.js:180:13)
+    at parserOnIncoming (_http_server.js:642:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+pid: 4329
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 10:49:02,646 ERROR 4329 nodejs.ReferenceError: io is not defined
+    at /Users/klren/Projects/live_bd/app/io/middleware/connection.js:5:17
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:34:12
+    at module.exports (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:19:3)
+    at Array.nsp.use (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:105:7)
+    at run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:164:8)
+    at Client.doConnect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:97:20)
+    at Client.connect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:66:17)
+    at Server.onconnection (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:434:10)
+    at Server.emit (events.js:180:13)
+    at Server.handshake (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:338:8)
+    at Server.onWebSocket (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:420:10)
+    at Server._upgradeCallback (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:363:12)
+    at Server.native.server.group.onConnection (/Users/klren/Projects/live_bd/node_modules/uws/uws.js:466:18)
+    at Socket.socket.on (/Users/klren/Projects/live_bd/node_modules/uws/uws.js:503:32)
+    at Socket.emit (events.js:180:13)
+    at TCP._handle.close [as _onclose] (net.js:541:12)
+
+pid: 4329
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 10:49:02,792 ERROR 4329 nodejs.ReferenceError: io is not defined
+    at /Users/klren/Projects/live_bd/app/io/middleware/connection.js:5:17
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:34:12
+    at module.exports (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:19:3)
+    at Array.nsp.use (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:105:7)
+    at run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:164:8)
+    at Client.doConnect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:97:20)
+    at Client.connect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:66:17)
+    at Server.onconnection (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:434:10)
+    at Server.emit (events.js:180:13)
+    at Server.handshake (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:338:8)
+    at /Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:232:12
+    at Server.checkRequest (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:76:51)
+    at Server.verify (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:168:17)
+    at Server.handleRequest (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:222:8)
+    at Server.<anonymous> (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:467:14)
+    at Server.emit (events.js:180:13)
+    at parserOnIncoming (_http_server.js:642:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+pid: 4329
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 10:49:04,183 ERROR 4329 nodejs.ReferenceError: io is not defined
+    at /Users/klren/Projects/live_bd/app/io/middleware/connection.js:5:17
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:34:12
+    at module.exports (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:19:3)
+    at Array.nsp.use (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:105:7)
+    at run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:164:8)
+    at Client.doConnect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:97:20)
+    at Client.connect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:66:17)
+    at Server.onconnection (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:434:10)
+    at Server.emit (events.js:180:13)
+    at Server.handshake (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:338:8)
+    at Server.onWebSocket (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:420:10)
+    at Server._upgradeCallback (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:363:12)
+    at Server.native.server.group.onConnection (/Users/klren/Projects/live_bd/node_modules/uws/uws.js:466:18)
+    at Socket.socket.on (/Users/klren/Projects/live_bd/node_modules/uws/uws.js:503:32)
+    at Socket.emit (events.js:180:13)
+    at TCP._handle.close [as _onclose] (net.js:541:12)
+
+pid: 4329
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:24:44,888 ERROR 5075 nodejs.ReferenceError: [egg-socket.io] controller execute error: io is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:35:17)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Socket.socket.on.args (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:88:23)
+    at Socket.emit (events.js:180:13)
+    at /Users/klren/Projects/live_bd/node_modules/socket.io/lib/socket.js:527:12
+    at process._tickCallback (internal/process/next_tick.js:176:11)
+
+pid: 5075
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:24:47,204 ERROR 5075 nodejs.ReferenceError: [egg-socket.io] controller execute error: io is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:35:17)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Socket.socket.on.args (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:88:23)
+    at Socket.emit (events.js:180:13)
+    at /Users/klren/Projects/live_bd/node_modules/socket.io/lib/socket.js:527:12
+    at process._tickCallback (internal/process/next_tick.js:176:11)
+
+pid: 5075
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:28:46,381 ERROR 5114 nodejs.ReferenceError: [egg-socket.io] controller execute error: io is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:35:17)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Socket.socket.on.args (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:88:23)
+    at Socket.emit (events.js:180:13)
+    at /Users/klren/Projects/live_bd/node_modules/socket.io/lib/socket.js:527:12
+    at process._tickCallback (internal/process/next_tick.js:176:11)
+
+pid: 5114
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:28:49,165 ERROR 5115 nodejs.ReferenceError: [egg-socket.io] controller execute error: io is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:35:17)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Socket.socket.on.args (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:88:23)
+    at Socket.emit (events.js:180:13)
+    at /Users/klren/Projects/live_bd/node_modules/socket.io/lib/socket.js:527:12
+    at process._tickCallback (internal/process/next_tick.js:176:11)
+
+pid: 5115
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:29:19,402 ERROR 5139 nodejs.ReplyError: [egg-socket.io] controller execute error: ERR wrong number of arguments for 'lrange' command
+    at JavascriptRedisParser.returnError (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/Users/klren/Projects/live_bd/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Command.initPromise (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.lrange (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/commander.js:131:29)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:37:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Socket.socket.on.args (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:88:23)
+    at Socket.emit (events.js:180:13)
+    at /Users/klren/Projects/live_bd/node_modules/socket.io/lib/socket.js:527:12
+    at process._tickCallback (internal/process/next_tick.js:176:11)
+name: 'ReplyError'
+message: '[egg-socket.io] controller execute error: ERR wrong number of arguments for \'lrange\' command'
+command: { name: 'lrange', args: [ 'message' ] }
+pid: 5139
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:29:21,172 ERROR 5146 nodejs.ReplyError: [egg-socket.io] controller execute error: ERR wrong number of arguments for 'lrange' command
+    at JavascriptRedisParser.returnError (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/Users/klren/Projects/live_bd/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Command.initPromise (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.lrange (/Users/klren/Projects/live_bd/node_modules/ioredis/lib/commander.js:131:29)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:37:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Socket.socket.on.args (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:88:23)
+    at Socket.emit (events.js:180:13)
+    at /Users/klren/Projects/live_bd/node_modules/socket.io/lib/socket.js:527:12
+    at process._tickCallback (internal/process/next_tick.js:176:11)
+name: 'ReplyError'
+message: '[egg-socket.io] controller execute error: ERR wrong number of arguments for \'lrange\' command'
+command: { name: 'lrange', args: [ 'message' ] }
+pid: 5146
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:30:34,493 ERROR 5181 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:37:23)
+    at <anonymous>
+
+pid: 5181
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:30:36,322 ERROR 5188 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:37:23)
+    at <anonymous>
+
+pid: 5188
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:31:54,071 ERROR 5209 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:39:25)
+    at <anonymous>
+
+pid: 5209
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:31:56,134 ERROR 5210 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:39:25)
+    at <anonymous>
+
+pid: 5210
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:32:03,337 ERROR 5227 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:39:25)
+    at <anonymous>
+
+pid: 5227
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:32:05,160 ERROR 5228 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:39:25)
+    at <anonymous>
+
+pid: 5228
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:32:45,113 ERROR 5243 nodejs.ReferenceError: [egg-socket.io] controller execute error: logger is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:38:5)
+    at <anonymous>
+
+pid: 5243
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:33:06,214 ERROR 5265 nodejs.ReferenceError: [egg-socket.io] controller execute error: logger is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:38:5)
+    at <anonymous>
+
+pid: 5265
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:33:07,795 ERROR 5272 nodejs.ReferenceError: [egg-socket.io] controller execute error: logger is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:38:5)
+    at <anonymous>
+
+pid: 5272
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:33:43,022 ERROR 5291 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5291
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:33:45,201 ERROR 5292 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5292
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:33:45,645 ERROR 5292 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5292
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:35:30,044 ERROR 5315 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5315
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:35:30,241 ERROR 5315 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5315
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:35:31,305 ERROR 5316 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5316
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:35:31,806 ERROR 5316 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5316
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:35:54,807 ERROR 5316 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5316
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:36:49,764 ERROR 5316 nodejs.SyntaxError: [egg-socket.io] controller execute error: Unexpected token , in JSON at position 63
+    at JSON.parse (<anonymous>)
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:25)
+    at <anonymous>
+
+pid: 5316
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:38:20,947 ERROR 5652 nodejs.ReferenceError: [egg-socket.io] controller execute error: data is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:42)
+    at <anonymous>
+
+pid: 5652
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 11:38:22,932 ERROR 5653 nodejs.ReferenceError: [egg-socket.io] controller execute error: data is not defined
+    at ChatController.oldMessage (/Users/klren/Projects/live_bd/app/io/controller/chat.js:40:42)
+    at <anonymous>
+
+pid: 5653
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 12:01:44,968 ERROR 6290 nodejs.ReferenceError: roomId is not defined
+    at /Users/klren/Projects/live_bd/app/io/middleware/connection.js:8:51
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:34:12
+    at module.exports (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:19:3)
+    at Array.nsp.use (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:105:7)
+    at run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:164:8)
+    at Client.doConnect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:97:20)
+    at Client.connect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:66:17)
+    at Server.onconnection (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:434:10)
+    at Server.emit (events.js:180:13)
+    at Server.handshake (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:338:8)
+    at /Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:232:12
+    at Server.checkRequest (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:76:51)
+    at Server.verify (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:168:17)
+    at Server.handleRequest (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:222:8)
+    at Server.<anonymous> (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:467:14)
+    at Server.emit (events.js:180:13)
+    at parserOnIncoming (_http_server.js:642:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+pid: 6290
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 12:01:46,218 ERROR 6291 nodejs.ReferenceError: roomId is not defined
+    at /Users/klren/Projects/live_bd/app/io/middleware/connection.js:8:51
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:34:12
+    at module.exports (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:19:3)
+    at Array.nsp.use (/Users/klren/Projects/live_bd/node_modules/egg-socket.io/lib/io.js:105:7)
+    at run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/namespace.js:164:8)
+    at Client.doConnect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:97:20)
+    at Client.connect (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/client.js:66:17)
+    at Server.onconnection (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:434:10)
+    at Server.emit (events.js:180:13)
+    at Server.handshake (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:338:8)
+    at /Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:232:12
+    at Server.checkRequest (/Users/klren/Projects/live_bd/node_modules/socket.io/lib/index.js:76:51)
+    at Server.verify (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:168:17)
+    at Server.handleRequest (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:222:8)
+    at Server.<anonymous> (/Users/klren/Projects/live_bd/node_modules/engine.io/lib/server.js:467:14)
+    at Server.emit (events.js:180:13)
+    at parserOnIncoming (_http_server.js:642:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+pid: 6291
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:03:19,222 ERROR 8458 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: gift is not defined
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:18:44)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8458
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:04:40,050 ERROR 8489 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: gift is not defined
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:18:47)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8489
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:15:07,299 ERROR 8526 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: sequelize is not defined
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:19:12)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8526
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:15:49,493 ERROR 8547 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'literal' of undefined
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:19:33)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8547
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:17:08,206 ERROR 8563 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:19:13)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8563
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:17:26,345 ERROR 8583 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'literal' of undefined
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:20:27)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8583
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:17:55,535 ERROR 8591 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: app.config.sequelize.literal is not a function
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:20:34)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8591
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:18:41,357 ERROR 8626 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: app.config.sequelize.literal is not a function
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:20:34)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8626
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:24:58,200 ERROR 8686 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'klren' in 'where clause'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:26:42)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'klren' in 'where clause'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'klren\' in \'where clause\'', sql: 'UPDATE live SET gift=gift+1 WHERE livecode=klren' }
+original: { Error: Unknown column 'klren' in 'where clause'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'klren\' in \'where clause\'', sql: 'UPDATE live SET gift=gift+1 WHERE livecode=klren' }
+sql: 'UPDATE live SET gift=gift+1 WHERE livecode=klren'
+pid: 8686
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 16:36:49,452 ERROR 8850 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Support for `{where: 'raw query'}` has been removed.
+    at Object.whereItemsQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1983:13)
+    at Object.getWhereConditions (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2481:19)
+    at Object.selectQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1140:28)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1105:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at LiveService.findByCode (/Users/klren/Projects/live_bd/app/service/live.js:27:44)
+    at LiveService.updateLive (/Users/klren/Projects/live_bd/app/service/live.js:39:46)
+    at LiveController.updateLive (/Users/klren/Projects/live_bd/app/controller/live.js:30:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8850
+hostname: renzhizhongdeMacBook-Air.local
+

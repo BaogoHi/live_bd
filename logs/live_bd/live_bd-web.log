@@ -381,3 +381,634 @@ hostname: renzhizhongdeMacBook-Air.local
 2018-05-02 17:12:46,123 INFO 11255 [model] [35mSELECT 1+1 AS result[39m (49ms)
 2018-05-02 17:12:51,971 INFO 11268 [model] [35mSELECT VERSION() as `version`[39m (54ms)
 2018-05-02 17:12:52,217 INFO 11268 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 10:06:32,302 INFO 3201 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 10:06:32,518 INFO 3201 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 10:06:42,085 INFO 3201 [model] [35mINSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,'klren1ea23','$2a$10$JmKYYzq.6X.IRy7xJuPC7uKaZOhYPULztMGiCGHLhp8qQLe0vcYI2','klren12fea3@qq.com','klren1ea23');[39m (51ms)
+2018-05-03 10:07:43,146 INFO 3221 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 10:07:43,373 INFO 3221 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 10:07:44,657 INFO 3228 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 10:07:44,888 INFO 3228 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 10:07:49,340 INFO 3228 [model] [35mINSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,'klren1ea23','$2a$10$oJSMjCdP3lYqytmmO3lWvughieAGHHYhCE0SufHi.lVMGLVKjhFde','klren12fea3@qq.com','klren1ea23');[39m (55ms)
+2018-05-03 10:07:59,760 INFO 3228 [model] [35mINSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,'klren1e23','$2a$10$C5vzZ.tERZR9CBWx73OAuuyoHMWPShbpwpWCkO6WZ2MPiI2hUh6IO','klren12fe@qq.com','klren1e23');[39m (50ms)
+2018-05-03 10:07:59,821 INFO 3228 [model] [35mINSERT INTO `lives` (`id`,`roomname`,`gift`,`peonum`,`livecode`,`usecustom`,`active`,`created_at`,`updated_at`) VALUES (DEFAULT,'klren1e23',0,0,'klren1e23',0,1,'2018-05-03 10:07:59','2018-05-03 10:07:59');[39m (42ms)
+2018-05-03 10:09:11,332 INFO 3247 [model] [35mSELECT VERSION() as `version`[39m (46ms)
+2018-05-03 10:09:11,572 INFO 3247 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 10:09:13,163 INFO 3254 [model] [35mSELECT VERSION() as `version`[39m (55ms)
+2018-05-03 10:09:13,408 INFO 3254 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 10:09:22,115 INFO 3254 [model] [35mINSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`) VALUES (DEFAULT,'klrene23','$2a$10$0huV0IHLeywygIdQFGrmg.p6aha5o35QkV5r8RNYU168XW2zdWXfa','klre12fe@qq.com','klrene23');[39m (57ms)
+2018-05-03 10:09:22,183 INFO 3254 [model] [35mINSERT INTO `live` (`id`,`roomname`,`gift`,`peonum`,`livecode`,`usecustom`,`active`) VALUES (DEFAULT,'klrene23',0,0,'klrene23',0,1);[39m (53ms)
+2018-05-03 10:11:17,088 INFO 3294 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 10:11:17,311 INFO 3294 [model] [35mSELECT 1+1 AS result[39m (43ms)
+2018-05-03 10:11:24,211 INFO 3308 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 10:11:24,455 INFO 3308 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 10:15:22,345 INFO 3331 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 10:15:22,577 INFO 3331 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 10:21:56,990 INFO 3357 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 10:21:57,228 INFO 3357 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 10:22:24,600 INFO 3378 [model] [35mSELECT VERSION() as `version`[39m (63ms)
+2018-05-03 10:22:24,842 INFO 3378 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 10:22:26,088 INFO 3379 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 10:22:26,345 INFO 3379 [model] [35mSELECT 1+1 AS result[39m (51ms)
+2018-05-03 10:24:38,526 INFO 3396 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 10:24:38,756 INFO 3396 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 10:26:47,786 INFO 3418 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 10:26:48,028 INFO 3418 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 10:26:49,613 INFO 3419 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 10:26:49,852 INFO 3419 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 10:48:57,868 INFO 4329 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 10:48:58,102 INFO 4329 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 10:59:54,226 INFO 4423 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 10:59:54,473 INFO 4423 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:00:00,428 INFO 4439 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:00:00,663 INFO 4439 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:00:02,278 INFO 4441 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:00:02,514 INFO 4441 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:04:20,976 INFO 4533 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:04:21,206 INFO 4533 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:05:13,866 INFO 4549 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:05:14,106 INFO 4549 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:05:15,606 INFO 4550 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:05:15,830 INFO 4550 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 11:07:34,935 INFO 4574 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:07:35,163 INFO 4574 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:07:54,237 INFO 4596 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:07:54,475 INFO 4596 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:10:57,005 INFO 4623 [model] [35mSELECT VERSION() as `version`[39m (55ms)
+2018-05-03 11:10:57,236 INFO 4623 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:11:03,572 INFO 4637 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:11:03,795 INFO 4637 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 11:11:06,980 INFO 4640 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 11:11:07,231 INFO 4640 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 11:11:21,084 INFO 4667 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:11:21,350 INFO 4667 [model] [35mSELECT 1+1 AS result[39m (60ms)
+2018-05-03 11:11:22,811 INFO 4668 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:11:23,062 INFO 4668 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:11:36,405 INFO 4692 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:11:36,633 INFO 4692 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:11:38,021 INFO 4693 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:11:38,261 INFO 4693 [model] [35mSELECT 1+1 AS result[39m (50ms)
+2018-05-03 11:11:47,408 INFO 4711 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:11:47,641 INFO 4711 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:11:49,283 INFO 4712 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:11:49,514 INFO 4712 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:12:54,610 INFO 4750 [model] [35mSELECT VERSION() as `version`[39m (56ms)
+2018-05-03 11:12:54,848 INFO 4750 [model] [35mSELECT 1+1 AS result[39m (52ms)
+2018-05-03 11:12:56,544 INFO 4751 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:12:56,767 INFO 4751 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 11:13:01,623 INFO 4763 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:13:01,868 INFO 4763 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 11:13:04,772 INFO 4773 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:13:05,005 INFO 4773 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:13:06,720 INFO 4774 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:13:06,941 INFO 4774 [model] [35mSELECT 1+1 AS result[39m (43ms)
+2018-05-03 11:24:40,699 INFO 5075 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:24:40,930 INFO 5075 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:24:49,768 INFO 5075 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa1-JF] new message [object Object]
+2018-05-03 11:28:45,154 INFO 5114 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:28:45,397 INFO 5114 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 11:28:46,333 INFO 5114 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa2uhf] new user come on: faef
+2018-05-03 11:28:47,267 INFO 5115 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:28:47,495 INFO 5115 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:28:49,145 INFO 5115 [-/::1/-/3ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa2vNU] new user come on: faef
+2018-05-03 11:29:18,202 INFO 5139 [model] [35mSELECT VERSION() as `version`[39m (57ms)
+2018-05-03 11:29:18,447 INFO 5139 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:29:19,981 INFO 5146 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:29:19,373 INFO 5139 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa30l_] new user come on: faef
+2018-05-03 11:29:20,226 INFO 5146 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 11:29:21,147 INFO 5146 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa31Bb] new user come on: faef
+2018-05-03 11:29:41,526 INFO 5164 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:29:41,764 INFO 5164 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:29:43,283 INFO 5165 [model] [35mSELECT VERSION() as `version`[39m (53ms)
+2018-05-03 11:29:42,785 INFO 5164 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa36Tk] new user come on: faef
+2018-05-03 11:29:43,517 INFO 5165 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:29:44,586 INFO 5165 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa36vr] new user come on: faef
+2018-05-03 11:29:51,978 INFO 5165 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa36vr] new message [object Object]
+2018-05-03 11:29:53,466 INFO 5165 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa36vr] new message [object Object]
+2018-05-03 11:30:32,913 INFO 5181 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:30:33,157 INFO 5181 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 11:30:34,640 INFO 5188 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:30:34,473 INFO 5181 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3J5F] new user come on: faef
+2018-05-03 11:30:34,868 INFO 5188 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 11:30:36,302 INFO 5188 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3JXw] new user come on: faef
+2018-05-03 11:31:52,542 INFO 5209 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:31:52,785 INFO 5209 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 11:31:54,332 INFO 5210 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:31:54,030 INFO 5209 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3cWP] new user come on: faef
+2018-05-03 11:31:54,568 INFO 5210 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:31:56,110 INFO 5210 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3d0u] new user come on: faef
+2018-05-03 11:32:01,977 INFO 5227 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:32:02,205 INFO 5227 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:32:03,729 INFO 5228 [model] [35mSELECT VERSION() as `version`[39m (46ms)
+2018-05-03 11:32:03,311 INFO 5227 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3enS] new user come on: faef
+2018-05-03 11:32:03,963 INFO 5228 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:32:05,139 INFO 5228 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3fD_] new user come on: faef
+2018-05-03 11:32:44,164 INFO 5243 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:32:44,395 INFO 5243 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:32:45,094 INFO 5243 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3o-H] new user come on: faef
+2018-05-03 11:33:05,001 INFO 5265 [model] [35mSELECT VERSION() as `version`[39m (64ms)
+2018-05-03 11:33:05,241 INFO 5265 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:33:06,709 INFO 5272 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:33:06,188 INFO 5265 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3u7y] new user come on: faef
+2018-05-03 11:33:06,943 INFO 5272 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:33:07,774 INFO 5272 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa3uWh] new user come on: faef
+2018-05-03 11:33:41,932 INFO 5291 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:33:42,172 INFO 5291 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:33:42,996 INFO 5291 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4175] new user come on: faef
+2018-05-03 11:33:43,021 INFO 5291 [-/::1/-/6ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4175] [ '{"username":"faef"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}' ]
+2018-05-03 11:33:43,784 INFO 5292 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:33:44,019 INFO 5292 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:33:45,179 INFO 5292 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa41f7] new user come on: faef
+2018-05-03 11:33:45,200 INFO 5292 [-/::1/-/7ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa41f7] [ '{"username":"faef"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}' ]
+2018-05-03 11:33:45,632 INFO 5292 [-/::1/-/1ms GET /socket.io/?room=room1&username=faeffeaf&EIO=3&transport=polling&t=MCa41mQ] new user come on: faeffeaf
+2018-05-03 11:33:45,644 INFO 5292 [-/::1/-/1ms GET /socket.io/?room=room1&username=faeffeaf&EIO=3&transport=polling&t=MCa41mQ] [ '{"username":"faef"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}' ]
+2018-05-03 11:33:47,612 INFO 5292 [-/::1/-/1ms GET /socket.io/?room=room1&username=faeffeaf&EIO=3&transport=polling&t=MCa41mQ] new message  { message: 'feaf', time: 1525318427610 }
+2018-05-03 11:35:28,541 INFO 5315 [model] [35mSELECT VERSION() as `version`[39m (53ms)
+2018-05-03 11:35:28,799 INFO 5315 [model] [35mSELECT 1+1 AS result[39m (51ms)
+2018-05-03 11:35:30,216 INFO 5316 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:35:30,023 INFO 5315 [-/::1/-/1ms GET /socket.io/?room=room1&username=faeffeaf&EIO=3&transport=polling&t=MCa4RFE] new user come on: faeffeaf
+2018-05-03 11:35:30,043 INFO 5315 [-/::1/-/4ms GET /socket.io/?room=room1&username=faeffeaf&EIO=3&transport=polling&t=MCa4RFE] [ '{"username":"faeffeaf"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}' ]
+2018-05-03 11:35:30,225 INFO 5315 [-/::1/-/0ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4RIj] new user come on: faef
+2018-05-03 11:35:30,240 INFO 5315 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4RIj] [ '{"username":"faeffeaf"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}' ]
+2018-05-03 11:35:30,451 INFO 5316 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 11:35:31,284 INFO 5316 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4RY-] new user come on: faef
+2018-05-03 11:35:31,305 INFO 5316 [-/::1/-/6ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4RY-] [ '{"username":"faeffeaf"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}' ]
+2018-05-03 11:35:31,785 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=faeffeaf&EIO=3&transport=polling&t=MCa4Rh3] new user come on: faeffeaf
+2018-05-03 11:35:31,806 INFO 5316 [-/::1/-/1ms GET /socket.io/?room=room1&username=faeffeaf&EIO=3&transport=polling&t=MCa4Rh3] [ '{"username":"faeffeaf"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}',
+  '{"username":"faef"}' ]
+2018-05-03 11:35:54,785 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new user come on: fefa
+2018-05-03 11:35:54,807 INFO 5316 [-/::1/-/3ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] []
+2018-05-03 11:35:57,003 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new message  { data: 'feawf', time: 1525318557002 }
+2018-05-03 11:36:38,754 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new message  { data: 'feawffewaf', time: 1525318598754 }
+2018-05-03 11:36:38,909 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new message  { data: 'feawffewaf', time: 1525318598909 }
+2018-05-03 11:36:39,055 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new message  { data: 'feawffewaf', time: 1525318599054 }
+2018-05-03 11:36:39,199 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new message  { data: 'feawffewaf', time: 1525318599198 }
+2018-05-03 11:36:39,358 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new message  { data: 'feawffewaf', time: 1525318599357 }
+2018-05-03 11:36:39,519 INFO 5316 [-/::1/-/1ms GET /socket.io/?room=room1&username=fefa&EIO=3&transport=polling&t=MCa4XIT] new message  { data: 'feawffewaf', time: 1525318599518 }
+2018-05-03 11:36:49,742 INFO 5316 [-/::1/-/0ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4kjC] new user come on: faef
+2018-05-03 11:36:49,764 INFO 5316 [-/::1/-/3ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa4kjC] [ '{"message":"feawffewaf","username":"fefa","time":1525318599518}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599357}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599198}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599054}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598909}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598754}',
+  '{"message":"feawf","username":"fefa","time":1525318557002}' ]
+2018-05-03 11:38:19,446 INFO 5652 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:38:19,685 INFO 5652 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:38:21,110 INFO 5653 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:38:20,926 INFO 5652 [-/::1/-/2ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa54zd] new user come on: faef
+2018-05-03 11:38:20,947 INFO 5652 [-/::1/-/6ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa54zd] [ '{"message":"feawffewaf","username":"fefa","time":1525318599518}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599357}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599198}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599054}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598909}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598754}',
+  '{"message":"feawf","username":"fefa","time":1525318557002}' ]
+2018-05-03 11:38:21,356 INFO 5653 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:38:22,911 INFO 5653 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa55Si] new user come on: faef
+2018-05-03 11:38:22,932 INFO 5653 [-/::1/-/6ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa55Si] [ '{"message":"feawffewaf","username":"fefa","time":1525318599518}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599357}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599198}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599054}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598909}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598754}',
+  '{"message":"feawf","username":"fefa","time":1525318557002}' ]
+2018-05-03 11:38:34,119 INFO 5669 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:38:34,357 INFO 5669 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:38:35,970 INFO 5670 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:38:35,791 INFO 5669 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa58bv] new user come on: faef
+2018-05-03 11:38:35,817 INFO 5669 [-/::1/-/5ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa58bv] [ '{"message":"feawffewaf","username":"fefa","time":1525318599518}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599357}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599198}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599054}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598909}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598754}',
+  '{"message":"feawf","username":"fefa","time":1525318557002}' ]
+2018-05-03 11:38:36,205 INFO 5670 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:38:37,717 INFO 5670 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa5943] new user come on: faef
+2018-05-03 11:38:37,738 INFO 5670 [-/::1/-/5ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa5943] [ '{"message":"feawffewaf","username":"fefa","time":1525318599518}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599357}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599198}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318599054}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598909}',
+  '{"message":"feawffewaf","username":"fefa","time":1525318598754}',
+  '{"message":"feawf","username":"fefa","time":1525318557002}' ]
+2018-05-03 11:39:20,655 INFO 5995 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:39:20,886 INFO 5995 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:39:22,214 INFO 5995 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa5JxJ] new user come on: faef
+2018-05-03 11:39:22,234 INFO 5995 [-/::1/-/4ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa5JxJ] 0
+2018-05-03 11:39:38,292 INFO 6012 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:39:38,533 INFO 6012 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:39:39,442 INFO 6012 [-/::1/-/1ms GET /socket.io/?room=room1&username=faef&EIO=3&transport=polling&t=MCa5O8W] new user come on: faef
+2018-05-03 11:41:26,587 INFO 6012 [-/::1/-/1ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa5oIs] new user come on: faefa
+2018-05-03 11:41:29,819 INFO 6012 [-/::1/-/1ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa5oIs] new message  { data: 'fffaef', time: 1525318889817 }
+2018-05-03 11:41:35,380 INFO 6012 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa5qSG] new user come on: feaf
+2018-05-03 11:41:37,169 INFO 6012 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa5qSG] new message  { data: 'feaf', time: 1525318897169 }
+2018-05-03 11:42:16,577 INFO 6037 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:42:16,800 INFO 6037 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 11:42:18,457 INFO 6038 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 11:42:18,024 INFO 6037 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa5-sL] new user come on: feaf
+2018-05-03 11:42:18,038 INFO 6037 [-/::1/-/0ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa5-sO] new user come on: faefa
+2018-05-03 11:42:18,055 INFO 6037 [-/::1/-/30ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa5-sL] [ '_cZDJLCFvAbQyPJTAAAA', 'azTmnxTMgRwkjNOgAAAB' ]
+2018-05-03 11:42:18,067 INFO 6037 [-/::1/-/30ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa5-sO] [ '_cZDJLCFvAbQyPJTAAAA', 'azTmnxTMgRwkjNOgAAAB' ]
+2018-05-03 11:42:18,696 INFO 6038 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:42:19,521 INFO 6038 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa5_Dl] new user come on: feaf
+2018-05-03 11:42:19,534 INFO 6038 [-/::1/-/13ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa5_Dl] [ 'bekobUhGnBaBTaWXAAAA' ]
+2018-05-03 11:42:19,798 INFO 6038 [-/::1/-/0ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa5_II] new user come on: faefa
+2018-05-03 11:42:19,802 INFO 6038 [-/::1/-/4ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa5_II] [ 'bekobUhGnBaBTaWXAAAA', '1l-urrTJ-L2wCWM2AAAB' ]
+2018-05-03 11:43:01,481 INFO 6038 [-/::1/-/1ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa69Ta] new user come on: faefa
+2018-05-03 11:43:01,483 INFO 6038 [-/::1/-/3ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa69Ta] [ 'bekobUhGnBaBTaWXAAAA',
+  '1l-urrTJ-L2wCWM2AAAB',
+  'GI1zfL2gBIPTLsh_AAAC' ]
+2018-05-03 11:43:14,428 INFO 6038 [-/::1/-/0ms GET /socket.io/?room=room2&username=faefa&EIO=3&transport=polling&t=MCa6Cdr] new user come on: faefa
+2018-05-03 11:43:14,430 INFO 6038 [-/::1/-/3ms GET /socket.io/?room=room2&username=faefa&EIO=3&transport=polling&t=MCa6Cdr] [ 'bekobUhGnBaBTaWXAAAA',
+  '1l-urrTJ-L2wCWM2AAAB',
+  'GI1zfL2gBIPTLsh_AAAC',
+  'E1_xoUvBoAitZYd3AAAD' ]
+2018-05-03 11:47:50,054 INFO 6069 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:47:50,281 INFO 6069 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:47:50,948 INFO 6069 [-/::1/-/1ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa7G8G] new user come on: faefa
+2018-05-03 11:47:50,964 INFO 6069 [-/::1/-/18ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa7G8G] [ 'MQPjxPnlrI7clSYSAAAA' ]
+2018-05-03 11:47:51,356 INFO 6069 [-/::1/-/0ms GET /socket.io/?room=room2&username=faefa&EIO=3&transport=polling&t=MCa7GEs] new user come on: faefa
+2018-05-03 11:47:51,359 INFO 6069 [-/::1/-/0ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa7GEu] new user come on: faefa
+2018-05-03 11:47:51,363 INFO 6069 [-/::1/-/7ms GET /socket.io/?room=room2&username=faefa&EIO=3&transport=polling&t=MCa7GEs] [ 'MQPjxPnlrI7clSYSAAAA',
+  'kwk46aQTHWpwJhyuAAAB',
+  'JrFGsH7IezMCMsV_AAAC' ]
+2018-05-03 11:47:51,364 INFO 6069 [-/::1/-/5ms GET /socket.io/?room=room1&username=faefa&EIO=3&transport=polling&t=MCa7GEu] [ 'MQPjxPnlrI7clSYSAAAA',
+  'kwk46aQTHWpwJhyuAAAB',
+  'JrFGsH7IezMCMsV_AAAC' ]
+2018-05-03 11:47:52,371 INFO 6069 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7GUm] new user come on: feaf
+2018-05-03 11:47:52,374 INFO 6069 [-/::1/-/3ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7GUm] [ 'MQPjxPnlrI7clSYSAAAA',
+  'kwk46aQTHWpwJhyuAAAB',
+  'JrFGsH7IezMCMsV_AAAC',
+  'k47VUIaqgaWokecfAAAD' ]
+2018-05-03 11:48:20,450 INFO 6091 [model] [35mSELECT VERSION() as `version`[39m (53ms)
+2018-05-03 11:48:20,696 INFO 6091 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:48:22,085 INFO 6098 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:48:21,885 INFO 6091 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7Nhg] new user come on: feaf
+2018-05-03 11:48:21,902 INFO 6091 [-/::1/-/17ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7Nhg] [ 'x6i0UAZu076ijsjuAAAA' ]
+2018-05-03 11:48:22,324 INFO 6098 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:48:23,984 INFO 6098 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7OCR] new user come on: feaf
+2018-05-03 11:48:23,995 INFO 6098 [-/::1/-/12ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7OCR] [ 'NxnktO8Iz9Xtkur4AAAA' ]
+2018-05-03 11:48:45,626 INFO 6113 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 11:48:45,859 INFO 6113 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:48:47,377 INFO 6114 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:48:47,606 INFO 6114 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:48:47,833 INFO 6114 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7U15] new user come on: feaf
+2018-05-03 11:48:47,845 INFO 6114 [-/::1/-/12ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa7U15] [ 'AL-iCYJgmwGsrsdFAAAA' ]
+2018-05-03 11:49:04,425 INFO 6114 [-/::1/-/0ms GET /socket.io/?room=room1&username=fafa&EIO=3&transport=polling&t=MCa7Y4a] new user come on: fafa
+2018-05-03 11:49:04,428 INFO 6114 [-/::1/-/3ms GET /socket.io/?room=room1&username=fafa&EIO=3&transport=polling&t=MCa7Y4a] [ 'IXHOToG_eWW5aLtKAAAB' ]
+2018-05-03 11:49:08,434 INFO 6114 [-/::1/-/0ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCa7Z3F] new user come on: fewaf
+2018-05-03 11:49:08,438 INFO 6114 [-/::1/-/4ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCa7Z3F] [ 'IXHOToG_eWW5aLtKAAAB', 'LpYVJfEMPhyFMwd9AAAC' ]
+2018-05-03 11:49:10,210 INFO 6114 [-/::1/-/0ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCa7Z3F] new message  { data: 'feaw', time: 1525319350209 }
+2018-05-03 11:50:58,398 INFO 6114 [-/::1/-/0ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa7zvQ] new user come on: fae
+2018-05-03 11:50:58,401 INFO 6114 [-/::1/-/3ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa7zvQ] [ 'IXHOToG_eWW5aLtKAAAB', 'OQPPBEwUPv3eJab_AAAD' ]
+2018-05-03 11:51:07,045 INFO 6114 [-/::1/-/1ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa7zvQ] new message  { data: 'fe', time: 1525319467044 }
+2018-05-03 11:51:40,058 INFO 6148 [model] [35mSELECT VERSION() as `version`[39m (58ms)
+2018-05-03 11:51:40,301 INFO 6148 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:51:42,425 INFO 6151 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:51:42,662 INFO 6151 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 11:51:43,976 INFO 6151 [-/::1/-/1ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa891G] new user come on: fae
+2018-05-03 11:51:43,991 INFO 6151 [-/::1/-/15ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa891G] [ 'GWCKOb8o2jRv_b9iAAAA' ]
+2018-05-03 11:51:46,024 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=fafa&EIO=3&transport=polling&t=MCa89XZ] new user come on: fafa
+2018-05-03 11:51:46,027 INFO 6151 [-/::1/-/4ms GET /socket.io/?room=room1&username=fafa&EIO=3&transport=polling&t=MCa89XZ] [ 'GWCKOb8o2jRv_b9iAAAA', 'fuOejNKKla2OnfjiAAAB' ]
+2018-05-03 11:51:56,248 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa8C1K] new user come on: fae
+2018-05-03 11:51:56,250 INFO 6151 [-/::1/-/2ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa8C1K] [ 'fuOejNKKla2OnfjiAAAB', 've0ZO-buhWjfAt1JAAAC' ]
+2018-05-03 11:51:59,267 INFO 6151 [-/::1/-/1ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa8C1K] new message  { data: 'feawf', time: 1525319519265 }
+2018-05-03 11:52:05,906 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8EOF] new user come on: ewaf
+2018-05-03 11:52:05,909 INFO 6151 [-/::1/-/3ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8EOF] [ 've0ZO-buhWjfAt1JAAAC', 'FarQ3G0GM6Fj_fvHAAAD' ]
+2018-05-03 11:52:08,034 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8EOF] new message  { data: 'fewa', time: 1525319528032 }
+2018-05-03 11:52:18,676 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8EOF] new message  { data: 'fewa', time: 1525319538675 }
+2018-05-03 11:52:18,845 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8EOF] new message  { data: 'fewa', time: 1525319538845 }
+2018-05-03 11:52:19,217 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8EOF] new message  { data: 'fewa', time: 1525319539217 }
+2018-05-03 11:52:19,362 INFO 6151 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8EOF] new message  { data: 'fewa', time: 1525319539362 }
+2018-05-03 11:55:24,455 INFO 6172 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 11:55:24,718 INFO 6172 [model] [35mSELECT 1+1 AS result[39m (51ms)
+2018-05-03 11:55:25,564 INFO 6172 [-/::1/-/1ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa8_7Z] new user come on: fae
+2018-05-03 11:55:25,578 INFO 6172 [-/::1/-/14ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa8_7Z] [ 'rw7RQYOkXKv1R83nAAAA' ]
+2018-05-03 11:55:25,894 INFO 6172 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8_C-] new user come on: ewaf
+2018-05-03 11:55:25,897 INFO 6172 [-/::1/-/3ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa8_C-] [ 'rw7RQYOkXKv1R83nAAAA', '7o7BTxkVquU_88IYAAAB' ]
+2018-05-03 11:55:40,088 INFO 6188 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:55:40,323 INFO 6188 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 11:55:41,240 INFO 6188 [-/::1/-/2ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa92ya] new user come on: fae
+2018-05-03 11:55:41,973 INFO 6190 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 11:55:41,259 INFO 6188 [-/::1/-/20ms GET /socket.io/?room=room1&username=fae&EIO=3&transport=polling&t=MCa92ya] [ 'NNzxylcOxoTEtqQsAAAA' ]
+2018-05-03 11:55:42,235 INFO 6190 [model] [35mSELECT 1+1 AS result[39m (52ms)
+2018-05-03 11:55:42,878 INFO 6190 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa93Lz] new user come on: ewaf
+2018-05-03 11:55:42,896 INFO 6190 [-/::1/-/18ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa93Lz] [ 'Z9Mweiod7I_lzzJ6AAAA' ]
+2018-05-03 11:55:43,956 INFO 6190 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa93dH] new user come on: feaf
+2018-05-03 11:55:43,959 INFO 6190 [-/::1/-/3ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa93dH] [ 'Z9Mweiod7I_lzzJ6AAAA', '1MM2WfZNZ86Wcbh-AAAB' ]
+2018-05-03 11:55:46,241 INFO 6190 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCa93dH] new message  { data: 'feaf', time: 1525319746240 }
+2018-05-03 11:56:10,011 INFO 6190 [-/::1/-/0ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa99-K] new user come on: 发e发
+2018-05-03 11:56:10,018 INFO 6190 [-/::1/-/7ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa99-K] [ 'Z9Mweiod7I_lzzJ6AAAA', '4o8aYAd0PxpP_XeUAAAC' ]
+2018-05-03 11:56:12,815 INFO 6190 [-/::1/-/1ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa99-K] new message  { data: '发e发', time: 1525319772814 }
+2018-05-03 11:56:17,615 INFO 6190 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaff%27ea%27fa&EIO=3&transport=polling&t=MCa9BrD] new user come on: ewaff'ea'fa
+2018-05-03 11:56:17,619 INFO 6190 [-/::1/-/4ms GET /socket.io/?room=room1&username=ewaff%27ea%27fa&EIO=3&transport=polling&t=MCa9BrD] [ 'Z9Mweiod7I_lzzJ6AAAA',
+  '4o8aYAd0PxpP_XeUAAAC',
+  'bc7jhLYFpXuKuJ5IAAAD' ]
+2018-05-03 11:56:21,305 INFO 6190 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaff%27ea%27fa&EIO=3&transport=polling&t=MCa9BrD] new message  { data: 'fewaf\'ea', time: 1525319781305 }
+2018-05-03 11:58:20,551 INFO 6190 [-/::1/-/0ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9fr_] new user come on: 发e发
+2018-05-03 11:58:20,560 INFO 6190 [-/::1/-/9ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9fr_] [ 'Z9Mweiod7I_lzzJ6AAAA',
+  '4o8aYAd0PxpP_XeUAAAC',
+  'bc7jhLYFpXuKuJ5IAAAD',
+  'DI74gX_vQU5r7qEUAAAE' ]
+2018-05-03 11:58:40,837 INFO 6212 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:58:41,092 INFO 6212 [model] [35mSELECT 1+1 AS result[39m (50ms)
+2018-05-03 11:58:41,909 INFO 6212 [-/::1/-/1ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9l3S] new user come on: 发e发
+2018-05-03 11:58:41,932 INFO 6212 [-/::1/-/25ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9l3S] [ 'Qij-9EtGQaHrTC6bAAAA' ]
+2018-05-03 11:58:42,306 INFO 6212 [-/::1/-/0ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9l9-] new user come on: 发e发
+2018-05-03 11:58:42,314 INFO 6212 [-/::1/-/8ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9l9-] [ 'Qij-9EtGQaHrTC6bAAAA', 'wBOpYa_KaV2MbCwDAAAB' ]
+2018-05-03 11:58:42,977 INFO 6212 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaff%27ea%27fa&EIO=3&transport=polling&t=MCa9lKS] new user come on: ewaff'ea'fa
+2018-05-03 11:58:42,980 INFO 6212 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa9lKU] new user come on: ewaf
+2018-05-03 11:58:42,982 INFO 6212 [-/::1/-/5ms GET /socket.io/?room=room1&username=ewaff%27ea%27fa&EIO=3&transport=polling&t=MCa9lKS] [ 'Qij-9EtGQaHrTC6bAAAA',
+  'wBOpYa_KaV2MbCwDAAAB',
+  'ArE5EF9qMS_nyQpSAAAC',
+  'IxbLzZsKW55ghX6cAAAD' ]
+2018-05-03 11:58:42,985 INFO 6212 [-/::1/-/6ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa9lKU] [ 'Qij-9EtGQaHrTC6bAAAA',
+  'wBOpYa_KaV2MbCwDAAAB',
+  'ArE5EF9qMS_nyQpSAAAC',
+  'IxbLzZsKW55ghX6cAAAD' ]
+2018-05-03 11:58:50,444 INFO 6221 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:58:50,670 INFO 6221 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 11:58:51,464 INFO 6221 [-/::1/-/1ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9nOn] new user come on: 发e发
+2018-05-03 11:58:51,478 INFO 6221 [-/::1/-/15ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9nOn] [ 'Y0QAzBIi7W6wSN2MAAAA' ]
+2018-05-03 11:58:51,774 INFO 6221 [-/::1/-/0ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9nTy] new user come on: 发e发
+2018-05-03 11:58:51,777 INFO 6221 [-/::1/-/3ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9nTy] [ 'Y0QAzBIi7W6wSN2MAAAA', 'oD9Uu07kuF5o7YaEAAAB' ]
+2018-05-03 11:58:52,335 INFO 6222 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 11:58:52,578 INFO 6222 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 11:58:52,955 INFO 6222 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa9nm2] new user come on: ewaf
+2018-05-03 11:58:52,964 INFO 6222 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaff%27ea%27fa&EIO=3&transport=polling&t=MCa9nm4] new user come on: ewaff'ea'fa
+2018-05-03 11:58:52,972 INFO 6222 [-/::1/-/17ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCa9nm2] [ 'ara229O5urZEGocsAAAA', 'Gr58WYvKeuOwZ-vCAAAB' ]
+2018-05-03 11:58:52,982 INFO 6222 [-/::1/-/18ms GET /socket.io/?room=room1&username=ewaff%27ea%27fa&EIO=3&transport=polling&t=MCa9nm4] [ 'ara229O5urZEGocsAAAA', 'Gr58WYvKeuOwZ-vCAAAB' ]
+2018-05-03 11:58:53,779 INFO 6222 [-/::1/-/0ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9nzF] new user come on: 发e发
+2018-05-03 11:58:53,783 INFO 6222 [-/::1/-/4ms GET /socket.io/?room=room1&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9nzF] [ 'ara229O5urZEGocsAAAA',
+  'Gr58WYvKeuOwZ-vCAAAB',
+  'bDU8WZlccB67_2jIAAAC' ]
+2018-05-03 11:58:54,007 INFO 6222 [-/::1/-/0ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9o0p] new user come on: 发e发
+2018-05-03 11:58:54,011 INFO 6222 [-/::1/-/4ms GET /socket.io/?room=room2&username=%E5%8F%91e%E5%8F%91&EIO=3&transport=polling&t=MCa9o0p] [ 'ara229O5urZEGocsAAAA',
+  'Gr58WYvKeuOwZ-vCAAAB',
+  'bDU8WZlccB67_2jIAAAC',
+  'N86p5nrKnmFrs4fvAAAD' ]
+2018-05-03 11:59:00,289 INFO 6222 [-/::1/-/0ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9pYy] new user come on: feafa
+2018-05-03 11:59:00,297 INFO 6222 [-/::1/-/8ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9pYy] [ 'ara229O5urZEGocsAAAA',
+  'Gr58WYvKeuOwZ-vCAAAB',
+  'u7sjvqMPYSG-0g-hAAAE' ]
+2018-05-03 11:59:05,011 INFO 6222 [-/::1/-/0ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCa9qil] new user come on: feawf
+2018-05-03 11:59:05,013 INFO 6222 [-/::1/-/2ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCa9qil] [ 'u7sjvqMPYSG-0g-hAAAE', 'UdnehxgVbZn8X0EbAAAF' ]
+2018-05-03 11:59:32,728 INFO 6246 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 11:59:32,960 INFO 6246 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:59:33,585 INFO 6246 [-/::1/-/1ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9xgx] new user come on: feafa
+2018-05-03 11:59:33,607 INFO 6246 [-/::1/-/22ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9xgx] [ 'HiuFDZqL8i9mxOk-AAAA' ]
+2018-05-03 11:59:34,604 INFO 6247 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 11:59:34,835 INFO 6247 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 11:59:36,184 INFO 6247 [-/::1/-/1ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9yJa] new user come on: feafa
+2018-05-03 11:59:36,205 INFO 6247 [-/::1/-/22ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9yJa] [ 'CrsOcxJYysg9iWeCAAAA' ]
+2018-05-03 11:59:47,786 INFO 6271 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 11:59:48,004 INFO 6271 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 11:59:49,035 INFO 6271 [-/::1/-/1ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9_SL] new user come on: feafa, undefined
+2018-05-03 11:59:49,064 INFO 6271 [-/::1/-/29ms GET /socket.io/?room=room1&username=feafa&EIO=3&transport=polling&t=MCa9_SL] [ 'oX9hxYj2gLO2_OEzAAAA' ]
+2018-05-03 11:59:58,251 INFO 6271 [-/::1/-/0ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaA1ic] new user come on: fewaf, undefined
+2018-05-03 11:59:58,259 INFO 6271 [-/::1/-/8ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaA1ic] [ 'LporncfCDNhAlHk1AAAB' ]
+2018-05-03 12:00:02,630 INFO 6271 [-/::1/-/0ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaA2n1] new user come on: fewaf, undefined
+2018-05-03 12:00:02,633 INFO 6271 [-/::1/-/3ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaA2n1] [ 'LporncfCDNhAlHk1AAAB', 'wB84VcaBew-MEbpXAAAC' ]
+2018-05-03 12:01:43,389 INFO 6290 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 12:01:43,637 INFO 6290 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 12:01:45,246 INFO 6291 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 12:01:45,481 INFO 6291 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 12:01:53,866 INFO 6308 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 12:01:54,099 INFO 6308 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 12:01:55,207 INFO 6308 [-/::1/-/2ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaAUFp] new user come on: fewaf, room1
+2018-05-03 12:01:55,221 INFO 6308 [-/::1/-/16ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaAUFp] []
+2018-05-03 12:01:56,331 INFO 6310 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 12:01:56,545 INFO 6310 [model] [35mSELECT 1+1 AS result[39m (42ms)
+2018-05-03 12:01:58,330 INFO 6310 [-/::1/-/1ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaAV0c] new user come on: fewaf, room1
+2018-05-03 12:01:58,343 INFO 6310 [-/::1/-/15ms GET /socket.io/?room=room1&username=fewaf&EIO=3&transport=polling&t=MCaAV0c] []
+2018-05-03 12:02:05,481 INFO 6310 [-/::1/-/0ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaAWmZ] new user come on: feafe, room1
+2018-05-03 12:02:05,485 INFO 6310 [-/::1/-/4ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaAWmZ] []
+2018-05-03 12:02:08,822 INFO 6310 [-/::1/-/0ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaAXap] new user come on: feawf, room1
+2018-05-03 12:02:08,824 INFO 6310 [-/::1/-/2ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaAXap] []
+2018-05-03 12:02:29,350 INFO 6335 [model] [35mSELECT VERSION() as `version`[39m (62ms)
+2018-05-03 12:02:29,688 INFO 6335 [model] [35mSELECT 1+1 AS result[39m (61ms)
+2018-05-03 12:02:31,256 INFO 6342 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 12:02:30,398 INFO 6335 [-/::1/-/1ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaAcrf] new user come on: feafe, room1
+2018-05-03 12:02:30,410 INFO 6335 [-/::1/-/14ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaAcrf] []
+2018-05-03 12:02:31,502 INFO 6342 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 12:02:32,038 INFO 6342 [-/::1/-/1ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaAdFL] new user come on: feawf, room1
+2018-05-03 12:02:32,054 INFO 6342 [-/::1/-/16ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaAdFL] []
+2018-05-03 12:02:32,836 INFO 6342 [-/::1/-/0ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaAdR-] new user come on: feafe, room1
+2018-05-03 12:02:32,841 INFO 6342 [-/::1/-/5ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaAdR-] []
+2018-05-03 13:06:59,947 INFO 6342 [-/::1/-/2ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaPNZT] new user come on: feafe, room1
+2018-05-03 13:06:59,953 INFO 6342 [-/::1/-/8ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaPNZT] []
+2018-05-03 13:10:25,809 INFO 6342 [-/::1/-/0ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaQ9qB] new user come on: feawf, room1
+2018-05-03 13:10:25,812 INFO 6342 [-/::1/-/3ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaQ9qB] []
+2018-05-03 13:11:03,020 INFO 6453 [model] [35mSELECT VERSION() as `version`[39m (54ms)
+2018-05-03 13:11:03,253 INFO 6453 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 13:11:04,057 INFO 6453 [-/::1/-/2ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQJ9a] new user come on: feafe, room1
+2018-05-03 13:11:04,073 INFO 6453 [-/::1/-/18ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQJ9a] []
+2018-05-03 13:11:04,893 INFO 6453 [-/::1/-/1ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaQJMu] new user come on: feawf, room1
+2018-05-03 13:11:04,896 INFO 6453 [-/::1/-/1ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaQJMv] new user come on: feawf, room1
+2018-05-03 13:11:04,899 INFO 6453 [-/::1/-/7ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaQJMu] []
+2018-05-03 13:11:04,901 INFO 6453 [-/::1/-/6ms GET /socket.io/?room=room1&username=feawf&EIO=3&transport=polling&t=MCaQJMv] []
+2018-05-03 13:11:15,972 INFO 6453 [-/::1/-/1ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQM3-] new user come on: jjj, room2
+2018-05-03 13:11:15,976 INFO 6453 [-/::1/-/5ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQM3-] []
+2018-05-03 13:12:06,150 INFO 6469 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 13:12:06,377 INFO 6469 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 13:12:07,210 INFO 6469 [-/::1/-/2ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQYaL] new user come on: jjj, room2
+2018-05-03 13:12:07,226 INFO 6469 [-/::1/-/18ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQYaL] []
+2018-05-03 13:12:07,751 INFO 6469 [-/::1/-/1ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQYj3] new user come on: feafe, room1
+2018-05-03 13:12:07,755 INFO 6469 [-/::1/-/5ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQYj3] []
+2018-05-03 13:12:08,255 INFO 6470 [model] [35mSELECT VERSION() as `version`[39m (55ms)
+2018-05-03 13:12:08,544 INFO 6470 [model] [35mSELECT 1+1 AS result[39m (58ms)
+2018-05-03 13:12:09,595 INFO 6470 [-/::1/-/1ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQZ9d] new user come on: jjj, room2
+2018-05-03 13:12:09,606 INFO 6470 [-/::1/-/13ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQZ9d] []
+2018-05-03 13:12:09,890 INFO 6470 [-/::1/-/0ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQZES] new user come on: feafe, room1
+2018-05-03 13:12:09,893 INFO 6470 [-/::1/-/4ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQZES] []
+2018-05-03 13:12:44,223 INFO 6488 [model] [35mSELECT VERSION() as `version`[39m (46ms)
+2018-05-03 13:12:44,458 INFO 6488 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 13:12:45,577 INFO 6488 [-/::1/-/2ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQhxq] new user come on: jjj, room2
+2018-05-03 13:12:45,587 INFO 6488 [-/::1/-/12ms GET /socket.io/?room=room2&username=jjj&EIO=3&transport=polling&t=MCaQhxq] []
+2018-05-03 13:12:46,838 INFO 6488 [-/::1/-/0ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQiFo] new user come on: feafe, room1
+2018-05-03 13:12:46,842 INFO 6488 [-/::1/-/4ms GET /socket.io/?room=room1&username=feafe&EIO=3&transport=polling&t=MCaQiFo] []
+2018-05-03 13:12:55,813 INFO 6488 [-/::1/-/0ms GET /socket.io/?room=room1&username=fdasf&EIO=3&transport=polling&t=MCaQkR-] new user come on: fdasf, room1
+2018-05-03 13:12:55,818 INFO 6488 [-/::1/-/5ms GET /socket.io/?room=room1&username=fdasf&EIO=3&transport=polling&t=MCaQkR-] []
+2018-05-03 13:17:18,652 INFO 6488 [-/::1/-/0ms GET /socket.io/?room=room1&username=fef&EIO=3&transport=polling&t=MCaRkct] new user come on: fef, room1
+2018-05-03 13:17:18,655 INFO 6488 [-/::1/-/3ms GET /socket.io/?room=room1&username=fef&EIO=3&transport=polling&t=MCaRkct] []
+2018-05-03 13:18:27,301 INFO 6521 [model] [35mSELECT VERSION() as `version`[39m (55ms)
+2018-05-03 13:18:27,540 INFO 6521 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 13:18:29,687 INFO 6521 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCaR_yb] new user come on: feaw, room1
+2018-05-03 13:18:29,699 INFO 6521 [-/::1/-/13ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCaR_yb] [ 'WmIaEeaAg_h10BEbAAAA' ]
+2018-05-03 13:18:36,534 INFO 6521 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCaS1dn] new user come on: ewaf, room1
+2018-05-03 13:18:36,538 INFO 6521 [-/::1/-/4ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCaS1dn] [ 'WmIaEeaAg_h10BEbAAAA', 'UUnxVx6inbUks2z9AAAB' ]
+2018-05-03 13:18:46,368 INFO 6543 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 13:18:46,600 INFO 6543 [model] [35mSELECT 1+1 AS result[39m (51ms)
+2018-05-03 13:18:47,906 INFO 6543 [-/::1/-/2ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCaS4PE] new user come on: feaw, room1
+2018-05-03 13:18:47,924 INFO 6543 [-/::1/-/19ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCaS4PE] [ 'lXnFh4cSY4GJpoY-AAAA' ]
+2018-05-03 13:18:48,094 INFO 6543 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCaS4SP] new user come on: ewaf, room1
+2018-05-03 13:18:48,097 INFO 6543 [-/::1/-/4ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCaS4SP] [ 'lXnFh4cSY4GJpoY-AAAA', 'KeCWjIUORV0rJxK8AAAB' ]
+2018-05-03 14:23:49,347 INFO 6543 [-/::1/-/4ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCaS4SP] new message  { data: 'faef', time: 1525328629339 }
+2018-05-03 14:25:25,974 INFO 6775 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 14:25:26,201 INFO 6775 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 14:25:27,260 INFO 6775 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCahKp9] new user come on: ewaf, room1
+2018-05-03 14:25:27,277 INFO 6775 [-/::1/-/17ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCahKp9] [ 'PIJD-SUqL-WQwfH7AAAA' ]
+2018-05-03 14:25:27,736 INFO 6775 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCahKwn] new user come on: feaw, room1
+2018-05-03 14:25:27,740 INFO 6775 [-/::1/-/5ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCahKwn] [ 'PIJD-SUqL-WQwfH7AAAA', 'gywM8olc71WlhGyAAAAB' ]
+2018-05-03 14:25:57,845 INFO 6775 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCahSHG] new user come on: ewaf, room1
+2018-05-03 14:25:57,848 INFO 6775 [-/::1/-/3ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCahSHG] [ 'gywM8olc71WlhGyAAAAB', '9xyAgysO7noICtyqAAAC' ]
+2018-05-03 14:34:30,862 INFO 6775 [-/::1/-/0ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCajPXB] new user come on: 冯ea发, room1
+2018-05-03 14:34:30,864 INFO 6775 [-/::1/-/2ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCajPXB] [ 'gywM8olc71WlhGyAAAAB', 'jb7mAxB5GdtOK9kuAAAD' ]
+2018-05-03 14:34:33,643 INFO 6775 [-/::1/-/1ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCajPXB] new message  { data: '冯ea发', time: 1525329273641 }
+2018-05-03 14:35:11,119 INFO 6775 [-/::1/-/0ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCajPXB] new message  { data: '冯ea发', time: 1525329311118 }
+2018-05-03 14:35:12,210 INFO 6775 [-/::1/-/1ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCajPXB] new message  { data: '冯ea发', time: 1525329312209 }
+2018-05-03 14:36:10,178 INFO 6887 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 14:36:10,429 INFO 6887 [model] [35mSELECT 1+1 AS result[39m (50ms)
+2018-05-03 14:36:13,896 INFO 6887 [-/::1/-/2ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCajogp] new user come on: 冯ea发, room1
+2018-05-03 14:36:13,912 INFO 6887 [-/::1/-/17ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCajogp] [ '0h9_2ThIZJ6C2jzWAAAA' ]
+2018-05-03 14:36:14,877 INFO 6887 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCajowP] new user come on: feaw, room1
+2018-05-03 14:36:14,881 INFO 6887 [-/::1/-/4ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCajowP] [ '0h9_2ThIZJ6C2jzWAAAA', 'ucFHvh6a6pKjvSWmAAAB' ]
+2018-05-03 14:36:23,851 INFO 6887 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCajr6b] new user come on: ewaf, room1
+2018-05-03 14:36:23,856 INFO 6887 [-/::1/-/5ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCajr6b] [ 'ucFHvh6a6pKjvSWmAAAB', 'ekn5hlpBcQLJyDvQAAAC' ]
+2018-05-03 14:36:35,528 INFO 6887 [-/::1/-/1ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCajr6b] new message  { data: 'faewf', time: 1525329395527 }
+2018-05-03 14:36:47,809 INFO 6887 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCajwy-] new user come on: feaw, room1
+2018-05-03 14:36:47,811 INFO 6887 [-/::1/-/2ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCajwy-] [ 'ekn5hlpBcQLJyDvQAAAC', '9DOEkf39mbF4-HXGAAAD' ]
+2018-05-03 14:39:27,253 INFO 6887 [-/::1/-/0ms GET /socket.io/?room=room1&username=ewaf&EIO=3&transport=polling&t=MCajr6b] new message  { data: '内容', time: 1525329567252 }
+2018-05-03 14:39:33,698 INFO 6887 [-/::1/-/0ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91%E7%8E%8B%E5%8F%91%E6%96%87e&EIO=3&transport=polling&t=MCakZS-] new user come on: 冯ea发王发文e, room1
+2018-05-03 14:39:33,700 INFO 6887 [-/::1/-/2ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91%E7%8E%8B%E5%8F%91%E6%96%87e&EIO=3&transport=polling&t=MCakZS-] [ '9DOEkf39mbF4-HXGAAAD', 'bTCa1h9ikdnj9MMNAAAE' ]
+2018-05-03 14:41:12,495 INFO 6887 [-/::1/-/1ms GET /socket.io/?room=room1&username=fafdafse&EIO=3&transport=polling&t=MCakxah] new user come on: fafdafse, room1
+2018-05-03 14:41:12,497 INFO 6887 [-/::1/-/3ms GET /socket.io/?room=room1&username=fafdafse&EIO=3&transport=polling&t=MCakxah] [ '9DOEkf39mbF4-HXGAAAD', '0V1LDWDTn43Vd2WIAAAF' ]
+2018-05-03 14:44:31,332 INFO 6942 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 14:44:31,558 INFO 6942 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 14:44:32,518 INFO 6942 [-/::1/-/1ms GET /socket.io/?room=room1&username=fafdafse&EIO=3&transport=polling&t=MCaliPq] new user come on: fafdafse, room1
+2018-05-03 14:44:32,533 INFO 6942 [-/::1/-/15ms GET /socket.io/?room=room1&username=fafdafse&EIO=3&transport=polling&t=MCaliPq] [ 'SKT7nnAfAyfcQMzrAAAA' ]
+2018-05-03 14:44:33,842 INFO 6942 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCalikj] new user come on: feaw, room1
+2018-05-03 14:44:33,857 INFO 6942 [-/::1/-/16ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCalikj] [ 'SKT7nnAfAyfcQMzrAAAA', '2Dyz4I4i6f-oNHjIAAAB' ]
+2018-05-03 14:45:07,062 INFO 6942 [-/::1/-/1ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCalqrl] new user come on: feaw, room1
+2018-05-03 14:45:07,065 INFO 6942 [-/::1/-/3ms GET /socket.io/?room=room1&username=feaw&EIO=3&transport=polling&t=MCalqrl] [ 'SKT7nnAfAyfcQMzrAAAA', 'Q-W8CGP6cpjulcgzAAAC' ]
+2018-05-03 14:45:17,519 INFO 6942 [-/::1/-/0ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCaltPB] new user come on: 冯ea发, room1
+2018-05-03 14:45:17,521 INFO 6942 [-/::1/-/2ms GET /socket.io/?room=room1&username=%E5%86%AFea%E5%8F%91&EIO=3&transport=polling&t=MCaltPB] [ 'Q-W8CGP6cpjulcgzAAAC', 'yWI0dZYWg7aPDKliAAAD' ]
+2018-05-03 14:51:50,161 INFO 6942 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCanNGB] new user come on: feaf, room1
+2018-05-03 14:51:50,166 INFO 6942 [-/::1/-/5ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCanNGB] [ '2YIblK5nDh9Ec88BAAAE' ]
+2018-05-03 14:51:54,810 INFO 6942 [-/::1/-/0ms GET /socket.io/?room=room1&username=feawfe&EIO=3&transport=polling&t=MCanOOs] new user come on: feawfe, room1
+2018-05-03 14:51:54,811 INFO 6942 [-/::1/-/1ms GET /socket.io/?room=room1&username=feawfe&EIO=3&transport=polling&t=MCanOOs] [ '2YIblK5nDh9Ec88BAAAE', 'GtUz7cWr3QpSd6nNAAAF' ]
+2018-05-03 14:52:00,758 INFO 6942 [-/::1/-/1ms GET /socket.io/?room=room1&username=feawfe&EIO=3&transport=polling&t=MCanOOs] new message  { data: 'feawff', time: 1525330320756 }
+2018-05-03 14:52:06,049 INFO 6942 [-/::1/-/0ms GET /socket.io/?room=room1&username=feaf&EIO=3&transport=polling&t=MCanNGB] new message  { data: 'feawfawefa', time: 1525330326049 }
+2018-05-03 14:52:13,688 INFO 6942 [-/::1/-/0ms GET /socket.io/?room=room1&username=wwwww&EIO=3&transport=polling&t=MCanS_p] new user come on: wwwww, room1
+2018-05-03 14:52:13,691 INFO 6942 [-/::1/-/3ms GET /socket.io/?room=room1&username=wwwww&EIO=3&transport=polling&t=MCanS_p] [ '2YIblK5nDh9Ec88BAAAE', 'eQV9My72DDDpnS1WAAAG' ]
+2018-05-03 15:33:17,685 INFO 8105 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 15:33:17,913 INFO 8105 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 15:33:19,468 INFO 8112 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 15:33:19,700 INFO 8112 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 15:38:00,222 INFO 8131 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 15:38:00,468 INFO 8131 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 15:38:02,058 INFO 8138 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 15:38:02,282 INFO 8138 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 15:39:24,979 INFO 8138 [model] [35mSELECT `id`, `username`, `password`, `email`, `livecode` FROM `user` AS `user` WHERE `user`.`id` = 25;[39m (49ms)
+2018-05-03 15:43:52,881 INFO 8166 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 15:43:53,134 INFO 8166 [model] [35mSELECT 1+1 AS result[39m (58ms)
+2018-05-03 15:43:54,607 INFO 8167 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 15:43:54,833 INFO 8167 [model] [35mSELECT 1+1 AS result[39m (43ms)
+2018-05-03 15:44:38,553 INFO 8191 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 15:44:38,778 INFO 8191 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 15:46:40,434 INFO 8214 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 15:46:40,676 INFO 8214 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 15:46:42,330 INFO 8221 [model] [35mSELECT VERSION() as `version`[39m (56ms)
+2018-05-03 15:46:42,574 INFO 8221 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 15:46:49,059 INFO 8232 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 15:46:49,289 INFO 8232 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 15:47:28,255 INFO 8247 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 15:47:28,513 INFO 8247 [model] [35mSELECT 1+1 AS result[39m (50ms)
+2018-05-03 15:47:30,057 INFO 8248 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 15:47:30,290 INFO 8248 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 15:47:45,326 INFO 8271 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 15:47:45,582 INFO 8271 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 15:47:47,144 INFO 8272 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 15:47:47,373 INFO 8272 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 16:01:19,442 INFO 8458 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 16:01:19,684 INFO 8458 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 16:01:26,806 INFO 8458 [model] [35mSELECT `id`, `username`, `password`, `email`, `livecode` FROM `user` AS `user` WHERE `user`.`username` = 'klren';[39m (49ms)
+2018-05-03 16:04:32,425 INFO 8482 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 16:04:32,659 INFO 8482 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 16:04:34,142 INFO 8489 [model] [35mSELECT VERSION() as `version`[39m (57ms)
+2018-05-03 16:04:34,371 INFO 8489 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 16:15:01,746 INFO 8526 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 16:15:01,987 INFO 8526 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 16:15:44,378 INFO 8540 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 16:15:44,613 INFO 8540 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 16:15:46,136 INFO 8547 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:15:46,354 INFO 8547 [model] [35mSELECT 1+1 AS result[39m (42ms)
+2018-05-03 16:17:00,791 INFO 8562 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:17:01,019 INFO 8562 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 16:17:02,645 INFO 8563 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 16:17:02,894 INFO 8563 [model] [35mSELECT 1+1 AS result[39m (50ms)
+2018-05-03 16:17:24,102 INFO 8576 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:17:24,358 INFO 8576 [model] [35mSELECT 1+1 AS result[39m (51ms)
+2018-05-03 16:17:25,948 INFO 8583 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 16:17:26,194 INFO 8583 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 16:17:48,762 INFO 8590 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 16:17:49,010 INFO 8590 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 16:17:50,614 INFO 8591 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 16:17:50,836 INFO 8591 [model] [35mSELECT 1+1 AS result[39m (43ms)
+2018-05-03 16:18:18,271 INFO 8604 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 16:18:18,508 INFO 8604 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 16:18:29,674 INFO 8618 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 16:18:29,899 INFO 8618 [model] [35mSELECT 1+1 AS result[39m (43ms)
+2018-05-03 16:18:32,047 INFO 8626 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 16:18:32,273 INFO 8626 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 16:24:12,687 INFO 8638 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-03 16:24:12,905 INFO 8638 [model] [35mSELECT 1+1 AS result[39m (42ms)
+2018-05-03 16:24:14,401 INFO 8645 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:24:14,646 INFO 8645 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 16:24:18,456 INFO 8652 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:24:18,674 INFO 8652 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-03 16:24:31,189 INFO 8660 [model] [35mSELECT VERSION() as `version`[39m (53ms)
+2018-05-03 16:24:31,436 INFO 8660 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 16:24:41,818 INFO 8673 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 16:24:42,046 INFO 8673 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 16:24:52,406 INFO 8686 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:24:52,641 INFO 8686 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 16:24:58,187 INFO 8686 [model] [35mUPDATE live SET gift=gift+1 WHERE livecode=klren[39m (87ms)
+2018-05-03 16:25:18,303 INFO 8699 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:25:18,536 INFO 8699 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 16:25:20,195 INFO 8700 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 16:25:20,428 INFO 8700 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 16:25:20,905 INFO 8700 [model] [35mUPDATE live SET gift=gift+1 WHERE livecode='klren'[39m (71ms)
+2018-05-03 16:25:45,632 INFO 8700 [model] [35mUPDATE live SET gift=gift+1 WHERE livecode='klren'[39m (56ms)
+2018-05-03 16:26:03,493 INFO 8700 [model] [35mUPDATE live SET gift=gift+1 WHERE livecode='klren'[39m (72ms)
+2018-05-03 16:26:26,282 INFO 8715 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 16:26:26,516 INFO 8715 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 16:26:28,297 INFO 8724 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:26:28,545 INFO 8724 [model] [35mSELECT 1+1 AS result[39m (60ms)
+2018-05-03 16:30:51,502 INFO 8743 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 16:30:51,735 INFO 8743 [model] [35mSELECT 1+1 AS result[39m (49ms)
+2018-05-03 16:31:42,289 INFO 8756 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-03 16:31:42,536 INFO 8756 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-03 16:31:44,253 INFO 8763 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-03 16:31:44,482 INFO 8763 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-03 16:36:08,990 INFO 8850 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:36:09,229 INFO 8850 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-03 16:36:18,638 INFO 8850 [model] [35mSELECT `id`, `username`, `password`, `email`, `livecode` FROM `user` AS `user` WHERE `user`.`username` = 'klren';[39m (48ms)
+2018-05-03 16:38:43,441 INFO 8868 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-03 16:38:43,691 INFO 8868 [model] [35mSELECT 1+1 AS result[39m (51ms)
+2018-05-03 16:38:45,381 INFO 8875 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-03 16:38:45,612 INFO 8875 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 16:38:46,606 INFO 8875 [model] [35mSELECT `id`, `roomname`, `gift`, `peonum`, `livecode`, `liveurl`, `usecustom`, `active` FROM `live` AS `live` WHERE `live`.`livecode` = 'klren' LIMIT 1;[39m (60ms)
+2018-05-03 16:38:46,692 INFO 8875 [model] [35mUPDATE `live` SET `roomname`='test' WHERE `id` = 12[39m (66ms)
+2018-05-03 16:42:20,099 INFO 8886 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-03 16:42:20,340 INFO 8886 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-03 16:42:45,309 INFO 8900 [model] [35mSELECT VERSION() as `version`[39m (53ms)
+2018-05-03 16:42:45,534 INFO 8900 [model] [35mSELECT 1+1 AS result[39m (44ms)
