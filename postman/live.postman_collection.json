@@ -1,0 +1,246 @@
+{
+	"info": {
+		"_postman_id": "5929d78f-0c64-4479-b156-c3328540e329",
+		"name": "live",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "用户相关",
+			"description": "",
+			"item": [
+				{
+					"name": "注册",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"user\": {\n\t\t\"username\": \"klrene2ffe3\",\n\t\t\"password\": \"klren123\",\n\t\t\"email\": \"klre12ffeafe@qq.com\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/register",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "登录",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"user\": {\n\t\t\"username\":\"klren\",\n\t\t\"password\":\"klren123\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/login",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取全部的用户信息",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJpYXQiOjE1MjUyNDgzOTJ9.9KpOlsixY5S5GzCJTs_LHnMI-YD0OopzmydFnrYWqEQ"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/user?limit=10&offset=0",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新用户信息",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJpYXQiOjE1MjUyNDgzOTJ9.9KpOlsixY5S5GzCJTs_LHnMI-YD0OopzmydFnrYWqEQ"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"user\":{\n\t\t\"email\":\"renzw@zzes1314.cn\"\t\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/user",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除指定用户",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM2NTc4fQ.aaLdMzSahyz9e6_YJY-75GQc4A2QpeHPkPbrpCI7P6s"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/user/38",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"user",
+								"38"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "直播间相关",
+			"description": "",
+			"item": [
+				{
+					"name": "增加礼物",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM0NDg2fQ.Rhvy3gS1Pl-ZKLlP9Wtp_47BQejjxGbsCtjWgtYg0xc"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/gift",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"gift"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新直播间信息",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM2NTc4fQ.aaLdMzSahyz9e6_YJY-75GQc4A2QpeHPkPbrpCI7P6s"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"roomname\":\"test\"\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/live",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"live"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取全部的直播间信息",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM2NTc4fQ.aaLdMzSahyz9e6_YJY-75GQc4A2QpeHPkPbrpCI7P6s"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/live?limit=10&offset=0",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"live"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
