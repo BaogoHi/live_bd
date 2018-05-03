@@ -26,7 +26,7 @@ module.exports = appInfo => {
     }
   }
   // sequelize 配置
-  exports.sequelize = {
+  config.sequelize = {
     dialect: 'mysql',
     database: process.env.DB_DATABASE || 'zb',
     host: process.env.DB_HOST || '119.28.84.27',
@@ -42,9 +42,33 @@ module.exports = appInfo => {
     }
   }
   // cors配置
-  exports.cors = {
+  config.cors = {
     origin: '*',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+  }
+  // redis 配置
+  config.redis = {
+    client: {
+      port: 6379,
+      host: '127.0.0.1',
+      password: '',
+      db: 0,
+    }
+  }
+  // socket.io
+  config.io = {
+    init: {
+      wsEngine: 'uws'
+    },
+    namespace: {
+      '/': {
+        connectionMiddleware: ['connection']
+      }
+    },
+    redis: {
+      host: '127.0.0.1',
+      port: 6379
+    }
   }
   return config;
 };
