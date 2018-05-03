@@ -14,6 +14,7 @@ module.exports = app => {
   router.put('/gift', app.jwt, controller.live.addGifts)              // 添加礼物
   router.put('/live', app.jwt, controller.live.updateLive)            // 更新直播间信息
   router.get('/live', app.jwt, controller.live.getAllLive)            // 获取全部直播间
+  router.put('/ban/:banId/:ban', app.jwt, controller.live.banLive)         // 禁用/解禁直播间
   // socket.io
   io.of('/').route('new message', io.controller.chat.newMessage)
   io.of('/').route('old message', io.controller.chat.oldMessage)

@@ -46,14 +46,34 @@ class LiveController extends Controller {
     }
   }
   /**
-   * 删除指定直播间
+   * 根据livecode删除指定直播间
    */
-  async delLive() {
+  async deleteByCode() {
     const {ctx, app} = this
     const {livecode} = app.verifyToken(ctx)
     const live = await ctx.service.live.deleteByCode(livecode)
     ctx.body = {
       body: live
+    }
+  }
+  /**
+   * 根据id禁用/解禁直播间
+   */
+  async banLive() {
+    const {ctx, app} = this
+    const {id} = app.verifyToken(ctx)
+    const {banId,ban} = ctx.params
+    if( parseInt(id) === parseInt(banId)) {
+      ctx.body = {
+        error: '请不要禁用自己'
+      }
+    } else {
+      const result = await ctx.service.live.banById(banId,ban)
+      if(result) {
+        ctx.body = {
+          body: '操作成功'
+        }
+      }
     }
   }
   

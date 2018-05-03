@@ -61,6 +61,19 @@ class LiveService extends Service {
   async deleteByCode(livecode) {
     return await this.ctx.model.Live.destroy({where: {livecode}})
   }
+  /**
+   * 根据id禁用/解禁直播间
+   * @param {*} id 
+   */
+  async banById(id,ban) {
+    const result = await this.ctx.service.user.findById(id)
+    const livecode = result.livecode
+    return await this.ctx.model.Live.update({
+      active:ban,
+    }, {
+      where: {livecode}
+    })
+  }
 }
 
 module.exports = LiveService;
