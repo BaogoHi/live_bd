@@ -1819,3 +1819,11 @@ From previous event:
 pid: 8850
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-03 17:14:17,056 ERROR 10019 nodejs.TypeError: this.ctx.model.Live.destory is not a function
+    at LiveService.deleteByCode (/Users/klren/Projects/live_bd/app/service/live.js:62:38)
+    at UserController.deleteUserById (/Users/klren/Projects/live_bd/app/controller/user.js:93:24)
+    at <anonymous>
+
+pid: 10019
+hostname: renzhizhongdeMacBook-Air.local
+
