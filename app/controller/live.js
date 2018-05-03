@@ -34,6 +34,29 @@ class LiveController extends Controller {
       }
     }
   }
+  /**
+   * 获取所有直播间
+   */
+  async getAllLive() {
+    const {ctx, app} = this
+    const {limit, offset} = ctx.query
+    const live = await this.ctx.service.live.findAllLive(limit, offset)
+    ctx.body = {
+      body: live
+    }
+  }
+  /**
+   * 删除指定直播间
+   */
+  async delLive() {
+    const {ctx, app} = this
+    const {livecode} = app.verifyToken(ctx)
+    const live = await ctx.service.live.deleteByCode(livecode)
+    ctx.body = {
+      body: live
+    }
+  }
+  
 }
 
 module.exports = LiveController;

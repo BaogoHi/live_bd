@@ -76,7 +76,7 @@ class UserController extends Controller {
     }
   }
   /**
-   * 根据用户id删除用户
+   * 根据用户id删除用户，并删除对应的livecode的直播间
    */
   async deleteUserById() {
     const {ctx, app} = this
@@ -87,6 +87,10 @@ class UserController extends Controller {
         error: '请您不要删除自己'
       }
     } else {
+      const delUser = await ctx.service.user.findById(delId)
+      const livecode = delUser.livecode
+      // 删除与用户关联的直播间
+      ctx.service.live.deleteByCode(livecode)
       const result = await ctx.service.user.deleteById(parseInt(delId))
       ctx.body = {
         user:  result

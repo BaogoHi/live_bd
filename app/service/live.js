@@ -47,12 +47,19 @@ class LiveService extends Service {
    * @param {*} limit 
    * @param {*} offset 
    */
-  async findAllLive(limit=10, offset=0){
+  async findAllLive(limit=10, offset=0) {
     const live = await this.ctx.model.Live.findAll({limit:parseInt(limit), offset:parseInt(offset)})
     if(!live) {
       this.ctx.throw(404, 'there has no data')
     }
     return live
+  }
+  /**
+   * 根据livecode删除直播间
+   * @param {*} livecode 
+   */
+  async deleteByCode(livecode) {
+    return await this.ctx.model.Live.destroy({where: {livecode}})
   }
 }
 
