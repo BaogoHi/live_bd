@@ -1827,3 +1827,50 @@ hostname: renzhizhongdeMacBook-Air.local
 pid: 10019
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-03 18:01:41,746 ERROR 11288 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: ban is not defined
+    at LiveController.banLive (/Users/klren/Projects/live_bd/app/controller/live.js:71:56)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11288
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 18:02:32,386 ERROR 11306 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: ctx.service.live.banById is not a function
+    at LiveController.banLive (/Users/klren/Projects/live_bd/app/controller/live.js:71:45)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 11306
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-03 18:03:02,668 ERROR 11329 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Invalid value { ban: '0' }
+    at Object.escape (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sql-string.js:66:11)
+    at Object.escape (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:934:22)
+    at Object.updateQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:367:58)
+    at QueryInterface.bulkUpdate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1035:37)
+    at Promise.try.then.then.then.results (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2833:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.update (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2822:8)
+    at LiveService.banById (/Users/klren/Projects/live_bd/app/service/live.js:71:38)
+    at <anonymous>
+
+pid: 11329
+hostname: renzhizhongdeMacBook-Air.local
+
