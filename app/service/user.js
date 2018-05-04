@@ -38,7 +38,13 @@ class UserService extends Service {
    */
   async findById(id) {
     const {ctx} = this
-    const user = await ctx.model.User.findOne({where: {id}})
+    const user = await ctx.model.User.findOne({
+      where: {id},
+      // include: [{
+      //   model: this.ctx.model.Live,
+      //   as: 'userlive'
+      // }]
+    })
     if(!user) {
       this.ctx.throw(404, 'user not found')
     }

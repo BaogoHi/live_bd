@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = app => {
-  const {INTEGER, STRING, DATE} = app.Sequelize
+  const {STRING} = app.Sequelize
   
   const User = app.model.define('user', {
     username: {
@@ -35,11 +35,10 @@ module.exports = app => {
       }
     }
   }, {
-    timestamps: false,
+    timestamps: true,
     tableName: 'user',
     underscored:false
   })
-  
   
   return User
 }

@@ -224,7 +224,10 @@
       "cov": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "lint": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "ci": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
-      "autod": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
+      "autod": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "migrate:new": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "migrate:up": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "migrate:down": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
     },
     "ci": {
       "version": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"

@@ -2047,3 +2047,784 @@ hostname: renzhizhongdeMacBook-Air.local
 pid: 3124
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-04 10:55:24,056 ERROR 5299 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: user is not defined
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:45:15)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 5299
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 10:56:08,043 ERROR 5315 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: livecode is not defined
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:45:16)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 5315
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 10:57:38,178 ERROR 5346 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'live.userId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'live.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'live.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'live.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'live.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` WHERE `user`.`id` = \'1\';'
+pid: 5346
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:01:35,158 ERROR 5373 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'live.userId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'live.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'live.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` INNER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` AND `live`.`livecode` = \'klren\' WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'live.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'live.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` INNER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` AND `live`.`livecode` = \'klren\' WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` INNER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` AND `live`.`livecode` = \'klren\' WHERE `user`.`id` = \'1\';'
+pid: 5373
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:05:32,403 ERROR 5427 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.config.sequelize.col is not a function
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:47:47)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 5427
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:11:06,671 ERROR 5462 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'live.userId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'live.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'live.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`livecode`, `user`.`livecode`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'live.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'live.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`livecode`, `user`.`livecode`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`livecode`, `user`.`livecode`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt`, `live`.`userId` AS `live.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`id` = `live`.`userId` WHERE `user`.`id` = \'1\';'
+pid: 5462
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:14:34,138 ERROR 5515 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeEagerLoadingError: live is associated to user using an alias. You've included an alias (live), but it does not match the alias defined in your association.
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:588:17)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 5515
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:16:04,392 ERROR 5541 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeEagerLoadingError: live is associated to user using an alias. You've included an alias (live), but it does not match the alias defined in your association.
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:588:17)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 5541
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:17:51,109 ERROR 5580 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'lives.userId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'lives.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'lives.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `lives`.`id` AS `lives.id`, `lives`.`roomname` AS `lives.roomname`, `lives`.`gift` AS `lives.gift`, `lives`.`peonum` AS `lives.peonum`, `lives`.`livecode` AS `lives.livecode`, `lives`.`liveurl` AS `lives.liveurl`, `lives`.`usecustom` AS `lives.usecustom`, `lives`.`active` AS `lives.active`, `lives`.`createdAt` AS `lives.createdAt`, `lives`.`updatedAt` AS `lives.updatedAt`, `lives`.`userId` AS `lives.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `lives` ON `user`.`id` = `lives`.`userId` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'lives.userId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'lives.userId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `lives`.`id` AS `lives.id`, `lives`.`roomname` AS `lives.roomname`, `lives`.`gift` AS `lives.gift`, `lives`.`peonum` AS `lives.peonum`, `lives`.`livecode` AS `lives.livecode`, `lives`.`liveurl` AS `lives.liveurl`, `lives`.`usecustom` AS `lives.usecustom`, `lives`.`active` AS `lives.active`, `lives`.`createdAt` AS `lives.createdAt`, `lives`.`updatedAt` AS `lives.updatedAt`, `lives`.`userId` AS `lives.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `lives` ON `user`.`id` = `lives`.`userId` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `lives`.`id` AS `lives.id`, `lives`.`roomname` AS `lives.roomname`, `lives`.`gift` AS `lives.gift`, `lives`.`peonum` AS `lives.peonum`, `lives`.`livecode` AS `lives.livecode`, `lives`.`liveurl` AS `lives.liveurl`, `lives`.`usecustom` AS `lives.usecustom`, `lives`.`active` AS `lives.active`, `lives`.`createdAt` AS `lives.createdAt`, `lives`.`updatedAt` AS `lives.updatedAt`, `lives`.`userId` AS `lives.userId` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `lives` ON `user`.`id` = `lives`.`userId` WHERE `user`.`id` = \'1\';'
+pid: 5580
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:24:22,006 ERROR 5642 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeEagerLoadingError: live is associated to user using an alias. You must use the 'as' keyword to specify the alias within your include statement.
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:591:17)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 5642
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:24:50,239 ERROR 5671 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'user.liveId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`livecode` = `live`.`id` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`livecode` = `live`.`id` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`livecode` = `live`.`id` WHERE `user`.`id` = \'1\';'
+pid: 5671
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:25:33,911 ERROR 5690 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'user.liveId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `user`.`user_id`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`user_id` = `live`.`id` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `user`.`user_id`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`user_id` = `live`.`id` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `user`.`user_id`, `live`.`id` AS `live.id`, `live`.`roomname` AS `live.roomname`, `live`.`gift` AS `live.gift`, `live`.`peonum` AS `live.peonum`, `live`.`livecode` AS `live.livecode`, `live`.`liveurl` AS `live.liveurl`, `live`.`usecustom` AS `live.usecustom`, `live`.`active` AS `live.active`, `live`.`createdAt` AS `live.createdAt`, `live`.`updatedAt` AS `live.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `live` ON `user`.`user_id` = `live`.`id` WHERE `user`.`id` = \'1\';'
+pid: 5690
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:27:43,080 ERROR 5732 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeEagerLoadingError: live is associated to user using an alias. You must use the 'as' keyword to specify the alias within your include statement.
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:591:17)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 5732
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:27:58,350 ERROR 5748 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeDatabaseError: Not unique table/alias: 'user'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Not unique table/alias: 'user'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_NONUNIQ_TABLE', errno: 1066, sqlState: '42000', sqlMessage: 'Not unique table/alias: \'user\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `user`.`id` AS `user.id`, `user`.`roomname` AS `user.roomname`, `user`.`gift` AS `user.gift`, `user`.`peonum` AS `user.peonum`, `user`.`livecode` AS `user.livecode`, `user`.`liveurl` AS `user.liveurl`, `user`.`usecustom` AS `user.usecustom`, `user`.`active` AS `user.active`, `user`.`createdAt` AS `user.createdAt`, `user`.`updatedAt` AS `user.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `user` ON `user`.`livecode` = `user`.`id` WHERE `user`.`id` = \'1\';' }
+original: { Error: Not unique table/alias: 'user'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_NONUNIQ_TABLE', errno: 1066, sqlState: '42000', sqlMessage: 'Not unique table/alias: \'user\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `user`.`id` AS `user.id`, `user`.`roomname` AS `user.roomname`, `user`.`gift` AS `user.gift`, `user`.`peonum` AS `user.peonum`, `user`.`livecode` AS `user.livecode`, `user`.`liveurl` AS `user.liveurl`, `user`.`usecustom` AS `user.usecustom`, `user`.`active` AS `user.active`, `user`.`createdAt` AS `user.createdAt`, `user`.`updatedAt` AS `user.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `user` ON `user`.`livecode` = `user`.`id` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `user`.`id` AS `user.id`, `user`.`roomname` AS `user.roomname`, `user`.`gift` AS `user.gift`, `user`.`peonum` AS `user.peonum`, `user`.`livecode` AS `user.livecode`, `user`.`liveurl` AS `user.liveurl`, `user`.`usecustom` AS `user.usecustom`, `user`.`active` AS `user.active`, `user`.`createdAt` AS `user.createdAt`, `user`.`updatedAt` AS `user.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `user` ON `user`.`livecode` = `user`.`id` WHERE `user`.`id` = \'1\';'
+pid: 5748
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:29:54,833 ERROR 5778 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'user.liveId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `userlive`.`id` AS `userlive.id`, `userlive`.`roomname` AS `userlive.roomname`, `userlive`.`gift` AS `userlive.gift`, `userlive`.`peonum` AS `userlive.peonum`, `userlive`.`livecode` AS `userlive.livecode`, `userlive`.`liveurl` AS `userlive.liveurl`, `userlive`.`usecustom` AS `userlive.usecustom`, `userlive`.`active` AS `userlive.active`, `userlive`.`createdAt` AS `userlive.createdAt`, `userlive`.`updatedAt` AS `userlive.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `userlive` ON `user`.`livecode` = `userlive`.`id` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `userlive`.`id` AS `userlive.id`, `userlive`.`roomname` AS `userlive.roomname`, `userlive`.`gift` AS `userlive.gift`, `userlive`.`peonum` AS `userlive.peonum`, `userlive`.`livecode` AS `userlive.livecode`, `userlive`.`liveurl` AS `userlive.liveurl`, `userlive`.`usecustom` AS `userlive.usecustom`, `userlive`.`active` AS `userlive.active`, `userlive`.`createdAt` AS `userlive.createdAt`, `userlive`.`updatedAt` AS `userlive.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `userlive` ON `user`.`livecode` = `userlive`.`id` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `userlive`.`id` AS `userlive.id`, `userlive`.`roomname` AS `userlive.roomname`, `userlive`.`gift` AS `userlive.gift`, `userlive`.`peonum` AS `userlive.peonum`, `userlive`.`livecode` AS `userlive.livecode`, `userlive`.`liveurl` AS `userlive.liveurl`, `userlive`.`usecustom` AS `userlive.usecustom`, `userlive`.`active` AS `userlive.active`, `userlive`.`createdAt` AS `userlive.createdAt`, `userlive`.`updatedAt` AS `userlive.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `userlive` ON `user`.`livecode` = `userlive`.`id` WHERE `user`.`id` = \'1\';'
+pid: 5778
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 11:31:51,489 ERROR 5805 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'user.liveId' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `userlive`.`id` AS `userlive.id`, `userlive`.`roomname` AS `userlive.roomname`, `userlive`.`gift` AS `userlive.gift`, `userlive`.`peonum` AS `userlive.peonum`, `userlive`.`livecode` AS `userlive.livecode`, `userlive`.`liveurl` AS `userlive.liveurl`, `userlive`.`usecustom` AS `userlive.usecustom`, `userlive`.`active` AS `userlive.active`, `userlive`.`createdAt` AS `userlive.createdAt`, `userlive`.`updatedAt` AS `userlive.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `userlive` ON `user`.`livecode` = `userlive`.`id` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'user.liveId' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'user.liveId\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `userlive`.`id` AS `userlive.id`, `userlive`.`roomname` AS `userlive.roomname`, `userlive`.`gift` AS `userlive.gift`, `userlive`.`peonum` AS `userlive.peonum`, `userlive`.`livecode` AS `userlive.livecode`, `userlive`.`liveurl` AS `userlive.liveurl`, `userlive`.`usecustom` AS `userlive.usecustom`, `userlive`.`active` AS `userlive.active`, `userlive`.`createdAt` AS `userlive.createdAt`, `userlive`.`updatedAt` AS `userlive.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `userlive` ON `user`.`livecode` = `userlive`.`id` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`createdAt`, `user`.`updatedAt`, `user`.`liveId`, `userlive`.`id` AS `userlive.id`, `userlive`.`roomname` AS `userlive.roomname`, `userlive`.`gift` AS `userlive.gift`, `userlive`.`peonum` AS `userlive.peonum`, `userlive`.`livecode` AS `userlive.livecode`, `userlive`.`liveurl` AS `userlive.liveurl`, `userlive`.`usecustom` AS `userlive.usecustom`, `userlive`.`active` AS `userlive.active`, `userlive`.`createdAt` AS `userlive.createdAt`, `userlive`.`updatedAt` AS `userlive.updatedAt` FROM `user` AS `user` LEFT OUTER JOIN `live` AS `userlive` ON `user`.`livecode` = `userlive`.`id` WHERE `user`.`id` = \'1\';'
+pid: 5805
+hostname: renzhizhongdeMacBook-Air.local
+

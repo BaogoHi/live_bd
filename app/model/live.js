@@ -34,10 +34,9 @@ module.exports = app => {
       allowNull: true
     }
   }, {
-    timestamps: false,
+    timestamps: true,
     tableName: 'live',
     underscored: false
   })
-
   return Live
 }

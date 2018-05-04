@@ -62,9 +62,6 @@ class LiveController extends Controller {
       }
     }
   }
-  async setTags() {
-
-  }
 }
 
 module.exports = LiveController;
