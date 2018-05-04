@@ -38,8 +38,6 @@ module.exports = app => {
     tableName: 'live',
     underscored: false
   })
-  // Live.associate = function() {
-  //   app.model.Live.belongsTo(app.model.User, { as: 'owner', foreignKey: 'livecode'})
-  // }
+
   return Live
 }

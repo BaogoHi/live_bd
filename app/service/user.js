@@ -37,7 +37,8 @@ class UserService extends Service {
    * @param {*} id 
    */
   async findById(id) {
-    const user = await this.ctx.model.User.findOne({where: {id}})
+    const {ctx} = this
+    const user = await ctx.model.User.findOne({where: {id}})
     if(!user) {
       this.ctx.throw(404, 'user not found')
     }

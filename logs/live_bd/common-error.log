@@ -1874,3 +1874,176 @@ From previous event:
 pid: 11329
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-04 09:00:45,032 ERROR 2597 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Live is not defined
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:52:16)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 2597
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:01:18,401 ERROR 2637 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: User is not defined
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:55:21)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 2637
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:01:19,648 ERROR 2637 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: User is not defined
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:55:21)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 2637
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:02:02,736 ERROR 2672 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeEagerLoadingError: live is not associated to user!
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:583:13)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:50:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 2672
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:03:41,932 ERROR 2753 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeEagerLoadingError: live is not associated to user!
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:583:13)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:50:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:67:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 2753
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:24:12,199 ERROR 3047 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.create is not a function
+    at TagController.createTag (/Users/klren/Projects/live_bd/app/controller/tag.js:20:38)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3047
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:24:32,137 ERROR 3072 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: ctx.service.create is not a function
+    at TagController.createTag (/Users/klren/Projects/live_bd/app/controller/tag.js:20:38)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3072
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:24:45,357 ERROR 3088 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeValidationError: notNull Violation: tag.updatetime cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at TagController.createTag (/Users/klren/Projects/live_bd/app/controller/tag.js:20:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'tag.updatetime cannot be null', type: 'notNull Violation', path: 'updatetime', value: null, origin: 'CORE', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 3088
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 09:27:22,468 ERROR 3124 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: user is not defined
+    at TagService.findAllTags (/Users/klren/Projects/live_bd/app/service/tag.js:20:5)
+    at <anonymous>
+
+pid: 3124
+hostname: renzhizhongdeMacBook-Air.local
+
