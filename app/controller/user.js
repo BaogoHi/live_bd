@@ -16,9 +16,7 @@ class UserController extends Controller {
     const {password, username} = user
     const result = await ctx.service.user.findByUsername(username)
     const compare = ctx.helper.bcompare(password, result.password)
-    ctx.body = {
-      user: app.getUserJson(result, ctx, 1)
-    }
+    ctx.helper.success({ctx, res: app.getUserJson(result, ctx, 1)})
   }
   /**
    * 用户注册
@@ -49,9 +47,7 @@ class UserController extends Controller {
       active: 1
     })
     ctx.status = 201
-    ctx.body = {
-      user: app.getUserJson(result, ctx, 0)
-    }
+    ctx.helper.success({ctx, res:app.getUserJson(result, ctx, 0)})
   }
   /**
    * 查询所有用户
@@ -60,9 +56,16 @@ class UserController extends Controller {
     const { ctx, app } = this
     const {limit, offset} = ctx.query
     const result = await ctx.service.user.findAllUser(limit, offset)
-    ctx.body = {
-      users: result
-    }
+    ctx.helper.success({ctx, res:result})
+  }
+  /**
+   * 通过id查询指定用户
+   */
+  async getUserById() {
+    const { ctx, app } = this
+    const {id} = ctx.params
+    const result = await ctx.service.user.findById(id)
+    ctx.helper.success({ctx, res:result})
   }
   /**
    * 更新用户信息
@@ -71,9 +74,8 @@ class UserController extends Controller {
     const {ctx, app} = this
     const {id} = app.verifyToken(ctx)
     const {user} = ctx.request.body
-    ctx.body = {
-      body: await ctx.service.user.update(user, id)
-    }
+    const result = await ctx.service.user.update(user, id)
+    ctx.helper.success({ctx, res:result})
   }
   /**
    * 根据用户id删除用户，并删除对应的livecode的直播间
@@ -83,18 +85,14 @@ class UserController extends Controller {
     const {id} = app.verifyToken(ctx)
     const delId = ctx.params.id
     if(parseInt(id) === parseInt(delId)) {
-      ctx.body = {
-        error: '请您不要删除自己'
-      }
+      ctx.helper.fail({ctx, res:'请您不要删除自己'})
     } else {
       const delUser = await ctx.service.user.findById(delId)
       const livecode = delUser.livecode
       // 删除与用户关联的直播间
       ctx.service.live.deleteByCode(livecode)
       const result = await ctx.service.user.deleteById(parseInt(delId))
-      ctx.body = {
-        user:  result
-      }
+      ctx.helper.success({ctx, res:result})
     }
   }
 }
