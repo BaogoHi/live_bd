@@ -21,7 +21,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"user\": {\n\t\t\"username\": \"klrene2ffe3\",\n\t\t\"password\": \"klren123\",\n\t\t\"email\": \"klre12ffeafe@qq.com\"\n\t}\n}"
+							"raw": "{\n\t\"user\": {\n\t\t\"username\": \"klren\",\n\t\t\"password\": \"klren\",\n\t\t\"email\": \"klren@qq.com\"\n\t}\n}"
 						},
 						"url": {
 							"raw": "{{apiUrl}}/register",
@@ -47,7 +47,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"user\": {\n\t\t\"username\":\"klren\",\n\t\t\"password\":\"klren123\"\n\t}\n}"
+							"raw": "{\n\t\"user\": {\n\t\t\"username\":\"klren\",\n\t\t\"password\":\"klren\"\n\t}\n}"
 						},
 						"url": {
 							"raw": "{{apiUrl}}/login",
@@ -147,6 +147,30 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "根据用户id查看用户详情",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU0MTQzMDN9.Mlx7N6_kr9suTSOYoZx_6I84Ybn8xhBOoc4F6IuL2rc"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/user/1",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -161,17 +185,18 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM0NDg2fQ.Rhvy3gS1Pl-ZKLlP9Wtp_47BQejjxGbsCtjWgtYg0xc"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU0MTcxNTR9.6flAqSqiJ9dpAn7dcIWFrnNqVyYc3JmCiER_dvkXAms"
 							}
 						],
 						"body": {},
 						"url": {
-							"raw": "{{apiUrl}}/gift",
+							"raw": "{{apiUrl}}/gift/klren",
 							"host": [
 								"{{apiUrl}}"
 							],
 							"path": [
-								"gift"
+								"gift",
+								"klren"
 							]
 						}
 					},
@@ -235,6 +260,185 @@
 									"key": "offset",
 									"value": "0"
 								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "禁用/解禁房间",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzQxNjg4fQ.bV_tAGU45XdtaDJ3Y-9XQBoqRQE9ECtWx31jKGUS0b8"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/ban/36/1",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"ban",
+								"36",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "给直播间打tag",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU0MTc4NTV9.1e-bumwlP6k1YJrv_EuUKUB3iG9lGruckXBpbx6JxVw"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"livecode\":\"klren\",\n\t\"name\": \"zzes\"\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/live/tag",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"live",
+								"tag"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "标签相关",
+			"description": null,
+			"item": [
+				{
+					"name": "创建标签",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1Mzk1MDYzfQ.qekOZvaX3DM-Ag8jjOLY19xa6Jj4VTAgod_QEhpcAfc"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"tag3\"\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tag",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询所有标签",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1Mzk1MDYzfQ.qekOZvaX3DM-Ag8jjOLY19xa6Jj4VTAgod_QEhpcAfc"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/tag?limit=10&offset=0",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tag"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据id删除标签",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1Mzk1MDYzfQ.qekOZvaX3DM-Ag8jjOLY19xa6Jj4VTAgod_QEhpcAfc"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/tag/2",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tag",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据id更新tag名称",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU0MTQ1ODN9.pZ7NSPQwv6o6keNWZoRWMvswJJLiBKvN2Bam8CLjqv8"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":4,\n\t\"data\":{\n\t\t\"name\":\"tagtag\"\t\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tag",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tag"
 							]
 						}
 					},
