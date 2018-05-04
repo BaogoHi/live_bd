@@ -8,7 +8,8 @@ class LiveController extends Controller {
    */
   async addGifts() {
     const {ctx, app} = this
-    const {livecode} = app.verifyToken(ctx)
+    // const {livecode} = app.verifyToken(ctx)
+    const {livecode} = ctx.params
     const gift = await ctx.service.live.addGift(livecode)
     if(gift.length> 0){
       ctx.helper.success({ctx, res: gift})
@@ -61,6 +62,15 @@ class LiveController extends Controller {
         ctx.helper.success({ctx, res: '操作成功'})
       }
     }
+  }
+  /**
+   * 添加标签
+   */
+  async addTags() {
+    const {ctx} = this
+    const {livecode, name} = ctx.request.body
+    const result = await ctx.service.live.addTags(livecode, name)
+    ctx.helper.success({ctx, res:result})
   }
 }
 

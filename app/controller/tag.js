@@ -24,14 +24,23 @@ class TagController extends Controller {
    * 删除标签
    */
   async deleteTagById() {
-    const {ctx} = this
-    const {id} = ctx.params
+    const { ctx } = this
+    const { id } = ctx.params
     const result = await ctx.service.tag.deleteTagById(id)
     if(parseInt(result) === 1){
       ctx.helper.success({ctx, res:result})
     } else {
       ctx.helper.fail({ctx, res: result})
     }
+  }
+  /**
+   * 更新tag
+   */
+  async updateTag() {
+    const {ctx} = this
+    const {id, data}  = ctx.request.body
+    const result = await ctx.service.tag.updateTagById(data, id)
+    ctx.helper.success({ctx, res: result})
   }
 }
 

@@ -11,6 +11,13 @@ class TagService extends Service {
     return await this.ctx.model.Tag.create(tag)
   }
   /**
+   * 通过id查找tag
+   * @param {*} id 
+   */
+  async findTagById(id) {
+    return await this.ctx.model.Tag.findOne({where: id})
+  }
+  /**
    * 查询所有tag
    * @param {*} limit 
    * @param {*} offset 
@@ -29,6 +36,19 @@ class TagService extends Service {
   async deleteTagById(id) {
     const tag = await this.ctx.model.Tag.destroy({where: {id}})
     return tag
+  }
+  /**
+   * 通过id更新tag信息
+   * @param {*} value 
+   * @param {*} id 
+   */
+  async updateTagById(value, id) {
+    console.log(id)
+    const tag = await this.ctx.service.tag.findTagById(id)
+    if(!tag) {
+      this.ctx.throw(404, 'there has no data')
+    }
+    return await tag.update(value)
   }
 }
 

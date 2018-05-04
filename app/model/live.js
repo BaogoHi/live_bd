@@ -29,6 +29,10 @@ module.exports = app => {
       type: INTEGER,
       allowNull: false
     },
+    tags: {
+      type: STRING,
+      allowNull: true
+    },
     active: {
       type: INTEGER,
       allowNull: true

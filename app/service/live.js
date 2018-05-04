@@ -74,6 +74,18 @@ class LiveService extends Service {
       where: {livecode}
     })
   }
+  /**
+   * 给直播间加标签
+   * @param {*} livecode 
+   * @param {*} name 
+   */
+  async addTags(livecode, name) {
+    if(name&&livecode){
+      return await this.ctx.model.query(`UPDATE live SET tags='${name}' WHERE livecode='${livecode}'`)
+    } else {
+      return 
+    }
+  }
 }
 
 module.exports = LiveService;

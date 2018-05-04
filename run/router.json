@@ -104,9 +104,20 @@
     "methods": [
       "PUT"
     ],
-    "paramNames": [],
-    "path": "/gift",
-    "regexp": "/^\\/gift(?:\\/(?=$))?$/",
+    "paramNames": [
+      {
+        "name": "livecode",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/gift/:livecode",
+    "regexp": "/^\\/gift\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
       "wrappedController"
@@ -134,6 +145,19 @@
     "paramNames": [],
     "path": "/live",
     "regexp": "/^\\/live(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/live/tag",
+    "regexp": "/^\\/live\\/tag(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
       "wrappedController"
@@ -219,6 +243,19 @@
     ],
     "path": "/tag/:id",
     "regexp": "/^\\/tag\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/tag",
+    "regexp": "/^\\/tag(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
       "wrappedController"

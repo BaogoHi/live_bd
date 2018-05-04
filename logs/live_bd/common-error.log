@@ -2828,3 +2828,566 @@ sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, 
 pid: 5805
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-04 12:46:09,443 ERROR 6506 nodejs.ClusterClientNoResponseError: client no response in 2584224ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/klren/Projects/live_bd/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 6506
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:13:23,885 ERROR 13368 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.Tag.findTagById is not a function
+    at TagService.updateTagById (/Users/klren/Projects/live_bd/app/service/tag.js:46:42)
+    at TagController.updateTag (/Users/klren/Projects/live_bd/app/controller/tag.js:42:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13368
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:14:01,347 ERROR 13397 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.Tag.findTagById is not a function
+    at TagService.updateTagById (/Users/klren/Projects/live_bd/app/service/tag.js:46:42)
+    at TagController.updateTag (/Users/klren/Projects/live_bd/app/controller/tag.js:42:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13397
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:14:19,074 ERROR 13400 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.Tag.findTagById is not a function
+    at TagService.updateTagById (/Users/klren/Projects/live_bd/app/service/tag.js:46:42)
+    at TagController.updateTag (/Users/klren/Projects/live_bd/app/controller/tag.js:42:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13400
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:14:47,849 ERROR 13423 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.ctx.model.Tag.findTagById is not a function
+    at TagService.updateTagById (/Users/klren/Projects/live_bd/app/service/tag.js:47:42)
+    at TagController.updateTag (/Users/klren/Projects/live_bd/app/controller/tag.js:42:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13423
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:16:38,443 ERROR 13441 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'findTagById' of undefined
+    at TagService.updateTagById (/Users/klren/Projects/live_bd/app/service/tag.js:47:44)
+    at TagController.updateTag (/Users/klren/Projects/live_bd/app/controller/tag.js:42:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13441
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:17:11,668 ERROR 13465 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: tags is not defined
+    at TagService.updateTagById (/Users/klren/Projects/live_bd/app/service/tag.js:48:5)
+    at <anonymous>
+
+pid: 13465
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:21:16,650 ERROR 13486 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeValidationError: notNull Violation: tag.livecode cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at TagController.createTag (/Users/klren/Projects/live_bd/app/controller/tag.js:20:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'tag.livecode cannot be null', type: 'notNull Violation', path: 'livecode', value: null, origin: 'CORE', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 13486
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:27:06,204 ERROR 13583 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at TagController.createTag (/Users/klren/Projects/live_bd/app/controller/tag.js:20:42)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'tag2', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'tag2' }
+parent: { Error: Duplicate entry 'tag2' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'tag2\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'tag2\');' }
+original: { Error: Duplicate entry 'tag2' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'tag2\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'tag2\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'tag2\');'
+pid: 13583
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:57:29,232 ERROR 13817 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:84:40)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:71:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13817
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:57:52,885 ERROR 13848 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.ctx.model.Live.query is not a function
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:84:40)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:71:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13848
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 14:59:39,987 ERROR 13866 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.Live.query is not a function
+    at LiveService.addGift (/Users/klren/Projects/live_bd/app/service/live.js:19:47)
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13866
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:02:15,357 ERROR 13958 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property `livecode` of 'undefined' or 'null'.
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:28)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13958
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:03:07,439 ERROR 13983 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot destructure property `livecode` of 'undefined' or 'null'.
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:28)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 13983
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:03:41,194 ERROR 14007 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property `livecode` of 'undefined' or 'null'.
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:28)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 14007
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:05:32,481 ERROR 14019 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property `livecode` of 'undefined' or 'null'.
+    at LiveController.addGifts (/Users/klren/Projects/live_bd/app/controller/live.js:12:28)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 14019
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:08:42,584 ERROR 14103 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'klren' in 'where clause'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:84:35)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:72:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'klren' in 'where clause'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'klren\' in \'where clause\'', sql: 'UPDATE live SET tags=tags+\',\'+zzes WHERE livecode=klren' }
+original: { Error: Unknown column 'klren' in 'where clause'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'klren\' in \'where clause\'', sql: 'UPDATE live SET tags=tags+\',\'+zzes WHERE livecode=klren' }
+sql: 'UPDATE live SET tags=tags+\',\'+zzes WHERE livecode=klren'
+pid: 14103
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:09:11,892 ERROR 14121 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Truncated incorrect DOUBLE value: ','
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:84:35)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:72:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Truncated incorrect DOUBLE value: ','
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_TRUNCATED_WRONG_VALUE', errno: 1292, sqlState: '22007', sqlMessage: 'Truncated incorrect DOUBLE value: \',\'', sql: 'UPDATE live SET tags=tags+\',\'+\'zzes\' WHERE livecode=\'klren\'' }
+original: { Error: Truncated incorrect DOUBLE value: ','
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_TRUNCATED_WRONG_VALUE', errno: 1292, sqlState: '22007', sqlMessage: 'Truncated incorrect DOUBLE value: \',\'', sql: 'UPDATE live SET tags=tags+\',\'+\'zzes\' WHERE livecode=\'klren\'' }
+sql: 'UPDATE live SET tags=tags+\',\'+\'zzes\' WHERE livecode=\'klren\''
+pid: 14121
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:11:15,667 ERROR 14231 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Truncated incorrect DOUBLE value: ','
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:84:35)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:72:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Truncated incorrect DOUBLE value: ','
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_TRUNCATED_WRONG_VALUE', errno: 1292, sqlState: '22007', sqlMessage: 'Truncated incorrect DOUBLE value: \',\'', sql: 'UPDATE live SET tags=tags+\',\'+\'zzes\' WHERE livecode=\'klren\'' }
+original: { Error: Truncated incorrect DOUBLE value: ','
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_TRUNCATED_WRONG_VALUE', errno: 1292, sqlState: '22007', sqlMessage: 'Truncated incorrect DOUBLE value: \',\'', sql: 'UPDATE live SET tags=tags+\',\'+\'zzes\' WHERE livecode=\'klren\'' }
+sql: 'UPDATE live SET tags=tags+\',\'+\'zzes\' WHERE livecode=\'klren\''
+pid: 14231
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-04 15:12:16,898 ERROR 14253 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Truncated incorrect DOUBLE value: ',zzes'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:84:35)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:72:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Truncated incorrect DOUBLE value: ',zzes'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_TRUNCATED_WRONG_VALUE', errno: 1292, sqlState: '22007', sqlMessage: 'Truncated incorrect DOUBLE value: \',zzes\'', sql: 'UPDATE live SET tags=tags+\',zzes\' WHERE livecode=\'klren\'' }
+original: { Error: Truncated incorrect DOUBLE value: ',zzes'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_TRUNCATED_WRONG_VALUE', errno: 1292, sqlState: '22007', sqlMessage: 'Truncated incorrect DOUBLE value: \',zzes\'', sql: 'UPDATE live SET tags=tags+\',zzes\' WHERE livecode=\'klren\'' }
+sql: 'UPDATE live SET tags=tags+\',zzes\' WHERE livecode=\'klren\''
+pid: 14253
+hostname: renzhizhongdeMacBook-Air.local
+
