@@ -171,6 +171,35 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "passport登录",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\":\"klren\",\n\t\"password\":\"klren\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:7001/passport/local",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7001",
+							"path": [
+								"passport",
+								"local"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -239,7 +268,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM2NTc4fQ.aaLdMzSahyz9e6_YJY-75GQc4A2QpeHPkPbrpCI7P6s"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU2ODA3ODF9.hQnt9WgWYI34nAEgzyHb6kS8b29xl96zp_qDIPLRVr4"
 							}
 						],
 						"body": {},
@@ -297,7 +326,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU0MTc4NTV9.1e-bumwlP6k1YJrv_EuUKUB3iG9lGruckXBpbx6JxVw"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU2NzgxODd9.SRtGXXbrHPT_Xv-dB4FGGY09H_XRvD_Zasiyh1uzzz8"
 							},
 							{
 								"key": "Content-Type",
@@ -306,7 +335,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"livecode\":\"klren\",\n\t\"name\": \"zzes\"\n}"
+							"raw": "{\n\t\"name\": \"ccc\"\n}"
 						},
 						"url": {
 							"raw": "{{apiUrl}}/live/tag",
@@ -334,7 +363,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1Mzk1MDYzfQ.qekOZvaX3DM-Ag8jjOLY19xa6Jj4VTAgod_QEhpcAfc"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU2Nzc3NDJ9.BKZQoaP4rKYcouVCk_xvaSJRpFNJ4UW6a59rdUlM8E0"
 							},
 							{
 								"key": "Content-Type",
