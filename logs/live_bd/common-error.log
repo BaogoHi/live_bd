@@ -4030,3 +4030,738 @@ From previous event:
 pid: 5711
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-07 15:26:34,324 ERROR 7956 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.ctx.service.tag is not a function
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:45)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 7956
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:28:16,624 ERROR 8062 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:94:35)
+    at <anonymous>
+name: 'SequelizeDatabaseError'
+parent: { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_PARSE_ERROR', errno: 1064, sqlState: '42000', sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\' at line 1', sql: 'INSERT INTO liveTag ( liveId, tagId ) VALUES (1, 2' }
+original: { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_PARSE_ERROR', errno: 1064, sqlState: '42000', sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\' at line 1', sql: 'INSERT INTO liveTag ( liveId, tagId ) VALUES (1, 2' }
+sql: 'INSERT INTO liveTag ( liveId, tagId ) VALUES (1, 2'
+pid: 8062
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:29:40,653 ERROR 8084 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8084
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:30:05,120 ERROR 8084 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8084
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:31:46,034 ERROR 8108 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8108
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:32:06,964 ERROR 8136 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8136
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:32:57,985 ERROR 8152 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8152
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:33:55,043 ERROR 8178 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:74:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8178
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:35:31,420 ERROR 8234 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:74:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8234
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:38:39,832 ERROR 8269 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:74:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8269
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:44:44,679 ERROR 8366 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: result is not defined
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:92:19)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 8366
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 15:46:24,800 ERROR 8412 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at TagService.create (/Users/klren/Projects/live_bd/app/service/tag.js:11:37)
+    at LiveService.addTags (/Users/klren/Projects/live_bd/app/service/live.js:91:49)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:73:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'zzes', origin: 'DB', instance: tag { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'zzes' }
+parent: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+original: { Error: Duplicate entry 'zzes' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'zzes\' for key \'name\'', sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');' }
+sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
+pid: 8412
+hostname: renzhizhongdeMacBook-Air.local
+

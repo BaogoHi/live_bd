@@ -34,10 +34,6 @@ module.exports = app => {
       type: INTEGER,
       allowNull: false
     },
-    tags: {
-      type: STRING,
-      allowNull: true
-    },
     active: {
       type: INTEGER,
       allowNull: true
@@ -49,6 +45,7 @@ module.exports = app => {
   })
   Live.associate = function() {
     app.model.Live.belongsTo(app.model.User, { as: 'user', foreignKey: 'userId'})
+    app.model.Live.hasMany(app.model.LiveTag)
   }
   return Live
 }

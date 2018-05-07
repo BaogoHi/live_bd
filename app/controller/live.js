@@ -67,10 +67,11 @@ class LiveController extends Controller {
    * 添加标签
    */
   async addTags() {
-    const {ctx} = this
-    const {livecode, name} = ctx.request.body
-    const result = await ctx.service.live.addTags(livecode, name)
-    ctx.helper.success({ctx, res:result})
+    const {ctx, app} = this
+    const {id} = app.verifyToken(ctx)
+    const {name} = ctx.request.body
+    const result = await ctx.service.live.addTags( id, name )
+    ctx.helper.success({ctx, res:name})
   }
 }
 

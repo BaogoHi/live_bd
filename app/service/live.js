@@ -20,11 +20,23 @@ class LiveService extends Service {
     return giftnum
   }
   /**
-   * 通过livecode查找直播间
-   * @param {*} livecode 
+   * 通过id查找直播间
+   * @param {*} id 
    */
-  async findByCode(livecode) {
-    const live = await this.ctx.model.Live.findOne({where: livecode})
+  async findByCode(id) {
+    const live = await this.ctx.model.Live.findOne({
+      where: id,
+      include: [{
+        model: this.ctx.model.User,
+        as:'user'
+      }, {
+        model: this.ctx.model.LiveTag,
+        include: {
+          model: this.ctx.model.Tag,
+          as: 'tag'
+        }
+      }]
+    })
     if(!live) {
       this.ctx.throw(404, '直播间没有找到')
     }
@@ -51,10 +63,17 @@ class LiveService extends Service {
     const live = await this.ctx.model.Live.findAll({
       limit:parseInt(limit), 
       offset:parseInt(offset),
-      include: {
+      include: [{
+        attribute:['username'],
         model: this.ctx.model.User,
         as:'user'
-      }
+      }, {
+        model: this.ctx.model.LiveTag,
+        include: {
+          model: this.ctx.model.Tag,
+          as: 'tag'
+        }
+      }]
     })
     if(!live) {
       this.ctx.throw(404, 'there has no data')
@@ -83,12 +102,16 @@ class LiveService extends Service {
   }
   /**
    * 给直播间加标签
-   * @param {*} livecode 
+   * @param {*} id 
    * @param {*} name 
    */
-  async addTags(livecode, name) {
-    if(name&&livecode){
-      return await this.ctx.model.query(`UPDATE live SET tags='${name}' WHERE livecode='${livecode}'`)
+  async addTags(id, name) {
+    if(name&&id){
+      const result = await this.ctx.service.tag.create({
+        name: name
+      })
+      console.log(result.id) 
+      return await this.ctx.model.query(`INSERT INTO liveTag ( liveId, tagId ) VALUES (${id}, ${result.id})`)
     } else {
       return 
     }

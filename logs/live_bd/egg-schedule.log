@@ -94,3 +94,13 @@
 2018-05-07 14:13:44,786 INFO 6121 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-05-08 00:00:01.000
 2018-05-07 14:17:56,178 INFO 6177 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-05-08 00:00:00.000
 2018-05-07 14:17:56,180 INFO 6177 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-05-08 00:00:01.000
+2018-05-07 14:51:42,620 INFO 7450 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-05-08 00:00:00.000
+2018-05-07 14:51:42,621 INFO 7450 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-05-08 00:00:01.000
+2018-05-07 14:53:32,083 INFO 7545 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-05-08 00:00:00.000
+2018-05-07 14:53:32,084 INFO 7545 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-05-08 00:00:01.000
+2018-05-07 14:58:45,104 INFO 7668 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-05-08 00:00:00.000
+2018-05-07 14:58:45,105 INFO 7668 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-05-08 00:00:01.000
+2018-05-07 15:09:31,015 INFO 7837 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-05-08 00:00:00.000
+2018-05-07 15:09:31,016 INFO 7837 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-05-08 00:00:01.000
+2018-05-07 15:27:51,892 INFO 8061 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-05-08 00:00:00.000
+2018-05-07 15:27:51,894 INFO 8061 [Timer] /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-05-08 00:00:01.000

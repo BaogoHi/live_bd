@@ -12,6 +12,8 @@ module.exports = app => {
     tableName: 'tag',
     undersocred: false
   })
-
+  Tag.associate = function() {
+    app.model.Tag.hasMany(app.model.LiveTag)
+  }
   return Tag
 }

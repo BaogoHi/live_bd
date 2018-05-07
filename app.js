@@ -1,7 +1,7 @@
 module.exports = app => {
   if(app.config.env === 'local') {
     app.beforeStart(async () => {
-      await app.model.sync({force:true})
+      // await app.model.sync({force:true})
     })
   }
   // local passport 处理
@@ -17,10 +17,7 @@ module.exports = app => {
     if(compare) {
       return app.getUserJson(result, ctx, 1)
     } else {
-      return ctx.helper.success({
-        ctx,
-        res: '用户名或者密码错误'
-      })
+      return ctx.helper.fail({ctx,res: '用户名或者密码错误'})
     }
     
   }
@@ -54,7 +51,6 @@ module.exports = app => {
   }
   // passport 综合处理
   app.passport.verify(async (ctx, user) => {
-
     // 根据provider不同，来选择处理函数
     const provider = user.provider
     const handler = provider === 'github'? githubHandler : localHandler
