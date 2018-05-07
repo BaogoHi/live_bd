@@ -70,5 +70,14 @@ module.exports = appInfo => {
       port: 6379
     }
   }
+  // passport github
+  config.passportGithub = {
+    key: 'a340ee0c3ae5d56f94db',
+    secret:'b9fef257ea93259f83fbb294f57b3219b1dc45e8',
+    callbackURL: '/passport/github/callback'
+  }
+  // passport local 
+  config.passportLocal = {
+  }
   return config;
 };

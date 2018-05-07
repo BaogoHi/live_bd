@@ -31,3 +31,18 @@ exports.redis = {
   enable: true,
   package: 'egg-redis'
 }
+
+exports.passport = {
+  enable: true,
+  package: 'egg-passport'
+}
+
+exports.passportGithub = {
+  enable: true,
+  package: 'egg-passport-github'
+}
+
+exports.passportLocal = {
+  enable: true,
+  package: 'egg-passport-local'
+}
