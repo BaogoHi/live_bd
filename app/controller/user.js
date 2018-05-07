@@ -41,8 +41,10 @@ class UserController extends Controller {
     ctx.service.live.create({
       roomname: username,
       livecode: username,
+      userId: result.id,
       gift: 0,
       peonum: 0,
+      liveurl: `/${username}`,
       usecustom: 0,
       active: 1
     })

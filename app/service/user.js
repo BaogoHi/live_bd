@@ -86,7 +86,13 @@ class UserService extends Service {
    * @param {*} offset 
    */
   async findAllUser(limit=10, offset=0) {
-    const user = await this.ctx.model.User.findAll({limit:parseInt(limit),offset:parseInt(offset)})
+    const user = await this.ctx.model.User.findAll({
+      limit:parseInt(limit),
+      offset:parseInt(offset),
+      include:{
+        model: this.ctx.model.Live,
+      }
+    })
     if(!user) {
       this.ctx.throw(404, 'there has no data')
     }

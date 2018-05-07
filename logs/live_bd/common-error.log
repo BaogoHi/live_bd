@@ -3391,3 +3391,134 @@ sql: 'UPDATE live SET tags=tags+\',zzes\' WHERE livecode=\'klren\''
 pid: 14253
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-07 08:17:46,159 ERROR 1774 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: Live is not defined
+    at UserService.findAllUser (/Users/klren/Projects/live_bd/app/service/user.js:93:16)
+    at UserController.getAllUser (/Users/klren/Projects/live_bd/app/controller/user.js:58:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 1774
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 08:18:07,780 ERROR 1803 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeEagerLoadingError: live is not associated to user!
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:583:13)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at UserService.findAllUser (/Users/klren/Projects/live_bd/app/service/user.js:89:44)
+    at UserController.getAllUser (/Users/klren/Projects/live_bd/app/controller/user.js:58:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 1803
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 08:38:11,486 ERROR 2142 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: results is not defined
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:42:13)
+    at <anonymous>
+
+pid: 2142
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 08:39:58,971 ERROR 2176 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeEagerLoadingError: live is associated to user using an alias. You've included an alias (live), but it does not match the alias defined in your association.
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:588:17)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at UserService.findAllUser (/Users/klren/Projects/live_bd/app/service/user.js:89:44)
+    at UserController.getAllUser (/Users/klren/Projects/live_bd/app/controller/user.js:59:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 2176
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 08:41:10,661 ERROR 2202 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeEagerLoadingError: live is associated to user using an alias. You've included an alias (live), but it does not match the alias defined in your association.
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:588:17)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at UserService.findAllUser (/Users/klren/Projects/live_bd/app/service/user.js:89:44)
+    at UserController.getAllUser (/Users/klren/Projects/live_bd/app/controller/user.js:59:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 2202
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 08:42:02,209 ERROR 2228 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeEagerLoadingError: user is associated to live using an alias. You must use the 'as' keyword to specify the alias within your include statement.
+    at Function._getIncludedAssociation (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:591:17)
+    at Function._validateIncludedElement (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:499:53)
+    at options.include.options.include.map.include (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:390:39)
+    at Promise.try.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1576:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1572:8)
+    at LiveService.findAllLive (/Users/klren/Projects/live_bd/app/service/live.js:51:44)
+    at LiveController.getAllLive (/Users/klren/Projects/live_bd/app/controller/live.js:38:46)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeEagerLoadingError'
+pid: 2228
+hostname: renzhizhongdeMacBook-Air.local
+

@@ -14,6 +14,11 @@ module.exports = {
         unique: true,
         allowNull: false,
       },
+      userId:{
+        type: INTEGER,
+        unique: true,
+        allowNull: false,
+      },
       gift: {
         type: INTEGER,
         allowNull: true,

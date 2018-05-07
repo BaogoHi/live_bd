@@ -39,6 +39,8 @@ module.exports = app => {
     tableName: 'user',
     underscored:false
   })
-  
+  User.associate = function() {
+    app.model.User.hasMany(app.model.Live)
+  }
   return User
 }

@@ -48,7 +48,14 @@ class LiveService extends Service {
    * @param {*} offset 
    */
   async findAllLive(limit=10, offset=0) {
-    const live = await this.ctx.model.Live.findAll({limit:parseInt(limit), offset:parseInt(offset)})
+    const live = await this.ctx.model.Live.findAll({
+      limit:parseInt(limit), 
+      offset:parseInt(offset),
+      include: {
+        model: this.ctx.model.User,
+        as:'user'
+      }
+    })
     if(!live) {
       this.ctx.throw(404, 'there has no data')
     }

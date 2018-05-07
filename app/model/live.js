@@ -9,6 +9,11 @@ module.exports = app => {
       unique: true,
       allowNull: false,
     },
+    userId:{
+      type: INTEGER,
+      unique: true,
+      allowNull: false,
+    },
     gift: {
       type: INTEGER,
       allowNull: true,
@@ -42,5 +47,8 @@ module.exports = app => {
     tableName: 'live',
     underscored: false
   })
+  Live.associate = function() {
+    app.model.Live.belongsTo(app.model.User, { as: 'user', foreignKey: 'userId'})
+  }
   return Live
 }
