@@ -5,6 +5,14 @@
  */
 module.exports = app => {
   const { router, controller, io } = app;
+  // passport github
+  app.passport.mount('github')
+  router.get('/', controller.home.index)
+  const localStrategy = app.passport.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/404'
+  })
+  app.router.post('/passport/local', localStrategy)
   // api
   router.post('/register', controller.user.register)                  // 注册
   router.post('/login', controller.user.login)                        // 登录

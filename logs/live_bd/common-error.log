@@ -3522,3 +3522,511 @@ name: 'SequelizeEagerLoadingError'
 pid: 2228
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-07 10:03:57,030 ERROR 2810 A client (::1:55217) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:03:57,031 ERROR 2810 A client (::1:55217) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:03:57,032 ERROR 2810 A client (::1:55218) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:03:57,033 ERROR 2810 A client (::1:55218) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:03:57,034 ERROR 2810 A client (::1:55219) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:03:57,034 ERROR 2810 A client (::1:55220) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:03:57,034 ERROR 2810 A client (::1:55219) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:03:57,035 ERROR 2810 A client (::1:55220) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,651 ERROR 2810 A client (::1:57480) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,651 ERROR 2810 A client (::1:57480) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,651 ERROR 2810 A client (::1:57481) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,653 ERROR 2810 A client (::1:57481) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,653 ERROR 2810 A client (::1:57482) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,653 ERROR 2810 A client (::1:57482) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,655 ERROR 2810 A client (::1:57483) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:04:56,655 ERROR 2810 A client (::1:57483) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,929 ERROR 2864 A client (::1:49393) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,931 ERROR 2864 A client (::1:49393) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,931 ERROR 2864 A client (::1:49394) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,932 ERROR 2864 A client (::1:49395) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,933 ERROR 2864 A client (::1:49395) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,933 ERROR 2864 A client (::1:49394) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,934 ERROR 2864 A client (::1:49396) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:33,934 ERROR 2864 A client (::1:49396) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,609 ERROR 2864 A client (::1:49432) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,610 ERROR 2864 A client (::1:49432) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,611 ERROR 2864 A client (::1:49433) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,611 ERROR 2864 A client (::1:49433) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,612 ERROR 2864 A client (::1:49434) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,612 ERROR 2864 A client (::1:49434) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,613 ERROR 2864 A client (::1:49435) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:34,613 ERROR 2864 A client (::1:49435) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,366 ERROR 2864 A client (::1:49616) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,367 ERROR 2864 A client (::1:49617) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,369 ERROR 2864 A client (::1:49616) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,370 ERROR 2864 A client (::1:49617) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,371 ERROR 2864 A client (::1:49620) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,372 ERROR 2864 A client (::1:49620) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,372 ERROR 2864 A client (::1:49621) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:39,373 ERROR 2864 A client (::1:49621) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,791 ERROR 2864 A client (::1:49687) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,791 ERROR 2864 A client (::1:49687) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,791 ERROR 2864 A client (::1:49688) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,792 ERROR 2864 A client (::1:49688) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,793 ERROR 2864 A client (::1:49689) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,794 ERROR 2864 A client (::1:49690) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,794 ERROR 2864 A client (::1:49689) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:41,795 ERROR 2864 A client (::1:49690) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,213 ERROR 2864 A client (::1:50100) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,213 ERROR 2864 A client (::1:50100) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,214 ERROR 2864 A client (::1:50101) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,215 ERROR 2864 A client (::1:50101) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,216 ERROR 2864 A client (::1:50102) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,217 ERROR 2864 A client (::1:50103) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,218 ERROR 2864 A client (::1:50102) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:08:52,219 ERROR 2864 A client (::1:50103) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,236 ERROR 2864 A client (::1:53391) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,236 ERROR 2864 A client (::1:53391) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,237 ERROR 2864 A client (::1:53392) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,237 ERROR 2864 A client (::1:53392) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,238 ERROR 2864 A client (::1:53393) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,238 ERROR 2864 A client (::1:53393) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,239 ERROR 2864 A client (::1:53394) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 10:10:18,240 ERROR 2864 A client (::1:53394) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-05-07 11:28:34,357 ERROR 3912 [-/127.0.0.1/-/0ms GET /] nodejs.TokenError: The code passed is incorrect or expired.
+    at Strategy.OAuth2Strategy.parseErrorResponse (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:329:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:376:16)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:166:45
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:77:16
+    at /Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'TokenError'
+message: 'The code passed is incorrect or expired.'
+code: 'bad_verification_code'
+uri: 'https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#bad-verification-code'
+status: 500
+pid: 3912
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 11:31:48,063 ERROR 3912 [-/127.0.0.1/-/0ms GET /] nodejs.TokenError: The code passed is incorrect or expired.
+    at Strategy.OAuth2Strategy.parseErrorResponse (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:329:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:376:16)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:166:45
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:77:16
+    at /Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'TokenError'
+message: 'The code passed is incorrect or expired.'
+code: 'bad_verification_code'
+uri: 'https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#bad-verification-code'
+status: 500
+pid: 3912
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 11:46:15,365 ERROR 4242 [-/::1/-/2121ms GET /passport/github/callback?code=2e7d3e0155517afa99c0] nodejs.CookieLimitExceedError: cookie EGG_SESS's length(4952) exceed the limit(4093)
+    at Application.on (/Users/klren/Projects/live_bd/node_modules/egg/lib/application.js:347:19)
+    at Application.emit (events.js:180:13)
+    at Cookies.set (/Users/klren/Projects/live_bd/node_modules/egg-cookies/lib/cookies.js:107:16)
+    at ContextSession.save (/Users/klren/Projects/live_bd/node_modules/koa-session/lib/context.js:320:22)
+    at ContextSession.commit (/Users/klren/Projects/live_bd/node_modules/koa-session/lib/context.js:231:16)
+    at session (/Users/klren/Projects/live_bd/node_modules/koa-session/index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'CookieLimitExceedError'
+key: 'EGG_SESS'
+cookie: 'NvGLbG_AjMHrLPJAzczXOwjYqhDOONVS9_t5LkhrDHPsmE9U_LDC5Rj6JRb3NPea8OhBMnM48IIJuiWnlVDvFnOdcHpNIjQSokhi7SS5aP0glcTGYaKY8ZZFxeHKzsGvm7Z6ROPwFgD4e9FmomQri_bskoMMbCbJ8rfwpcWvnVJUOCmRYstpr6H6Bfb3zBqfhxs6AxtuPCde8zJmpdsNs8JitS0dhUDyZNvTRgoY2_TM_aiMbZyCP9d7ygllognCoQZz5mn_8BAXl43xtMUQK7m4pPFXmMcXrWxm4pJ9y4MuoH26Wr1YMKbmN9gOw_TZmdePzktg2pI2uwYZt7foZavPypwwEBzneui5VU6uTff9TDzn3KBxHiladwm6a9mfKWse0zi6CsAOF_DYCRR8DYIDVpNUF2C3la76aiT5jPYaS9hzNKcmYrXvgc1QJp8KYjYr3kNPO2Sp7BF8cGqX-XhsjRht4bXOnl2MHKQGjlOTyJvGYyqBD4ehzMsmGYV0JJTSr5ux3rIwsLoYa-RtteG5VYH9j0g4M4l06-shqEDs-b1u53sxk_F6C_y-wecxkZwv3yC1YDrSdDxx2zx9oBpvc8S8LHPrxDmmkdKinYNaCSLmXTa2aQrYASYRMdYfyKflLSxaE6wpf05POKRFscFmQwjrs7xM6gP_1Bb7WnYUxmlWBCojwdNYCghX2InAm5g0PhRm42RGoPY0RgkLbw1Kp-aIbjQ8I-qm_CPusD_8LHrMg9LJGB4fKpsGaiclG6K92DZERYv0r9EhLgAiX_Q4kWD9Fowm2l6YKXZjkvLWsIL1eJq1Pzr_gpcuaqf4p6ROl2q0UsiN8R8MMlqs6O8UiJIvOOUpR_l5G-7mkB_IA1rGDN1c1tmMR8y48uoc9xPRexRl4jJmxXoNZX0POtlGzsI4i9xzPyBKde04AUdYJZ_BeFiPlSV8_Fao54bgAMpuC6v8Ddrlte6SsLDUCeLq18Md2Ha92iy3E-mw_uWSDeRrY0gLaORW7Y7HpnTX3pA3_eOnc1CwVRp-2StsBDNFfZaE9akwfrmMfGZq_FRc7m0e3tZO3ulA6Hp9c3pqPwZWvoALVrAvoamFdJS7KCbYUjQ-PJmGWuus0PQcnDPHGGuKOwis-_7LA36658PRR1SOwM6YbnBZzSwyEp4ZADwlgT4YXX86FlZdWrQ-u4OsavF9np8OlaP6BBYKqPlomU1ZVdd98GE5liC0SYREIv6VWtVnIM3LR6PChT_zh9PP7_EIOmZXQXf0mPTeKSA7btL0Ljx8KJWury3ipjJHI-qr3gZzTxDGLOqssCkS-1rYo1h1RpGoqqiYzlmRnRX5M26u0ADxjdumIyqqKGg6CJ0E5uULeGzvYcL6tFoNMYPQsPtdvo6BoPapMj167eg3q2um1u5jhIg2opxmoZgfvusMuK6fKWoNnh0S0NH_FlxmRMBJqCZXnNF6QjsXixAqI8P2ItX49PYRra_6ggI9ALNLZrndnuarGPJoTIFZFMFHP5adoY-VdM-3RivLhneh-VbfvUTobMbkw5fID8z3gAoeZ6qXE5dJGOL6B_d02tNMkbQeg5cS-adb5k8dhQn06UOF4VSu3Me1iOtPH3wX2rGse_O6Um27CPw4RvZZZLPT12leMTw7Lh0G97ZOLUExiuIMPqyA1GydOOkENyaQz9566qv-2LmSliV1FAU_OkoMA_kFh_deKzK1u7GUak7YbjiC9oCMNdjraKQAd6sAf6uV8SNCJNMu5goL0Nf0Bk1KU-3zX-uFBRPdroT4hGVhGeIR3xfRBxmKWkzPlqtseIM--fvKfUbsCfLN3V09X9R0NkpW_hzIDTuGpwJdlsmeXhj3MUztkeqeNba0VxDkIfE1W9ufPdA8w7tRNg1RmGqRXxCKkTyeZi_5d-tzA_qMDzqomNXTTDZtcjTOlsCTM1hsmQNimLNCBR03hNEp2ukpPk2ljJLuVy3crLortQAOySM5pxOepGGFltd5gXgNtaC2AXK2y6aLLoPhX7DxR8-i7hghk3StH4uXEQmHoe-DRglDNNYIw3e1AzIqgACHKZVnR_r1rcUrgkDU4-AbXrUDkRBLfr93cZs3XcQQf5N7tDx6q8PLmQe0n3qRVLf4LuqTgKrkv4Y-c4hziPuy6v0WA8df0HjTY1rTjwJsntc2tzsE0mMWlUH6W8yA7TrrRsZVoYhyytKY5ZPRu3VXiEATWWJ4hwpMHI_VoplOo8uX6cqkqPXfB4szXcwRmuTpvNorDAg5QqTJNLMZ-D0mQsuxdzWqPnWBf37NXctRAlABoMCtLfMydgNsY4kbQDnhyp8yC-he5c6naov79qF3xRWtfNkz3K4sqcr1Y2R_MSfQEixnV0hd12Crk8UuYHLZxed0xcgdyWn2p7qA2JquhM22hqFUooVUpaX-6loG7AYM1apYl-P-STf0O92dLgDdSzch3aDDVrwhfvNZxGrKi7EabY07HIRV0IVKHf5QBJCpXi6fHsMSvsTNANt8hBHkuMDEfdfp5qbHJOnaFCMkLdEH3o5dH21zG_y-Zxu9EGDJRQRSM5iIKJJSqbkLihIaJoPFqcOcb-bwsuuTuGY4YjEH_V-Vh36YMHa1brPsAsJJoKrOS2DP1LCcao_O48FbuAMzLthEAaT-NDJa7ANMO8VnOuhelEfCpJQGuKS1v-zt5i7N_HK7VNFF4BCz86zjpjBEGtBg3hJGIodkhtJebleUflq57OnrD8YfwqTKtrdi4dy3c9TsOhcMyo0LwNeQIR_yfEbK8z0bfIBSjYRLAXyFycpXkAu-4Cl1i-M69v3gEuf8VFNv2NUGR8j_7uTmB3biMSrCHmb_iHjxx0jNtrg4B9azMzdj7dd5WxbJTXWZcEex2UinJN5LReE6OEKmQt7722d6D0AoHom2yERE2kTntumtfdecJ-c84IFmo_qIuXxqn6znEm5RoM_rAWj5n1LfpKyAOYNBIaFl8X_Qy7GHrACVzhn48MFpa5rBsQYeEhTKgBKIegtwjifCqJoZx9by9OhwMtk_XTI4XOaRraaO53MAFkS5Kpa0c8PUmdNmpeTh4sSBHmkpBD_JaB9owzYVmepztpDgk9v2A9nu8mTcbMvZ1eRWAj6BT-BKf4s5m4514N3F7YJg6SzJPHzUjaE43NPFkLN9ZT25omjUvd1NZAmImBwGsgLdoLfQsVNbXzZP9i-3OlfrXULN2nGAyfUmUkxiQ8iMek3J61P1WyzA-4K4h55qrs3qp7hRH2_v0l7ircFpOkXrkQZlq-Y554O_PFuzUJR_JiVutpzYcRBrIvydZXuEk35SUooAH_TT60e_SrXK2hfu5hM1EQ6gjSf0jKZxx0Y-ynWJizQUQC0rwcE8-2mEJcChSDaYEvVryfmtZXGHkVCfTQAWPrv-a1Z-caH7BMV_cr_DSDTjhsLKO3uoabrAPTKP-wZ-CYyy-y5n3MzgzBJvfFVGtetv3XxAtlCDzeceHaNq8cHFcCuNvNLu12V4s030J7wYDTtiFTrnL56_z3dALEQziZy4szUxKRp-z8NYXJS_OsSfkrApuMsLPRa-prTn0tkPi-ux7Xrfdlj00LN9bx66ryredN8hawIo6aB5byGVMyZ1tUYLzwYRnZVWnrmaxo38NVpQAGDHsq5EGjEgLd8AXQy7IUHBUJkYOGImaEzwNPt0qujZVsTZEWa4TNqeKAoQAXieES7IjYU93-YS0ZvXoK-0ZTw1YJOFnMX3C8cI3q87zq02J1p4z42U1r-ULU-6Q0mZHqkeWuyqVfDG7kEQY-JCMRH39g4k5-ZLqq1S-_E2BNbuVcM0ev1z7PsrJv9UWK-SU36axDdWiBD3_TG4lwoM_6shoRZsRN6VxQMA7nLJkBMjf0DU6S6kokqVxRDkuX4bAnUTv8X5ys6xFgP5o49A3HEU1M19smpVodREy5JbEB1XVtwISt8Ve5tJLARGDtvPWjKPPJmLSEeszYmvkJfJoezxZBhg-yYoUXBSoXP2Fp0V4qzUNSKGPQvN3SRBOtLwBONpnBcGzjAkg9ZRZD4ovFV5YzoSBqG4LWDWg8LuSSfk82AZdEehDtiXV__cspRIdMrNxG7UmQBFbD__zOnqYajlB2Jjm9nvr_zdrPYfmEshNZIJmXa2e0WnBN_MIQkRHPYhyfF1JIfcwErtkNpctAW8nK9cNvpZS6QbibyS7QvsuraFs15-RPh2MbU5r0KtgVPZHfhv60FDcwtLBEroRdQytmuTOu10S69O50Aw-hyMdsZgKmgatqkucSmYFq6b5jPokn71dJPqWjnZhh0ii40p0pbH4OpaCU_iVZva0mu6-ATh7-bT6SqHdkRe7DKNI0U0YyQw0xjz0BKbeyO1syC-ZGONA9_pEL_UMHu92zNyAzmcRT4Q7HZbCRj-ccpbyydP3BTgU2zGeIok0kWz3CBbfLl719lHKh2w2auaeGY7wVCb8CtvPuB9pHL3C0_CDTpcNfn50eO4UqsFmxtiumYhaHTs-38faDfTjCioWWcXv5hNzX-X8SunFQFaGqmvhNpqlPTbVOqsiSHhEpH72kSwwZEUPBRXaU-6faUdTVz4A-fb88Vw6XEwxPh45_mz3Jvu3lr-FM5OYicwpv9rGhZcQoyqCuf4S_eRW_sJAQmtFV44sbbuKABoal6Sd-fXLxyNajp411xKFT_HBCCVnG3mUz0SOJ7rL74W2Kxdwp9T3Cn9ntiUMy9ElFHKB2iJ620_QvejkK9qnjWtxwPK5MtQwb33PIuzIMSTxX4qqy1GUnVPPGOauSQPePGb155SL2I0Gf2AdnoEgFU5siCJMNvGy2AGIvz5EFEk1Sf_h0XW9Q_lW7EL0wfQbW3bj8Ag8EvJTonR7Fw41KmOacfIye2jH2JOKwEj233OO3fDCIveMp7t751REq4fqWj5LLJ-nOJFYET6PcOsnqPhvgDS-A=='
+pid: 4242
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 11:52:29,247 ERROR 4443 [-/127.0.0.1/-/1ms GET /] nodejs.TokenError: The code passed is incorrect or expired.
+    at Strategy.OAuth2Strategy.parseErrorResponse (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:329:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:376:16)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:166:45
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:77:16
+    at /Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'TokenError'
+message: 'The code passed is incorrect or expired.'
+code: 'bad_verification_code'
+uri: 'https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#bad-verification-code'
+status: 500
+pid: 4443
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 11:59:32,006 ERROR 4461 [-/127.0.0.1/-/1ms GET /] nodejs.TokenError: The code passed is incorrect or expired.
+    at Strategy.OAuth2Strategy.parseErrorResponse (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:329:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:376:16)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:166:45
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:77:16
+    at /Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'TokenError'
+message: 'The code passed is incorrect or expired.'
+code: 'bad_verification_code'
+uri: 'https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#bad-verification-code'
+status: 500
+pid: 4461
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 11:59:55,326 ERROR 4568 [-/::1/-/2175ms GET /passport/github/callback?code=3b5fee4c0f8e708d7ae7] nodejs.CookieLimitExceedError: cookie EGG_SESS's length(4952) exceed the limit(4093)
+    at Application.on (/Users/klren/Projects/live_bd/node_modules/egg/lib/application.js:347:19)
+    at Application.emit (events.js:180:13)
+    at Cookies.set (/Users/klren/Projects/live_bd/node_modules/egg-cookies/lib/cookies.js:107:16)
+    at ContextSession.save (/Users/klren/Projects/live_bd/node_modules/koa-session/lib/context.js:320:22)
+    at ContextSession.commit (/Users/klren/Projects/live_bd/node_modules/koa-session/lib/context.js:231:16)
+    at session (/Users/klren/Projects/live_bd/node_modules/koa-session/index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'CookieLimitExceedError'
+key: 'EGG_SESS'
+cookie: 'NvGLbG_AjMHrLPJAzczXOwjYqhDOONVS9_t5LkhrDHPsmE9U_LDC5Rj6JRb3NPea8OhBMnM48IIJuiWnlVDvFnOdcHpNIjQSokhi7SS5aP0glcTGYaKY8ZZFxeHKzsGvm7Z6ROPwFgD4e9FmomQri_bskoMMbCbJ8rfwpcWvnVJUOCmRYstpr6H6Bfb3zBqfhxs6AxtuPCde8zJmpdsNs8JitS0dhUDyZNvTRgoY2_TM_aiMbZyCP9d7ygllognCoQZz5mn_8BAXl43xtMUQK7m4pPFXmMcXrWxm4pJ9y4MuoH26Wr1YMKbmN9gOw_TZmdePzktg2pI2uwYZt7foZavPypwwEBzneui5VU6uTff9TDzn3KBxHiladwm6a9mfKWse0zi6CsAOF_DYCRR8DYIDVpNUF2C3la76aiT5jPYaS9hzNKcmYrXvgc1QJp8KYjYr3kNPO2Sp7BF8cGqX-XhsjRht4bXOnl2MHKQGjlOTyJvGYyqBD4ehzMsmGYV0JJTSr5ux3rIwsLoYa-RtteG5VYH9j0g4M4l06-shqEDs-b1u53sxk_F6C_y-wecxkZwv3yC1YDrSdDxx2zx9oBpvc8S8LHPrxDmmkdKinYNaCSLmXTa2aQrYASYRMdYfyKflLSxaE6wpf05POKRFscFmQwjrs7xM6gP_1Bb7WnYUxmlWBCojwdNYCghX2InAm5g0PhRm42RGoPY0RgkLbw1Kp-aIbjQ8I-qm_CPusD_8LHrMg9LJGB4fKpsGaiclG6K92DZERYv0r9EhLgAiX_Q4kWD9Fowm2l6YKXZjkvLWsIL1eJq1Pzr_gpcuaqf4p6ROl2q0UsiN8R8MMlqs6O8UiJIvOOUpR_l5G-7mkB_IA1rGDN1c1tmMR8y48uoc9xPRexRl4jJmxXoNZX0POtlGzsI4i9xzPyBKde04AUdYJZ_BeFiPlSV8_Fao54bgAMpuC6v8Ddrlte6SsLDUCeLq18Md2Ha92iy3E-mw_uWSDeRrY0gLaORW7Y7HpnTX3pA3_eOnc1CwVRp-2StsBDNFfZaE9akwfrmMfGZq_FRc7m0e3tZO3ulA6Hp9c3pqPwZWvoALVrAvoamFdJS7KCbYUjQ-PJmGWuus0PQcnDPHGGuKOwis-_7LA36658PRR1SOwM6YbnBZzSwyEp4ZADwlgT4YXX86FlZdWrQ-u4OsavF9np8OlaP6BBYKqPlomU1ZVdd98GE5liC0SYREIv6VWtVnIM3LR6PChT_zh9PP7_EIOmZXQXf0mPTeKSA7btL0Ljx8KJWury3ipjJHI-qr3gZzTxDGLOqssCkS-1rYo1h1RpGoqqiYzlmRnRX5M26u0ADxjdumIyqqKGg6CJ0E5uULeGzvYcL6tFoNMYPQsPtdvo6BoPapMj167eg3q2um1u5jhIg2opxmoZgfvusMuK6fKWoNnh0S0NH_FlxmRMBJqCZXnNF6QjsXixAqI8P2ItX49PYRra_6ggI9ALNLZrndnuarGPJoTIFZFMFHP5adoY-VdM-3RivLhneh-VbfvUTobMbkw5fID8z3gAoeZ6qXE5dJGOL6B_d02tNMkbQeg5cS-adb5k8dhQn06UOF4VSu3Me1iOtPH3wX2rGse_O6Um27CPw4RvZZZLPT12leMTw7Lh0G97ZOLUExiuIMPqyA1GydOOkENyaQz9566qv-2LmSliV1FAU_OkoMA_kFh_deKzK1u7GUak7YbjiC9oCMNdjraKQAd6sAf6uV8SNCJNMu5goL0Nf0Bk1KU-3zX-uFBRPdroT4hGVhGeIR3xfRBxmKWkzPlqtseIM--fvKfUbsCfLN3V09X9R0NkpW_hzIDTuGpwJdlsmeXhj3MUztkeqeNba0VxDkIfE1W9ufPdA8w7tRNg1RmGqRXxCKkTyeZi_5d-tzA_qMDzqomNXTTDZtcjTOlsCTM1hsmQNimLNCBR03hNEp2ukpPk2ljJLuVy3crLortQAOySM5pxOepGGFltd5gXgNtaC2AXK2y6aLLoPhX7DxR8-i7hghk3StH4uXEQmHoe-DRglDNNYIw3e1AzIqgACHKZVnR_r1rcUrgkDU4-AbXrUDkRBLfr93cZs3XcQQf5N7tDx6q8PLmQe0n3qRVLf4LuqTgKrkv4Y-c4hziPuy6v0WA8df0HjTY1rTjwJsntc2tzsE0mMWlUH6W8yA7TrrRsZVoYhyytKY5ZPRu3VXiEATWWJ4hwpMHI_VoplOo8uX6cqkqPXfB4szXcwRmuTpvNorDAg5QqTJNLMZ-D0mQsuxdzWqPnWBf37NXctRAlABoMCtLfMydgNsY4kbQDnhyp8yC-he5c6naov79qF3xRWtfNkz3K4sqcr1Y2R_MSfQEixnV0hd12Crk8UuYHLZxed0xcgdyWn2p7qA2JquhM22hqFUooVUpaX-6loG7AYM1apYl-P-STf0O92dLgDdSzch3aDDVrwhfvNZxGrKi7EabY07HIRV0IVKHf5QBJCpXi6fHsMSvsTNANt8hBHkuMDEfdfp5qbHJOnaFCMkLdEH3o5dH21zG_y-Zxu9EGDJRQRSM5iIKJJSqbkLihIaJoPFqcOcb-bwsuuTuGY4YjEH_V-Vh36YMHa1brPsAsJJoKrOS2DP1LCcao_O48FbuAMzLthEAaT-NDJa7ANMO8VnOuhelEfCpJQGuKS1v-zt5i7N_HK7VNFF4BCz86zjpjBEGtBg3hJGIodkhtJebleUflq57OnrD8YfwqTKtrdi4dy3c9TsOhcMyo0LwNeQIR_yfEbK8z0bfIBSjYRLAXyFycpXkAu-4Cl1i-M69v3gEuf8VFNv2NUGR8j_7uTmB3biMSrCHmb_iHjxx0jNtrg4B9azMzdj7dd5WxbJTXWZcEex2UinJN5LReE6OEKmQt7722d6D0AoHom2yERE2kTntumtfdecJ-c84IFmo_qIuXxqn6znEm5RoM_rAWj5n1LfpKyAOYNBIaFl8X_Qy7GHrACVzhn48MFpa5rBsQYeEhTKgBKIegtwjifCqJoZx9by9OhwMtk_XTI4XOaRraaO53MAFkS5Kpa0c8PUmdNmpeTh4sSBHmkpBD_JaB9owzYVmepztpDgk9v2A9nu8mTcbMvZ1eRWAj6BT-BKf4s5m4514N3F7YJg6SzJPHzUjaE43NPFkLN9ZT25omjUvd1NZAmImBwGsgLdoLfQsVNbXzZP9i-3OlfrXULN2nGAyfUmUkxiQ8iMek3J61P1WyzA-4K4h55qrs3qp7hRH2_v0l7ircFpOkXrkQZlq-Y554O_PFuzUJR_JiVutpzYcRBrIvydZXuEk35SUooAH_TT60e_SrXK2hfu5hM1EQ6gjSf0jKZxx0Y-ynWJizQUQC0rwcE8-2mEJcChSDaYEvVryfmtZXGHkVCfTQAWPrv-a1Z-caH7BMV_cr_DSDTjhsLKO3uoabrAPTKP-wZ-CYyy-y5n3MzgzBJvfFVGtetv3XxAtlCDzeceHaNq8cHFcCuNvNLu12V4s030J7wYDTtiFTrnL56_z3dALEQziZy4szUxKRp-z8NYXJS_OsSfkrApuMsLPRa-prTn0tkPi-ux7Xrfdlj00LN9bx66ryredN8hawIo6aB5byGVMyZ1tUYLzwYRnZVWnrmaxo38NVpQAGDHsq5EGjEgLd8AXQy7IUHBUJkYOGImaEzwNPt0qujZVsTZEWa4TNqeKAoQAXieES7IjYU93-YS0ZvXoK-0ZTw1YJOFnMX3C8cI3q87zq02J1p4z42U1r-ULU-6Q0mZHqkeWuyqVfDG7kEQY-JCMRH39g4k5-ZLqq1S-_E2BNbuVcM0ev1z7PsrJv9UWK-SU36axDdWiBD3_TG4lwoM_6shoRZsRN6VxQMA7nLJkBMjf0DU6S6kokqVxRDkuX4bAnUTv8X5ys6xFgP5o49A3HEU1M19smpVodREy5JbEB1XVtwISt8Ve5tJLARGDtvPWjKPPJmLSEeszYmvkJfJoezxZBhg-yYoUXBSoXP2Fp0V4qzUNSKGPQvN3SRBOtLwBONpnBcGzjAkg9ZRZD4ovFV5YzoSBqG4LWDWg8LuSSfk82AZdEehDtiXV__cspRIdMrNxG7UmQBFbD__zOnqYajlB2Jjm9nvr_zdrPYfmEshNZIJmXa2e0WnBN_MIQkRHPYhyfF1JIfcwErtkNpctAW8nK9cNvpZS6QbibyS7QvsuraFs15-RPh2MbU5r0KtgVPZHfhv60FDcwtLBEroRdQytmuTOu10S69O50Aw-hyMdsZgKmgatqkucSmYFq6b5jPokn71dJPqWjnZhh0ii40p0pbH4OpaCU_iVZva0mu6-ATh7-bT6SqHdkRe7DKNI0U0YyQw0xjz0BKbeyO1syC-ZGONA9_pEL_UMHu92zNyAzmcRT4Q7HZbCRj-ccpbyydP3BTgU2zGeIok0kWz3CBbfLl719lHKh2w2auaeGY7wVCb8CtvPuB9pHL3C0_CDTpcNfn50eO4UqsFmxtiumYhaHTs-38faDfTjCioWWcXv5hNzX-X8SunFQFaGqmvhNpqlPTbVOqsiSHhEpH72kSwwZEUPBRXaU-6faUdTVz4A-fb88Vw6XEwxPh45_mz3Jvu3lr-FM5OYicwpv9rGhZcQoyqCuf4S_eRW_sJAQmtFV44sbbuKABoal6Sd-fXLxyNajp411xKFT_HBCCVnG3mUz0SOJ7rL74W2Kxdwp9T3Cn9ntiUMy9ElFHKB2iJ620_QvejkK9qnjWtxwPK5MtQwb33PIuzIMSTxX4qqy1GUnVPPGOauSQPePGb155SL2I0Gf2AdnoEgFU5siCJMNvGy2AGIvz5EFEk1Sf_h0XW9Q_lW7EL0wfQbW3bj8Ag3gjfUhT5KF3c26EC08MPjlTTar1vrdIfVezMjZ9p0KAkv3F0BdDVGDhAK8jMXIsu9RJaR6O5_LX3WYjZ6bh3DQ=='
+pid: 4568
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 13:47:45,200 ERROR 5385 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeValidationError: notNull Violation: user.email cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:29:28)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:38:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'user.email cannot be null', type: 'notNull Violation', path: 'email', value: null, origin: 'CORE', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 5385
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 13:49:46,146 ERROR 5447 [-/127.0.0.1/-/1ms GET /] nodejs.InternalOAuthError: Failed to fetch user profile
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:122:19
+    at ClientRequest.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:162:5)
+    at ClientRequest.emit (events.js:180:13)
+    at TLSSocket.socketOnEnd (_http_client.js:429:9)
+    at TLSSocket.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'InternalOAuthError'
+message: 'Failed to fetch user profile'
+oauthError: { Error: socket hang up
+    at createHangUpError (_http_client.js:336:15)
+    at TLSSocket.socketOnEnd (_http_client.js:429:23)
+    at TLSSocket.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19) code: 'ECONNRESET' }
+pid: 5447
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 13:50:23,100 ERROR 5447 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeValidationError: notNull Violation: user.email cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:29:28)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:38:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'user.email cannot be null', type: 'notNull Violation', path: 'email', value: null, origin: 'CORE', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 5447
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 13:54:02,925 ERROR 5507 [-/127.0.0.1/-/0ms GET /] nodejs.TokenError: The code passed is incorrect or expired.
+    at Strategy.OAuth2Strategy.parseErrorResponse (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:329:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:376:16)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:166:45
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:77:16
+    at /Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'TokenError'
+message: 'The code passed is incorrect or expired.'
+code: 'bad_verification_code'
+uri: 'https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#bad-verification-code'
+status: 500
+pid: 5507
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 13:54:10,997 ERROR 5507 [-/127.0.0.1/-/0ms GET /] nodejs.TokenError: The code passed is incorrect or expired.
+    at Strategy.OAuth2Strategy.parseErrorResponse (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:329:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:376:16)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:166:45
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:77:16
+    at /Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'TokenError'
+message: 'The code passed is incorrect or expired.'
+code: 'bad_verification_code'
+uri: 'https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#bad-verification-code'
+status: 500
+pid: 5507
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 13:58:01,388 ERROR 5607 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeValidationError: Validation error: Validation is on livecode failed
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:30:43)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:49:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'Validation is on livecode failed', type: 'Validation error', path: 'livecode', value: '/github_klren0312', origin: 'FUNCTION', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is', validatorName: 'is', validatorArgs: [ /^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){1,50}$/i ], __raw: { Error: Validation is on livecode failed
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:282:29)
+From previous event:
+    at InstanceValidator._invokeBuiltinValidator (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:271:23)
+    at _.forIn (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:206:37)
+    at /Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:4925:15
+    at Function.forIn (/Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:12949:11)
+    at InstanceValidator._builtinAttrValidate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:188:7)
+    at _.forIn (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:140:51)
+    at /Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:4925:15
+    at Function.forIn (/Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:12949:11)
+    at InstanceValidator._builtinValidators (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:127:7)
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:74:13)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:30:43)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:49:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19) validatorName: 'is', validatorArgs: [Array] } } ]
+pid: 5607
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 13:59:44,420 ERROR 5681 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeValidationError: Validation error: Validation is on livecode failed
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:29:43)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:49:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'Validation is on livecode failed', type: 'Validation error', path: 'livecode', value: '/github_klren0312', origin: 'FUNCTION', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is', validatorName: 'is', validatorArgs: [ /^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){1,50}$/i ], __raw: { Error: Validation is on livecode failed
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:282:29)
+From previous event:
+    at InstanceValidator._invokeBuiltinValidator (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:271:23)
+    at _.forIn (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:206:37)
+    at /Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:4925:15
+    at Function.forIn (/Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:12949:11)
+    at InstanceValidator._builtinAttrValidate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:188:7)
+    at _.forIn (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:140:51)
+    at /Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:4925:15
+    at Function.forIn (/Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:12949:11)
+    at InstanceValidator._builtinValidators (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:127:7)
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:74:13)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:29:43)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:49:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19) validatorName: 'is', validatorArgs: [Array] } } ]
+pid: 5681
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-07 14:00:40,795 ERROR 5711 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeValidationError: Validation error: Validation is on livecode failed
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:29:43)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:49:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'Validation is on livecode failed', type: 'Validation error', path: 'livecode', value: '/github_klren0312', origin: 'FUNCTION', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is', validatorName: 'is', validatorArgs: [ /^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){1,50}$/i ], __raw: { Error: Validation is on livecode failed
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:282:29)
+From previous event:
+    at InstanceValidator._invokeBuiltinValidator (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:271:23)
+    at _.forIn (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:206:37)
+    at /Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:4925:15
+    at Function.forIn (/Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:12949:11)
+    at InstanceValidator._builtinAttrValidate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:188:7)
+    at _.forIn (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:140:51)
+    at /Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:4925:15
+    at Function.forIn (/Users/klren/Projects/live_bd/node_modules/lodash/lodash.js:12949:11)
+    at InstanceValidator._builtinValidators (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:127:7)
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:74:13)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at githubHandler (/Users/klren/Projects/live_bd/app.js:29:43)
+    at app.passport.verify (/Users/klren/Projects/live_bd/app.js:49:12)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:69:22
+    at EggPassport.doVerify (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:75:7)
+    at Strategy.app.passport.use.Strategy [as _verify] (/Users/klren/Projects/live_bd/node_modules/egg-passport-github/app.js:33:18)
+    at /Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:184:24
+    at /Users/klren/Projects/live_bd/node_modules/passport-github/lib/strategy.js:174:7
+    at passBackControl (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/Users/klren/Projects/live_bd/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1106:12)
+    at process._tickCallback (internal/process/next_tick.js:178:19) validatorName: 'is', validatorArgs: [Array] } } ]
+pid: 5711
+hostname: renzhizhongdeMacBook-Air.local
+

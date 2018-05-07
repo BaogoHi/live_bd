@@ -2329,6 +2329,27 @@ egg-onerror@^2.0.0:
     mustache "^2.3.0"
     stack-trace "^0.0.10"
 
+egg-passport-github@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/egg-passport-github/-/egg-passport-github-1.0.0.tgz#7eb0fd369e2b0875b4ac4520e29dd2a61eea4d95"
+  dependencies:
+    debug "^2.6.1"
+    passport-github "^1.1.0"
+
+egg-passport-local@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/egg-passport-local/-/egg-passport-local-1.2.1.tgz#78e495dc2dafbaf242babb2e8b4831953eb37ff7"
+  dependencies:
+    debug "^3.1.0"
+    passport-local "^1.0.0"
+
+egg-passport@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/egg-passport/-/egg-passport-2.0.1.tgz#ac98233f5e6eb563ed730fd7347c58ab64fb8474"
+  dependencies:
+    debug "^3.1.0"
+    passport "^0.3.2"
+
 egg-path-matching@^1.0.0, egg-path-matching@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/egg-path-matching/-/egg-path-matching-1.0.1.tgz#ccfc4e408acd1cf94a7f672fb8c969e456883913"
@@ -2418,6 +2439,12 @@ egg-static@^2.1.0:
     koa-static-cache "^5.1.1"
     mkdirp "^0.5.1"
     ylru "^1.2.0"
+
+egg-userrole@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/egg-userrole/-/egg-userrole-2.0.0.tgz#5347b3fc0a3f11c50fec219c135c6f7072bccf80"
+  dependencies:
+    koa-roles "^2.0.0"
 
 egg-utils@^2.2.0, egg-utils@^2.3.0:
   version "2.4.0"
@@ -4434,6 +4461,12 @@ koa-range@^0.3.0:
   dependencies:
     stream-slice "^0.1.2"
 
+koa-roles@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/koa-roles/-/koa-roles-2.0.0.tgz#3974580a03ba3356fbfddd94546f14006678efc0"
+  dependencies:
+    is-type-of "^1.2.0"
+
 koa-router@^7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/koa-router/-/koa-router-7.4.0.tgz#aee1f7adc02d5cb31d7d67465c9eacc825e8c5e0"
@@ -5303,6 +5336,10 @@ nyc@^11.6.0:
     yargs "11.1.0"
     yargs-parser "^8.0.0"
 
+oauth@0.9.x:
+  version "0.9.15"
+  resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
+
 object-assign@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-3.0.0.tgz#9bedd5ca0897949bca47e7ff408062d549f587f2"
@@ -5569,6 +5606,38 @@ pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
 
+passport-github@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/passport-github/-/passport-github-1.1.0.tgz#8ce1e3fcd61ad7578eb1df595839e4aea12355d4"
+  dependencies:
+    passport-oauth2 "1.x.x"
+
+passport-local@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/passport-local/-/passport-local-1.0.0.tgz#1fe63268c92e75606626437e3b906662c15ba6ee"
+  dependencies:
+    passport-strategy "1.x.x"
+
+passport-oauth2@1.x.x:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/passport-oauth2/-/passport-oauth2-1.4.0.tgz#f62f81583cbe12609be7ce6f160b9395a27b86ad"
+  dependencies:
+    oauth "0.9.x"
+    passport-strategy "1.x.x"
+    uid2 "0.0.x"
+    utils-merge "1.x.x"
+
+passport-strategy@1.x.x:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
+
+passport@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/passport/-/passport-0.3.2.tgz#9dd009f915e8fe095b0124a01b8f82da07510102"
+  dependencies:
+    passport-strategy "1.x.x"
+    pause "0.0.1"
+
 path-case@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/path-case/-/path-case-2.1.1.tgz#94b8037c372d3fe2906e465bb45e25d226e8eea5"
@@ -5640,6 +5709,10 @@ path-type@^3.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-3.0.0.tgz#cef31dc8e0a1a3bb0d105c0cd97cf3bf47f4e36f"
   dependencies:
     pify "^3.0.0"
+
+pause@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
 
 pedding@^1.1.0:
   version "1.1.0"
@@ -7009,7 +7082,7 @@ uid-safe@^2.1.3:
   dependencies:
     random-bytes "~1.0.0"
 
-uid2@0.0.3:
+uid2@0.0.3, uid2@0.0.x:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/uid2/-/uid2-0.0.3.tgz#483126e11774df2f71b8b639dcd799c376162b82"
 
@@ -7131,6 +7204,10 @@ utility@^1.11.0, utility@^1.12.0, utility@^1.13.1, utility@^1.9.0:
     escape-html "~1.0.3"
     mkdirp "~0.5.1"
     mz "~2.7.0"
+
+utils-merge@1.x.x:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
 uuid@^3.0.1, uuid@^3.2.1:
   version "3.2.1"

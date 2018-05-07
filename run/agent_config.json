@@ -181,6 +181,12 @@
         "db": 0
       }
     },
+    "passportGithub": {
+      "key": "a340ee0c3ae5d56f94db",
+      "secret": "<String len: 40>",
+      "callbackURL": "/passport/github/callback"
+    },
+    "passportLocal": {},
     "env": "local",
     "name": "live_bd",
     "keys": "<String len: 26>",
@@ -198,10 +204,14 @@
         "egg": "^2.2.1",
         "egg-cors": "^2.0.0",
         "egg-jwt": "^3.0.0",
+        "egg-passport": "^2.0.1",
+        "egg-passport-github": "^1.0.0",
+        "egg-passport-local": "^1.2.1",
         "egg-redis": "^2.0.0",
         "egg-scripts": "^2.5.0",
         "egg-sequelize": "^3.1.3",
         "egg-socket.io": "^4.0.8",
+        "egg-userrole": "^2.0.0",
         "egg-validate": "^1.0.0",
         "mysql2": "^1.5.3",
         "uws": "^9.148.0"
@@ -557,6 +567,45 @@
       "from": "/Users/klren/Projects/live_bd/config/plugin.js",
       "path": "/Users/klren/Projects/live_bd/node_modules/egg-redis",
       "version": "2.0.0"
+    },
+    "passport": {
+      "enable": true,
+      "package": "egg-passport",
+      "name": "passport",
+      "dependencies": [
+        "session"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/klren/Projects/live_bd/config/plugin.js",
+      "path": "/Users/klren/Projects/live_bd/node_modules/egg-passport",
+      "version": "2.0.1"
+    },
+    "passportGithub": {
+      "enable": true,
+      "package": "egg-passport-github",
+      "name": "passportGithub",
+      "dependencies": [
+        "passport"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/klren/Projects/live_bd/config/plugin.js",
+      "path": "/Users/klren/Projects/live_bd/node_modules/egg-passport-github",
+      "version": "1.0.0"
+    },
+    "passportLocal": {
+      "enable": true,
+      "package": "egg-passport-local",
+      "name": "passportLocal",
+      "dependencies": [
+        "passport"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/klren/Projects/live_bd/config/plugin.js",
+      "path": "/Users/klren/Projects/live_bd/node_modules/egg-passport-local",
+      "version": "1.2.1"
     }
   }
 }

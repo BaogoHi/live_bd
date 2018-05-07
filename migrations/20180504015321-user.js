@@ -39,6 +39,10 @@ module.exports = {
           isLowercase: true,
         }
       },
+      avatar: {
+        type: STRING,
+        allowNull: true
+      },
       createdAt: DATE,
       updatedAt: DATE,
    })
