@@ -15,7 +15,7 @@ module.exports = app => {
     },
     password: {
       type: STRING,
-      allowNull: false,
+      allowNull: true,
     },
     email: {
       type: STRING,
@@ -30,9 +30,17 @@ module.exports = app => {
       type: STRING,
       allowNull: false,
       validate: {
-        is: /^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){1,50}$/i,
+        // is: /^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){1,50}$/i,
         isLowercase: true,
       }
+    },
+    provider:{
+      type: STRING,
+      allowNull: false
+    },
+    avatar: {
+      type: STRING,
+      allowNull: true
     }
   }, {
     timestamps: true,

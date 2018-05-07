@@ -35,7 +35,8 @@ class UserController extends Controller {
       username,
       email,
       password,
-      livecode: username
+      livecode: username,
+      provider:'local'
     }
     const result = await ctx.service.user.create(newUser)
     ctx.service.live.create({
