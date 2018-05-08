@@ -38,7 +38,10 @@ class UserController extends Controller {
       livecode: username,
       provider:'local'
     }
+    // 创建用户
     const result = await ctx.service.user.create(newUser)
+    const role = await ctx.service.user.addRole(result.id, 2)
+    // 创建直播间
     ctx.service.live.create({
       roomname: username,
       livecode: username,
@@ -99,7 +102,7 @@ class UserController extends Controller {
     }
   }
   /**
-   * 给用户添加权限
+   * 给用户添加权限 
    */
   async addRole() {
     const {ctx, app} = this

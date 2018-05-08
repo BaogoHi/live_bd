@@ -1,9 +1,9 @@
 'use strict'
 
 module.exports = {
-  generateJWT(id, username, livecode) {
+  generateJWT(id, username, livecode, role) {
     const { config } = this
-    const token = this.jwt.sign({ id, username, livecode }, config.jwt.secret)
+    const token = this.jwt.sign({ id, username, livecode, role }, config.jwt.secret)
     return token
   },
   verifyToken(ctx) {
@@ -16,11 +16,14 @@ module.exports = {
     user = user.get()
     const {config} = this
     let token = config.jwt.getToken(ctx)
-    if(!token) {
-      token = 'Bearer ' + this.generateJWT(user.id, user.username, user.username)
-    }
     if(check === 1){
-      return {token}
+      if(!token) {
+        token = 'Bearer ' + this.generateJWT(user.id, user.username, user.username, user.userRoles[0].role.name||'')
+      }
+      return {
+        token,
+        roles: user.userRoles
+      }
     } else if(check === 0) {
       return {
         username: user.username,

@@ -26,7 +26,18 @@ class UserService extends Service {
    * @param {*} username 
    */
   async findByUsername(username) {
-    const user = await this.ctx.model.User.findOne({where:{username}})
+    const user = await this.ctx.model.User.findOne({
+      where: {username},
+      include: {
+        model: this.ctx.model.UserRole,
+        attributes: ['roleId'],
+        include: {
+          model: this.ctx.model.Role,
+          as: 'role',
+          attributes:['name']
+        }
+      }
+    })
     if(!user) {
       this.ctx.throw(404, 'user not found')
     }

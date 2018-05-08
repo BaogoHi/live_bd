@@ -85,6 +85,7 @@
     "regexp": "/^\\/user(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },

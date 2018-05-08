@@ -5432,3 +5432,163 @@ sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, 
 pid: 4184
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-08 14:28:41,727 ERROR 8232 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'name' of undefined
+    at Application.getUserJson (/Users/klren/Projects/live_bd/app/extend/application.js:25:36)
+    at UserController.login (/Users/klren/Projects/live_bd/app/controller/user.js:19:39)
+    at <anonymous>
+
+pid: 8232
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 14:47:23,089 ERROR 8460 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'verifyToken' of undefined
+    at roleCheck (/Users/klren/Projects/live_bd/app/middleware/role_check.js:6:21)
+    at <anonymous>
+
+pid: 8460
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 14:52:11,302 ERROR 8486 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'verifyToken' of undefined
+    at roleCheck (/Users/klren/Projects/live_bd/app/middleware/role_check.js:6:21)
+    at <anonymous>
+
+pid: 8486
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:07:56,207 ERROR 8671 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Application.getUserJson (/Users/klren/Projects/live_bd/app/extend/application.js:20:97)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:53:38)
+    at <anonymous>
+
+pid: 8671
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:09:11,338 ERROR 8719 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.create (/Users/klren/Projects/live_bd/app/service/user.js:11:38)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:41:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'username must be unique', type: 'unique violation', path: 'username', value: 'klren123', origin: 'DB', instance: user { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { username: 'klren123' }
+parent: { Error: Duplicate entry 'klren123' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren123\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`,`provider`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'klren123\',\'$2a$10$PSQbytFJj3eCohlO22rUSuxJlkD.HVC/mE880f6cWXbI0vtn.HZe2\',\'klren123@qq.com\',\'klren123\',\'local\',\'2018-05-08 15:09:11\',\'2018-05-08 15:09:11\');' }
+original: { Error: Duplicate entry 'klren123' for key 'username'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'klren123\' for key \'username\'', sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`,`provider`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'klren123\',\'$2a$10$PSQbytFJj3eCohlO22rUSuxJlkD.HVC/mE880f6cWXbI0vtn.HZe2\',\'klren123@qq.com\',\'klren123\',\'local\',\'2018-05-08 15:09:11\',\'2018-05-08 15:09:11\');' }
+sql: 'INSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`,`provider`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'klren123\',\'$2a$10$PSQbytFJj3eCohlO22rUSuxJlkD.HVC/mE880f6cWXbI0vtn.HZe2\',\'klren123@qq.com\',\'klren123\',\'local\',\'2018-05-08 15:09:11\',\'2018-05-08 15:09:11\');'
+pid: 8719
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:10:43,929 ERROR 8719 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'role' of undefined
+    at Application.getUserJson (/Users/klren/Projects/live_bd/app/extend/application.js:20:101)
+    at UserController.login (/Users/klren/Projects/live_bd/app/controller/user.js:19:39)
+    at <anonymous>
+
+pid: 8719
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:26:11,253 ERROR 8841 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'role' of undefined
+    at Application.getUserJson (/Users/klren/Projects/live_bd/app/extend/application.js:20:101)
+    at UserController.login (/Users/klren/Projects/live_bd/app/controller/user.js:19:39)
+    at <anonymous>
+
+pid: 8841
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:27:47,372 ERROR 8899 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'role' of undefined
+    at Application.getUserJson (/Users/klren/Projects/live_bd/app/extend/application.js:20:101)
+    at UserController.login (/Users/klren/Projects/live_bd/app/controller/user.js:19:39)
+    at <anonymous>
+
+pid: 8899
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:33:36,963 ERROR 8922 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Application.getUserJson (/Users/klren/Projects/live_bd/app/extend/application.js:20:97)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:56:38)
+    at <anonymous>
+
+pid: 8922
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:35:40,455 ERROR 8944 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Application.getUserJson (/Users/klren/Projects/live_bd/app/extend/application.js:20:97)
+    at UserController.register (/Users/klren/Projects/live_bd/app/controller/user.js:57:38)
+    at <anonymous>
+
+pid: 8944
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:41:17,131 ERROR 8999 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: ctx.helper.file is not a function
+    at /Users/klren/Projects/live_bd/app/middleware/role_check.js:8:18
+    at <anonymous>
+
+pid: 8999
+hostname: renzhizhongdeMacBook-Air.local
+
