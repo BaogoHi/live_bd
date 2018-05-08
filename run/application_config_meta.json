@@ -195,6 +195,7 @@
     "description": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
     "private": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
     "dependencies": {
+      "await-stream-ready": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "bcryptjs": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-cors": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
@@ -209,6 +210,7 @@
       "egg-userrole": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "uws": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {

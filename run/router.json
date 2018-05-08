@@ -311,5 +311,67 @@
       "middleware",
       "wrappedController"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/psupload",
+    "regexp": "/^\\/psupload(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/role",
+    "regexp": "/^\\/role(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/role/:id",
+    "regexp": "/^\\/role\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/user/role",
+    "regexp": "/^\\/user\\/role(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
   }
 ]

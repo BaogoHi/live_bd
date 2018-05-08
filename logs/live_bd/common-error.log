@@ -4765,3 +4765,670 @@ sql: 'INSERT INTO `tag` (`id`,`name`) VALUES (DEFAULT,\'zzes\');'
 pid: 8412
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-08 09:24:14,877 ERROR 2812 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeValidationError: notNull Violation: live.roomname cannot be null,
+notNull Violation: live.userId cannot be null,
+notNull Violation: live.livecode cannot be null,
+notNull Violation: live.usecustom cannot be null
+notNull Violation: live.userId cannot be null,
+notNull Violation: live.livecode cannot be null,
+notNull Violation: live.usecustom cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at LiveService.create (/Users/klren/Projects/live_bd/app/service/live.js:11:32)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:9:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'live.roomname cannot be null', type: 'notNull Violation', path: 'roomname', value: null, origin: 'CORE', instance: live { dataValues: [Object], _previousDataValues: {}, _changed: {}, _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] }, ValidationErrorItem { message: 'live.userId cannot be null', type: 'notNull Violation', path: 'userId', value: null, origin: 'CORE', instance: live { dataValues: [Object], _previousDataValues: {}, _changed: {}, _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] }, ValidationErrorItem { message: 'live.livecode cannot be null', type: 'notNull Violation', path: 'livecode', value: null, origin: 'CORE', instance: live { dataValues: [Object], _previousDataValues: {}, _changed: {}, _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] }, ValidationErrorItem { message: 'live.usecustom cannot be null', type: 'notNull Violation', path: 'usecustom', value: null, origin: 'CORE', instance: live { dataValues: [Object], _previousDataValues: {}, _changed: {}, _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 2812
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 09:24:42,692 ERROR 2831 nodejs.SequelizeValidationError: notNull Violation: role.name cannot be null
+    at Promise.all.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:77:15)
+From previous event:
+    at InstanceValidator._validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:75:7)
+    at runHooks.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:110:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:109:8)
+    at InstanceValidator.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/instance-validator.js:93:38)
+    at model.validate (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3833:49)
+    at Promise.try (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3610:21)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3607:23)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:7:25)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:9:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeValidationError'
+errors: [ ValidationErrorItem { message: 'role.name cannot be null', type: 'notNull Violation', path: 'name', value: null, origin: 'CORE', instance: role { dataValues: [Object], _previousDataValues: {}, _changed: {}, _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'is_null', validatorName: null, validatorArgs: [] } ]
+pid: 2831
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 09:25:28,846 ERROR 2831 nodejs.SequelizeDatabaseError: Unknown column 'createdAt' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:7:25)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:9:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'createdAt' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'createdAt\' in \'field list\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:25:28\',\'2018-05-08 09:25:28\');' }
+original: { Error: Unknown column 'createdAt' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'createdAt\' in \'field list\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:25:28\',\'2018-05-08 09:25:28\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:25:28\',\'2018-05-08 09:25:28\');'
+pid: 2831
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 09:27:41,336 ERROR 2866 nodejs.SequelizeDatabaseError: Unknown column 'createdAt' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:7:25)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:9:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'createdAt' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'createdAt\' in \'field list\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:27:41\',\'2018-05-08 09:27:41\');' }
+original: { Error: Unknown column 'createdAt' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'createdAt\' in \'field list\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:27:41\',\'2018-05-08 09:27:41\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:27:41\',\'2018-05-08 09:27:41\');'
+pid: 2866
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 09:29:23,783 ERROR 2894 nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:7:25)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:9:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'admin', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'admin' }
+parent: { Error: Duplicate entry 'admin' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'admin\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:29:23\',\'2018-05-08 09:29:23\');' }
+original: { Error: Duplicate entry 'admin' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'admin\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:29:23\',\'2018-05-08 09:29:23\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'admin\',\'2018-05-08 09:29:23\',\'2018-05-08 09:29:23\');'
+pid: 2894
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 09:40:31,456 ERROR 3063 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.ctx.model.Role.destory is not a function
+    at RoleService.deleteById (/Users/klren/Projects/live_bd/app/service/role.js:18:45)
+    at RoleController.deleteRole (/Users/klren/Projects/live_bd/app/controller/role.js:21:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3063
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 09:43:09,313 ERROR 3109 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: user is not defined
+    at RoleService.deleteById (/Users/klren/Projects/live_bd/app/service/role.js:22:10)
+    at <anonymous>
+
+pid: 3109
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:18:47,502 ERROR 3641 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Support for `{where: 'raw query'}` has been removed.
+    at Object.whereItemsQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1983:13)
+    at Object.getWhereConditions (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2481:19)
+    at Object.selectQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1140:28)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1105:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at LiveService.findByLive (/Users/klren/Projects/live_bd/app/service/live.js:27:44)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:64:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3641
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:20:08,108 ERROR 3641 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Support for `{where: 'raw query'}` has been removed.
+    at Object.whereItemsQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1983:13)
+    at Object.getWhereConditions (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2481:19)
+    at Object.selectQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1140:28)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1105:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at LiveService.findByLive (/Users/klren/Projects/live_bd/app/service/live.js:27:44)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:64:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3641
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:21:01,404 ERROR 3662 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Support for `{where: 'raw query'}` has been removed.
+    at Object.whereItemsQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1983:13)
+    at Object.getWhereConditions (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2481:19)
+    at Object.selectQuery (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1140:28)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1105:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at LiveService.findByLive (/Users/klren/Projects/live_bd/app/service/live.js:27:44)
+    at LiveController.addTags (/Users/klren/Projects/live_bd/app/controller/live.js:65:41)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3662
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:36:39,940 ERROR 3816 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:11:38)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:12:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'guest', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'guest' }
+parent: { Error: Duplicate entry 'guest' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'guest\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'guest\',\'2018-05-08 10:36:39\',\'2018-05-08 10:36:39\');' }
+original: { Error: Duplicate entry 'guest' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'guest\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'guest\',\'2018-05-08 10:36:39\',\'2018-05-08 10:36:39\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'guest\',\'2018-05-08 10:36:39\',\'2018-05-08 10:36:39\');'
+pid: 3816
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:38:10,690 ERROR 3816 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property `roleId` of 'undefined' or 'null'.
+    at UserController.addRole (/Users/klren/Projects/live_bd/app/controller/user.js:107:26)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3816
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:38:33,137 ERROR 3831 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot destructure property `roleId` of 'undefined' or 'null'.
+    at UserController.addRole (/Users/klren/Projects/live_bd/app/controller/user.js:107:34)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3831
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:39:21,194 ERROR 3851 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: roleId is not defined
+    at UserController.addRole (/Users/klren/Projects/live_bd/app/controller/user.js:108:55)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3851
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:39:50,197 ERROR 3851 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: roleId is not defined
+    at UserController.addRole (/Users/klren/Projects/live_bd/app/controller/user.js:108:55)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3851
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:40:10,377 ERROR 3886 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'uid' has already been declared
+    at UserController.addRole (/Users/klren/Projects/live_bd/app/controller/user.js:108:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+
+pid: 3886
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:46:34,313 ERROR 3985 [-/127.0.0.1/-/2ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at UserService.addRole (/Users/klren/Projects/live_bd/app/service/user.js:123:43)
+    at UserController.addRole (/Users/klren/Projects/live_bd/app/controller/user.js:108:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'created_at' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'created_at\' in \'field list\'', sql: 'INSERT INTO `userRole` (`id`,`userId`,`roleId`,`created_at`,`updated_at`) VALUES (DEFAULT,1,7,\'2018-05-08 10:46:34\',\'2018-05-08 10:46:34\');' }
+original: { Error: Unknown column 'created_at' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'created_at\' in \'field list\'', sql: 'INSERT INTO `userRole` (`id`,`userId`,`roleId`,`created_at`,`updated_at`) VALUES (DEFAULT,1,7,\'2018-05-08 10:46:34\',\'2018-05-08 10:46:34\');' }
+sql: 'INSERT INTO `userRole` (`id`,`userId`,`roleId`,`created_at`,`updated_at`) VALUES (DEFAULT,1,7,\'2018-05-08 10:46:34\',\'2018-05-08 10:46:34\');'
+pid: 3985
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 10:55:41,113 ERROR 4184 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Unknown column 'userRoles.role' in 'field list'
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.select (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1604:34)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at Function.findAll (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1601:8)
+    at Function.findOne (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:1760:17)
+    at UserService.findById (/Users/klren/Projects/live_bd/app/service/user.js:41:39)
+    at UserController.getUserById (/Users/klren/Projects/live_bd/app/controller/user.js:70:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeDatabaseError'
+parent: { Error: Unknown column 'userRoles.role' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'userRoles.role\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`provider`, `user`.`avatar`, `user`.`createdAt`, `user`.`updatedAt`, `userRoles`.`id` AS `userRoles.id`, `userRoles`.`role` AS `userRoles.role`, `userRoles->role`.`id` AS `userRoles.role.id`, `userRoles->role`.`name` AS `userRoles.role.name` FROM `user` AS `user` LEFT OUTER JOIN `userRole` AS `userRoles` ON `user`.`id` = `userRoles`.`userId` LEFT OUTER JOIN `role` AS `userRoles->role` ON `userRoles`.`roleId` = `userRoles->role`.`id` WHERE `user`.`id` = \'1\';' }
+original: { Error: Unknown column 'userRoles.role' in 'field list'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_BAD_FIELD_ERROR', errno: 1054, sqlState: '42S22', sqlMessage: 'Unknown column \'userRoles.role\' in \'field list\'', sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`provider`, `user`.`avatar`, `user`.`createdAt`, `user`.`updatedAt`, `userRoles`.`id` AS `userRoles.id`, `userRoles`.`role` AS `userRoles.role`, `userRoles->role`.`id` AS `userRoles.role.id`, `userRoles->role`.`name` AS `userRoles.role.name` FROM `user` AS `user` LEFT OUTER JOIN `userRole` AS `userRoles` ON `user`.`id` = `userRoles`.`userId` LEFT OUTER JOIN `role` AS `userRoles->role` ON `userRoles`.`roleId` = `userRoles->role`.`id` WHERE `user`.`id` = \'1\';' }
+sql: 'SELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`provider`, `user`.`avatar`, `user`.`createdAt`, `user`.`updatedAt`, `userRoles`.`id` AS `userRoles.id`, `userRoles`.`role` AS `userRoles.role`, `userRoles->role`.`id` AS `userRoles.role.id`, `userRoles->role`.`name` AS `userRoles.role.name` FROM `user` AS `user` LEFT OUTER JOIN `userRole` AS `userRoles` ON `user`.`id` = `userRoles`.`userId` LEFT OUTER JOIN `role` AS `userRoles->role` ON `userRoles`.`roleId` = `userRoles->role`.`id` WHERE `user`.`id` = \'1\';'
+pid: 4184
+hostname: renzhizhongdeMacBook-Air.local
+

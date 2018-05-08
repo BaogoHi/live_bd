@@ -200,6 +200,7 @@
       "description": "",
       "private": true,
       "dependencies": {
+        "await-stream-ready": "^1.0.1",
         "bcryptjs": "^2.4.3",
         "egg": "^2.2.1",
         "egg-cors": "^2.0.0",
@@ -214,6 +215,7 @@
         "egg-userrole": "^2.0.0",
         "egg-validate": "^1.0.0",
         "mysql2": "^1.5.3",
+        "stream-wormhole": "^1.0.3",
         "uws": "^9.148.0"
       },
       "devDependencies": {

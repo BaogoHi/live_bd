@@ -20,6 +20,19 @@ class LiveService extends Service {
     return giftnum
   }
   /**
+   * 通过livecode查找直播间
+   * @param {*} livecode 
+   */
+  async findByLive(livecode) {
+    const live = await this.ctx.model.Live.findOne({
+      where: {livecode},
+    })
+    if(!live) {
+      this.ctx.throws(404, '直播间没找到')
+    }
+    return live
+  }
+  /**
    * 通过id查找直播间
    * @param {*} id 
    */
@@ -64,28 +77,23 @@ class LiveService extends Service {
       limit:parseInt(limit), 
       offset:parseInt(offset),
       include: [{
-        attribute:['username'],
         model: this.ctx.model.User,
-        as:'user'
+        as:'user',
+        attributes:['username'],
       }, {
         model: this.ctx.model.LiveTag,
+        attributes:['tagId'],
         include: {
           model: this.ctx.model.Tag,
-          as: 'tag'
-        }
+          as: 'tag',
+          attributes:['name'],
+        },
       }]
     })
     if(!live) {
       this.ctx.throw(404, 'there has no data')
     }
     return live
-  }
-  /**
-   * 根据livecode删除直播间
-   * @param {*} livecode 
-   */
-  async deleteByCode(livecode) {
-    return await this.ctx.model.Live.destroy({where: {livecode}})
   }
   /**
    * 根据id禁用/解禁直播间

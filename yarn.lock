@@ -537,6 +537,10 @@ await-first@^1.0.0:
   dependencies:
     ee-first "^1.1.1"
 
+await-stream-ready@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/await-stream-ready/-/await-stream-ready-1.0.1.tgz#fa308c63fe14ac7a90966ad70822aa9369f8a6bb"
+
 axobject-query@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-0.1.0.tgz#62f59dbc59c9f9242759ca349960e7a2fe3c36c0"
@@ -6700,6 +6704,10 @@ stream-shift@^1.0.0:
 stream-slice@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/stream-slice/-/stream-slice-0.1.2.tgz#2dc4f4e1b936fb13f3eb39a2def1932798d07a4b"
+
+stream-wormhole@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/stream-wormhole/-/stream-wormhole-1.0.3.tgz#02b46cf113ee85e4f865f304b7b8ebb3c6e3530a"
 
 streamsearch@0.1.2:
   version "0.1.2"
