@@ -39,15 +39,6 @@ class LiveController extends Controller {
     ctx.helper.success({ctx, res: live})
   }
   /**
-   * 根据livecode删除指定直播间
-   */
-  async deleteByCode() {
-    const {ctx, app} = this
-    const {livecode} = app.verifyToken(ctx)
-    const live = await ctx.service.live.deleteByCode(livecode)
-    ctx.helper.success({ctx, res: live})
-  }
-  /**
    * 根据id禁用/解禁直播间
    */
   async banLive() {
@@ -68,10 +59,12 @@ class LiveController extends Controller {
    */
   async addTags() {
     const {ctx, app} = this
-    const {id} = app.verifyToken(ctx)
+    const {livecode} = app.verifyToken(ctx)
+    console.log(livecode)
     const {name} = ctx.request.body
-    const result = await ctx.service.live.addTags( id, name )
-    ctx.helper.success({ctx, res:name})
+    const live = await ctx.service.live.findByLive(livecode)
+    const result = await ctx.service.live.addTags( live.id, name )
+    ctx.helper.success({ctx, res:result})
   }
 }
 

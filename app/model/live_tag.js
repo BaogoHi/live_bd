@@ -13,7 +13,7 @@ module.exports = app => {
   }, {
     timestamps: false,
     tableName: 'liveTag',
-    undersocred: false
+    underscore: false
   })
   LiveTag.associate = function() {
     // app.model.LiveTag.belongsTo(app.model.Live, { as:'live', foreignKey:'liveId'})

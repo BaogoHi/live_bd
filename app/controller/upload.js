@@ -24,6 +24,7 @@ class UploadController extends Controller {
       await sendToWormhole(stream)
       throw err
     }
+    this.ctx.helper.success({ctx, res:'上传成功'})
   }
   async postmanUpload() {
     const stream = await this.ctx.getFileStream()
@@ -36,7 +37,7 @@ class UploadController extends Controller {
       await sendToWormhole(stream)
       throw err
     }
-    this.ctx.redirect('/public/' + filename)
+    this.ctx.helper.success({ctx, res:'上传成功'})
   }
 }
 

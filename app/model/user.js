@@ -49,6 +49,7 @@ module.exports = app => {
   })
   User.associate = function() {
     app.model.User.hasMany(app.model.Live)
+    app.model.User.hasMany(app.model.UserRole)
   }
   return User
 }

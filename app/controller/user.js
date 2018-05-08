@@ -98,6 +98,16 @@ class UserController extends Controller {
       ctx.helper.success({ctx, res:result})
     }
   }
+  /**
+   * 给用户添加权限
+   */
+  async addRole() {
+    const {ctx, app} = this
+    const {id} = app.verifyToken(ctx)
+    const {roleId} = ctx.request.body
+    const result = await ctx.service.user.addRole(id, roleId)
+    ctx.helper.success({ctx, res: result})
+  }
 }
 
 module.exports = UserController;
