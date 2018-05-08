@@ -111,6 +111,7 @@
     "regexp": "/^\\/user\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -148,6 +149,7 @@
     "regexp": "/^\\/user\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -246,6 +248,7 @@
     "regexp": "/^\\/ban\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -259,6 +262,7 @@
     "regexp": "/^\\/tag(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -273,6 +277,7 @@
     "regexp": "/^\\/tag(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -297,6 +302,7 @@
     "regexp": "/^\\/tag\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -310,6 +316,7 @@
     "regexp": "/^\\/tag(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -335,6 +342,7 @@
     "regexp": "/^\\/role(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },
@@ -359,6 +367,7 @@
     "regexp": "/^\\/role\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
+      "anonymous",
       "wrappedController"
     ]
   },

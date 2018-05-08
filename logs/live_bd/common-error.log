@@ -5592,3 +5592,447 @@ hostname: renzhizhongdeMacBook-Air.local
 pid: 8999
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-08 15:47:04,554 ERROR 9338 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:11:38)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:12:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/app/middleware/role_check.js:5:11
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'normal', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'normal' }
+parent: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:47:04\',\'2018-05-08 15:47:04\');' }
+original: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:47:04\',\'2018-05-08 15:47:04\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:47:04\',\'2018-05-08 15:47:04\');'
+pid: 9338
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:47:24,199 ERROR 9338 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:11:38)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:12:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/app/middleware/role_check.js:5:11
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'normal', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'normal' }
+parent: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:47:23\',\'2018-05-08 15:47:23\');' }
+original: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:47:23\',\'2018-05-08 15:47:23\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:47:23\',\'2018-05-08 15:47:23\');'
+pid: 9338
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:48:56,314 ERROR 9355 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:11:38)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:12:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/app/middleware/role_check.js:5:11
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'normal', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'normal' }
+parent: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:48:56\',\'2018-05-08 15:48:56\');' }
+original: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:48:56\',\'2018-05-08 15:48:56\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:48:56\',\'2018-05-08 15:48:56\');'
+pid: 9355
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:51:10,987 ERROR 9384 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:11:38)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:12:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/app/middleware/role_check.js:5:11
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'normal', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'normal' }
+parent: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:51:10\',\'2018-05-08 15:51:10\');' }
+original: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:51:10\',\'2018-05-08 15:51:10\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:51:10\',\'2018-05-08 15:51:10\');'
+pid: 9384
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 15:56:35,670 ERROR 9384 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:11:38)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:12:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/app/middleware/role_check.js:5:11
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'normal', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'normal' }
+parent: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:56:35\',\'2018-05-08 15:56:35\');' }
+original: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:56:35\',\'2018-05-08 15:56:35\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 15:56:35\',\'2018-05-08 15:56:35\');'
+pid: 9384
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-08 16:12:46,503 ERROR 9384 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:226:16)
+    at Query.handler [as onResult] (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:30:12)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)
+From previous event:
+    at Query.run (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at retryParameters (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/klren/Projects/live_bd/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/sequelize.js:454:12)
+    at QueryInterface.insert (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3695:53)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)
+From previous event:
+    at model.save (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:3671:8)
+    at Function.create (/Users/klren/Projects/live_bd/node_modules/sequelize/lib/model.js:2035:8)
+    at RoleService.create (/Users/klren/Projects/live_bd/app/service/role.js:11:38)
+    at RoleController.createRole (/Users/klren/Projects/live_bd/app/controller/role.js:12:43)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/app/middleware/role_check.js:5:11
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:145:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+name: 'SequelizeUniqueConstraintError'
+errors: [ ValidationErrorItem { message: 'name must be unique', type: 'unique violation', path: 'name', value: 'normal', origin: 'DB', instance: role { dataValues: [Object], _previousDataValues: [Object], _changed: [Object], _modelOptions: [Object], _options: [Object], __eagerlyLoadedAssociations: [], isNewRecord: true }, validatorKey: 'not_unique', validatorName: null, validatorArgs: [] } ]
+fields: { name: 'normal' }
+parent: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 16:12:46\',\'2018-05-08 16:12:46\');' }
+original: { Error: Duplicate entry 'normal' for key 'name'
+    at Packet.asError (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packets/packet.js:716:13)
+    at Query.Command.execute (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/commands/command.js:28:22)
+    at Connection.handlePacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/klren/Projects/live_bd/node_modules/mysql2/lib/connection.js:89:29)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', sqlMessage: 'Duplicate entry \'normal\' for key \'name\'', sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 16:12:46\',\'2018-05-08 16:12:46\');' }
+sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\'normal\',\'2018-05-08 16:12:46\',\'2018-05-08 16:12:46\');'
+pid: 9384
+hostname: renzhizhongdeMacBook-Air.local
+
