@@ -13,10 +13,12 @@ module.exports = app => {
     failureRedirect: '/404'
   })
   app.router.post('/passport/local', localStrategy)
+  // middleware
+  const roleCheck = app.middleware.roleCheck()
   // api
   router.post('/register', controller.user.register)                  // 注册
   router.post('/login', controller.user.login)                        // 登录
-  router.get('/user', app.jwt, controller.user.getAllUser)            // 获取全部用户
+  router.get('/user', app.jwt, roleCheck, controller.user.getAllUser)            // 获取全部用户
   router.get('/user/:id', app.jwt, controller.user.getUserById)       // 通过id查询指定用户
   router.put('/user', app.jwt, controller.user.updateUserInfo)        // 更新用户自己的信息
   router.delete('/user/:id', app.jwt, controller.user.deleteUserById) // 删除指定用户，除了本用户
