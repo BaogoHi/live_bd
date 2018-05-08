@@ -22,6 +22,7 @@ module.exports = app => {
   router.get('/user/:id', app.jwt, roleCheck, controller.user.getUserById)        // 通过id查询指定用户
   router.put('/user', app.jwt, controller.user.updateUserInfo)                    // 更新用户自己的信息
   router.delete('/user/:id', app.jwt, roleCheck, controller.user.deleteUserById)  // 删除指定用户，除了本用户
+
   router.put('/gift/:livecode', app.jwt, controller.live.addGifts)                // 添加礼物
   router.put('/live', app.jwt, controller.live.updateLive)                        // 更新直播间信息
   router.get('/live', app.jwt, controller.live.getAllLive)                        // 获取全部直播间
@@ -31,6 +32,7 @@ module.exports = app => {
   router.get('/tag', app.jwt, roleCheck, controller.tag.findAllTags)              // 查询所有标签
   router.delete('/tag/:id', app.jwt, roleCheck, controller.tag.deleteTagById)     // 根据标签id删除标签
   router.put('/tag', app.jwt, roleCheck, controller.tag.updateTag)                // 根据id更新标签
+  
   router.post('/psupload', controller.upload.postmanUpload)                       // 文件上传 
   router.post('/role', app.jwt, roleCheck, controller.role.createRole)            // 创建权限
   router.delete('/role/:id', app.jwt, roleCheck, controller.role.deleteRole)      // 删除权限

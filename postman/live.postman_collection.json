@@ -10,85 +10,24 @@
 			"description": "",
 			"item": [
 				{
-					"name": "注册",
+					"name": "删除指定用户",
 					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n\t\"user\": {\n\t\t\"username\": \"klren\",\n\t\t\"password\": \"klren\",\n\t\t\"email\": \"klren@qq.com\"\n\t}\n}"
-						},
-						"url": {
-							"raw": "{{apiUrl}}/register",
-							"host": [
-								"{{apiUrl}}"
-							],
-							"path": [
-								"register"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "登录",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n\t\"user\": {\n\t\t\"username\":\"klren\",\n\t\t\"password\":\"klren\"\n\t}\n}"
-						},
-						"url": {
-							"raw": "{{apiUrl}}/login",
-							"host": [
-								"{{apiUrl}}"
-							],
-							"path": [
-								"login"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "获取全部的用户信息",
-					"request": {
-						"method": "GET",
+						"method": "DELETE",
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJpYXQiOjE1MjUyNDgzOTJ9.9KpOlsixY5S5GzCJTs_LHnMI-YD0OopzmydFnrYWqEQ"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM2NTc4fQ.aaLdMzSahyz9e6_YJY-75GQc4A2QpeHPkPbrpCI7P6s"
 							}
 						],
 						"body": {},
 						"url": {
-							"raw": "{{apiUrl}}/user?limit=10&offset=0",
+							"raw": "{{apiUrl}}/user/",
 							"host": [
 								"{{apiUrl}}"
 							],
 							"path": [
-								"user"
-							],
-							"query": [
-								{
-									"key": "limit",
-									"value": "10"
-								},
-								{
-									"key": "offset",
-									"value": "0"
-								}
+								"user",
+								""
 							]
 						}
 					},
@@ -125,24 +64,85 @@
 					"response": []
 				},
 				{
-					"name": "删除指定用户",
+					"name": "获取全部的用户信息",
 					"request": {
-						"method": "DELETE",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM2NTc4fQ.aaLdMzSahyz9e6_YJY-75GQc4A2QpeHPkPbrpCI7P6s"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE1MjU3NjEwNzJ9.IbzpWhI9JEb-ftV9iacSppTZ0nw4il4Xrt53oZ_GwpQ"
 							}
 						],
 						"body": {},
 						"url": {
-							"raw": "{{apiUrl}}/user/38",
+							"raw": "{{apiUrl}}/user?limit=10&offset=0",
 							"host": [
 								"{{apiUrl}}"
 							],
 							"path": [
-								"user",
-								"38"
+								"user"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "登录",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"user\": {\n    \"username\":\"klren\",\n    \"password\":\"klren\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/login",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"user\": {\n    \"username\": \"klren\",\n    \"password\": \"klren\",\n    \"email\": \"klren@qq.com\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/register",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"register"
 							]
 						}
 					},
@@ -200,6 +200,40 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "postman上传图片",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/*",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "",
+									"value": "",
+									"description": "",
+									"type": "file"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{apiUrl}}/psupload",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"psupload"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -208,24 +242,33 @@
 			"description": "",
 			"item": [
 				{
-					"name": "增加礼物",
+					"name": "获取全部的直播间信息",
 					"request": {
-						"method": "PUT",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU0MTcxNTR9.6flAqSqiJ9dpAn7dcIWFrnNqVyYc3JmCiER_dvkXAms"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU2ODA3ODF9.hQnt9WgWYI34nAEgzyHb6kS8b29xl96zp_qDIPLRVr4"
 							}
 						],
 						"body": {},
 						"url": {
-							"raw": "{{apiUrl}}/gift/klren",
+							"raw": "{{apiUrl}}/live?limit=10&offset=0",
 							"host": [
 								"{{apiUrl}}"
 							],
 							"path": [
-								"gift",
-								"klren"
+								"live"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
 							]
 						}
 					},
@@ -262,33 +305,24 @@
 					"response": []
 				},
 				{
-					"name": "获取全部的直播间信息",
+					"name": "增加礼物",
 					"request": {
-						"method": "GET",
+						"method": "PUT",
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU2ODA3ODF9.hQnt9WgWYI34nAEgzyHb6kS8b29xl96zp_qDIPLRVr4"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU0MTcxNTR9.6flAqSqiJ9dpAn7dcIWFrnNqVyYc3JmCiER_dvkXAms"
 							}
 						],
 						"body": {},
 						"url": {
-							"raw": "{{apiUrl}}/live?limit=10&offset=0",
+							"raw": "{{apiUrl}}/gift/klren",
 							"host": [
 								"{{apiUrl}}"
 							],
 							"path": [
-								"live"
-							],
-							"query": [
-								{
-									"key": "limit",
-									"value": "10"
-								},
-								{
-									"key": "offset",
-									"value": "0"
-								}
+								"gift",
+								"klren"
 							]
 						}
 					},
@@ -335,7 +369,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"name\": \"ccc\"\n}"
+							"raw": "{\n\t\"name\": \"klklkl\"\n}"
 						},
 						"url": {
 							"raw": "{{apiUrl}}/live/tag",
@@ -468,6 +502,97 @@
 							],
 							"path": [
 								"tag"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "权限相关",
+			"description": "",
+			"item": [
+				{
+					"name": "新建权限",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU3NDI2MDF9.rgLiQLmCXznv3Sb_1TWeu2OvTza-mQJ7cIqIrVxdG3M"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"role\":{\n\t\t\"name\":\"admin\"\t\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/role",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据id删除权限",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU3NDM2NzF9.cmYFE5CwkQBX4-WQXhVS41YyNkVUgQwPpmjEnU5KsAg"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{apiUrl}}/role/4",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"role",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "关联用户和权限",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU3NDI2MDF9.rgLiQLmCXznv3Sb_1TWeu2OvTza-mQJ7cIqIrVxdG3M"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"roleId\": 1\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/user/role",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"user",
+								"role"
 							]
 						}
 					},
