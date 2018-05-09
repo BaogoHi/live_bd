@@ -1,15 +1,15 @@
-FROM node:8.11.1-alpine
+FROM node:9.11.1
 
-RUN mkdir -p /usr/local/liveApp
+RUN mkdir -p /home/liveApp
 
-WORKDIR /usr/local/liveApp
+WORKDIR /home/liveApp
 
-COPY package.json /usr/local/liveApp
+COPY package.json /home/liveApp
 
-RUN npm i 
+RUN npm install --production --registry=https://registry.npm.taobao.org
 
-COPY . /usr/local/liveApp
+COPY . /home/liveApp
 
 EXPOSE 7001
-
-CMD npm run start
+# 就在 docker 里面跑 egg-scripts start 即可，不需要 --daemon 了。
+CMD npm run docker
