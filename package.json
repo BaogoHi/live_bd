@@ -37,6 +37,7 @@
   },
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-live_bd",
+    "docker":"egg-scripts start",
     "stop": "egg-scripts stop --title=egg-server-live_bd",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
