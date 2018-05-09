@@ -49,9 +49,9 @@ module.exports = appInfo => {
   // redis 配置
   config.redis = {
     client: {
-      port: 6379,
-      host: '127.0.0.1',
-      password: '',
+      port: process.env.RS_PORT || 6379,
+      host: process.env.RS_HOST || '172.17.0.3',
+      password: process.env.RS_PASSWORD || '',
       db: 0,
     }
   }
@@ -66,8 +66,8 @@ module.exports = appInfo => {
       }
     },
     redis: {
-      host: '127.0.0.1',
-      port: 6379
+      host: process.env.RS_HOST || '172.17.0.3',
+      port: process.env.RS_PORT || 6379
     }
   }
   // passport github
