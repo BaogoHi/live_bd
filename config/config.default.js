@@ -29,10 +29,12 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'mysql',
     database: process.env.DB_DATABASE || 'zb',
-    host: process.env.DB_HOST || '119.28.84.27',
+    // host: process.env.DB_HOST || '119.28.84.27',
+    host: process.env.DB_HOST || '127.0.0.1',
     port: process.env.DB_PORT || '3306',
     username: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || 'klren0312',
+    password: process.env.DB_PASSWORD || 'root',
+    // password: process.env.DB_PASSWORD || 'klren0312',
     timezone: '+08:00'
   }
   // csrf关闭
@@ -50,7 +52,7 @@ module.exports = appInfo => {
   config.redis = {
     client: {
       port: process.env.RS_PORT || 6379,
-      host: process.env.RS_HOST || '172.17.0.3',
+      host: process.env.RS_HOST || '0.0.0.0',
       password: process.env.RS_PASSWORD || '',
       db: 0,
     }
@@ -66,7 +68,7 @@ module.exports = appInfo => {
       }
     },
     redis: {
-      host: process.env.RS_HOST || '172.17.0.3',
+      host: process.env.RS_HOST || '0.0.0.0',
       port: process.env.RS_PORT || 6379
     }
   }
