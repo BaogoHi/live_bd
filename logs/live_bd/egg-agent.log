@@ -2194,3 +2194,7 @@
 2018-05-08 16:51:08,758 WARN 12421 [agent:development] reload worker because /Users/klren/Projects/live_bd/app/middleware/role_check.js change
 2018-05-08 17:00:44,551 WARN 12421 [agent:development] reload worker because /Users/klren/Projects/live_bd/app/extend/helper.js change
 2018-05-08 17:00:44,350 INFO 12421 Recieved a change event from eventSource: {"event":"change","path":"/Users/klren/Projects/live_bd/app/extend/helper.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1309674,"size":1532,"blocks":8,"atimeMs":1525770044000,"mtimeMs":1525770044000,"ctimeMs":1525770044000,"birthtimeMs":1525240202000,"atime":"2018-05-08T09:00:44.000Z","mtime":"2018-05-08T09:00:44.000Z","ctime":"2018-05-08T09:00:44.000Z","birthtime":"2018-05-02T05:50:02.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-05-09 17:41:31,029 INFO 19943 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-05-09 17:41:32,318 INFO 19943 [egg-watcher:agent] watcher start success
+2018-05-09 17:41:32,375 INFO 19943 [model] [35mSELECT VERSION() as `version`[39m (4ms)
+2018-05-09 17:41:32,411 INFO 19943 [model] [35mSELECT 1+1 AS result[39m (3ms)

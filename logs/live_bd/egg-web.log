@@ -11115,3 +11115,18 @@
 2018-05-08 17:00:45,916 INFO 12533 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
 2018-05-08 17:00:45,930 INFO 12533 [egg-watcher:app] watcher start success
 2018-05-08 17:00:45,931 INFO 12533 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-09 17:41:33,469 INFO 19944 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-09 17:41:33,533 INFO 19944 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-09 17:41:33,533 INFO 19944 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-09 17:41:34,101 INFO 19944 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-09 17:41:34,422 INFO 19944 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-09 17:41:34,427 INFO 19944 [egg-security] use methodnoallow middleware
+2018-05-09 17:41:34,428 INFO 19944 [egg-security] use noopen middleware
+2018-05-09 17:41:34,430 INFO 19944 [egg-security] use nosniff middleware
+2018-05-09 17:41:34,432 INFO 19944 [egg-security] use xssProtection middleware
+2018-05-09 17:41:34,434 INFO 19944 [egg-security] use xframe middleware
+2018-05-09 17:41:34,436 INFO 19944 [egg-security] use dta middleware
+2018-05-09 17:41:34,436 INFO 19944 [egg-security] compose 6 middlewares into one security middleware
+2018-05-09 17:41:34,539 INFO 19944 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-09 17:41:34,562 INFO 19944 [egg-watcher:app] watcher start success
+2018-05-09 17:41:34,573 INFO 19944 [egg-redis] instance[0] status OK, redis currentTime: #

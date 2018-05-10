@@ -228,6 +228,7 @@
     },
     "scripts": {
       "start": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "docker": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "stop": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "dev": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "debug": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
