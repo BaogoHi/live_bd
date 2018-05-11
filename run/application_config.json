@@ -180,10 +180,10 @@
     "sequelize": {
       "dialect": "mysql",
       "database": "zb",
-      "host": "0.0.0.0",
+      "host": "119.28.84.27",
       "port": "3306",
       "username": "root",
-      "password": "<String len: 4>",
+      "password": "<String len: 9>",
       "timezone": "+08:00"
     },
     "cors": {
@@ -264,7 +264,9 @@
         "egg-socket.io": "^4.0.8",
         "egg-userrole": "^2.0.0",
         "egg-validate": "^1.0.0",
+        "lru-cache": "^4.1.3",
         "mysql2": "^1.5.3",
+        "nodemailer": "^4.6.4",
         "stream-wormhole": "^1.0.3",
         "uws": "^9.148.0"
       },
@@ -283,7 +285,7 @@
       },
       "scripts": {
         "start": "egg-scripts start --daemon --title=egg-server-live_bd",
-        "docker": "egg-scripts start",
+        "docker": "egg-sequelize db:migrate && egg-scripts start",
         "stop": "egg-scripts stop --title=egg-server-live_bd",
         "dev": "egg-bin dev",
         "debug": "egg-bin debug",
@@ -413,6 +415,16 @@
       "errorHandler",
       "notfoundHandler"
     ],
+    "transporter": {
+      "appName": "治娱直播",
+      "host": "smtp.139.com",
+      "secure": true,
+      "port": 465,
+      "auth": {
+        "user": "{{username}}",
+        "pass": "<String len: 12>"
+      }
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",

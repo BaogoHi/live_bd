@@ -209,7 +209,9 @@
       "egg-socket.io": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-userrole": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "lru-cache": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "nodemailer": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "stream-wormhole": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "uws": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
     },

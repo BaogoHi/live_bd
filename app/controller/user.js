@@ -111,6 +111,41 @@ class UserController extends Controller {
     const result = await ctx.service.user.addRole(id, roleId)
     ctx.helper.success({ctx, res: result})
   }
+  /**
+   * 发送重置密码的验证码邮件
+   */
+  async sentResetPassCode() {
+    const {ctx} = this
+    const { email } = ctx.request.body
+    const user = await ctx.service.user.findByEmail(email)
+    if(!user) {
+      ctx.helper.fail({ctx, res:'此邮箱未注册！'})
+    }
+    // 生成缓存key值
+    const key = 'password_' + user.id
+    // 从缓存中查看用户是否点击过请求邮件
+    const hasCode = ctx.service.cache.has(key)
+    if (hasCode) {
+      ctx.helper.fail({ctx, res:'请勿重复发送'})
+    }
+    // 生成验证码
+    const code = ctx.service.cache.verifyCodeCache(key, 6)
+    // 发送重置邮件
+    const rs = await ctx.service.email.resetPassword(code, user)
+    if (rs && rs.messageId) {
+      ctx.helper.success({ctx, res:'验证码发送成功！请注意查收'})
+    } else {
+      ctx.helper.fail({ctx, res:'发送验证码失败，请重试'})
+    }
+  }
+  /**
+   * 重置密码
+   */
+  async resetPassword () {
+    const { ctx } = this
+    const { email, password, verifyCode } = ctx.request.body
+    // const user = await ctx.service
+  }
 }
 
 module.exports = UserController;

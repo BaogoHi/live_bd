@@ -6036,3 +6036,59 @@ sql: 'INSERT INTO `role` (`id`,`name`,`createdAt`,`updatedAt`) VALUES (DEFAULT,\
 pid: 9384
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-11 11:16:33,887 ERROR 2619 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'user' of undefined
+    at UserController.sentResetPassCode (/Users/klren/Projects/live_bd/app/controller/user.js:120:37)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 2619
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-11 11:17:05,283 ERROR 2635 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: user is not defined
+    at UserService.findByEmail (/Users/klren/Projects/live_bd/app/service/user.js:19:5)
+    at <anonymous>
+
+pid: 2635
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-11 11:17:50,758 ERROR 2643 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'mailer' of undefined
+    at new Mail (/Users/klren/Projects/live_bd/node_modules/nodemailer/lib/mailer/index.js:45:33)
+    at Object.module.exports.createTransport (/Users/klren/Projects/live_bd/node_modules/nodemailer/lib/nodemailer.js:52:14)
+    at new EmailService (/Users/klren/Projects/live_bd/app/service/email.js:9:35)
+    at getInstance (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at UserController.sentResetPassCode (/Users/klren/Projects/live_bd/app/controller/user.js:134:34)
+    at <anonymous>
+
+pid: 2643
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-11 11:27:50,959 ERROR 2719 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'transporter' of undefined
+    at new EmailService (/Users/klren/Projects/live_bd/app/service/email.js:9:67)
+    at getInstance (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at UserController.sentResetPassCode (/Users/klren/Projects/live_bd/app/controller/user.js:134:34)
+    at <anonymous>
+
+pid: 2719
+hostname: renzhizhongdeMacBook-Air.local
+

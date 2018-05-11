@@ -15,7 +15,7 @@ class UserService extends Service {
    * @param {*} email 
    */
   async findByEmail(email) {
-    const User = await this.ctx.model.User.findOne({where: {email}})
+    const user = await this.ctx.model.User.findOne({where: {email}})
     if(!user) {
       this.ctx.throw(404, 'user not found')
     }

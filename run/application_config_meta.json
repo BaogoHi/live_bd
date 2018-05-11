@@ -103,6 +103,16 @@
     "callbackURL": "/Users/klren/Projects/live_bd/config/config.default.js"
   },
   "passportLocal": "/Users/klren/Projects/live_bd/config/config.default.js",
+  "transporter": {
+    "appName": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "host": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "secure": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "port": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "auth": {
+      "user": "/Users/klren/Projects/live_bd/config/config.default.js",
+      "pass": "/Users/klren/Projects/live_bd/config/config.default.js"
+    }
+  },
   "session": {
     "maxAge": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
     "key": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
@@ -209,7 +219,9 @@
       "egg-socket.io": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-userrole": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "lru-cache": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "nodemailer": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "stream-wormhole": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "uws": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js"
     },
