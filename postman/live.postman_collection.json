@@ -16,7 +16,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1MzM2NTc4fQ.aaLdMzSahyz9e6_YJY-75GQc4A2QpeHPkPbrpCI7P6s"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJrbHJlbjEyMyIsImxpdmVjb2RlIjoia2xyZW4xMjMiLCJyb2xlIjoibm9ybWFsIiwiaWF0IjoxNTI1NzY1NjUwfQ.tHOCEfeUzU07rQ7mKh8jWZG-Fg3YgtvWlG9wlZyqll8"
 							}
 						],
 						"body": {},
@@ -70,7 +70,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE1MjU3NjEwNzJ9.IbzpWhI9JEb-ftV9iacSppTZ0nw4il4Xrt53oZ_GwpQ"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidXNlcm5hbWUiOiJ6emVzIiwibGl2ZWNvZGUiOiJ6emVzIiwicm9sZSI6Im5vcm1hbCIsImlhdCI6MTUyNTc2NjE3MX0.Nl8C7_DnP1LkYEMhhh5fLm7TXPh4K9LeET6UpIzKZj8"
 							}
 						],
 						"body": {},
@@ -108,7 +108,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"user\": {\n    \"username\":\"klren\",\n    \"password\":\"klren\"\n  }\n}"
+							"raw": "{\n\t\"user\": {\n\t\t\"username\":\"zzes\",\n\t\t\"password\":\"zzes\"\n\t}\n}"
 						},
 						"url": {
 							"raw": "{{apiUrl}}/login",
@@ -134,7 +134,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"user\": {\n    \"username\": \"klren\",\n    \"password\": \"klren\",\n    \"email\": \"klren@qq.com\"\n  }\n}"
+							"raw": "{\n\t\"user\": {\n\t\t\"username\": \"fcfc\",\n\t\t\"password\": \"fcfc\",\n\t\t\"email\": \"fcfc@qq.com\"\n\t}\n}"
 						},
 						"url": {
 							"raw": "{{apiUrl}}/register",
@@ -230,6 +230,88 @@
 							],
 							"path": [
 								"psupload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送重置密码邮件",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\":\"605747907@qq.com\"\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/email",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "机器人聊天",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidXNlcm5hbWUiOiJ6emVzIiwibGl2ZWNvZGUiOiJ6emVzIiwicm9sZSI6Im5vcm1hbCIsImlhdCI6MTUyNjAyODMyM30.bY8NShzh-cXZ3FUUodiu8ayr000VqotrJTW_yxqDSik"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"question\":\"土豆丝\"\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/ai",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"ai"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "重置密码",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\":\"605747907@qq.com\", \n\t\"password\":\"zzes123\", \n\t\"verifyCode\":\"194247\"\n}"
+						},
+						"url": {
+							"raw": "{{apiUrl}}/reset",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"reset"
 							]
 						}
 					},
@@ -427,7 +509,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2xyZW4iLCJsaXZlY29kZSI6ImtscmVuIiwiaWF0IjoxNTI1Mzk1MDYzfQ.qekOZvaX3DM-Ag8jjOLY19xa6Jj4VTAgod_QEhpcAfc"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidXNlcm5hbWUiOiJ6emVzIiwibGl2ZWNvZGUiOiJ6emVzIiwicm9sZSI6Im5vcm1hbCIsImlhdCI6MTUyNTc2NjE3MX0.Nl8C7_DnP1LkYEMhhh5fLm7TXPh4K9LeET6UpIzKZj8"
 							}
 						],
 						"body": {},
@@ -520,7 +602,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJrbHJlbiIsImxpdmVjb2RlIjoia2xyZW4iLCJpYXQiOjE1MjU3NDI2MDF9.rgLiQLmCXznv3Sb_1TWeu2OvTza-mQJ7cIqIrVxdG3M"
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidXNlcm5hbWUiOiJ6emVzIiwibGl2ZWNvZGUiOiJ6emVzIiwicm9sZSI6Im5vcm1hbCIsImlhdCI6MTUyNTc2NjE3MX0.Nl8C7_DnP1LkYEMhhh5fLm7TXPh4K9LeET6UpIzKZj8"
 							},
 							{
 								"key": "Content-Type",
@@ -529,7 +611,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"role\":{\n\t\t\"name\":\"admin\"\t\n\t}\n}"
+							"raw": "{\n  \"role\":{\n    \"name\":\"normal\"  \n  }\n}"
 						},
 						"url": {
 							"raw": "{{apiUrl}}/role",
