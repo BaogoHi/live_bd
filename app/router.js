@@ -23,7 +23,7 @@ module.exports = app => {
   router.put('/user', app.jwt, controller.user.updateUserInfo)                    // 更新用户自己的信息
   router.delete('/user/:id', app.jwt, roleCheck, controller.user.deleteUserById)  // 删除指定用户，除了本用户
   router.post('/email', controller.user.sentResetPassCode)                        // 发送重置邮件
-  // router.post('/reset', controller.user.)
+  router.post('/reset', controller.user.resetPassword)                            // 重置密码
 
   router.put('/gift/:livecode', app.jwt, controller.live.addGifts)                // 添加礼物
   router.put('/live', app.jwt, controller.live.updateLive)                        // 更新直播间信息
@@ -39,6 +39,7 @@ module.exports = app => {
   router.post('/role', app.jwt, roleCheck, controller.role.createRole)            // 创建权限
   router.delete('/role/:id', app.jwt, roleCheck, controller.role.deleteRole)      // 删除权限
   router.post('/user/role', app.jwt, controller.user.addRole)                     // 给用户添加权限
+  router.post('/ai', app.jwt, controller.ai.chat)                                 // ai聊天
   // socket.io
   io.of('/').route('new message', io.controller.chat.newMessage)                  // 新消息通道
   io.of('/').route('old message', io.controller.chat.oldMessage)                  // 历史消息通道
