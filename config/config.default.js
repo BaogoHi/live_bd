@@ -7,6 +7,8 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1525238603482_4373';
 
   // add your config here
+  // AI apikey 连接地址：https://ruyi.ai/
+  config.aiKey = ''
   // 中间件要转化成驼峰
   config.middleware = ['errorHandler', 'notfoundHandler']
   // jwt 配置
@@ -30,10 +32,10 @@ module.exports = appInfo => {
     dialect: 'mysql',
     database: process.env.DB_DATABASE || 'zb',
 
-    // host: process.env.DB_HOST || '127.0.0.1',
+    host: process.env.DB_HOST || '127.0.0.1',
     port: process.env.DB_PORT || '3306',
     username: process.env.DB_USER || 'root',
-    // password: process.env.DB_PASSWORD || 'root',
+    password: process.env.DB_PASSWORD || 'root',
 
     timezone: '+08:00'
   }
@@ -74,8 +76,8 @@ module.exports = appInfo => {
   }
   // passport github
   config.passportGithub = {
-    key: 'a340ee0c3ae5d56f94db',
-    secret:'b9fef257ea93259f83fbb294f57b3219b1dc45e8',
+    key: '',
+    secret:'',
     callbackURL: '/passport/github/callback'
   }
   // passport local 
@@ -89,8 +91,8 @@ module.exports = appInfo => {
     secure: true,
     port: 465,
     auth: {
-      user: '{{username}}',
-      pass: '{{password}}'
+      user: '@139.com',
+      pass: ''
     }
   }
 
