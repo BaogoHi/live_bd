@@ -144,7 +144,24 @@ class UserController extends Controller {
   async resetPassword () {
     const { ctx } = this
     const { email, password, verifyCode } = ctx.request.body
-    // const user = await ctx.service
+    const user = await ctx.service.user.findByEmail(email)
+    if(!user) {
+      ctx.helper.fail({ctx, res:'此邮箱未注册！'})
+    }
+    const key = 'password_' + user.id
+    const currentCode = ctx.service.cache.get(key)
+    if(currentCode !== verifyCode){
+      ctx.logger.info('verifyCode error')
+      ctx.helper.fail({ctx, res:'验证码错误'})
+    }
+    const rs = await ctx.service.user.update({
+      password: password
+    }, user.id)
+    if(!rs) {
+      ctx.helper.fail({ctx, res:'修改失败'})
+    }
+    ctx.service.cache.del(key)
+    ctx.helper.success({ctx, res:'修改成功'})
   }
 }
 

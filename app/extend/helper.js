@@ -13,6 +13,7 @@ exports.bcompare = (str, hash) => {
 
 // 处理成功请求后的响应
 exports.success = ({ctx, res = null, msg = 'success'}) => {
+  ctx.status = 200
   ctx.body = {
     code: 0,
     data: res,
