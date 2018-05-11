@@ -1,5 +1,6 @@
 {
   "keys": "/Users/klren/Projects/live_bd/config/config.default.js",
+  "aiKey": "/Users/klren/Projects/live_bd/config/config.default.js",
   "middleware": "/Users/klren/Projects/live_bd/config/config.default.js",
   "jwt": {
     "secret": "/Users/klren/Projects/live_bd/config/config.default.js",
@@ -103,6 +104,16 @@
     "callbackURL": "/Users/klren/Projects/live_bd/config/config.default.js"
   },
   "passportLocal": "/Users/klren/Projects/live_bd/config/config.default.js",
+  "transporter": {
+    "appName": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "host": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "secure": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "port": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "auth": {
+      "user": "/Users/klren/Projects/live_bd/config/config.default.js",
+      "pass": "/Users/klren/Projects/live_bd/config/config.default.js"
+    }
+  },
   "session": {
     "maxAge": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",
     "key": "/Users/klren/Projects/live_bd/node_modules/egg-session/config/config.default.js",

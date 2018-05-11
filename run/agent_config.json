@@ -352,10 +352,21 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "aiKey": "58001567-c03b-47b9-b811-124ef8c85a63",
     "middleware": [
       "errorHandler",
       "notfoundHandler"
     ],
+    "transporter": {
+      "appName": "治娱直播",
+      "host": "smtp.139.com",
+      "secure": true,
+      "port": 465,
+      "auth": {
+        "user": "15755022403@139.com",
+        "pass": "<String len: 13>"
+      }
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"

@@ -410,6 +410,7 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "aiKey": "58001567-c03b-47b9-b811-124ef8c85a63",
     "middleware": [
       "jwt",
       "errorHandler",
@@ -421,8 +422,8 @@
       "secure": true,
       "port": 465,
       "auth": {
-        "user": "{{username}}",
-        "pass": "<String len: 12>"
+        "user": "15755022403@139.com",
+        "pass": "<String len: 13>"
       }
     },
     "coreMiddlewares": "~config~coreMiddleware",

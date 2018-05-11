@@ -1,5 +1,6 @@
 {
   "keys": "/Users/klren/Projects/live_bd/config/config.default.js",
+  "aiKey": "/Users/klren/Projects/live_bd/config/config.default.js",
   "middleware": "/Users/klren/Projects/live_bd/config/config.default.js",
   "jwt": {
     "secret": "/Users/klren/Projects/live_bd/config/config.default.js",

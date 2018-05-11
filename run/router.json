@@ -168,6 +168,18 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/reset",
+    "regexp": "/^\\/reset(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "PUT"
     ],
     "paramNames": [
@@ -391,6 +403,19 @@
     "paramNames": [],
     "path": "/user/role",
     "regexp": "/^\\/user\\/role(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/ai",
+    "regexp": "/^\\/ai(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
       "wrappedController"
