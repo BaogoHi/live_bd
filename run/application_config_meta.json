@@ -2,6 +2,13 @@
   "keys": "/Users/klren/Projects/live_bd/config/config.default.js",
   "aiKey": "/Users/klren/Projects/live_bd/config/config.default.js",
   "middleware": "/Users/klren/Projects/live_bd/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/klren/Projects/live_bd/config/config.default.js",
+    "root": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js"
+  },
   "jwt": {
     "secret": "/Users/klren/Projects/live_bd/config/config.default.js",
     "getToken": "/Users/klren/Projects/live_bd/config/config.default.js",
@@ -187,12 +194,12 @@
     "buffer": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/klren/Projects/live_bd/node_modules/egg-static/config/config.default.js"
   },
-  "view": {
-    "root": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/klren/Projects/live_bd/node_modules/egg-view/config/config.default.js"
+  "nunjucks": {
+    "autoescape": "/Users/klren/Projects/live_bd/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/klren/Projects/live_bd/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/klren/Projects/live_bd/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/klren/Projects/live_bd/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/klren/Projects/live_bd/node_modules/egg-view-nunjucks/config/config.local.js"
   },
   "env": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
   "name": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
@@ -220,6 +227,7 @@
       "egg-socket.io": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-userrole": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "lru-cache": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",
       "nodemailer": "/Users/klren/Projects/live_bd/node_modules/egg/config/config.default.js",

@@ -11547,3 +11547,188 @@
 2018-05-11 17:17:07,469 INFO 10505 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
 2018-05-11 17:17:07,486 INFO 10505 [egg-watcher:app] watcher start success
 2018-05-11 17:17:07,487 INFO 10505 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:27:21,552 INFO 2184 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:27:21,609 INFO 2184 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:27:21,609 INFO 2184 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:27:22,069 INFO 2184 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:27:22,195 INFO 2184 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:27:22,199 INFO 2184 [egg-security] use methodnoallow middleware
+2018-05-16 08:27:22,200 INFO 2184 [egg-security] use noopen middleware
+2018-05-16 08:27:22,200 INFO 2184 [egg-security] use nosniff middleware
+2018-05-16 08:27:22,201 INFO 2184 [egg-security] use xssProtection middleware
+2018-05-16 08:27:22,201 INFO 2184 [egg-security] use xframe middleware
+2018-05-16 08:27:22,201 INFO 2184 [egg-security] use dta middleware
+2018-05-16 08:27:22,201 INFO 2184 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:27:22,279 INFO 2184 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:27:22,295 INFO 2184 [egg-watcher:app] watcher start success
+2018-05-16 08:27:22,295 INFO 2184 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:27:49,720 INFO 2203 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:27:49,783 INFO 2203 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:27:49,783 INFO 2203 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:27:50,209 INFO 2203 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:27:50,341 INFO 2203 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:27:50,343 INFO 2203 [egg-security] use methodnoallow middleware
+2018-05-16 08:27:50,344 INFO 2203 [egg-security] use noopen middleware
+2018-05-16 08:27:50,344 INFO 2203 [egg-security] use nosniff middleware
+2018-05-16 08:27:50,344 INFO 2203 [egg-security] use xssProtection middleware
+2018-05-16 08:27:50,345 INFO 2203 [egg-security] use xframe middleware
+2018-05-16 08:27:50,345 INFO 2203 [egg-security] use dta middleware
+2018-05-16 08:27:50,345 INFO 2203 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:27:50,420 INFO 2203 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:27:50,433 INFO 2203 [egg-watcher:app] watcher start success
+2018-05-16 08:27:50,433 INFO 2203 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:27:51,839 INFO 2204 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:27:51,905 INFO 2204 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:27:51,905 INFO 2204 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:27:52,358 INFO 2204 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:27:52,479 INFO 2204 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:27:52,483 INFO 2204 [egg-security] use methodnoallow middleware
+2018-05-16 08:27:52,483 INFO 2204 [egg-security] use noopen middleware
+2018-05-16 08:27:52,484 INFO 2204 [egg-security] use nosniff middleware
+2018-05-16 08:27:52,484 INFO 2204 [egg-security] use xssProtection middleware
+2018-05-16 08:27:52,485 INFO 2204 [egg-security] use xframe middleware
+2018-05-16 08:27:52,486 INFO 2204 [egg-security] use dta middleware
+2018-05-16 08:27:52,486 INFO 2204 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:27:52,551 INFO 2204 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:27:52,567 INFO 2204 [egg-watcher:app] watcher start success
+2018-05-16 08:27:52,567 INFO 2204 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:28:39,569 INFO 2224 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:28:39,618 INFO 2224 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:28:39,618 INFO 2224 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:28:40,120 INFO 2224 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:28:40,285 INFO 2224 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:28:40,288 INFO 2224 [egg-security] use methodnoallow middleware
+2018-05-16 08:28:40,289 INFO 2224 [egg-security] use noopen middleware
+2018-05-16 08:28:40,290 INFO 2224 [egg-security] use nosniff middleware
+2018-05-16 08:28:40,290 INFO 2224 [egg-security] use xssProtection middleware
+2018-05-16 08:28:40,291 INFO 2224 [egg-security] use xframe middleware
+2018-05-16 08:28:40,292 INFO 2224 [egg-security] use dta middleware
+2018-05-16 08:28:40,292 INFO 2224 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:28:40,326 INFO 2224 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:28:40,344 INFO 2224 [egg-watcher:app] watcher start success
+2018-05-16 08:28:40,344 INFO 2224 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:28:42,014 INFO 2224 [egg-view-nunjucks] loading templates from ["/Users/klren/Projects/live_bd/app/view"]
+2018-05-16 08:28:41,824 INFO 2231 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:28:41,909 INFO 2231 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:28:41,909 INFO 2231 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:28:42,657 INFO 2231 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:28:42,787 INFO 2231 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:28:42,790 INFO 2231 [egg-security] use methodnoallow middleware
+2018-05-16 08:28:42,790 INFO 2231 [egg-security] use noopen middleware
+2018-05-16 08:28:42,791 INFO 2231 [egg-security] use nosniff middleware
+2018-05-16 08:28:42,791 INFO 2231 [egg-security] use xssProtection middleware
+2018-05-16 08:28:42,791 INFO 2231 [egg-security] use xframe middleware
+2018-05-16 08:28:42,791 INFO 2231 [egg-security] use dta middleware
+2018-05-16 08:28:42,791 INFO 2231 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:28:42,868 INFO 2231 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:28:42,884 INFO 2231 [egg-watcher:app] watcher start success
+2018-05-16 08:28:42,884 INFO 2231 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:33:17,326 INFO 2250 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:33:17,390 INFO 2250 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:33:17,390 INFO 2250 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:33:17,861 INFO 2250 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:18,007 INFO 2250 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:33:18,009 INFO 2250 [egg-security] use methodnoallow middleware
+2018-05-16 08:33:18,010 INFO 2250 [egg-security] use noopen middleware
+2018-05-16 08:33:18,010 INFO 2250 [egg-security] use nosniff middleware
+2018-05-16 08:33:18,010 INFO 2250 [egg-security] use xssProtection middleware
+2018-05-16 08:33:18,011 INFO 2250 [egg-security] use xframe middleware
+2018-05-16 08:33:18,011 INFO 2250 [egg-security] use dta middleware
+2018-05-16 08:33:18,011 INFO 2250 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:33:18,049 INFO 2250 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:18,071 INFO 2250 [egg-watcher:app] watcher start success
+2018-05-16 08:33:18,071 INFO 2250 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:33:19,603 INFO 2257 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:33:19,659 INFO 2257 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:33:19,659 INFO 2257 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:33:20,132 INFO 2257 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:20,277 INFO 2257 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:33:20,281 INFO 2257 [egg-security] use methodnoallow middleware
+2018-05-16 08:33:20,282 INFO 2257 [egg-security] use noopen middleware
+2018-05-16 08:33:20,282 INFO 2257 [egg-security] use nosniff middleware
+2018-05-16 08:33:20,283 INFO 2257 [egg-security] use xssProtection middleware
+2018-05-16 08:33:20,283 INFO 2257 [egg-security] use xframe middleware
+2018-05-16 08:33:20,284 INFO 2257 [egg-security] use dta middleware
+2018-05-16 08:33:20,284 INFO 2257 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:33:20,318 INFO 2257 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:20,331 INFO 2257 [egg-watcher:app] watcher start success
+2018-05-16 08:33:20,331 INFO 2257 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:33:24,576 INFO 2257 [egg-view-nunjucks] loading templates from ["/Users/klren/Projects/live_bd/app/view"]
+2018-05-16 08:33:53,039 INFO 2277 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:33:53,110 INFO 2277 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:33:53,110 INFO 2277 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:33:53,616 INFO 2277 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:53,747 INFO 2277 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:33:53,752 INFO 2277 [egg-security] use methodnoallow middleware
+2018-05-16 08:33:53,753 INFO 2277 [egg-security] use noopen middleware
+2018-05-16 08:33:53,754 INFO 2277 [egg-security] use nosniff middleware
+2018-05-16 08:33:53,754 INFO 2277 [egg-security] use xssProtection middleware
+2018-05-16 08:33:53,755 INFO 2277 [egg-security] use xframe middleware
+2018-05-16 08:33:53,756 INFO 2277 [egg-security] use dta middleware
+2018-05-16 08:33:53,756 INFO 2277 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:33:53,831 INFO 2277 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:53,846 INFO 2277 [egg-watcher:app] watcher start success
+2018-05-16 08:33:53,847 INFO 2277 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:33:55,312 INFO 2284 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:33:55,376 INFO 2284 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:33:55,376 INFO 2284 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:33:55,896 INFO 2284 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:56,028 INFO 2284 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:33:56,031 INFO 2284 [egg-security] use methodnoallow middleware
+2018-05-16 08:33:56,031 INFO 2284 [egg-security] use noopen middleware
+2018-05-16 08:33:56,031 INFO 2284 [egg-security] use nosniff middleware
+2018-05-16 08:33:56,032 INFO 2284 [egg-security] use xssProtection middleware
+2018-05-16 08:33:56,032 INFO 2284 [egg-security] use xframe middleware
+2018-05-16 08:33:56,032 INFO 2284 [egg-security] use dta middleware
+2018-05-16 08:33:56,032 INFO 2284 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:33:56,068 INFO 2284 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:33:56,084 INFO 2284 [egg-watcher:app] watcher start success
+2018-05-16 08:33:56,084 INFO 2284 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:34:30,918 INFO 2301 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:34:30,990 INFO 2301 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:34:30,990 INFO 2301 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:34:31,487 INFO 2301 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:34:31,700 INFO 2301 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:34:31,703 INFO 2301 [egg-security] use methodnoallow middleware
+2018-05-16 08:34:31,703 INFO 2301 [egg-security] use noopen middleware
+2018-05-16 08:34:31,703 INFO 2301 [egg-security] use nosniff middleware
+2018-05-16 08:34:31,704 INFO 2301 [egg-security] use xssProtection middleware
+2018-05-16 08:34:31,704 INFO 2301 [egg-security] use xframe middleware
+2018-05-16 08:34:31,704 INFO 2301 [egg-security] use dta middleware
+2018-05-16 08:34:31,704 INFO 2301 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:34:31,741 INFO 2301 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:34:31,757 INFO 2301 [egg-watcher:app] watcher start success
+2018-05-16 08:34:31,758 INFO 2301 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:34:33,155 INFO 2301 [egg-view-nunjucks] loading templates from ["/Users/klren/Projects/live_bd/app/view"]
+2018-05-16 08:34:33,752 INFO 2309 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:34:33,804 INFO 2309 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:34:33,804 INFO 2309 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:34:34,224 INFO 2309 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:34:34,350 INFO 2309 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:34:34,352 INFO 2309 [egg-security] use methodnoallow middleware
+2018-05-16 08:34:34,353 INFO 2309 [egg-security] use noopen middleware
+2018-05-16 08:34:34,353 INFO 2309 [egg-security] use nosniff middleware
+2018-05-16 08:34:34,353 INFO 2309 [egg-security] use xssProtection middleware
+2018-05-16 08:34:34,354 INFO 2309 [egg-security] use xframe middleware
+2018-05-16 08:34:34,354 INFO 2309 [egg-security] use dta middleware
+2018-05-16 08:34:34,354 INFO 2309 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:34:34,421 INFO 2309 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:34:34,434 INFO 2309 [egg-watcher:app] watcher start success
+2018-05-16 08:34:34,434 INFO 2309 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:34:37,560 INFO 2309 [egg-view-nunjucks] loading templates from ["/Users/klren/Projects/live_bd/app/view"]
+2018-05-16 08:42:24,277 INFO 2333 [egg:logger] init all loggers with options: {"dir":"/Users/klren/Projects/live_bd/logs/live_bd","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"live_bd-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-16 08:42:24,351 INFO 2333 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-16 08:42:24,351 INFO 2333 [egg-schedule]: register schedule /Users/klren/Projects/live_bd/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-16 08:42:24,964 INFO 2333 [egg-redis] connecting redis://:@0.0.0.0:6379/0
+2018-05-16 08:42:25,149 INFO 2333 [egg-static] starting static serve /public/ -> /Users/klren/Projects/live_bd/app/public
+2018-05-16 08:42:25,154 INFO 2333 [egg-security] use methodnoallow middleware
+2018-05-16 08:42:25,154 INFO 2333 [egg-security] use noopen middleware
+2018-05-16 08:42:25,155 INFO 2333 [egg-security] use nosniff middleware
+2018-05-16 08:42:25,155 INFO 2333 [egg-security] use xssProtection middleware
+2018-05-16 08:42:25,156 INFO 2333 [egg-security] use xframe middleware
+2018-05-16 08:42:25,156 INFO 2333 [egg-security] use dta middleware
+2018-05-16 08:42:25,156 INFO 2333 [egg-security] compose 6 middlewares into one security middleware
+2018-05-16 08:42:25,242 INFO 2333 [egg-redis] connect success on redis://:@0.0.0.0:6379/0
+2018-05-16 08:42:25,258 INFO 2333 [egg-watcher:app] watcher start success
+2018-05-16 08:42:25,258 INFO 2333 [egg-redis] instance[0] status OK, redis currentTime: #
+2018-05-16 08:42:26,263 INFO 2333 [egg-view-nunjucks] loading templates from ["/Users/klren/Projects/live_bd/app/view"]

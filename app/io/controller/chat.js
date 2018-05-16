@@ -19,7 +19,7 @@ class ChatController extends Controller {
         username: username,
         time: message.time
       }
-      app.io.to(room).emit('new message', data)
+      nsp.to(room).emit('new message', data)
       app.redis.lpush('message', JSON.stringify(data))
       app.redis.expire('message', 10*60)
     } catch (error) {

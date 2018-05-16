@@ -8,9 +8,13 @@ module.exports = appInfo => {
 
   // add your config here
   // AI apikey 连接地址：https://ruyi.ai/
-  config.aiKey = ''
+  config.aiKey = '58001567-c03b-47b9-b811-124ef8c85a63'
   // 中间件要转化成驼峰
   config.middleware = ['errorHandler', 'notfoundHandler']
+  // view 配置
+  config.view = {
+    defaultViewEngine: 'nunjucks'
+  }
   // jwt 配置
   config.jwt = {
     secret: '123456',
@@ -31,12 +35,12 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'mysql',
     database: process.env.DB_DATABASE || 'zb',
-
-    host: process.env.DB_HOST || '127.0.0.1',
+    host: process.env.DB_HOST || '119.28.84.27',
+    // host: process.env.DB_HOST || '127.0.0.1',
     port: process.env.DB_PORT || '3306',
     username: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || 'root',
-
+    // password: process.env.DB_PASSWORD || 'root',
+    password: process.env.DB_PASSWORD || 'klren0312',
     timezone: '+08:00'
   }
   // csrf关闭
@@ -76,8 +80,8 @@ module.exports = appInfo => {
   }
   // passport github
   config.passportGithub = {
-    key: '',
-    secret:'',
+    key: 'a340ee0c3ae5d56f94db',
+    secret:'b9fef257ea93259f83fbb294f57b3219b1dc45e8',
     callbackURL: '/passport/github/callback'
   }
   // passport local 
@@ -91,8 +95,8 @@ module.exports = appInfo => {
     secure: true,
     port: 465,
     auth: {
-      user: '@139.com',
-      pass: ''
+      user: '15755022403@139.com',
+      pass: 'renzhiwei0312'
     }
   }
 

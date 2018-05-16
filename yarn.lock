@@ -2463,6 +2463,12 @@ egg-validate@^1.0.0:
   dependencies:
     parameter "^2.0.0"
 
+egg-view-nunjucks@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/egg-view-nunjucks/-/egg-view-nunjucks-2.2.0.tgz#173a43d183c6373d13c577c5fec8a5c7284a372c"
+  dependencies:
+    nunjucks "^3.1.2"
+
 egg-view@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/egg-view/-/egg-view-2.1.0.tgz#aa7ca0344213f5d72147d6001bc0503f858b425c"
@@ -5308,7 +5314,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nunjucks@^3.0.1:
+nunjucks@^3.0.1, nunjucks@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.1.2.tgz#85945a66bb8239bb37ecef83dab4cc1f152aabb9"
   dependencies:

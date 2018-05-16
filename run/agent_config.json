@@ -132,7 +132,7 @@
       "root": "/Users/klren/Projects/live_bd/app/view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
+      "defaultViewEngine": "nunjucks",
       "mapping": {}
     },
     "jwt": {
@@ -187,6 +187,13 @@
       "callbackURL": "/passport/github/callback"
     },
     "passportLocal": {},
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
     "env": "local",
     "name": "live_bd",
     "keys": "<String len: 26>",
@@ -214,6 +221,7 @@
         "egg-socket.io": "^4.0.8",
         "egg-userrole": "^2.0.0",
         "egg-validate": "^1.0.0",
+        "egg-view-nunjucks": "^2.2.0",
         "lru-cache": "^4.1.3",
         "mysql2": "^1.5.3",
         "nodemailer": "^4.6.4",
@@ -622,6 +630,20 @@
       "from": "/Users/klren/Projects/live_bd/config/plugin.js",
       "path": "/Users/klren/Projects/live_bd/node_modules/egg-passport-local",
       "version": "1.2.1"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/klren/Projects/live_bd/config/plugin.js",
+      "path": "/Users/klren/Projects/live_bd/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }

@@ -7,7 +7,7 @@ module.exports = app => {
   const { router, controller, io } = app;
   // passport github
   app.passport.mount('github')
-  router.get('/', controller.home.index)
+  router.get('/', controller.home.demo)
   const localStrategy = app.passport.authenticate('local', {
     successRedirect: '/',
     failureRedirect: '/404'

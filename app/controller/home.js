@@ -15,6 +15,12 @@ class HomeController extends Controller {
       }
     }
   }
+  async demo() {
+    const {ctx} = this
+    const data = {name:'egg'}
+    ctx.body = await this.ctx.renderString('hi, {{name}}', data)
+    // ctx.render('index.html')
+  }
 }
 
 module.exports = HomeController;

@@ -4108,3 +4108,42 @@ hostname: renzhizhongdeMacBook-Air.local
 2018-05-11 17:13:40,014 INFO 10474 [model] [35mSELECT `user`.`id`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`livecode`, `user`.`provider`, `user`.`avatar`, `user`.`createdAt`, `user`.`updatedAt`, `userRoles`.`id` AS `userRoles.id`, `userRoles`.`roleId` AS `userRoles.roleId`, `userRoles->role`.`id` AS `userRoles.role.id`, `userRoles->role`.`name` AS `userRoles.role.name` FROM `user` AS `user` LEFT OUTER JOIN `userRole` AS `userRoles` ON `user`.`id` = `userRoles`.`userId` LEFT OUTER JOIN `role` AS `userRoles->role` ON `userRoles`.`roleId` = `userRoles->role`.`id` WHERE `user`.`username` = 'fcfc';[39m (74ms)
 2018-05-11 17:17:07,767 INFO 10505 [model] [35mSELECT VERSION() as `version`[39m (56ms)
 2018-05-11 17:17:08,018 INFO 10505 [model] [35mSELECT 1+1 AS result[39m (51ms)
+2018-05-16 08:27:22,546 INFO 2184 [model] [35mSELECT VERSION() as `version`[39m (53ms)
+2018-05-16 08:27:22,788 INFO 2184 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-16 08:27:50,694 INFO 2203 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-16 08:27:50,939 INFO 2203 [model] [35mSELECT 1+1 AS result[39m (55ms)
+2018-05-16 08:27:52,793 INFO 2204 [model] [35mSELECT VERSION() as `version`[39m (46ms)
+2018-05-16 08:27:53,007 INFO 2204 [model] [35mSELECT 1+1 AS result[39m (42ms)
+2018-05-16 08:28:25,653 INFO 2204 [model] [35mINSERT INTO `user` (`id`,`username`,`password`,`email`,`livecode`,`provider`,`avatar`,`createdAt`,`updatedAt`) VALUES (DEFAULT,'klren0312','dcd3989058526eede5f83002f538592436c390ef','null@email.com','github_klren0312','github','https://avatars3.githubusercontent.com/u/10903843?v=4','2018-05-16 08:28:24','2018-05-16 08:28:24');[39m (476ms)
+2018-05-16 08:28:25,661 WARN 2204 [-/127.0.0.1/-/0ms GET /] nodejs.AuthenticationError: Unauthorized
+    at allFailed (/Users/klren/Projects/live_bd/node_modules/passport/lib/middleware/authenticate.js:159:21)
+    at attempt (/Users/klren/Projects/live_bd/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/klren/Projects/live_bd/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/klren/Projects/live_bd/node_modules/passport-oauth2/lib/strategy.js:173:40)
+    at /Users/klren/Projects/live_bd/node_modules/egg-passport/lib/passport.js:74:7
+    at <anonymous>
+name: 'AuthenticationError'
+message: 'Unauthorized'
+status: 401
+pid: 2204
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-16 08:28:25,768 INFO 2204 [model] [35mINSERT INTO `live` (`id`,`roomname`,`userId`,`gift`,`peonum`,`livecode`,`liveurl`,`usecustom`,`active`,`createdAt`,`updatedAt`) VALUES (DEFAULT,'klren0312',7,0,0,'github_klren0312','/github_klren0312',0,1,'2018-05-16 08:28:25','2018-05-16 08:28:25');[39m (101ms)
+2018-05-16 08:28:40,579 INFO 2224 [model] [35mSELECT VERSION() as `version`[39m (45ms)
+2018-05-16 08:28:40,815 INFO 2224 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-16 08:28:43,148 INFO 2231 [model] [35mSELECT VERSION() as `version`[39m (53ms)
+2018-05-16 08:28:43,381 INFO 2231 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-16 08:33:18,309 INFO 2250 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-16 08:33:18,534 INFO 2250 [model] [35mSELECT 1+1 AS result[39m (45ms)
+2018-05-16 08:33:20,575 INFO 2257 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-16 08:33:20,820 INFO 2257 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-16 08:33:54,083 INFO 2277 [model] [35mSELECT VERSION() as `version`[39m (51ms)
+2018-05-16 08:33:54,318 INFO 2277 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-16 08:33:56,329 INFO 2284 [model] [35mSELECT VERSION() as `version`[39m (50ms)
+2018-05-16 08:33:56,563 INFO 2284 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-16 08:34:32,005 INFO 2301 [model] [35mSELECT VERSION() as `version`[39m (58ms)
+2018-05-16 08:34:32,499 INFO 2301 [model] [35mSELECT 1+1 AS result[39m (47ms)
+2018-05-16 08:34:36,680 INFO 2309 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-16 08:34:36,918 INFO 2309 [model] [35mSELECT 1+1 AS result[39m (55ms)
+2018-05-16 08:42:25,499 INFO 2333 [model] [35mSELECT VERSION() as `version`[39m (47ms)
+2018-05-16 08:42:25,747 INFO 2333 [model] [35mSELECT 1+1 AS result[39m (52ms)

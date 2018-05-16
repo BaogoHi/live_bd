@@ -6092,3 +6092,54 @@ hostname: renzhizhongdeMacBook-Air.local
 pid: 2719
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-16 08:28:21,413 ERROR 2204 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.demo (/Users/klren/Projects/live_bd/app/controller/home.js:20:5)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+
+pid: 2204
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-16 08:34:04,284 ERROR 2284 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/klren/Projects/live_bd/app/view/index.html
+    at ContextView.[contextView#render] (/Users/klren/Projects/live_bd/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 2284
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-16 08:34:06,840 ERROR 2284 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/klren/Projects/live_bd/app/view/index.html
+    at ContextView.[contextView#render] (/Users/klren/Projects/live_bd/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 2284
+hostname: renzhizhongdeMacBook-Air.local
+
