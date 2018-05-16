@@ -15,7 +15,10 @@ class UserController extends Controller {
     }, user)
     const {password, username} = user
     const result = await ctx.service.user.findByUsername(username)
-    const compare = ctx.helper.bcompare(password, result.password)
+    if (!ctx.helper.bcompare(password, result.password)) {
+      ctx.helper.fail({ctx, res: '用户密码错误'})
+      return;
+    }
     ctx.helper.success({ctx, res: app.getUserJson(result, ctx, 1)})
   }
   /**
