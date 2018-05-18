@@ -1,13 +1,17 @@
-'use strict';
+'use strict'
 
-const Controller = require('egg').Controller;
+const Controller = require('egg').Controller
 
 class AiController extends Controller {
+  /**
+   * 聊天
+   */
   async chat() {
     const {ctx,app} = this
     const {username} = app.verifyToken(ctx)
     const data = ctx.request.body.question
     console.log(data)
+    // 请求接口
     const answer = await ctx.curl(`http://api.ruyi.ai/v1/message`, {
       method: 'POST',
       contentType: 'json',
@@ -22,4 +26,4 @@ class AiController extends Controller {
   }
 }
 
-module.exports = AiController;
+module.exports = AiController

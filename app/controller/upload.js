@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 const Controller = require('egg').Controller
 
@@ -9,6 +9,9 @@ const sendToWormhole = require('stream-wormhole')
 const awaitWriteStream = require('await-stream-ready').write
 
 class UploadController extends Controller {
+  /**
+   * 上传图片
+   */
   async upload() {
     const { ctx, app } = this
     const stream = await ctx.getFileStream()
@@ -26,6 +29,10 @@ class UploadController extends Controller {
     }
     this.ctx.helper.success({ctx, res:'上传成功'})
   }
+  
+  /**
+   * form-data 上传图片
+   */
   async postmanUpload() {
     const stream = await this.ctx.getFileStream()
     const filename = stream.filename.toLowerCase()
@@ -41,4 +48,4 @@ class UploadController extends Controller {
   }
 }
 
-module.exports = UploadController;
+module.exports = UploadController

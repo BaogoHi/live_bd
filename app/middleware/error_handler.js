@@ -11,9 +11,9 @@ module.exports = (option, app) => {
       const error = status === 500 && app.config.env === 'prod'
         ? '服务器错误，请联系管理员，谢谢！'
         : err.message
-      ctx.body = { error }
+      ctx.helper.fail({ ctx, code: status, res: error})
       if(status === 422) {
-        ctx.body.detail = err.errors
+        ctx.helper.fail({ ctx, code: status, res: err.errors})
       }
       ctx.status = status
     }

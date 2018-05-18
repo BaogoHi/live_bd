@@ -1,18 +1,19 @@
-'use strict';
+'use strict'
 
-const Service = require('egg').Service;
+const Service = require('egg').Service
 
 class RoleService extends Service {
   /**
    * 创建权限
-   * @param {*} role 
+   * @param {Object} role  权限信息
    */
   async create(role) {
     return await this.ctx.model.Role.create(role)
   }
+
   /**
    * 通过id删除
-   * @param {*} id 
+   * @param {Int} id 权限id
    */
   async deleteById(id) {
     const role =  await this.ctx.model.Role.destroy({where: {id}})
@@ -27,4 +28,4 @@ class RoleService extends Service {
   }
 }
 
-module.exports = RoleService;
+module.exports = RoleService

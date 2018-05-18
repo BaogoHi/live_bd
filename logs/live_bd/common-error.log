@@ -6143,3 +6143,35 @@ operator: '=='
 pid: 2284
 hostname: renzhizhongdeMacBook-Air.local
 
+2018-05-17 14:35:12,429 ERROR 7367 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: invalid status code: 666
+    at Object.set status [as status] (/Users/klren/Projects/live_bd/node_modules/koa/lib/response.js:86:5)
+    at Object.status (/Users/klren/Projects/live_bd/node_modules/delegates/index.js:92:31)
+    at HomeController.demo (/Users/klren/Projects/live_bd/app/controller/home.js:21:15)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/klren/Projects/live_bd/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 7367
+hostname: renzhizhongdeMacBook-Air.local
+

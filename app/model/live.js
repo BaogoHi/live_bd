@@ -43,9 +43,11 @@ module.exports = app => {
     tableName: 'live',
     underscored: false
   })
+
   Live.associate = function() {
     app.model.Live.belongsTo(app.model.User, { as: 'user', foreignKey: 'userId'})
     app.model.Live.hasMany(app.model.LiveTag)
   }
+  
   return Live
 }

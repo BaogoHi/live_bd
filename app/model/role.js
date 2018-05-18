@@ -1,4 +1,5 @@
 'use strict'
+
 module.exports = app => {
   const {STRING} = app.Sequelize
   const Role = app.model.define('role', {
@@ -12,8 +13,10 @@ module.exports = app => {
     tableName: 'role',
     underscored: false
   })
+
   Role.associate = function() {
     app.model.Role.hasMany(app.model.UserRole)
   }
+
   return Role
 }

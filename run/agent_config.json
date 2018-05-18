@@ -33,7 +33,7 @@
         "enable": true
       },
       "methodnoallow": {
-        "enable": true
+        "enable": false
       },
       "noopen": {
         "enable": true

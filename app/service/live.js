@@ -1,27 +1,29 @@
-'use strict';
+'use strict'
 
-const Service = require('egg').Service;
+const Service = require('egg').Service
 
 class LiveService extends Service {
   /**
    * 创建直播间
-   * @param {*} live 
+   * @param {Object} live 直播间信息
    */
   async create(live) {
     return this.ctx.model.Live.create(live)
   }
+
   /**
    * 添加礼物
-   * @param {*} livecode 
+   * @param {String} livecode 直播码
    */
   async addGift(livecode) {
     const {app}  = this
     const giftnum = await this.ctx.model.query(`UPDATE live SET gift=gift+1 WHERE livecode='${livecode}'`)
     return giftnum
   }
+
   /**
    * 通过livecode查找直播间
-   * @param {*} livecode 
+   * @param {String} livecode 直播码
    */
   async findByLive(livecode) {
     const live = await this.ctx.model.Live.findOne({
@@ -32,9 +34,10 @@ class LiveService extends Service {
     }
     return live
   }
+
   /**
    * 通过id查找直播间
-   * @param {*} id 
+   * @param {String} id 直播间id
    */
   async findByCode(id) {
     const live = await this.ctx.model.Live.findOne({
@@ -55,10 +58,11 @@ class LiveService extends Service {
     }
     return live
   }
+
   /**
    * 更新直播间信息
-   * @param {*} value 
-   * @param {*} livecode 
+   * @param {Object} value 更新信息
+   * @param {String} livecode 直播码
    */
   async updateLive(value,livecode) {
     const live = await this.ctx.service.live.findByCode({livecode})
@@ -67,10 +71,11 @@ class LiveService extends Service {
     }
     return await live.update(value)
   }
+
   /**
    * 查看所有直播间信息
-   * @param {*} limit 
-   * @param {*} offset 
+   * @param {Int} limit 每页最多数据
+   * @param {Int} offset 数据起始位
    */
   async findAllLive(limit=10, offset=0) {
     const live = await this.ctx.model.Live.findAll({
@@ -95,9 +100,10 @@ class LiveService extends Service {
     }
     return live
   }
+
   /**
    * 根据id禁用/解禁直播间
-   * @param {*} id 
+   * @param {Int} id 直播间id
    */
   async banById(id,ban) {
     const result = await this.ctx.service.user.findById(id)
@@ -108,10 +114,11 @@ class LiveService extends Service {
       where: {livecode}
     })
   }
+
   /**
    * 给直播间加标签
-   * @param {*} id 
-   * @param {*} name 
+   * @param {Int} id 直播间id
+   * @param {String} name 直播间名称
    */
   async addTags(id, name) {
     if(name&&id){
@@ -126,4 +133,4 @@ class LiveService extends Service {
   }
 }
 
-module.exports = LiveService;
+module.exports = LiveService

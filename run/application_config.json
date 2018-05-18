@@ -40,8 +40,7 @@
         "matching": "<Function anonymous>"
       },
       "methodnoallow": {
-        "enable": true,
-        "matching": "<Function anonymous>"
+        "enable": false
       },
       "noopen": {
         "enable": true,

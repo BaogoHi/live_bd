@@ -1,9 +1,11 @@
 module.exports = app => {
+  // 数据库强制同步，开发时候用
   if(app.config.env === 'local') {
     app.beforeStart(async () => {
       // await app.model.sync({force:true})
     })
   }
+
   // local passport 处理
   const localHandler = async (ctx, user) => {
     ctx.validate({
@@ -18,9 +20,9 @@ module.exports = app => {
       return app.getUserJson(result, ctx, 1)
     } else {
       return ctx.helper.fail({ctx,res: '用户名或者密码错误'})
-    }
-    
+    } 
   }
+
   // github passport 处理
   const githubHandler = async (ctx, userinfo) => {
     const user = userinfo.profile
@@ -49,6 +51,7 @@ module.exports = app => {
       res: 'github登录成功'
     })
   }
+  
   // passport 综合处理
   app.passport.verify(async (ctx, user) => {
     // 根据provider不同，来选择处理函数

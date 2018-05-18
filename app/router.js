@@ -1,10 +1,11 @@
-'use strict';
+'use strict'
 
 /**
  * @param {Egg.Application} app - egg application
  */
 module.exports = app => {
-  const { router, controller, io } = app;
+  const { router, controller, io } = app
+  
   // passport github
   app.passport.mount('github')
   router.get('/', controller.home.demo)
@@ -13,8 +14,10 @@ module.exports = app => {
     failureRedirect: '/404'
   })
   app.router.post('/passport/local', localStrategy)
+
   // middleware 校验中间件
   const roleCheck = app.middleware.roleCheck()
+
   // api
   router.post('/register', controller.user.register)                              // 注册
   router.post('/login', controller.user.login)                                    // 登录
@@ -40,7 +43,8 @@ module.exports = app => {
   router.delete('/role/:id', app.jwt, roleCheck, controller.role.deleteRole)      // 删除权限
   router.post('/user/role', app.jwt, controller.user.addRole)                     // 给用户添加权限
   router.post('/ai', app.jwt, controller.ai.chat)                                 // ai聊天
+  
   // socket.io
   io.of('/').route('new message', io.controller.chat.newMessage)                  // 新消息通道
   io.of('/').route('old message', io.controller.chat.oldMessage)                  // 历史消息通道
-};
+}

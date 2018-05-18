@@ -34,6 +34,9 @@
       "bodyName": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
       "queryName": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
     },
+    "methodnoallow": {
+      "enable": "/Users/klren/Projects/live_bd/config/config.default.js"
+    },
     "domainWhiteList": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
     "protocolWhiteList": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
     "defaultMiddleware": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js",
@@ -47,9 +50,6 @@
       "includeSubdomains": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
-    },
-    "methodnoallow": {
       "enable": "/Users/klren/Projects/live_bd/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {

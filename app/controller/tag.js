@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const Controller = require('egg').Controller;
+const Controller = require('egg').Controller
 
 class TagController extends Controller {
   /**
@@ -11,6 +11,7 @@ class TagController extends Controller {
     const tags = await ctx.service.tag.findAllTags()
     ctx.helper.success({ctx, res: tags})
   }
+
   /**
    * 创建标签
    */
@@ -20,6 +21,7 @@ class TagController extends Controller {
     const result = await ctx.service.tag.create({name})
     ctx.helper.success({ctx, res:result})
   }
+
   /**
    * 删除标签
    */
@@ -33,6 +35,7 @@ class TagController extends Controller {
       ctx.helper.fail({ctx, res: result})
     }
   }
+  
   /**
    * 更新tag
    */
@@ -44,4 +47,4 @@ class TagController extends Controller {
   }
 }
 
-module.exports = TagController;
+module.exports = TagController

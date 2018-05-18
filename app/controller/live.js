@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const Controller = require('egg').Controller;
+const Controller = require('egg').Controller
 
 class LiveController extends Controller {
   /**
@@ -17,6 +17,7 @@ class LiveController extends Controller {
       ctx.helper.fail({ctx, res:'请联系管理员！'})
     }
   }
+
   /**
    * 更新直播间信息
    */
@@ -29,6 +30,7 @@ class LiveController extends Controller {
       ctx.helper.success({ctx, res:'更新成功'})
     }
   }
+
   /**
    * 获取所有直播间
    */
@@ -38,6 +40,7 @@ class LiveController extends Controller {
     const live = await this.ctx.service.live.findAllLive(limit, offset)
     ctx.helper.success({ctx, res: live})
   }
+
   /**
    * 根据id禁用/解禁直播间
    */
@@ -54,6 +57,7 @@ class LiveController extends Controller {
       }
     }
   }
+
   /**
    * 添加标签
    */
@@ -68,4 +72,4 @@ class LiveController extends Controller {
   }
 }
 
-module.exports = LiveController;
+module.exports = LiveController

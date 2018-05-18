@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const Controller = require('egg').Controller;
+const Controller = require('egg').Controller
 
 class UserController extends Controller {
   /**
@@ -17,10 +17,11 @@ class UserController extends Controller {
     const result = await ctx.service.user.findByUsername(username)
     if (!ctx.helper.bcompare(password, result.password)) {
       ctx.helper.fail({ctx, res: '用户密码错误'})
-      return;
+      return
     }
     ctx.helper.success({ctx, res: app.getUserJson(result, ctx, 1)})
   }
+
   /**
    * 用户注册
    */
@@ -58,6 +59,7 @@ class UserController extends Controller {
     ctx.status = 201
     ctx.helper.success({ctx, res:app.getUserJson(result, ctx, 0)})
   }
+
   /**
    * 查询所有用户
    */
@@ -67,6 +69,7 @@ class UserController extends Controller {
     const result = await ctx.service.user.findAllUser(limit, offset)
     ctx.helper.success({ctx, res:result})
   }
+
   /**
    * 通过id查询指定用户
    */
@@ -76,6 +79,7 @@ class UserController extends Controller {
     const result = await ctx.service.user.findById(id)
     ctx.helper.success({ctx, res:result})
   }
+
   /**
    * 更新用户信息
    */
@@ -86,6 +90,7 @@ class UserController extends Controller {
     const result = await ctx.service.user.update(user, id)
     ctx.helper.success({ctx, res:result})
   }
+
   /**
    * 根据用户id删除用户，并删除对应的livecode的直播间
    */
@@ -104,6 +109,7 @@ class UserController extends Controller {
       ctx.helper.success({ctx, res:result})
     }
   }
+
   /**
    * 给用户添加权限 
    */
@@ -114,6 +120,7 @@ class UserController extends Controller {
     const result = await ctx.service.user.addRole(id, roleId)
     ctx.helper.success({ctx, res: result})
   }
+
   /**
    * 发送重置密码的验证码邮件
    */
@@ -141,6 +148,7 @@ class UserController extends Controller {
       ctx.helper.fail({ctx, res:'发送验证码失败，请重试'})
     }
   }
+  
   /**
    * 重置密码
    */
@@ -168,4 +176,4 @@ class UserController extends Controller {
   }
 }
 
-module.exports = UserController;
+module.exports = UserController

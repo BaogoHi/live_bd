@@ -1,26 +1,28 @@
-'use strict';
+'use strict'
 
-const Service = require('egg').Service;
+const Service = require('egg').Service
 
 class TagService extends Service {
   /**
    * 创建tag
-   * @param {*} tag 
+   * @param {Object} tag 标签信息
    */
   async create(tag) {
     return await this.ctx.model.Tag.create(tag)
   }
+
   /**
    * 通过id查找tag
-   * @param {*} id 
+   * @param {Int} id 标签id
    */
   async findTagById(id) {
     return await this.ctx.model.Tag.findOne({where: id})
   }
+
   /**
    * 查询所有tag
-   * @param {*} limit 
-   * @param {*} offset 
+   * @param {Int} limit 页面最大数据
+   * @param {Int} offset 数据起始位
    */
   async findAllTags(limit=10, offset=0) {
     const tags = await this.ctx.model.Tag.findAll({limit:parseInt(limit), offset:parseInt(offset)})
@@ -29,18 +31,20 @@ class TagService extends Service {
     }
     return tags
   }
+
   /**
    * 通过id删除tag
-   * @param {*} id 
+   * @param {Int} id 标签id
    */
   async deleteTagById(id) {
     const tag = await this.ctx.model.Tag.destroy({where: {id}})
     return tag
   }
+
   /**
    * 通过id更新tag信息
-   * @param {*} value 
-   * @param {*} id 
+   * @param {Object} value 
+   * @param {Int} id 标签id
    */
   async updateTagById(value, id) {
     console.log(id)
@@ -52,4 +56,4 @@ class TagService extends Service {
   }
 }
 
-module.exports = TagService;
+module.exports = TagService

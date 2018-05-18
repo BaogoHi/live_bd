@@ -6,27 +6,12 @@ module.exports = {
   bhash: str => {
     return bcrypt.hashSync(str, 10)
   },
+
   // 比对
   bcompare: (str, hash) => {
     return bcrypt.compareSync(str, hash)
   },
-  // 处理成功请求后的响应
-  success: ({ctx, res = null, msg = 'success'}) => {
-    ctx.status = 200
-    ctx.body = {
-      code: 0,
-      data: res,
-      msg
-    }
-  },
-  //处理错误相关的响应
-  fail: ({ctx, res = null, msg= 'fail'}) => {
-    ctx.body = {
-      code: -1,
-      data: res,
-      msg
-    }
-  },
+
   errorCode: {
     200: '服务器成功返回请求的数据。',
     201: '新建或修改数据成功。',
@@ -43,10 +28,27 @@ module.exports = {
     502: '网关错误。',
     503: '服务不可用，服务器暂时过载或维护。',
     504: '网关超时。',
-    NOTLOGIN: 'notLoginError',
-    PERMISSION: 'permissionError',
-    CONNECTIONTIMEOUT: 'connectionTimeoutError',
-    FORMAT: 'formatError',
-    FOUND: 'notFoundError',
+  },
+
+  // 封装请求成功的方法
+  success: ({ ctx, code=200, res=null }) => {
+    ctx.status = 200
+    ctx.body = {
+      code: code,
+      message: ctx.helper.errorCode[code],
+      data: res
+    }
+  },
+
+  // 封装请求失败的方法
+  fail: ({ ctx, code=500, res=null }) => {
+    ctx.status = 200
+    ctx.body = {
+      code: code,
+      message: ctx.helper.errorCode[code],
+      data: {
+        error: res
+      }
+    }
   }
 }

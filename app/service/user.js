@@ -1,18 +1,19 @@
-'use strict';
+'use strict'
 
-const Service = require('egg').Service;
+const Service = require('egg').Service
 
 class UserService extends Service {
   /**
    * 创建用户
-   * @param {*} user 
+   * @param {Object} user 用户信息
    */
   async create(user) {
     return await this.ctx.model.User.create(user)
   }
+
   /**
    * 通过邮箱查找用户
-   * @param {*} email 
+   * @param {String} email 邮箱
    */
   async findByEmail(email) {
     const user = await this.ctx.model.User.findOne({where: {email}})
@@ -21,9 +22,10 @@ class UserService extends Service {
     }
     return user
   }
+
   /**
    * 通过用户名查找用户
-   * @param {*} username 
+   * @param {String} username 用户名
    */
   async findByUsername(username) {
     const user = await this.ctx.model.User.findOne({
@@ -43,9 +45,10 @@ class UserService extends Service {
     }
     return user
   }
+
   /**
    * 通过id查找用户
-   * @param {*} id 
+   * @param {Int} id 用户id
    */
   async findById(id) {
     const {ctx} = this
@@ -66,10 +69,11 @@ class UserService extends Service {
     }
     return user
   }
+
   /**
    * 给用户加权限
-   * @param {*} id 
-   * @param {*} name 
+   * @param {Int} id 用户id
+   * @param {String} name 用户权限
    */
   async addRole(id, name) {
     if(name&&id) {
@@ -81,10 +85,11 @@ class UserService extends Service {
       return
     }
   }
+
   /**
    * 更新用户信息
-   * @param {*} values 
-   * @param {*} id 
+   * @param {Object} values 更新信息
+   * @param {Int} id 用户id
    */
   async update(values, id) {
     const user = await this.ctx.model.User.findById(id)
@@ -93,9 +98,10 @@ class UserService extends Service {
     }
     return user.update(values)
   }
+
   /**
    * 通过id删除用户
-   * @param {*} id 
+   * @param {Int} id 用户id
    */
   async deleteById(id) {
     // console.log(id)
@@ -110,10 +116,11 @@ class UserService extends Service {
     }
     
   }
+
   /**
    * 查看所有用户信息
-   * @param {*} limit 
-   * @param {*} offset 
+   * @param {Int} limit 每页最大数据
+   * @param {Int} offset 数据起始位
    */
   async findAllUser(limit=10, offset=0) {
     const user = await this.ctx.model.User.findAll({
@@ -128,8 +135,11 @@ class UserService extends Service {
     }
     return user
   }
+
   /**
    * 添加用户和权限的关联
+   * @param {Int} uid 用户id
+   * @param {Int} rid 权限id
    */
   async addRole(uid, rid) {
     const {ctx} = this
@@ -141,4 +151,4 @@ class UserService extends Service {
   }
 }
 
-module.exports = UserService;
+module.exports = UserService

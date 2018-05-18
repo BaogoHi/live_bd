@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const Controller = require('egg').Controller;
+const Controller = require('egg').Controller
 
 class RoleController extends Controller {
   /**
@@ -12,6 +12,7 @@ class RoleController extends Controller {
     const result = await ctx.service.role.create(role)
     ctx.helper.success({ctx, res:result})
   }
+  
   /**
    * 删除权限
    */
@@ -24,4 +25,4 @@ class RoleController extends Controller {
   }
 }
 
-module.exports = RoleController;
+module.exports = RoleController
