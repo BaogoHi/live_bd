@@ -15,7 +15,6 @@ module.exports = (option, app) => {
       if(status === 422) {
         ctx.helper.fail({ ctx, code: status, res: err.errors})
       }
-      ctx.status = status
     }
   }
 }

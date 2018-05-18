@@ -27,16 +27,20 @@ class UploadController extends Controller {
       await sendToWormhole(stream)
       throw err
     }
-    this.ctx.helper.success({ctx, res:'上传成功'})
+    this.ctx.helper.success({ctx, code:201, res:'上传成功'})
   }
-  
+
   /**
    * form-data 上传图片
    */
   async postmanUpload() {
+    // 获取文件流
     const stream = await this.ctx.getFileStream()
+    // 获取文件名
     const filename = stream.filename.toLowerCase()
+    // 保存文件到app/public
     const target = path.join(this.config.baseDir, 'app/public', filename)
+    // 将流写入文件报错到文件夹
     const writeStream = fs.createWriteStream(target)
     try {
       await awaitWriteStream(stream.pipe(writeStream))
@@ -44,7 +48,7 @@ class UploadController extends Controller {
       await sendToWormhole(stream)
       throw err
     }
-    this.ctx.helper.success({ctx, res:'上传成功'})
+    this.ctx.helper.success({ctx, code:201, res:'上传成功'})
   }
 }
 

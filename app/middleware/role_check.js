@@ -8,7 +8,7 @@ module.exports = app => {
     const info = ctx.app.verifyToken(ctx)
     // 检测是否是管理员
     if(info.role !== 'admin') {
-      ctx.helper.fail({ctx, res:'权限不够'})
+      ctx.helper.fail({ctx, code:403, res:'需要管理员权限'})
     }
   }
 }
