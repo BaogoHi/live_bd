@@ -26,6 +26,7 @@ class ChatController extends Controller {
       logger.error(error)
     }
   }
+  
   /**
    * redis 中查询历史数据，并推送
    */

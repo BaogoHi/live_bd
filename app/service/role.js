@@ -6,6 +6,7 @@ class RoleService extends Service {
   /**
    * 创建权限
    * @param {Object} role  权限信息
+   * @return {Object} 权限信息
    */
   async create(role) {
     return await this.ctx.model.Role.create(role)
@@ -14,6 +15,7 @@ class RoleService extends Service {
   /**
    * 通过id删除
    * @param {Int} id 权限id
+   * @return {String} 提示语
    */
   async deleteById(id) {
     const role =  await this.ctx.model.Role.destroy({where: {id}})

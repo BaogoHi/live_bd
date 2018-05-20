@@ -7,6 +7,7 @@ module.exports = {
    * @param {String} username 
    * @param {String} livecode 
    * @param {String} role 
+   * @return {String} token 验证字符串
    */
   generateJWT(id, username, livecode, role) {
     const { config } = this
@@ -17,6 +18,7 @@ module.exports = {
   /**
    * 验证token
    * @param {Object} ctx 
+   * @return {Object} jwt解析后的信息
    */
   verifyToken(ctx) {
     const {config} = this
@@ -30,6 +32,7 @@ module.exports = {
    * @param {Object} user 
    * @param {Object} ctx 
    * @param {Int} check 
+   * @return {Object} 用户登录/注册反馈
    */
   getUserJson(user, ctx, check) {
     user = user.get()

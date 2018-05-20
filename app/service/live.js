@@ -6,6 +6,7 @@ class LiveService extends Service {
   /**
    * 创建直播间
    * @param {Object} live 直播间信息
+   * @return {Object} 直播间信息
    */
   async create(live) {
     return this.ctx.model.Live.create(live)
@@ -14,6 +15,7 @@ class LiveService extends Service {
   /**
    * 添加礼物
    * @param {String} livecode 直播码
+   * @return {Object} giftnum 更新状态
    */
   async addGift(livecode) {
     const {app}  = this
@@ -24,6 +26,7 @@ class LiveService extends Service {
   /**
    * 通过livecode查找直播间
    * @param {String} livecode 直播码
+   * @return {Object} live 直播间信息
    */
   async findByLive(livecode) {
     const live = await this.ctx.model.Live.findOne({
@@ -38,6 +41,7 @@ class LiveService extends Service {
   /**
    * 通过id查找直播间
    * @param {String} id 直播间id
+   * @return {Object} live 直播间信息
    */
   async findByCode(id) {
     const live = await this.ctx.model.Live.findOne({
@@ -63,6 +67,7 @@ class LiveService extends Service {
    * 更新直播间信息
    * @param {Object} value 更新信息
    * @param {String} livecode 直播码
+   * @return {Object} 更新结果
    */
   async updateLive(value,livecode) {
     const live = await this.ctx.service.live.findByCode({livecode})
@@ -76,6 +81,7 @@ class LiveService extends Service {
    * 查看所有直播间信息
    * @param {Int} limit 每页最多数据
    * @param {Int} offset 数据起始位
+   * @return {Array} live 所有直播间信息
    */
   async findAllLive(limit=10, offset=0) {
     const live = await this.ctx.model.Live.findAll({
@@ -104,6 +110,7 @@ class LiveService extends Service {
   /**
    * 根据id禁用/解禁直播间
    * @param {Int} id 直播间id
+   * @return {Object} 更新结果
    */
   async banById(id,ban) {
     const result = await this.ctx.service.user.findById(id)
@@ -119,6 +126,7 @@ class LiveService extends Service {
    * 给直播间加标签
    * @param {Int} id 直播间id
    * @param {String} name 直播间名称
+   * @return {Object} 标签信息
    */
   async addTags(id, name) {
     if(name&&id){

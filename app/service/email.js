@@ -34,6 +34,7 @@ class EmailService extends Service {
    * 重设密码 通过验证码
    * @param {String} verifyCode 验证码
    * @param {Object} user 用户
+   * @return {Object} 邮件相关信息
    */
   resetPassword (verifyCode, user) {
     const html = `

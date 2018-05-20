@@ -6,6 +6,7 @@ class UserService extends Service {
   /**
    * 创建用户
    * @param {Object} user 用户信息
+   * @return {Object} 用户信息
    */
   async create(user) {
     return await this.ctx.model.User.create(user)
@@ -14,6 +15,7 @@ class UserService extends Service {
   /**
    * 通过邮箱查找用户
    * @param {String} email 邮箱
+   * @return {Object} user 用户信息
    */
   async findByEmail(email) {
     const user = await this.ctx.model.User.findOne({where: {email}})
@@ -26,6 +28,7 @@ class UserService extends Service {
   /**
    * 通过用户名查找用户
    * @param {String} username 用户名
+   * @return {Object} user 用户信息
    */
   async findByUsername(username) {
     const user = await this.ctx.model.User.findOne({
@@ -49,6 +52,7 @@ class UserService extends Service {
   /**
    * 通过id查找用户
    * @param {Int} id 用户id
+   * @return {Object} user 用户信息
    */
   async findById(id) {
     const {ctx} = this
@@ -74,6 +78,7 @@ class UserService extends Service {
    * 给用户加权限
    * @param {Int} id 用户id
    * @param {String} name 用户权限
+   * @return {Object} 插入结果
    */
   async addRole(id, name) {
     if(name&&id) {
@@ -90,6 +95,7 @@ class UserService extends Service {
    * 更新用户信息
    * @param {Object} values 更新信息
    * @param {Int} id 用户id
+   * @return {Object} 更新结果
    */
   async update(values, id) {
     const user = await this.ctx.model.User.findById(id)
@@ -102,6 +108,7 @@ class UserService extends Service {
   /**
    * 通过id删除用户
    * @param {Int} id 用户id
+   * @return {String} 结果
    */
   async deleteById(id) {
     // console.log(id)
@@ -121,6 +128,7 @@ class UserService extends Service {
    * 查看所有用户信息
    * @param {Int} limit 每页最大数据
    * @param {Int} offset 数据起始位
+   * @return {Array} user 所有用户
    */
   async findAllUser(limit=10, offset=0) {
     const user = await this.ctx.model.User.findAll({
@@ -140,6 +148,7 @@ class UserService extends Service {
    * 添加用户和权限的关联
    * @param {Int} uid 用户id
    * @param {Int} rid 权限id
+   * @return {role} role 权限信息
    */
   async addRole(uid, rid) {
     const {ctx} = this

@@ -19,6 +19,7 @@ class CacheService extends Service {
    * @param {String} key 验证码
    * @param {Int} length 验证码长度
    * @param {Int} maxAge 最长缓存时间
+   * @return {String} code 验证码
    */
   verifyCodeCache(key, length, maxAge=DEFAULT_MAX_AGE) {
     const code = Array.from({ length }, () => Math.ceil(Math.random() * 9)).join('')
@@ -30,6 +31,7 @@ class CacheService extends Service {
    * @param {String} key 缓存key
    * @param {String} value 缓存value
    * @param {Int} maxAge 最长缓存时间
+   * @return {Boolean} bool值
    */
   create(key, value, maxAge = DEFAULT_MAX_AGE) {
     return Cache.set(key, value, maxAge)
@@ -38,6 +40,7 @@ class CacheService extends Service {
   /**
    * 获取缓存
    * @param {String} key 缓存key
+   * @return {String} 缓存
    */
   get (key) {
     return Cache.get(key)
@@ -46,6 +49,7 @@ class CacheService extends Service {
   /**
    * 删除缓存
    * @param {String} key 缓存key
+   * @return {Boolean} bool值
    */ 
   del (key) {
     return Cache.del(key)
@@ -54,6 +58,7 @@ class CacheService extends Service {
   /**
    * 判断缓存
    * @param {String} key 缓存key
+   * @return {Boolean} bool值
    */
   has (key) {
     return Cache.has(key)
