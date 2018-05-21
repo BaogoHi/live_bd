@@ -8,7 +8,7 @@ module.exports = appInfo => {
 
   // add your config here
   // AI apikey 连接地址：https://ruyi.ai/
-  config.aiKey = '58001567-c03b-47b9-b811-124ef8c85a63'
+  config.aiKey = '58001567- - - - '
   // 中间件要转化成驼峰
   config.middleware = ['errorHandler', 'notfoundHandler']
   // view 配置
@@ -35,12 +35,12 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'mysql',
     database: process.env.DB_DATABASE || 'zb',
-    host: process.env.DB_HOST || '119.28.84.27',
+    host: process.env.DB_HOST || ' ',
     // host: process.env.DB_HOST || '127.0.0.1',
     port: process.env.DB_PORT || '3306',
     username: process.env.DB_USER || 'root',
     // password: process.env.DB_PASSWORD || 'root',
-    password: process.env.DB_PASSWORD || 'klren0312',
+    password: process.env.DB_PASSWORD || ' ',
     timezone: '+08:00'
   }
   // csrf关闭
@@ -98,8 +98,8 @@ module.exports = appInfo => {
     secure: true,
     port: 465,
     auth: {
-      user: '15755022403@139.com',
-      pass: 'renzhiwei0312'
+      user: ' @139.com',
+      pass: ' '
     }
   }
 
