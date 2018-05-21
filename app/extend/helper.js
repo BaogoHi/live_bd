@@ -2,16 +2,23 @@
 
 const bcrypt = require('bcryptjs')
 module.exports = {
-  // 加密
+  /**
+   * 加密
+   */
   bhash: str => {
     return bcrypt.hashSync(str, 10)
   },
 
-  // 比对
+  /**
+   * 比对
+   */
   bcompare: (str, hash) => {
     return bcrypt.compareSync(str, hash)
   },
 
+  /**
+   * 错误码
+   */
   errorCode: {
     200: '服务器成功返回请求的数据。',
     201: '新建或修改数据成功。',
@@ -30,7 +37,9 @@ module.exports = {
     504: '网关超时。',
   },
 
-  // 封装请求成功的方法
+  /**
+   * 封装请求成功的方法
+   */
   success: ({ ctx, code=200, res=null }) => {
     ctx.status = 200
     ctx.body = {
@@ -40,7 +49,9 @@ module.exports = {
     }
   },
 
-  // 封装请求失败的方法
+  /**
+   * 封装请求失败的方法
+   */
   fail: ({ ctx, code=500, res=null }) => {
     ctx.status = 200
     ctx.body = {
