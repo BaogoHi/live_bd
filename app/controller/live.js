@@ -36,7 +36,7 @@ class LiveController extends Controller {
    */
   async getAllLive() {
     const {ctx, app} = this
-    const {limit, offset} = ctx.params
+    const {limit, offset} = ctx.query
     const live = await this.ctx.service.live.findAllLive(limit, offset)
     ctx.helper.success({ctx, res: live})
   }
