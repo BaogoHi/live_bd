@@ -8,12 +8,11 @@ class UserController extends Controller {
    */
   async login() {
     const {ctx, app} = this
-    const { user } = ctx.request.body
+    const { password, username } = ctx.request.body
     ctx.validate({
       username: { type: 'string', required: true },
       password: { type: 'string', required: true }
-    }, user)
-    const {password, username} = user
+    }, ctx.request.body)
     const result = await ctx.service.user.findByUsername(username)
     if (!ctx.helper.bcompare(password, result.password)) {
       ctx.helper.fail({ctx, res: '用户密码错误'})
