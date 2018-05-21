@@ -21,7 +21,7 @@ module.exports = app => {
   // api
   router.post('/user', controller.user.register)                              // 注册
   router.post('/user/login', controller.user.login)                                    // 登录
-  router.get('/user', app.jwt, roleCheck, controller.user.getAllUser)             // 获取全部用户
+  router.get('/user/:limit/:offset', app.jwt, roleCheck, controller.user.getAllUser)             // 获取全部用户
   router.get('/user/:id', app.jwt, roleCheck, controller.user.getUserById)        // 通过id查询指定用户
   router.put('/user', app.jwt, controller.user.updateUserInfo)                    // 更新用户自己的信息
   router.delete('/user/:id', app.jwt, roleCheck, controller.user.deleteUserById)  // 删除指定用户，除了本用户
@@ -30,7 +30,7 @@ module.exports = app => {
 
   router.put('/gift/:livecode', app.jwt, controller.live.addGifts)                // 添加礼物
   router.put('/live', app.jwt, controller.live.updateLive)                        // 更新直播间信息
-  router.get('/live', app.jwt, controller.live.getAllLive)                        // 获取全部直播间
+  router.get('/live/:limit/:offset', app.jwt, controller.live.getAllLive)                        // 获取全部直播间
   router.post('/live/tag', app.jwt, controller.live.addTags)                      // 添加房间标签
   router.put('/ban/:banId/:ban', app.jwt, roleCheck, controller.live.banLive)     // 禁用/解禁直播间
   router.post('/tag', app.jwt,  roleCheck, controller.tag.createTag)               // 创建标签

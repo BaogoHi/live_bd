@@ -65,7 +65,7 @@ class UserController extends Controller {
    */
   async getAllUser() {
     const { ctx, app } = this
-    const {limit, offset} = ctx.query
+    const {limit, offset} = ctx.params
     const result = await ctx.service.user.findAllUser(limit, offset)
     ctx.helper.success({ctx, res:result})
   }
