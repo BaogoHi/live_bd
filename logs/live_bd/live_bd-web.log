@@ -4269,3 +4269,170 @@ hostname: renzhizhongdeMacBook-Air.local
 2018-05-18 10:38:02,140 INFO 5328 [model] [35mSELECT 1+1 AS result[39m (46ms)
 2018-05-18 10:47:48,556 INFO 5643 [model] [35mSELECT VERSION() as `version`[39m (50ms)
 2018-05-18 10:47:48,788 INFO 5643 [model] [35mSELECT 1+1 AS result[39m (52ms)
+2018-05-18 11:55:44,910 INFO 7751 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-18 11:55:45,142 INFO 7751 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-18 11:55:59,159 WARN 7751 [-/127.0.0.1/-/0ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportInitialize (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+name: 'UnauthorizedError'
+message: 'No authorization token was found'
+code: 'credentials_required'
+status: 401
+inner: { message: 'No authorization token was found' }
+pid: 7751
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-18 11:56:28,394 WARN 7751 [-/127.0.0.1/-/0ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportInitialize (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+name: 'UnauthorizedError'
+message: 'No authorization token was found'
+code: 'credentials_required'
+status: 401
+inner: { message: 'No authorization token was found' }
+pid: 7751
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-18 11:58:15,631 INFO 7783 [model] [35mSELECT VERSION() as `version`[39m (48ms)
+2018-05-18 11:58:17,109 INFO 7783 [model] [35mSELECT 1+1 AS result[39m (46ms)
+2018-05-18 11:58:18,928 INFO 7784 [model] [35mSELECT VERSION() as `version`[39m (49ms)
+2018-05-18 11:58:19,152 INFO 7784 [model] [35mSELECT 1+1 AS result[39m (43ms)
+2018-05-18 11:58:24,252 WARN 7784 [-/127.0.0.1/-/1ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportInitialize (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+name: 'UnauthorizedError'
+message: 'No authorization token was found'
+code: 'credentials_required'
+status: 401
+inner: { message: 'No authorization token was found' }
+pid: 7784
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-18 11:58:46,200 INFO 7799 [model] [35mSELECT VERSION() as `version`[39m (46ms)
+2018-05-18 11:58:46,445 INFO 7799 [model] [35mSELECT 1+1 AS result[39m (50ms)
+2018-05-18 12:00:06,734 INFO 7828 [model] [35mSELECT VERSION() as `version`[39m (52ms)
+2018-05-18 12:00:06,957 INFO 7828 [model] [35mSELECT 1+1 AS result[39m (44ms)
+2018-05-18 12:00:14,447 WARN 7828 [-/127.0.0.1/-/0ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportInitialize (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+name: 'UnauthorizedError'
+message: 'No authorization token was found'
+code: 'credentials_required'
+status: 401
+inner: { message: 'No authorization token was found' }
+pid: 7828
+hostname: renzhizhongdeMacBook-Air.local
+
+2018-05-18 12:00:28,516 INFO 7842 [model] [35mSELECT VERSION() as `version`[39m (56ms)
+2018-05-18 12:00:28,759 INFO 7842 [model] [35mSELECT 1+1 AS result[39m (48ms)
+2018-05-18 12:00:53,306 WARN 7842 [-/127.0.0.1/-/0ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/klren/Projects/live_bd/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/klren/Projects/live_bd/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at notFoundHandler (/Users/klren/Projects/live_bd/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at /Users/klren/Projects/live_bd/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportSession (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at passportInitialize (/Users/klren/Projects/live_bd/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/klren/Projects/live_bd/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/klren/Projects/live_bd/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+name: 'UnauthorizedError'
+message: 'No authorization token was found'
+code: 'credentials_required'
+status: 401
+inner: { message: 'No authorization token was found' }
+pid: 7842
+hostname: renzhizhongdeMacBook-Air.local
+
