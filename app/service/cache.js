@@ -9,7 +9,7 @@ const options = {
   maxAge: DEFAULT_MAX_AGE
 }
 
-const Cache = LRU(options)
+const Cache = new LRU(options)
 
 const Service = require('egg').Service
 
